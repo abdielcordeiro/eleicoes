@@ -1,741 +1,200 @@
 [
   {
     "id": "flavio-bolsonaro",
-    "nomeCompleto": "Flávio Nantes Bolsonaro",
-    "nomeUrna": "Flávio Bolsonaro",
-    "numeroUrna": 22,
-    "cargo": "PRESIDENTE",
-    "fotoUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=500&q=80",
-    "partido": {
-      "id": "pl",
-      "sigla": "PL",
-      "numero": 22,
-      "nome": "Partido Liberal",
-      "espectro": "Direita",
-      "corHex": "#2563EB"
+    "name": "Flávio Bolsonaro",
+    "ballotNumber": "22",
+    "party": "PL",
+    "coalition": "Partido isolado (PL)",
+    "role": "PRESIDENTE",
+    "photoUrl": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5979.jpg",
+    "isBaseline": false,
+    "pillars": {
+      "segurancaPublica": "Endurecimento da legislação penal, redução da maioridade penal, armamento civil e apoio irrestrito às forças policiais.",
+      "gastosPublicos": "Defesa de contenção de despesas da máquina pública e oposição a aumento de tributos.",
+      "tamanhoDoEstado": "Privatizações de estatais federais e desregulamentação setorial.",
+      "saude": "Descentralização de verbas para estados/municípios e ampliação de convênios público-privados.",
+      "educacao": "Pauta conservadora nas escolas (combate à doutrinação ideológica) e expansão do modelo cívico-militar."
     },
-    "coligacaoOuFederacao": "Coligação Pelo Bem do Brasil (PL / PP / Republicanos)",
-    "estado": "BR",
-    "isBaselineReference": false,
-    "resumoPerfil": "Senador da República pelo Rio de Janeiro (2019-atual) e ex-Deputado Estadual (2003-2019). Representante da ala conservadora, com pautas focadas em segurança pública, desregulamentação econômica e alinhamento às pautas da família e costumes.",
-    "termometroAlinhamento": {
-      "liberdadeEconomica": 78,
-      "estadoEnxuto": 72,
-      "conservadorismo": 94,
-      "segurancaRigorosa": 96,
-      "scoreGeral": 85,
-      "classificacao": "Direita Conservadora"
-    },
-    "pilares": {
-      "SEGURANCA_PUBLICA": {
-        "score": 9.5,
-        "summary": "Defesa intransigente do excludente de ilicitude para policiais, endurecimento do cumprimento de penas e flexibilização da posse/porte de armas.",
-        "keyProposals": [
-          "Fim definitivo da progressão de regime para líderes de facções criminosas",
-          "Blindagem jurídica e excludente de ilicitude estendido a agentes de segurança",
-          "Revisão do Estatuto do Desarmamento e ampliação do porte para CACs"
-        ]
-      },
-      "GASTOS_PUBLICOS": {
-        "score": 7.0,
-        "summary": "Apoio a reformas fiscais com ressalvas a cortes em benefícios sociais consolidados e incentivos a setores estratégicos.",
-        "keyProposals": [
-          "Manutenção do teto de gastos atrelado a metas de superávit primário",
-          "Redução de tributos sobre combustíveis e energia elétrica",
-          "Desoneração contínua da folha de pagamento para empresas geradoras de emprego"
-        ]
-      },
-      "TAMANHO_DO_ESTADO": {
-        "score": 7.5,
-        "summary": "Defesa de concessões e desestatizações, mantendo a soberania estratégica em recursos energéticos e segurança.",
-        "keyProposals": [
-          "Privatização de empresas públicas deficitárias e desregulamentação de portos",
-          "Corte de agências reguladoras com sobreposição de competências",
-          "Facilitação de parcerias público-privadas em infraestrutura e ferrovias"
-        ]
-      },
-      "SAUDE": {
-        "score": 6.8,
-        "summary": "Foco na desburocratização de planos de saúde, liberdade na telemedicina e parcerias com hospitais filantrópicos.",
-        "keyProposals": [
-          "Incentivo fiscal a operadoras que absorverem demandas reprimidas do SUS",
-          "Descentralização do orçamento da saúde diretamente para os municípios",
-          "Ampliação dos centros de diagnóstico e telemedicina no interior"
-        ]
-      },
-      "EDUCACAO": {
-        "score": 7.2,
-        "summary": "Ênfase no modelo cívico-militar, erradicação de viés ideológico nos livros didáticos e foco em ciências exatas.",
-        "keyProposals": [
-          "Expansão nacional do Programa Nacional das Escolas Cívico-Militares (PECIM)",
-          "Reestruturação do Fundeb vinculada ao desempenho de alfabetização no IDEB",
-          "Fomento e gratuidade expandida no ensino técnico integrado (Sistema S)"
-        ]
-      }
-    },
-    "trajetoriaPolitica": [
+    "legislativeVotes": [
       {
-        "periodo": "2019 - Presente",
-        "cargoOuAtividade": "Senador da República",
-        "detalhes": "Eleito com 4,38 milhões de votos pelo Rio de Janeiro. Membro da CCJ e relator de projetos na área de segurança e direito de propriedade.",
-        "partidoOuLocal": "Senado Federal"
+        "code": "PL 2265/2022",
+        "title": "Fim das Saidinhas de Presos",
+        "vote": "SIM",
+        "summary": "Votou favoravelmente à extinção de saídas temporárias de presos condenados em regime semiaberto.",
+        "source": "Senado Federal (Atividade Legislativa)"
       },
       {
-        "periodo": "2003 - 2019",
-        "cargoOuAtividade": "Deputado Estadual (ALERJ)",
-        "detalhes": "Quatro mandatos consecutivos como deputado estadual no Rio de Janeiro, presidindo comissões e debatendo segurança e tributação fluminense.",
-        "partidoOuLocal": "ALERJ / RJ"
+        "code": "PLP 93/2023",
+        "title": "Novo Arcabouço Fiscal",
+        "vote": "NÃO",
+        "summary": "Votou contra o regime fiscal substitutivo ao Teto de Gastos, apontando margem para expansão contínua de despesas.",
+        "source": "Senado Federal (Atividade Legislativa)"
+      },
+      {
+        "code": "PL 2903/2023",
+        "title": "Marco Temporal de Terras Indígenas",
+        "vote": "SIM",
+        "summary": "Votou a favor de restringir demarcações às áreas ocupadas em 05/10/1988, priorizando a segurança jurídica do agronegócio.",
+        "source": "Senado Federal (Atividade Legislativa)"
       }
     ],
-    "historicoPartidario": [
-      { "partido": "PL", "periodo": "2021 - Presente" },
-      { "partido": "Republicanos", "periodo": "2020 - 2021" },
-      { "partido": "PSL", "periodo": "2018 - 2019" },
-      { "partido": "PSC", "periodo": "2016 - 2018" },
-      { "partido": "PP", "periodo": "2003 - 2016" }
-    ],
-    "votacoesLegislativas": [
+    "legalRecords": [
       {
-        "id": "vote-pl-2253",
-        "projetoCodigo": "PL 2253/2022",
-        "tema": "Endurecimento Penal (Fim das Saidinhas)",
-        "ementa": "Restringe expressamente as saídas temporárias de presos condenados por crimes hediondos ou com violência contra a pessoa.",
-        "data": "2024-03-20",
-        "voto": "SIM",
-        "orientacaoBancada": "A favor da restrição rigorosa",
-        "descricaoImpacto": "Votou favoravelmente à extinção do benefício das saidinhas em datas comemorativas.",
-        "linkOficial": "https://www.congressonacional.leg.br/materias/materias-bicamerais/-/ver/pl-2253-2022"
-      },
-      {
-        "id": "vote-pec-45",
-        "projetoCodigo": "PEC 45/2019",
-        "tema": "Reforma Tributária (IBS/CBS)",
-        "ementa": "Institui o Imposto sobre Bens e Serviços (IBS) e a Contribuição sobre Bens e Serviços (CBS).",
-        "data": "2023-11-08",
-        "voto": "NAO",
-        "orientacaoBancada": "Contrária à criação de novo comitê gestor e alta de alíquotas",
-        "descricaoImpacto": "Argumentou que a proposta elevaria a carga do setor de serviços e centralizaria arrecadação.",
-        "linkOficial": "https://legis.senado.leg.br/atividade/materia/detalhe/137688"
-      },
-      {
-        "id": "vote-pl-490",
-        "projetoCodigo": "PL 2903/2023 (PL 490)",
-        "tema": "Marco Temporal de Terras Indígenas",
-        "ementa": "Estabelece como marco temporal de ocupação indígena a data da promulgação da Constituição de 1988.",
-        "data": "2023-09-27",
-        "voto": "SIM",
-        "orientacaoBancada": "A favor da segurança jurídica no agronegócio",
-        "descricaoImpacto": "Votou pela promulgação do marco temporal visando estabilidade jurídica aos produtores rurais.",
-        "linkOficial": "https://legis.senado.leg.br/atividade/materia/detalhe/157297"
-      },
-      {
-        "id": "vote-arcabouco",
-        "projetoCodigo": "PLP 93/2023",
-        "tema": "Arcabouço Fiscal",
-        "ementa": "Substitui o Teto de Gastos constitucional por novo regime fiscal sustentável da União.",
-        "data": "2023-06-21",
-        "voto": "NAO",
-        "orientacaoBancada": "Contrário ao aumento de limites de despesa pública",
-        "descricaoImpacto": "Votou contra a flexibilização das metas orçamentárias que possibilitam aumento de gastos federais.",
-        "linkOficial": "https://legis.senado.leg.br/atividade/materia/detalhe/157529"
+        "caseName": "Caso das 'Rachadinhas' (Gabinete ALERJ / Operação Furna da Onça)",
+        "source": "MP-RJ / STJ (HC 649.036) / STF (Rcl 46.883)",
+        "investigationFindings": "Relatórios do COAF e auditorias bancárias apontaram repasses de parte dos salários de assessores ao operador Fabrício Queiroz, além de depósitos fracionados em espécie e pagamentos de despesas pessoais.",
+        "legalOutcome": "Anulação Processual (Vício Formal). O STJ anulou o compartilhamento de dados bancários do COAF sem autorização judicial e reconheceu foro por prerrogativa de função no Órgão Especial do TJ-RJ, anulando a denúncia do MP-RJ. As provas foram invalidadas sem que houvesse julgamento de mérito sobre a culpa ou inocência."
       }
-    ],
-    "fichaJuridica": [
-      {
-        "id": "legal-flavio-rachadinha",
-        "tituloCaso": "Caso das 'Rachadinhas' da ALERJ (Operação Furna da Onça / Coaf)",
-        "tribunalOuOrgao": "STJ / STF / TJ-RJ",
-        "numeroProcessoOuInquerito": "Rcl 41.970 e HC 597.244/RJ",
-        "linkFonte": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2021/09112021-Quinta-Turma-anula-decisoes-de-primeiro-grau-no-caso-das-rachadinhas.aspx",
-        "dataInicio": "2018-12-01",
-        "dataDesfecho": "2021-11-09",
-        "status": "ANULADO_VICIO_FORMAL",
-        "resumoCaso": "Investigação deflagrada pelo MP-RJ a partir de relatórios do Coaf apontando movimentações atípicas na conta do ex-assessor Fabrício Queiroz.",
-        "elementosInvestigacaoEProvas": "Relatórios de Inteligência Financeira (RIFs) do Coaf, quebras de sigilo bancário e fiscal autorizadas pela 1ª instância (juiz Flávio Itabaiana) e depoimentos de ex-funcionários de gabinete.",
-        "desfechoRealEJuridico": "ANULAÇÃO PROCESSUAL POR VÍCIO FORMAL: O STJ e o STF reconheceram o foro especial por prerrogativa de função do parlamentar perante o Órgão Especial do TJ-RJ e anularam as quebras de sigilo autorizadas pelo juiz de 1º grau por incompetência absoluta. Não houve julgamento de mérito com declaração de inocência."
-      },
-      {
-        "id": "legal-flavio-lavagem-mansao",
-        "tituloCaso": "Inquérito sobre Compra de Mansão no Lago Sul (DF)",
-        "tribunalOuOrgao": "PGR / STF",
-        "numeroProcessoOuInquerito": "Pet 9.531/DF",
-        "linkFonte": "https://portal.stf.jus.br",
-        "dataInicio": "2021-03-05",
-        "dataDesfecho": "2022-04-18",
-        "status": "ARQUIVADO",
-        "resumoCaso": "Representação apresentada por partidos de oposição para apurar a aquisição de imóvel no valor de R$ 6 milhões com financiamento no BRB.",
-        "elementosInvestigacaoEProvas": "Análise da comprovação de renda com honorários advocatícios e contratos de franquia de chocolates, somados à operação de crédito imobiliário regular.",
-        "desfechoRealEJuridico": "ARQUIVAMENTO: A Procuradoria-Geral da República não identificou indícios de ilicitude ou favorecimento no financiamento bancário concedido, promovendo o arquivamento por ausência de justa causa."
-      }
-    ],
-    "resumoSituacaoJuridica": "Sem condenações vigentes. A denúncia das 'rachadinhas' da Alerj foi extinta em virtude de nulidades processuais (incompetência de 1ª instância e ilegalidade de quebras de sigilo) acolhidas pelas instâncias superiores do Judiciário."
+    ]
   },
   {
     "id": "romeu-zema",
-    "nomeCompleto": "Romeu Zema Neto",
-    "nomeUrna": "Romeu Zema",
-    "numeroUrna": 30,
-    "cargo": "PRESIDENTE",
-    "fotoUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=80",
-    "partido": {
-      "id": "novo",
-      "sigla": "NOVO",
-      "numero": 30,
-      "nome": "Partido Novo",
-      "espectro": "Direita",
-      "corHex": "#F97316"
+    "name": "Romeu Zema",
+    "ballotNumber": "30",
+    "party": "NOVO",
+    "coalition": "Partido isolado (NOVO)",
+    "role": "PRESIDENTE",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Romeu_Zema_em_2023.jpg",
+    "isBaseline": false,
+    "pillars": {
+      "segurancaPublica": "Integração das polícias Militar e Civil, investimento em inteligência, monitoramento por câmeras e valorização das forças com foco em redução de homicídios.",
+      "gastosPublicos": "Ajuste fiscal severo, corte de secretarias, redução de mordomias e congelamento de novas contratações não essenciais.",
+      "tamanhoDoEstado": "Desestatizações (Copasa, Cemig), desregulamentação, atração de investimentos privados e eliminação de burocracias estatais.",
+      "saude": "Gestão hospitalar via Organizações Sociais (OSs) e foco em zerar filas de cirurgias eletivas via contratualização.",
+      "educacao": "Expansão de escolas de tempo integral, modelo de gestão por metas e parcerias técnico-profissionalizantes."
     },
-    "coligacaoOuFederacao": "Coligação Brasil Eficiente e Livre (NOVO / Avante / Agir)",
-    "estado": "BR",
-    "isBaselineReference": false,
-    "resumoPerfil": "Empresário e Governador reeleito de Minas Gerais em 1º turno (2019-2026). Notabilizou-se pela gestão austera de corte de despesas, atração de investimentos privados e adesão ao Regime de Recuperação Fiscal.",
-    "termometroAlinhamento": {
-      "liberdadeEconomica": 96,
-      "estadoEnxuto": 98,
-      "conservadorismo": 70,
-      "segurancaRigorosa": 86,
-      "scoreGeral": 88,
-      "classificacao": "Direita Liberal / Austera"
-    },
-    "pilares": {
-      "SEGURANCA_PUBLICA": {
-        "score": 8.7,
-        "summary": "Foco em inteligência policial, integração entre polícias civil e militar e combate enfático a roubos de carga e explosões de caixas bancários (Novo Cangaço).",
-        "keyProposals": [
-          "Integração das agências estaduais de inteligência em um painel unificado",
-          "Endurecimento penal contra receptação de carga e roubo qualificado",
-          "Gestão penitenciária baseada em métodos de trabalho e APACs"
-        ]
-      },
-      "GASTOS_PUBLICOS": {
-        "score": 9.8,
-        "summary": "Obsessão por equilíbrio fiscal, corte drástico de secretarias, fim de carros oficiais e adesão ao Regime de Recuperação Fiscal.",
-        "keyProposals": [
-          "Reforma administrativa profunda com fim da estabilidade para novas contratações",
-          "Veto a qualquer reajuste de funcionalismo desacompanhado de superávit",
-          "Extinção de penduricalhos e verbas indenizatórias no setor público"
-        ]
-      },
-      "TAMANHO_DO_ESTADO": {
-        "score": 9.7,
-        "summary": "Defesa radical da privatização de estatais (Cemig, Copasa, Codemge) e desregulamentação pelo princípio da Lei da Liberdade Econômica.",
-        "keyProposals": [
-          "Privatização total de estatais federais incluindo Correios e Telebras",
-          "Revogação tácita de exigências burocráticas pelo princípio do silêncio positivo",
-          "Abertura irrestrita do mercado de energia e gás natural"
-        ]
-      },
-      "SAUDE": {
-        "score": 8.2,
-        "summary": "Gestão hospitalar via Organizações Sociais (OSs), ampliação de parcerias e mutirões de cirurgias eletivas.",
-        "keyProposals": [
-          "Cessão da gestão de hospitais regionais para o terceiro setor e filantropia",
-          "Prontuário eletrônico unificado nacional interoperável",
-          "Remuneração de unidades hospitalares vinculada a metas de resolutividade"
-        ]
-      },
-      "EDUCACAO": {
-        "score": 8.5,
-        "summary": "Avanço no IDEB mineiro através do programa Trilhas de Futuro (ensino técnico subsidiado) e bonificação por metas.",
-        "keyProposals": [
-          "Nacionalização do modelo Trilhas de Futuro com vouchers para capacitação técnica",
-          "Prêmio de produtividade para diretores e professores por avanço no IDEB",
-          "Foco na alfabetização no tempo certo (1º e 2º anos do fundamental)"
-        ]
-      }
-    },
-    "trajetoriaPolitica": [
+    "legislativeVotes": [
       {
-        "periodo": "2023 - Presente",
-        "cargoOuAtividade": "Governador de Minas Gerais (2º Mandato)",
-        "detalhes": "Reeleito no 1º turno em 2022 com 56% dos votos válidos contra Alexandre Kalil.",
-        "partidoOuLocal": "Governo de MG"
+        "code": "Gestão Executiva (MG)",
+        "title": "Adesão ao Regime de Recuperação Fiscal (RRF)",
+        "vote": "FAVORÁVEL",
+        "summary": "Defendeu e implementou medidas de contenção da dívida do estado de Minas Gerais junto à União com teto de gastos estadual.",
+        "source": "Governo de MG / ALMG"
       },
       {
-        "periodo": "2019 - 2022",
-        "cargoOuAtividade": "Governador de Minas Gerais (1º Mandato)",
-        "detalhes": "Assumiu o estado com salários do funcionalismo atrasados e parcelados, regularizando o pagamento e renegociando a dívida com a União.",
-        "partidoOuLocal": "Governo de MG"
-      },
-      {
-        "periodo": "1990 - 2018",
-        "cargoOuAtividade": "Presidente do Grupo Zema",
-        "detalhes": "Liderou a expansão da rede de varejo eletrodomésticos e postos de combustível de 4 para mais de 400 filiais.",
-        "partidoOuLocal": "Setor Privado"
+        "code": "Gestão Executiva (MG)",
+        "title": "Redução da Máquina Pública",
+        "vote": "FAVORÁVEL",
+        "summary": "Extinguiu 8 secretarias estaduais e abriu mão do próprio salário de governador até o equilíbrio das contas.",
+        "source": "Diário Oficial do Estado de Minas Gerais"
       }
     ],
-    "historicoPartidario": [
-      { "partido": "NOVO", "periodo": "2018 - Presente" }
-    ],
-    "votacoesLegislativas": [
+    "legalRecords": [
       {
-        "id": "vote-zema-rrf",
-        "projetoCodigo": "PL 1202/2019 (ALMG)",
-        "tema": "Adesão ao Regime de Recuperação Fiscal (RRF)",
-        "ementa": "Autoriza o Poder Executivo Estadual a aderir ao Regime de Recuperação Fiscal da União para equacionar dívida de R$ 160 bi.",
-        "data": "2024-06-25",
-        "voto": "SIM",
-        "orientacaoBancada": "Proposta do Poder Executivo sancionada",
-        "descricaoImpacto": "Defendeu a imposição de teto nos gastos estaduais como condição indispensável para a viabilidade financeira de MG.",
-        "linkOficial": "https://www.almg.gov.br/atividade-parlamentar/projetos-de-lei/PL/1202/2019"
+        "caseName": "Auditoria de Gestão Fiscal e Contratos",
+        "source": "Tribunal de Contas do Estado de Minas Gerais (TCE-MG)",
+        "investigationFindings": "Apurações de órgãos de controle e oposição relativas a parcelamentos de repasses a municípios e critérios de reajustes salariais da segurança pública.",
+        "legalOutcome": "Sem Condenação Criminal. Nenhum processo por desvio, corrupção passiva ou enriquecimento ilícito registrado. Ficha limpa perante a Justiça Eleitoral."
       }
-    ],
-    "fichaJuridica": [
-      {
-        "id": "legal-zema-salario",
-        "tituloCaso": "Ação Direta de Inconstitucionalidade - Reajuste de Quase 300% do Salário de Governador",
-        "tribunalOuOrgao": "TJ-MG",
-        "numeroProcessoOuInquerito": "ADI 1.0000.23.119283-4/000",
-        "linkFonte": "https://www.tjmg.jus.br",
-        "dataInicio": "2023-05-10",
-        "dataDesfecho": "2023-11-28",
-        "status": "ABSOLVIDO_MERITO",
-        "resumoCaso": "Questionamento judicial contra o projeto de lei da ALMG sancionado por Zema que reajustou o subsídio de governador de R$ 10,5 mil para R$ 37,9 mil.",
-        "elementosInvestigacaoEProvas": "Análise da estrita legalidade orçamentária, demonstração de que o valor estava congelado desde 2007 e representava o teto para destravar a remuneração de auditores e médicos.",
-        "desfechoRealEJuridico": "ABSOLVIÇÃO NO MÉRITO / CONSTITUCIONALIDADE RECONHECIDA: O Órgão Especial do TJ-MG julgou a ação improcedente no mérito, confirmando que a fixação seguiu os ritos constitucionais e a autonomia legislativa."
-      }
-    ],
-    "resumoSituacaoJuridica": "Ficha limpa impecável. Nenhuma condenação penal ou por improbidade administrativa. O questionamento acerca da recomposição de subsídios foi julgado improcedente pelo plenário do TJ-MG."
+    ]
   },
   {
     "id": "ronaldo-caiado",
-    "nomeCompleto": "Ronaldo Ramos Caiado",
-    "nomeUrna": "Ronaldo Caiado",
-    "numeroUrna": 55,
-    "cargo": "PRESIDENTE",
-    "fotoUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&q=80",
-    "partido": {
-      "id": "psd",
-      "sigla": "PSD",
-      "numero": 55,
-      "nome": "Partido Social Democrático",
-      "espectro": "Centro-Direita",
-      "corHex": "#0D9488"
+    "name": "Ronaldo Caiado",
+    "ballotNumber": "55",
+    "party": "PSD",
+    "coalition": "Partido isolado (PSD)",
+    "role": "PRESIDENTE",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Ronaldo_Caiado_em_2023.jpg",
+    "isBaseline": false,
+    "pillars": {
+      "segurancaPublica": "Tolerância zero com facções criminosas, ocupação ostensiva de território pelas forças estaduais e empoderamento das tropas policiais.",
+      "gastosPublicos": "Reestruturação fiscal de Goiás, renegociação de passivos fiscais e equilíbrio orçamentário.",
+      "tamanhoDoEstado": "Estado focado em segurança, infraestrutura e apoio ao agronegócio; ceticismo com aparelhamento ideológico.",
+      "saude": "Regionalização da saúde pública com policlínicas estaduais no interior de Goiás.",
+      "educacao": "Distribuição de kits escolares, bolsas para permanência de estudantes do ensino médio e suporte aos colégios militares estaduais."
     },
-    "coligacaoOuFederacao": "Aliança Republicana pelo Brasil (PSD / União Brasil / Solidariedade)",
-    "estado": "BR",
-    "isBaselineReference": false,
-    "resumoPerfil": "Médico ortopedista, ex-Senador e Governador de Goiás reeleito em 1º turno (2019-2026). Destaca-se pela política de tolerância zero na segurança pública, defesa incondicional do agronegócio e liderança política experiente.",
-    "termometroAlinhamento": {
-      "liberdadeEconomica": 82,
-      "estadoEnxuto": 80,
-      "conservadorismo": 88,
-      "segurancaRigorosa": 99,
-      "scoreGeral": 87,
-      "classificacao": "Direita Agro / Segurança Forte"
-    },
-    "pilares": {
-      "SEGURANCA_PUBLICA": {
-        "score": 9.9,
-        "summary": "Modelo referência em Goiás com lema 'ou bandido muda de profissão ou muda de estado'. Tolerância zero contra facções e invasões de terra.",
-        "keyProposals": [
-          "Policiamento ostensivo e inteligência integrada contra invasores rurais",
-          "Criação de presídios federais de isolamento absoluto para comandos criminosos",
-          "Autonomia operacional às tropas táticas com retaguarda jurídica"
-        ]
-      },
-      "GASTOS_PUBLICOS": {
-        "score": 8.0,
-        "summary": "Recuperou Goiás da calamidade financeira, aderindo ao RRF com corte de privilégios de grupos de interesse locais.",
-        "keyProposals": [
-          "Cumprimento severo das regras da Lei de Responsabilidade Fiscal",
-          "Revisão e corte de subsídios fiscais ineficientes concedidos pelo governo federal",
-          "Orçamento base zero para investimentos públicos com auditoria prévia"
-        ]
-      },
-      "TAMANHO_DO_ESTADO": {
-        "score": 8.1,
-        "summary": "Defesa enfática da propriedade privada no campo, desregulamentação sanitária e licenciamento ambiental ágil.",
-        "keyProposals": [
-          "Marco do Licenciamento Ambiental sem travas burocráticas ideológicas",
-          "Concessão de rodovias e ferrovias do Centro-Oeste ao Norte do país",
-          "Incentivo à industrialização do agro com infraestrutura logística"
-        ]
-      },
-      "SAUDE": {
-        "score": 8.4,
-        "summary": "Implantação de policlínicas regionais de especialidades por todo o interior de Goiás e ampliação de UTIs.",
-        "keyProposals": [
-          "Modelo de policlínicas descentralizadas para desafogar as capitais",
-          "Revalidação rigorosa de diplomas médicos pelo Revalida sem atalhos",
-          "Fortalecimento da teleconsulta com exames de imagem em tempo real"
-        ]
-      },
-      "EDUCACAO": {
-        "score": 9.2,
-        "summary": "Goiás alcançou o 1º lugar nacional no IDEB do Ensino Médio sob sua gestão, investindo em bolsas estudantis (Bolsa Estudo) e reformas estruturais.",
-        "keyProposals": [
-          "Incentivo financeiro mensal contra a evasão escolar no ensino médio",
-          "Reformas de infraestrutura com climatização de 100% das salas de aula",
-          "Foco curricular voltado para capacitação técnica e matemática aplicada"
-        ]
-      }
-    },
-    "trajetoriaPolitica": [
+    "legislativeVotes": [
       {
-        "periodo": "2019 - Presente",
-        "cargoOuAtividade": "Governador de Goiás (Dois Mandatos)",
-        "detalhes": "Eleito em 2018 e reeleito em 2022 em 1º turno. Transformou Goiás no estado líder em segurança pública e 1º lugar no IDEB.",
-        "partidoOuLocal": "Governo de GO"
-      },
-      {
-        "periodo": "2015 - 2019",
-        "cargoOuAtividade": "Senador da República",
-        "detalhes": "Líder da bancada de oposição no Senado Federal durante os governos Dilma e Temer.",
-        "partidoOuLocal": "Senado Federal"
-      },
-      {
-        "periodo": "1999 - 2015",
-        "cargoOuAtividade": "Deputado Federal por Goiás",
-        "detalhes": "Cinco mandatos na Câmara dos Deputados como principal porta-voz da bancada ruralista (FPA).",
-        "partidoOuLocal": "Câmara dos Deputados"
+        "code": "Histórico Parlamentar (Senado/Câmara)",
+        "title": "Estatuto do Desarmamento e Pautas Penais",
+        "vote": "NÃO AO DESARMAMENTO",
+        "summary": "Histórico de votações consistente pela legítima defesa, porte rural de armas e recrudescimento das penas para reincidentes.",
+        "source": "Câmara dos Deputados / Senado Federal"
       }
     ],
-    "historicoPartidario": [
-      { "partido": "PSD", "periodo": "2025 - Presente" },
-      { "partido": "União Brasil", "periodo": "2022 - 2025" },
-      { "partido": "DEM", "periodo": "2007 - 2022" },
-      { "partido": "PFL", "periodo": "1995 - 2007" }
-    ],
-    "votacoesLegislativas": [
+    "legalRecords": [
       {
-        "id": "vote-caiado-impeachment",
-        "projetoCodigo": "Processo Impeachment",
-        "tema": "Impeachment de Dilma Rousseff",
-        "ementa": "Julgamento por crime de responsabilidade fiscal (pedaladas fiscais).",
-        "data": "2016-08-31",
-        "voto": "SIM",
-        "orientacaoBancada": "A favor da destituição da presidente",
-        "descricaoImpacto": "Votou favoravelmente ao impeachment no Senado Federal em defesa da responsabilidade orçamentária.",
-        "linkOficial": "https://legis.senado.leg.br"
-      },
-      {
-        "id": "vote-caiado-reforma-trib",
-        "projetoCodigo": "Posicionamento Reforma Tributária",
-        "tema": "Reforma Tributária (Autonomia dos Estados)",
-        "ementa": "Crítica à centralização do Conselho Federativo do IBS em detrimento dos estados produtores.",
-        "data": "2023-11-05",
-        "voto": "NAO",
-        "orientacaoBancada": "Oposição de governadores de estados produtores",
-        "descricaoImpacto": "Liderou a oposição à redação da PEC 45 que suprime autonomia dos estados federados.",
-        "linkOficial": "https://www.goias.gov.br"
+        "caseName": "Apurações Eleitorais e Contas de Campanha",
+        "source": "TRE-GO / TSE",
+        "investigationFindings": "Questionamentos pontuais de adversários políticos sobre atos de propaganda eleitoral e despesas de campanhas passadas.",
+        "legalOutcome": "Contas Aprovadas / Sem Condenações Criminais. Ficha limpa regularizada e sem sentenças condenatórias por crimes contra a administração pública."
       }
-    ],
-    "fichaJuridica": [
-      {
-        "id": "legal-caiado-fundo-infra",
-        "tituloCaso": "Taxa do Agro (Fundo Estadual de Infraestrutura - Fundeinfra)",
-        "tribunalOuOrgao": "STF",
-        "numeroProcessoOuInquerito": "ADI 7.363/GO",
-        "linkFonte": "https://portal.stf.jus.br",
-        "dataInicio": "2023-01-15",
-        "dataDesfecho": "2023-04-20",
-        "status": "ABSOLVIDO_MERITO",
-        "resumoCaso": "Ação da Confederação Nacional da Agricultura questionando a contribuição de produtores rurais destinada a obras de pavimentação.",
-        "elementosInvestigacaoEProvas": "Comprovação de adesão voluntária condicionada a incentivos fiscais e destinação vinculada para asfaltamento de rodovias do escoamento da safra.",
-        "desfechoRealEJuridico": "ABSOLVIÇÃO NO MÉRITO / VALIDADE CONFIRMADA: O plenário do STF cassou liminares e considerou o Fundeinfra constitucional no mérito por se tratar de contribuição facultativa correlata a benefícios tributários."
-      }
-    ],
-    "resumoSituacaoJuridica": "Histórico judicial limpo, sem processos por desvio de verbas públicas ou corrupção. As controvérsias de gestão foram estritamente regulatórias e fiscais, com vitórias de mérito no STF."
+    ]
   },
   {
     "id": "renan-santos",
-    "nomeCompleto": "Renan Antônio Ferreira dos Santos",
-    "nomeUrna": "Renan Santos",
-    "numeroUrna": 14,
-    "cargo": "PRESIDENTE",
-    "fotoUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=500&q=80",
-    "partido": {
-      "id": "missao",
-      "sigla": "MISSÃO",
-      "numero": 14,
-      "nome": "Partido Missão",
-      "espectro": "Centro-Direita",
-      "corHex": "#EAB308"
+    "name": "Renan Santos",
+    "ballotNumber": "14",
+    "party": "MISSÃO",
+    "coalition": "Partido isolado (MISSÃO)",
+    "role": "PRESIDENTE",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Renan_Santos_em_debate.jpg",
+    "isBaseline": false,
+    "pillars": {
+      "segurancaPublica": "Encarceramento em massa de líderes de facções (modelo Cecot / Nayib Bukele), isolamento total em presídios de segurança máxima e repressão severa ao crime organizado.",
+      "gastosPublicos": "Reforma administrativa radical, fim de privilégios do funcionalismo de topo (supersalários) e equilíbrio fiscal estrito.",
+      "tamanhoDoEstado": "Choque de privatizações, corte de ministérios e incentivo agressivo ao livre mercado.",
+      "saude": "Concessão de unidades básicas à iniciativa privada e digitalização do atendimento médico.",
+      "educacao": "Foco em formação científica, exatas, testes padronizados de desempenho e erradicação de pautas progressistas no currículo."
     },
-    "coligacaoOuFederacao": "Partido Missão (Chapa Pura)",
-    "estado": "BR",
-    "isBaselineReference": false,
-    "resumoPerfil": "Coordenador nacional do Movimento Brasil Livre (MBL) e presidente fundador do Partido Missão. Apresenta plataforma de renovação geracional da direita com ênfase em combate intransigente à corrupção, republicanismo e industrialização tecnológica.",
-    "termometroAlinhamento": {
-      "liberdadeEconomica": 88,
-      "estadoEnxuto": 85,
-      "conservadorismo": 72,
-      "segurancaRigorosa": 92,
-      "scoreGeral": 84,
-      "classificacao": "Direita Liberal Republicana"
-    },
-    "pilares": {
-      "SEGURANCA_PUBLICA": {
-        "score": 9.1,
-        "summary": "Guerra declarada ao PCC e CV, espelhando métodos de choque antimáfia da Itália e modelo Bukele para presídios de segurança máxima.",
-        "keyProposals": [
-          "Classificação legal do PCC e Comando Vermelho como organizações narcoterroristas",
-          "Confisco sumário de patrimônio empresarial e financeiro ligado a facções",
-          "Criação de corte judiciária especializada sem rosto para proteção de magistrados"
-        ]
-      },
-      "GASTOS_PUBLICOS": {
-        "score": 8.9,
-        "summary": "Fim do Fundo Eleitoral bilionário, corte de supersalários no Judiciário e unificação de carreiras públicas.",
-        "keyProposals": [
-          "Extinção imediata do Fundo Partidário e do Fundo Eleitoral",
-          "Teto real remuneratório no serviço público sem brechas para penduricalhos",
-          "Auditoria da folha de pagamento federal com inteligência artificial"
-        ]
-      },
-      "TAMANHO_DO_ESTADO": {
-        "score": 8.6,
-        "summary": "Desestatização e foco na atração de semicondutores, defesa cibernética e simplificação tributária agressiva.",
-        "keyProposals": [
-          "Venda de estatais obsoletas e enxugamento de ministérios para no máximo 15 pastas",
-          "Zona franca de tecnologia e inovação em semicondutores e inteligência artificial",
-          "Fim do monopólio de registros cartoriais via tecnologia blockchain"
-        ]
-      },
-      "SAUDE": {
-        "score": 7.9,
-        "summary": "Auditoria de compras hospitalares, digitalização e parcerias público-privadas sob métricas de desempenho.",
-        "keyProposals": [
-          "Centralização transparente de aquisições de remédios com rastreio QR code",
-          "Expansão de parcerias com cooperativas médicas e entidades filantrópicas",
-          "Aplicativo nacional de agendamento de consultas com telemedicina imediata"
-        ]
-      },
-      "EDUCACAO": {
-        "score": 8.1,
-        "summary": "Foco prioritário em leitura e matemática no ensino básico, capacitação em programação e bolsa de rendimento.",
-        "keyProposals": [
-          "Meta de alfabetização aos 6 anos com base no método fônico",
-          "Ensino de lógica e programação obrigatório a partir do 6º ano",
-          "Autonomia para universidades públicas captarem financiamento privado e endowments"
-        ]
-      }
-    },
-    "trajetoriaPolitica": [
+    "legislativeVotes": [
       {
-        "periodo": "2023 - Presente",
-        "cargoOuAtividade": "Presidente do Partido Missão",
-        "detalhes": "Liderou a coleta de centenas de milhares de assinaturas auditadas para a homologação do novo partido no TSE.",
-        "partidoOuLocal": "Partido Missão"
-      },
-      {
-        "periodo": "2014 - Presente",
-        "cargoOuAtividade": "Coordenador Nacional do MBL",
-        "detalhes": "Um dos principais articuladores das manifestações pró-impeachment em 2015 e 2016 e da formação de novas lideranças parlamentares.",
-        "partidoOuLocal": "Sociedade Civil"
+        "code": "Atuação Política Institucional",
+        "title": "Bandeiras de Oposição ao Governo Federal",
+        "vote": "CONTRA POLÍTICAS ESTATIZANTES",
+        "summary": "Atuação externa na organização de mobilizações populares pelo impeachment, reformas liberais e combate à corrupção.",
+        "source": "Movimento Brasil Livre / Partido Missão"
       }
     ],
-    "historicoPartidario": [
-      { "partido": "MISSÃO", "periodo": "2024 - Presente" },
-      { "partido": "União Brasil", "periodo": "2022 - 2023" },
-      { "partido": "DEM", "periodo": "2018 - 2021" }
-    ],
-    "votacoesLegislativas": [
+    "legalRecords": [
       {
-        "id": "vote-missao-fundao",
-        "projetoCodigo": "Diretriz Partidária Missão",
-        "tema": "Extinção do Fundo Eleitoral",
-        "ementa": "Posicionamento institucional contra o uso de R$ 5 bilhões de recursos públicos para financiamento de campanhas.",
-        "data": "2024-04-10",
-        "voto": "SIM",
-        "orientacaoBancada": "Diretriz programática obrigatória",
-        "descricaoImpacto": "Compromisso de campanha de autossuficiência financeira sem uso de fundo público partidário.",
-        "linkOficial": "https://partidomissao.org"
+        "caseName": "Operação Juno Moneta (Doações e Superchats do MBL)",
+        "source": "Ministério Público do Estado de São Paulo (MP-SP) / TJ-SP",
+        "investigationFindings": "Investigação deflagrada em 2020 apurou suposta lavagem de dinheiro e movimentações atípicas através de doações por plataformas digitais e empresas ligadas a membros do movimento.",
+        "legalOutcome": "Arquivamento por Falta de Provas. A Justiça de São Paulo determinou o trancamento e arquivamento das apurações por ausência de elementos probatórios ou indícios de prática criminosa."
       }
-    ],
-    "fichaJuridica": [
-      {
-        "id": "legal-renan-mbl-lavagem",
-        "tituloCaso": "Operação Juno Moneta (Inquérito sobre Lavagem de Dinheiro)",
-        "tribunalOuOrgao": "TJ-SP / Dipo",
-        "numeroProcessoOuInquerito": "Inquérito Policial nº 2145698-12.2020.8.26.0050",
-        "linkFonte": "https://www.tjsp.jus.br",
-        "dataInicio": "2020-07-10",
-        "dataDesfecho": "2021-03-24",
-        "status": "ARQUIVADO",
-        "resumoCaso": "Investigação deflagrada pela Polícia Civil e MP-SP para apurar doações via 'superchats' do YouTube e empresas ligadas a membros do MBL.",
-        "elementosInvestigacaoEProvas": "Quebra de sigilo bancário e fiscal de contas pessoais e associativas e perícia técnica sobre transações no Google e plataformas digitais.",
-        "desfechoRealEJuridico": "ARQUIVAMENTO POR AUSÊNCIA DE PROVAS: O Ministério Público de São Paulo concluiu pela inexistência de lavagem de capitais ou ilicitude nas doações de apoiadores, promovendo o arquivamento homologado pela Justiça."
-      },
-      {
-        "id": "legal-renan-danos-morais",
-        "tituloCaso": "Ações Cíveis de Indenização por Manifestações Políticas",
-        "tribunalOuOrgao": "TJ-SP",
-        "numeroProcessoOuInquerito": "Vários Feitos Cíveis",
-        "linkFonte": "https://esaj.tjsp.jus.br",
-        "dataInicio": "2017-02-15",
-        "dataDesfecho": "2023-10-12",
-        "status": "CONDENADO",
-        "resumoCaso": "Processos cíveis de natureza indenizatória movidos por figuras públicas (jornalistas e políticos de esquerda) por postagens em redes sociais.",
-        "elementosInvestigacaoEProvas": "Publicações e vídeos no YouTube contendo sátiras e críticas políticas contundentes consideradas excessivas em juízo cível.",
-        "desfechoRealEJuridico": "CONDENAÇÃO CÍVEL (SEM REPERCUSSÃO CRIMINAL/FICHA LIMPA): Condenações ao pagamento de indenizações por danos morais em sede cível. Não geram inelegibilidade nem representam crime contra a administração pública."
-      }
-    ],
-    "resumoSituacaoJuridica": "Totalmente apto eleitoralmente. A investigação policial sobre finanças do MBL foi integralmente arquivada por inocorrência de crime. Registra condenações cíveis indenizatórias por disputas verbais na internet sem repercussão na Lei da Ficha Limpa."
+    ]
   },
   {
-    "id": "luiz-inacio-lula-da-silva",
-    "nomeCompleto": "Luiz Inácio Lula da Silva",
-    "nomeUrna": "Lula",
-    "numeroUrna": 13,
-    "cargo": "PRESIDENTE",
-    "fotoUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80",
-    "partido": {
-      "id": "pt",
-      "sigla": "PT",
-      "numero": 13,
-      "nome": "Partido dos Trabalhadores",
-      "espectro": "Esquerda",
-      "corHex": "#DC2626"
+    "id": "lula",
+    "name": "Luiz Inácio Lula da Silva (Referencial de Comparação)",
+    "ballotNumber": "13",
+    "party": "PT",
+    "coalition": "Federação Brasil da Esperança (PT / PCdoB / PV)",
+    "role": "PRESIDENTE",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Foto_oficial_do_presidente_Luiz_In%C3%A1cio_Lula_da_Silva_%28recorte%29.jpg",
+    "isBaseline": true,
+    "pillars": {
+      "segurancaPublica": "Enfoque em políticas sociais de prevenção, desarmamento civil, controle do uso da força policial e combate a crimes ambientais/financeiros.",
+      "gastosPublicos": "Priorização do investimento público sobre metas fiscais rígidas; ajuste centrado no aumento de arrecadação e taxação de altas rendas.",
+      "tamanhoDoEstado": "Papel central do Estado como indutor da economia, fortalecimento de estatais (Petrobras, BNDES, Caixa) e interrupção de privatizações.",
+      "saude": "Recomposição de verbas federais para o SUS, Farmácia Popular e retomada do programa Mais Médicos.",
+      "educacao": "Expansão de universidades federais, recomposição orçamentária do MEC, reajuste de bolsas e foco em cotas afirmativas."
     },
-    "coligacaoOuFederacao": "Federação Brasil da Esperança (PT / PCdoB / PV) / PSB / PDT",
-    "estado": "BR",
-    "isBaselineReference": true,
-    "resumoPerfil": "Presidente da República em seu 3º mandato (2003-2010, 2023-atual). Ex-líder sindical e principal liderança histórica da esquerda brasileira. Utilizado nesta plataforma como o 'Baseline / Referencial Comparativo' de políticas públicas e governança estatal.",
-    "termometroAlinhamento": {
-      "liberdadeEconomica": 32,
-      "estadoEnxuto": 20,
-      "conservadorismo": 18,
-      "segurancaRigorosa": 35,
-      "scoreGeral": 26,
-      "classificacao": "Esquerda Desenvolvimentista / Estatista"
-    },
-    "pilares": {
-      "SEGURANCA_PUBLICA": {
-        "score": 4.5,
-        "summary": "Foco prioritário em causas sociais da criminalidade, controle rígido de armas civis e ampliação de políticas de direitos humanos no sistema prisional.",
-        "keyProposals": [
-          "Revogação contínua de decretos de armas e restrições a clubes de tiro",
-          "Criação de Ministério da Segurança Pública focado em cidadania",
-          "Políticas de desencarceramento para crimes não violentos e audiências de custódia"
-        ]
-      },
-      "GASTOS_PUBLICOS": {
-        "score": 3.8,
-        "summary": "Visão de que 'gasto social é investimento'. Novo Arcabouço Fiscal com expansão de despesas atrelada a receitas e aumento da arrecadação.",
-        "keyProposals": [
-          "Tributação de fundos exclusivos, apostas eletrônicas e compras internacionais",
-          "Elevação contínua do salário mínimo acima da inflação com impacto previdenciário",
-          "Preservação de pisos constitucionais de Saúde e Educação fora de cortes fiscais"
-        ]
-      },
-      "TAMANHO_DO_ESTADO": {
-        "score": 2.5,
-        "summary": "Intervenção ativa do Estado na economia, uso de bancos públicos (BNDES, BB, Caixa) e fortalecimento de estatais como a Petrobras.",
-        "keyProposals": [
-          "Suspensão de privatizações federais e retomada de investimentos em refinarias",
-          "Novo PAC (Programa de Aceleração do Crescimento) com recursos públicos e subsídios",
-          "Fortalecimento da indústria nacional por meio de compras governamentais"
-        ]
-      },
-      "SAUDE": {
-        "score": 7.5,
-        "summary": "Fortalecimento institucional do SUS, retomada do Mais Médicos e ampliação do Farmácia Popular.",
-        "keyProposals": [
-          "Expansão do programa Mais Médicos com incentivo a profissionais formados no exterior",
-          "Gratuidade integral de remédios essenciais para hipertensão, diabetes e asma",
-          "Retomada de investimentos no Complexo Econômico-Industrial da Saúde (Fiocruz/Butantan)"
-        ]
-      },
-      "EDUCACAO": {
-        "score": 6.8,
-        "summary": "Criação do Programa Pé-de-Meia (poupança para o ensino médio), expansão dos Institutos Federais e ampliação de cotas.",
-        "keyProposals": [
-          "Expansão do programa Pé-de-Meia para beneficiar milhões de jovens estudantes",
-          "Construção de 100 novos campi de Institutos Federais (IFs)",
-          "Reajuste das bolsas de pós-graduação da Capes e CNPq"
-        ]
-      }
-    },
-    "trajetoriaPolitica": [
+    "legislativeVotes": [
       {
-        "periodo": "2023 - Presente",
-        "cargoOuAtividade": "Presidente da República (3º Mandato)",
-        "detalhes": "Eleito em 2022 com 60,3 milhões de votos, liderando a frente ampla e o governo de coalizão.",
-        "partidoOuLocal": "Presidência da República"
+        "code": "PLP 93/2023",
+        "title": "Novo Arcabouço Fiscal",
+        "vote": "SANCIONADO",
+        "summary": "Proposta do Poder Executivo que substituiu o Teto de Gastos, permitindo crescimento real das despesas atrelado ao aumento de receita.",
+        "source": "Diário Oficial da União (Presidência da República)"
       },
       {
-        "periodo": "2003 - 2010",
-        "cargoOuAtividade": "Presidente da República (1º e 2º Mandatos)",
-        "detalhes": "Governou durante o boom das commodities, expandindo o Bolsa Família e programas sociais.",
-        "partidoOuLocal": "Presidência da República"
-      },
-      {
-        "periodo": "1987 - 1991",
-        "cargoOuAtividade": "Deputado Federal Constituinte",
-        "detalhes": "Eleito o deputado mais votado do país na Assembleia Nacional Constituinte de 1988.",
-        "partidoOuLocal": "Congresso Nacional"
+        "code": "EC 132/2023",
+        "title": "Reforma Tributária sobre o Consumo",
+        "vote": "PROMULGADA COM APOIO DO GOVERNO",
+        "summary": "Unificação de tributos federais e subnacionais em regime de IVA dual (CBS e IBS).",
+        "source": "Congresso Nacional"
       }
     ],
-    "historicoPartidario": [
-      { "partido": "PT", "periodo": "1980 - Presente (Membro Fundador)" }
-    ],
-    "votacoesLegislativas": [
+    "legalRecords": [
       {
-        "id": "vote-lula-arcabouco",
-        "projetoCodigo": "PLP 93/2023 (Governo)",
-        "tema": "Novo Arcabouço Fiscal",
-        "ementa": "Substitui o teto de gastos e autoriza crescimento real de despesas entre 0,6% e 2,5% ao ano.",
-        "data": "2023-08-31",
-        "voto": "SIM",
-        "orientacaoBancada": "Projeto de autoria do Poder Executivo sancionado",
-        "descricaoImpacto": "Principal âncora da política econômica do Ministério da Fazenda de Fernando Haddad.",
-        "linkOficial": "https://www.planalto.gov.br"
-      },
-      {
-        "id": "vote-lula-tributaria",
-        "projetoCodigo": "PEC 45/2019 (Apoiada)",
-        "tema": "Reforma Tributária sobre o Consumo",
-        "ementa": "Unifica tributos federais, estaduais e municipais e institui cashback para população vulnerável.",
-        "data": "2023-12-20",
-        "voto": "SIM",
-        "orientacaoBancada": "Prioridade máxima de articulação ministerial no Congresso",
-        "descricaoImpacto": "Promulgada pelo Congresso após intensa negociação de verbas e compensações aos estados.",
-        "linkOficial": "https://www.planalto.gov.br"
+        "caseName": "Operação Lava Jato (Triplex do Guarujá e Sítio de Atibaia)",
+        "source": "13ª Vara Federal de Curitiba / TRF-4 / STF (HC 193.726 e HC 164.493)",
+        "investigationFindings": "Depoimentos de delatores de empreiteiras (OAS e Odebrecht), comprovantes de custos de reformas em imóveis e notas fiscais colhidas pelo MPF apontavam benefício indevido.",
+        "legalOutcome": "Anulação Processual e Prescrição (Sem Julgamento de Mérito). O STF declarou a incompetência territorial da 13ª Vara Federal de Curitiba e a suspeição do juiz Sergio Moro, anulando todos os atos decisórios. Remetidos a Brasília, os processos foram extintos por prescrição antes de nova sentença de mérito."
       }
-    ],
-    "fichaJuridica": [
-      {
-        "id": "legal-lula-triplex",
-        "tituloCaso": "Caso do Tríplex do Guarujá (Operação Lava Jato)",
-        "tribunalOuOrgao": "13ª Vara Federal de Curitiba / TRF-4 / STF",
-        "numeroProcessoOuInquerito": "Ação Penal 5046512-94.2016.4.04.7000 e HC 193.726/PR",
-        "linkFonte": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=462319",
-        "dataInicio": "2016-03-04",
-        "dataDesfecho": "2021-04-15",
-        "status": "ANULADO_VICIO_FORMAL",
-        "resumoCaso": "Acusação de recebimento de R$ 3,7 milhões em reformas e reserva de apartamento tríplex no Guarujá (SP) pagas pela OAS como vantagem indevida de contratos da Petrobras.",
-        "elementosInvestigacaoEProvas": "Delações premiadas de Léo Pinheiro (OAS), documentos e mensagens apreendidas na construtora, visitas documentadas de familiares ao imóvel e rasuras de reservas de cota.",
-        "desfechoRealEJuridico": "ANULAÇÃO POR VÍCIO FORMAL E INCOMPETÊNCIA DE FORO (NÃO HOUVE ABSOLVIÇÃO DE MÉRITO): O plenário do STF declarou a 13ª Vara Federal de Curitiba absolutamente incompetente para processar o caso (por ausência de ligação direta exclusiva com desvios da Petrobras) e declarou a suspeição do ex-juiz Sergio Moro (HC 164.493). Todas as condenações foram anuladas 'ab initio'. Ao serem remetidos à Justiça Federal de Brasília, os crimes prescreveram em razão da idade do réu."
-      },
-      {
-        "id": "legal-lula-sitio",
-        "tituloCaso": "Caso do Sítio de Atibaia (SP)",
-        "tribunalOuOrgao": "13ª Vara Federal de Curitiba / TRF-4 / STF",
-        "numeroProcessoOuInquerito": "Ação Penal 5021365-32.2017.4.04.7000",
-        "linkFonte": "https://portal.stf.jus.br",
-        "dataInicio": "2016-08-01",
-        "dataDesfecho": "2021-06-24",
-        "status": "ANULADO_VICIO_FORMAL",
-        "resumoCaso": "Condenação em 1ª e 2ª instâncias a 17 anos por reformas pagas pelas empreiteiras Odebrecht e OAS e pelo pecuarista José Carlos Bumlai no sítio Santa Bárbara.",
-        "elementosInvestigacaoEProvas": "Notas fiscais de materiais comprados em nome de assessores, plantas apreendidas na residência do ex-presidente e testemunhos de engenheiros responsáveis pelas reformas.",
-        "desfechoRealEJuridico": "ANULAÇÃO PROCESSUAL POR VÍCIO FORMAL: Seguiu o mesmo entendimento da incompetência de Curitiba fixada pelo STF. As provas e atos decisórios foram invalidados formalmente e os autos enviados a Brasília, onde foi declarada a extinção da punibilidade pela prescrição da pretensão punitiva."
-      },
-      {
-        "id": "legal-lula-quadrilhao",
-        "tituloCaso": "Ação Penal do 'Quadrilhão do PT'",
-        "tribunalOuOrgao": "12ª Vara Federal do DF",
-        "numeroProcessoOuInquerito": "Ação Penal 1026137-89.2018.4.01.3400",
-        "linkFonte": "https://www.trf1.jus.br",
-        "dataInicio": "2017-09-05",
-        "dataDesfecho": "2019-12-04",
-        "status": "ABSOLVIDO_MERITO",
-        "resumoCaso": "Denúncia oferecida pelo ex-PGR Rodrigo Janot acusando Lula, Dilma Rousseff e ex-ministros de formarem organização criminosa para desviar recursos públicos.",
-        "elementosInvestigacaoEProvas": "Alegações baseadas em delações premiadas sem suporte probatório documental autônomo consistente.",
-        "desfechoRealEJuridico": "ABSOLVIÇÃO NO MÉRITO: O juiz federal Marcus Vinícius Reis Bastos absolveu sumariamente todos os réus no mérito (art. 386, III do CPP), atestando que a denúncia criminalizava a atividade política legítima e não apontou condutas criminosas concretas."
-      }
-    ],
-    "resumoSituacaoJuridica": "Plenamente elegível e reabilitado juridicamente. As condenações da Lava Jato foram anuladas pelo Supremo Tribunal Federal por vícios formais insanáveis (incompetência de foro e quebra de imparcialidade judicial de Moro), ocorrendo a posterior prescrição das ações penais sem julgamento de mérito inocentador naqueles fatos específicos. Na ação do 'Quadrilhão do PT', obteve absolvição no mérito por atipicidade da conduta."
+    ]
   }
 ]

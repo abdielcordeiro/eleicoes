@@ -113,6 +113,16 @@ export interface Candidate {
   votacoesLegislativas: LegislativeVote[];
   fichaJuridica: LegalRecord[];
   resumoSituacaoJuridica: string;
+  name?: string;
+  ballotNumber?: string;
+  party?: string;
+  coalition?: string;
+  role?: OfficeRole | string;
+  photoUrl?: string;
+  isBaseline?: boolean;
+  pillars?: Record<string, string>;
+  legislativeVotes?: Array<{ code: string; title: string; vote: string; summary: string; source: string }>;
+  legalRecords?: Array<{ caseName: string; source: string; investigationFindings: string; legalOutcome: string }>;
 }
 
 export interface PollCandidateShare {

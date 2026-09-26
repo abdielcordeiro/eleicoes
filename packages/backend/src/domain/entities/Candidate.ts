@@ -25,6 +25,30 @@ export interface AlignmentThermometer {
   classificacao: string; // Ex: 'Direita Liberal', 'Direita Conservadora', 'Centro', 'Esquerda Desenvolvimentista'
 }
 
+export interface CompactPillars {
+  segurancaPublica: string;
+  gastosPublicos: string;
+  tamanhoDoEstado: string;
+  saude: string;
+  educacao: string;
+  [key: string]: string;
+}
+
+export interface CompactVote {
+  code: string;
+  title: string;
+  vote: string;
+  summary: string;
+  source: string;
+}
+
+export interface CompactLegalRecord {
+  caseName: string;
+  source: string;
+  investigationFindings: string;
+  legalOutcome: string;
+}
+
 export interface Candidate {
   id: string; // ex: 'flavio-bolsonaro', 'romeu-zema', 'lula'
   nomeCompleto: string;
@@ -44,4 +68,16 @@ export interface Candidate {
   votacoesLegislativas: LegislativeVote[];
   fichaJuridica: LegalRecord[];
   resumoSituacaoJuridica: string;
+
+  // Campos compactos alternativos
+  name?: string;
+  ballotNumber?: string;
+  party?: string;
+  coalition?: string;
+  role?: OfficeRole | string;
+  photoUrl?: string;
+  isBaseline?: boolean;
+  pillars?: CompactPillars;
+  legislativeVotes?: CompactVote[];
+  legalRecords?: CompactLegalRecord[];
 }

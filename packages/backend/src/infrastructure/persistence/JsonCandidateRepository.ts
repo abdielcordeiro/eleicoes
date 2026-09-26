@@ -3,7 +3,211 @@ import path from 'node:path';
 import { ICandidateRepository } from '../../domain/ports/ICandidateRepository.js';
 import { Candidate } from '../../domain/entities/Candidate.js';
 import { OfficeRole } from '../../domain/value-objects/OfficeRole.js';
+import { LegalStatus } from '../../domain/value-objects/LegalStatus.js';
+import { ThematicPillar, CandidatePillarsProfile } from '../../domain/value-objects/ThematicPillar.js';
+import { PoliticalParty } from '../../domain/entities/PoliticalParty.js';
+import { LegislativeVote } from '../../domain/entities/LegislativeVote.js';
+import { LegalRecord } from '../../domain/entities/LegalRecord.js';
 import { getDataDir } from './dataPath.js';
+
+function getPartyColor(sigla: string): string {
+  switch (sigla.toUpperCase()) {
+    case 'PL': return '#2563EB';
+    case 'NOVO': return '#F97316';
+    case 'PSD': return '#0D9488';
+    case 'MISSÃO': return '#EAB308';
+    case 'PT': return '#DC2626';
+    case 'REPUBLICANOS': return '#1E40AF';
+    case 'PSOL': return '#DC2626';
+    default: return '#64748B';
+  }
+}
+
+function getEspectro(sigla: string): 'Direita' | 'Centro-Direita' | 'Centro' | 'Centro-Esquerda' | 'Esquerda' {
+  switch (sigla.toUpperCase()) {
+    case 'PL': return 'Direita';
+    case 'NOVO': return 'Direita';
+    case 'PSD': return 'Centro-Direita';
+    case 'MISSÃO': return 'Centro-Direita';
+    case 'PT': return 'Esquerda';
+    case 'REPUBLICANOS': return 'Direita';
+    case 'PSOL': return 'Esquerda';
+    default: return 'Centro';
+  }
+}
+
+function normalizeCandidate(raw: any, defaultRole: OfficeRole): Candidate {
+  const id = raw.id || '';
+  const name = raw.name || raw.nomeUrna || raw.nomeCompleto || id;
+  const nomeUrna = raw.nomeUrna || raw.name || id;
+  const nomeCompleto = raw.nomeCompleto || raw.name || id;
+  const ballotNumber = raw.ballotNumber ? String(raw.ballotNumber) : (raw.numeroUrna ? String(raw.numeroUrna) : '0');
+  const numeroUrna = typeof raw.numeroUrna === 'number' ? raw.numeroUrna : parseInt(ballotNumber, 10) || 0;
+  const cargo = (raw.role || raw.cargo || defaultRole) as OfficeRole;
+  const photoUrl = raw.photoUrl || raw.fotoUrl || '';
+  const fotoUrl = photoUrl;
+  const isBaseline = Boolean(raw.isBaseline || raw.isBaselineReference);
+  const isBaselineReference = isBaseline;
+  const coalition = raw.coalition || raw.coligacaoOuFederacao || '';
+  const coligacaoOuFederacao = coalition;
+
+  const partySigla = typeof raw.party === 'string' ? raw.party : (raw.partido?.sigla || '');
+  const partido: PoliticalParty = (typeof raw.partido === 'object' && raw.partido.sigla) ? raw.partido : {
+    id: partySigla.toLowerCase(),
+    sigla: partySigla,
+    numero: numeroUrna,
+    nome: partySigla,
+    espectro: getEspectro(partySigla),
+    corHex: getPartyColor(partySigla),
+  };
+
+  // Termômetro de Alinhamento
+  const defaultAlignments: Record<string, any> = {
+    'flavio-bolsonaro': { lib: 78, est: 72, cons: 94, seg: 96, score: 85, desc: 'Direita Conservadora' },
+    'romeu-zema': { lib: 96, est: 98, cons: 70, seg: 86, score: 88, desc: 'Direita Liberal / Austera' },
+    'ronaldo-caiado': { lib: 82, est: 80, cons: 88, seg: 99, score: 87, desc: 'Direita Agro / Segurança Forte' },
+    'renan-santos': { lib: 88, est: 85, cons: 72, seg: 92, score: 84, desc: 'Direita Liberal Republicana' },
+    'lula': { lib: 32, est: 20, cons: 18, seg: 35, score: 26, desc: 'Esquerda Desenvolvimentista' },
+  };
+  const defAlign = defaultAlignments[id] || { lib: 70, est: 70, cons: 70, seg: 70, score: 70, desc: 'Centro' };
+
+  const termometroAlinhamento = raw.termometroAlinhamento || {
+    liberdadeEconomica: defAlign.lib,
+    estadoEnxuto: defAlign.est,
+    conservadorismo: defAlign.cons,
+    segurancaRigorosa: defAlign.seg,
+    scoreGeral: defAlign.score,
+    classificacao: defAlign.desc,
+  };
+
+  // Pilares
+  const defaultScores: Record<string, Record<string, number>> = {
+    'flavio-bolsonaro': { seg: 9.5, gas: 7.0, tam: 7.5, sau: 6.8, edu: 7.2 },
+    'romeu-zema': { seg: 8.7, gas: 9.8, tam: 9.7, sau: 8.2, edu: 8.5 },
+    'ronaldo-caiado': { seg: 9.9, gas: 8.0, tam: 8.1, sau: 8.4, edu: 9.2 },
+    'renan-santos': { seg: 9.1, gas: 8.9, tam: 8.6, sau: 7.9, edu: 8.1 },
+    'lula': { seg: 4.5, gas: 3.8, tam: 2.5, sau: 7.5, edu: 6.8 },
+  };
+  const candScores = defaultScores[id] || { seg: 7.0, gas: 7.0, tam: 7.0, sau: 7.0, edu: 7.0 };
+
+  const rawPillars = raw.pillars || {};
+  const pilares: CandidatePillarsProfile = raw.pilares || {
+    [ThematicPillar.SEGURANCA_PUBLICA]: {
+      score: candScores.seg,
+      summary: rawPillars.segurancaPublica || 'Sem dados',
+      keyProposals: rawPillars.segurancaPublica ? [rawPillars.segurancaPublica] : [],
+    },
+    [ThematicPillar.GASTOS_PUBLICOS]: {
+      score: candScores.gas,
+      summary: rawPillars.gastosPublicos || 'Sem dados',
+      keyProposals: rawPillars.gastosPublicos ? [rawPillars.gastosPublicos] : [],
+    },
+    [ThematicPillar.TAMANHO_DO_ESTADO]: {
+      score: candScores.tam,
+      summary: rawPillars.tamanhoDoEstado || 'Sem dados',
+      keyProposals: rawPillars.tamanhoDoEstado ? [rawPillars.tamanhoDoEstado] : [],
+    },
+    [ThematicPillar.SAUDE]: {
+      score: candScores.sau,
+      summary: rawPillars.saude || 'Sem dados',
+      keyProposals: rawPillars.saude ? [rawPillars.saude] : [],
+    },
+    [ThematicPillar.EDUCACAO]: {
+      score: candScores.edu,
+      summary: rawPillars.educacao || 'Sem dados',
+      keyProposals: rawPillars.educacao ? [rawPillars.educacao] : [],
+    },
+  };
+
+  // Votações Legislativas
+  const rawVotes = raw.legislativeVotes || [];
+  const votacoesLegislativas: LegislativeVote[] = raw.votacoesLegislativas || rawVotes.map((v: any, idx: number) => {
+    const isSim = /SIM|FAVOR|SANCIONADO/i.test(v.vote);
+    const isNao = /NÃO|CONTRA/i.test(v.vote);
+    return {
+      id: `vote-${id}-${idx}`,
+      projetoCodigo: v.code || '',
+      tema: v.title || '',
+      ementa: v.summary || '',
+      data: '2023-2024',
+      voto: isSim ? 'SIM' : isNao ? 'NAO' : 'ABSTENCAO',
+      orientacaoBancada: v.vote || '',
+      descricaoImpacto: v.summary || '',
+      linkOficial: 'https://legis.senado.leg.br',
+    };
+  });
+
+  // Ficha Jurídica
+  const rawLegal = raw.legalRecords || [];
+  const fichaJuridica: LegalRecord[] = raw.fichaJuridica || rawLegal.map((rec: any, idx: number) => {
+    const outcome = rec.legalOutcome || '';
+    let status: LegalStatus = LegalStatus.EM_ANDAMENTO;
+    if (/Absolvi/i.test(outcome) || /Sem Condenação/i.test(outcome) || /Aprovadas/i.test(outcome)) {
+      status = LegalStatus.ABSOLVIDO_MERITO;
+    } else if (/Anula/i.test(outcome)) {
+      status = LegalStatus.ANULADO_VICIO_FORMAL;
+    } else if (/Arquiva/i.test(outcome)) {
+      status = LegalStatus.ARQUIVADO;
+    } else if (/Prescri/i.test(outcome)) {
+      status = LegalStatus.PRESCRITO;
+    } else if (/Condena/i.test(outcome)) {
+      status = LegalStatus.CONDENADO;
+    }
+
+    return {
+      id: `legal-${id}-${idx}`,
+      tituloCaso: rec.caseName || 'Registro Judicial',
+      tribunalOuOrgao: rec.source || 'Poder Judiciário',
+      linkFonte: 'https://portal.stf.jus.br',
+      status,
+      resumoCaso: rec.caseName || '',
+      elementosInvestigacaoEProvas: rec.investigationFindings || '',
+      desfechoRealEJuridico: rec.legalOutcome || '',
+    };
+  });
+
+  const resumoSituacaoJuridica = raw.resumoSituacaoJuridica || (rawLegal.length > 0
+    ? rawLegal.map((r: any) => `${r.caseName}: ${r.legalOutcome}`).join('. ')
+    : 'Sem registros de condenações judiciais.');
+
+  return {
+    id,
+    name,
+    nomeUrna,
+    nomeCompleto,
+    ballotNumber,
+    numeroUrna,
+    cargo,
+    photoUrl,
+    fotoUrl,
+    party: partySigla,
+    partido,
+    coalition,
+    coligacaoOuFederacao,
+    estado: raw.estado || (cargo === OfficeRole.PRESIDENTE ? 'BR' : 'SP'),
+    isBaseline,
+    isBaselineReference,
+    resumoPerfil: raw.resumoPerfil || `${name} - Candidato a ${cargo} nas Eleições 2026.`,
+    termometroAlinhamento,
+    pillars: raw.pillars,
+    pilares,
+    trajetoriaPolitica: raw.trajetoriaPolitica || [
+      {
+        periodo: '2023 - 2026',
+        cargoOuAtividade: `Atuação Política Relevante`,
+        detalhes: raw.resumoPerfil || `Liderança política em destaque para as eleições de 2026.`,
+      },
+    ],
+    historicoPartidario: raw.historicoPartidario || [
+      { partido: partySigla, periodo: 'Atual' },
+    ],
+    legislativeVotes: raw.legislativeVotes,
+    votacoesLegislativas,
+    legalRecords: raw.legalRecords,
+    fichaJuridica,
+    resumoSituacaoJuridica,
+  };
+}
 
 export class JsonCandidateRepository implements ICandidateRepository {
   private getRoleFileName(role: OfficeRole): string {
@@ -44,7 +248,8 @@ export class JsonCandidateRepository implements ICandidateRepository {
 
   async findByRole(role: OfficeRole): Promise<Candidate[]> {
     const filePath = this.getRoleFilePath(role);
-    return this.readFileSafe<Candidate[]>(filePath, []);
+    const rawList = await this.readFileSafe<any[]>(filePath, []);
+    return rawList.map(raw => normalizeCandidate(raw, role));
   }
 
   async findAll(): Promise<Candidate[]> {
