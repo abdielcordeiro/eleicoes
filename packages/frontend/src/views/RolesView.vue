@@ -52,6 +52,28 @@
       </div>
     </div>
 
+    <!-- Audit Poll Chart (When role has registered polls) -->
+    <div v-if="hasPollForSelectedRole" class="transition-all">
+      <PollChart :role="selectedRole!" />
+    </div>
+
+    <!-- Comparison Matrix (When role has baseline/challengers) -->
+    <div v-if="hasComparisonForSelectedRole" class="transition-all">
+      <ComparisonMatrix :candidates="filteredCandidates" :role="selectedRole!" />
+    </div>
+
+    <!-- Candidates Section Header -->
+    <div class="flex items-center justify-between pt-2">
+      <div>
+        <h2 class="text-xl font-black text-slate-900 tracking-tight">
+          {{ selectedRole ? 'Candidatos Oficiais Registrados' : 'Todos os Candidatos em Disputa' }}
+        </h2>
+        <p class="text-xs text-slate-500">
+          {{ filteredCandidates.length }} candidato(s) disponível(is) para consulta e inclusão no Santinho Digital.
+        </p>
+      </div>
+    </div>
+
     <!-- Candidates Grid -->
     <div v-if="filteredCandidates.length === 0" class="bg-white rounded-3xl border border-slate-200 p-12 text-center text-slate-400">
       <p class="text-sm font-semibold">Nenhum candidato encontrado para os filtros selecionados.</p>
@@ -73,6 +95,8 @@ import { useRoute, useRouter } from 'vue-router';
 import { OfficeRole, Candidate } from '../domain/models.js';
 import { useCandidatesStore } from '../stores/candidates.js';
 import CandidateCard from '../components/CandidateCard.vue';
+import PollChart from '../components/PollChart.vue';
+import ComparisonMatrix from '../components/ComparisonMatrix.vue';
 
 const route = useRoute();
 const router = useRouter();
@@ -132,5 +156,17 @@ const filteredCandidates = computed(() => {
   }
 
   return list;
+});
+
+const hasPollForSelectedRole = computed(() => {
+  return selectedRole.value === OfficeRole.PRESIDENTE ||
+         selectedRole.value === OfficeRole.GOVERNADOR_SP ||
+         selectedRole.value === OfficeRole.SENADOR_SP;
+});
+
+const hasComparisonForSelectedRole = computed(() => {
+  return selectedRole.value === OfficeRole.PRESIDENTE ||
+         selectedRole.value === OfficeRole.GOVERNADOR_SP ||
+         selectedRole.value === OfficeRole.SENADOR_SP;
 });
 </script>

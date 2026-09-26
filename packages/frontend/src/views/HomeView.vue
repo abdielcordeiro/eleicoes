@@ -44,7 +44,7 @@
 
     <!-- SECTION 2: DIRECT COMPARISON MATRIX -->
     <section v-if="candidatesStore.candidates.length > 0">
-      <ComparisonMatrix :candidates="presidentialCandidates" />
+      <ComparisonMatrix :candidates="candidatesStore.candidates" />
     </section>
 
     <!-- SECTION 3: SÃO PAULO ELECTIONS SPOTLIGHT -->
@@ -53,7 +53,7 @@
         <div>
           <span class="text-xs font-bold text-vibrant-orange uppercase tracking-wider block">Foco Regional</span>
           <h2 class="text-2xl font-black text-slate-900 tracking-tight">Eleições em São Paulo 2026</h2>
-          <p class="text-xs text-slate-500 mt-1">Governador, as 2 vagas ao Senado e deputados federais e estaduais paulistas.</p>
+          <p class="text-xs text-slate-500 mt-1">Governador, as 2 vagas ao Senado e deputados federais e estaduais paulistas com pesquisas auditadas.</p>
         </div>
 
         <router-link
@@ -75,7 +75,7 @@
             </div>
             <h3 class="text-lg font-black text-slate-900 mb-1">Governador de SP</h3>
             <p class="text-xs text-slate-600 leading-relaxed">
-              Disputa pelo Palácio dos Bandeirantes, com Tarcísio de Freitas (Republicanos) e Guilherme Boulos (PSOL).
+              Disputa pelo Palácio dos Bandeirantes: Tarcísio de Freitas (Republicanos - 10) lidera com 56.5% contra Fernando Haddad (PT - 13) [Referencial] com 33.4% na pesquisa Vox Brasil / Poder360.
             </p>
           </div>
           <router-link
@@ -93,9 +93,9 @@
               <span class="text-xs font-extrabold px-2.5 py-1 rounded-lg bg-emerald-700 text-white">3 Dígitos</span>
               <span class="text-xs font-bold text-emerald-900">2 Vagas em 2026</span>
             </div>
-            <h3 class="text-lg font-black text-slate-900 mb-1">Senador por SP</h3>
+            <h3 class="text-lg font-black text-slate-900 mb-1">Senador por SP (2 Vagas)</h3>
             <p class="text-xs text-slate-600 leading-relaxed">
-              Em 2026 duas cadeiras do Senado serão renovadas em cada estado. Em SP, nomes como Eduardo Bolsonaro, Ricardo Salles e Kim Kataguiri disputam.
+              Disputa acirrada: Capitão Derrite (PP), André do Prado (PL), Ricardo Salles (NOVO) e Guto Schiavetto (MISSÃO) frente a Marina Silva (REDE) e Simone Tebet (PSB), com pesquisas Real Time e Quaest.
             </p>
           </div>
           <router-link

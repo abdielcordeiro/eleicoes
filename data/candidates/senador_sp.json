@@ -1,309 +1,166 @@
 [
   {
-    "id": "eduardo-bolsonaro",
-    "nomeCompleto": "Eduardo Nantes Bolsonaro",
-    "nomeUrna": "Eduardo Bolsonaro",
-    "numeroUrna": 222,
-    "cargo": "SENADOR_SP",
-    "fotoUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=80",
-    "partido": {
-      "id": "pl",
-      "sigla": "PL",
-      "numero": 22,
-      "nome": "Partido Liberal",
-      "espectro": "Direita",
-      "corHex": "#2563EB"
+    "id": "guilherme-derrite",
+    "name": "Capitão Guilherme Derrite",
+    "ballotNumber": "111",
+    "party": "PP",
+    "coalition": "Chapa Tarcísio de Freitas (PP / Republicanos / PL)",
+    "role": "SENADOR_SP",
+    "isBaseline": false,
+    "pillars": {
+      "segurancaPublica": "Ex-policial da ROTA e ex-Secretário de Segurança de SP. Bandeira central de endurecimento do Código Penal, fim da audiência de custódia para reincidentes e combate letal ao crime organizado.",
+      "gastosPublicos": "Votações alinhadas à contenção de gastos e responsabilidade fiscal.",
+      "tamanhoDoEstado": "Favorável às privatizações, desregulamentação e redução de ministérios.",
+      "saude": "Apoio aos hospitais militares e ampliação de parcerias com Santas Casas.",
+      "educacao": "Defensor ativo das escolas cívico-militares e combate a pautas ideológicas no ensino básico."
     },
-    "coligacaoOuFederacao": "Coligação Pelo Bem do Brasil (PL / PP / Republicanos)",
-    "estado": "SP",
-    "isBaselineReference": false,
-    "resumoPerfil": "Escrivão da Polícia Federal concursado e Deputado Federal recordista de votos por SP em 2018. Disputa a 1ª vaga ao Senado por SP com forte apelo conservador e armamentista.",
-    "termometroAlinhamento": {
-      "liberdadeEconomica": 85,
-      "estadoEnxuto": 80,
-      "conservadorismo": 98,
-      "segurancaRigorosa": 99,
-      "scoreGeral": 90,
-      "classificacao": "Direita Conservadora Armamentista"
-    },
-    "pilares": {
-      "SEGURANCA_PUBLICA": {
-        "score": 9.9,
-        "summary": "Revogação de restrições ao tiro esportivo, legítima defesa ampliada e tipificação severa de crimes contra a vida.",
-        "keyProposals": ["Garantia de porte permanente a CACs", "Redução da maioridade penal para 16 anos", "Prisão perpétua para homicídio qualificado"]
-      },
-      "GASTOS_PUBLICOS": {
-        "score": 7.5,
-        "summary": "Corte de repasses a ONGs internacionais e contenção de despesas ideológicas.",
-        "keyProposals": ["Auditoria rígida em repasses do Fundo Amazônia", "Fim de incentivos fiscais da Lei Rouanet para grandes espetáculos"]
-      },
-      "TAMANHO_DO_ESTADO": {
-        "score": 8.0,
-        "summary": "Desregulamentação de atividades armamentistas, agronegócio e livre comércio exterior.",
-        "keyProposals": ["Desregulamentação da importação de armamento", "Fim de sobretaxas ao comércio internacional bilateral"]
-      },
-      "SAUDE": {
-        "score": 6.5,
-        "summary": "Autonomia médica em receituários e defesa de escolhas individuais de vacinação.",
-        "keyProposals": ["Garantia legal contra passaportes sanitários compulsórios", "Incentivo a hospitais filantrópicos confessionais"]
-      },
-      "EDUCACAO": {
-        "score": 7.0,
-        "summary": "Combate à doutrinação ideológica nas escolas e incentivo ao Homeschooling (educação domiciliar).",
-        "keyProposals": ["Aprovação do marco legal da Educação Domiciliar (Homeschooling)", "Expansão de escolas militares em todo o interior de SP"]
-      }
-    },
-    "trajetoriaPolitica": [
+    "legislativeVotes": [
       {
-        "periodo": "2015 - Presente",
-        "cargoOuAtividade": "Deputado Federal por São Paulo (Três Mandatos)",
-        "detalhes": "Eleito com 1,84 milhão de votos em 2018 (recorde histórico para deputado federal).",
-        "partidoOuLocal": "Câmara dos Deputados"
+        "code": "PL 2265/2022 (PL 6579/2013)",
+        "title": "Fim da Saidinha Temporária de Presos (Relator na Câmara)",
+        "vote": "SIM (RELATOR)",
+        "summary": "Foi o relator na Câmara dos Deputados do projeto que extinguiu o benefício da saída temporária de presos em feriados.",
+        "source": "Câmara dos Deputados"
       }
     ],
-    "historicoPartidario": [
-      { "partido": "PL", "periodo": "2021 - Presente" },
-      { "partido": "PSL", "periodo": "2018 - 2021" },
-      { "partido": "PSC", "periodo": "2014 - 2018" }
-    ],
-    "votacoesLegislativas": [
+    "legalRecords": [
       {
-        "id": "vote-eduardo-saidinhas",
-        "projetoCodigo": "PL 2253/2022",
-        "tema": "Fim das Saidinhas",
-        "ementa": "Extinção da saída temporária de detentos.",
-        "data": "2024-03-20",
-        "voto": "SIM",
-        "orientacaoBancada": "A favor da extinção total",
-        "descricaoImpacto": "Defesa radical da segurança dos cidadãos de bem contra saídas em datas comemorativas.",
-        "linkOficial": "https://www.camara.leg.br"
+        "caseName": "Inquéritos sobre Operações Policiais (Operação Escudo/Verão)",
+        "source": "MP-SP / Ouvidoria das Polícias",
+        "investigationFindings": "Questionamentos de entidades de direitos humanos sobre letalidade policial durante sua gestão na Secretaria de Segurança Pública de SP.",
+        "legalOutcome": "Sem Condenações. Atos administrativos respaldados pela legalidade no TJ-SP; ficha limpa e sem processos por corrupção."
       }
-    ],
-    "fichaJuridica": [
-      {
-        "id": "legal-eduardo-inquerito-fake",
-        "tituloCaso": "Inquérito das Fake News e Milícias Digitais",
-        "tribunalOuOrgao": "STF",
-        "numeroProcessoOuInquerito": "Inq 4.781 e Inq 4.874/DF",
-        "linkFonte": "https://portal.stf.jus.br",
-        "dataInicio": "2020-05-20",
-        "dataDesfecho": "",
-        "status": "EM_ANDAMENTO",
-        "resumoCaso": "Investigação conduzida pelo STF apurando ataques sistemáticos a instituições democráticas e ministros da Suprema Corte.",
-        "elementosInvestigacaoEProvas": "Relatórios da Polícia Federal de mensagens e postagens em redes sociais.",
-        "desfechoRealEJuridico": "EM ANDAMENTO: Inquérito ainda sem oferecimento de denúncia formal pela PGR contra o parlamentar. Apto e sem condenações."
-      }
-    ],
-    "resumoSituacaoJuridica": "Sem condenações na Justiça Criminal ou Eleitoral. Ficha limpa com status de investigado em inquéritos no STF."
+    ]
   },
   {
     "id": "ricardo-salles",
-    "nomeCompleto": "Ricardo de Aquino Salles",
-    "nomeUrna": "Ricardo Salles",
-    "numeroUrna": 300,
-    "cargo": "SENADOR_SP",
-    "fotoUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=500&q=80",
-    "partido": {
-      "id": "novo",
-      "sigla": "NOVO",
-      "numero": 30,
-      "nome": "Partido Novo",
-      "espectro": "Direita",
-      "corHex": "#F97316"
+    "name": "Ricardo Salles",
+    "ballotNumber": "300",
+    "party": "NOVO",
+    "coalition": "Partido isolado (NOVO)",
+    "role": "SENADOR_SP",
+    "isBaseline": false,
+    "pillars": {
+      "segurancaPublica": "Defesa do direito à propriedade privada (criminalização dura de invasões do MST/MTST), legítima defesa e armamento civil.",
+      "gastosPublicos": "Corte drástico de despesas públicas, oposição total ao aumento de impostos e defesa do teto de gastos rígido.",
+      "tamanhoDoEstado": "Desburocratização radical de licenciamentos ambientais, privatizações amplas e estado mínimo.",
+      "saude": "Vouchers e contratualização com a rede privada para zerar filas do SUS.",
+      "educacao": "Defesa do homeschooling (ensino domiciliar), vouchers educacionais e fim do monopólio ideológico no MEC."
     },
-    "coligacaoOuFederacao": "Coligação Brasil Eficiente e Livre (NOVO / Coligados)",
-    "estado": "SP",
-    "isBaselineReference": false,
-    "resumoPerfil": "Advogado, ex-Ministro do Meio Ambiente e Deputado Federal eleito por SP com 640 mil votos em 2022. Conhecido por sua oratória incisiva, defesa do agronegócio e liberalismo desregulatório.",
-    "termometroAlinhamento": {
-      "liberdadeEconomica": 95,
-      "estadoEnxuto": 96,
-      "conservadorismo": 82,
-      "segurancaRigorosa": 90,
-      "scoreGeral": 91,
-      "classificacao": "Direita Liberal Combativa"
-    },
-    "pilares": {
-      "SEGURANCA_PUBLICA": {
-        "score": 9.2,
-        "summary": "Combate rigoroso às invasões promovidas pelo MST e FNL, com CPIs temáticas e reforço da reintegração de posse sumária.",
-        "keyProposals": ["Classificação de invasões de terra produtiva como terrorismo doméstico", "Retenção de transferências federais para municípios coniventes com invasões"]
-      },
-      "GASTOS_PUBLICOS": {
-        "score": 9.5,
-        "summary": "Corte de burocracias ecológicas desnecessárias, auditoria minuciosa em repasses a ONGs e compliance fiscal.",
-        "keyProposals": ["Fechamento de órgãos ambientais federais ineficientes", "Teto rígido para funcionalismo público e fim de quinquênios"]
-      },
-      "TAMANHO_DO_ESTADO": {
-        "score": 9.8,
-        "summary": "Desregulamentação total do agronegócio e mineração sustentável, leilão de concessões de parques nacionais.",
-        "keyProposals": ["Simplificação do licenciamento ambiental declaratório para pequenas e médias empresas", "Concessão da gestão de 100% dos parques nacionais à iniciativa privada"]
-      },
-      "SAUDE": {
-        "score": 7.5,
-        "summary": "Livre concorrência no mercado farmacêutico e atração de investimento privado em laboratórios.",
-        "keyProposals": ["Redução de impostos de importação sobre insumos médicos e vacinas", "Desburocratização de pesquisas clínicas no Brasil"]
-      },
-      "EDUCACAO": {
-        "score": 7.8,
-        "summary": "Currículo voltado para economia de mercado, empreendedorismo e valorização das ciências exatas.",
-        "keyProposals": ["Incentivo ao ensino de economia financeira nas escolas de SP", "Parcerias de estágios industriais desde o primeiro ano do ensino médio"]
-      }
-    },
-    "trajetoriaPolitica": [
+    "legislativeVotes": [
       {
-        "periodo": "2023 - Presente",
-        "cargoOuAtividade": "Deputado Federal por São Paulo",
-        "detalhes": "4º deputado mais votado do estado em 2022, relator da CPI do MST na Câmara.",
-        "partidoOuLocal": "Câmara dos Deputados"
+        "code": "CPI do MST (2023)",
+        "title": "Comissão Parlamentar de Inquérito sobre Invasões de Terra",
+        "vote": "RELATOR",
+        "summary": "Atuou como relator da CPI investigando financiamento e atuação de movimentos de invasão de propriedades rurais.",
+        "source": "Câmara dos Deputados"
       },
       {
-        "periodo": "2019 - 2021",
-        "cargoOuAtividade": "Ministro do Meio Ambiente",
-        "detalhes": "Conduziu a reforma regulatória ambiental federal e concessões de parques à iniciativa privada.",
-        "partidoOuLocal": "Ministério do Meio Ambiente"
+        "code": "EC 132/2023",
+        "title": "Reforma Tributária do Governo Federal",
+        "vote": "NÃO",
+        "summary": "Votou contra a proposta por considerar que aumentaria a carga tributária do setor de serviços e do agronegócio.",
+        "source": "Câmara dos Deputados"
       }
     ],
-    "historicoPartidario": [
-      { "partido": "NOVO", "periodo": "2024 - Presente" },
-      { "partido": "PL", "periodo": "2022 - 2024" },
-      { "partido": "PP", "periodo": "2016 - 2018" }
-    ],
-    "votacoesLegislativas": [
+    "legalRecords": [
       {
-        "id": "vote-salles-marco-temporal",
-        "projetoCodigo": "PL 490/2007 (PL 2903)",
-        "tema": "Marco Temporal de Terras Indígenas",
-        "ementa": "Marco temporal na promulgação da CF/88.",
-        "data": "2023-05-30",
-        "voto": "SIM",
-        "orientacaoBancada": "A favor da produção rural",
-        "descricaoImpacto": "Votou com a bancada do agro pela estabilidade de títulos de propriedade rural.",
-        "linkOficial": "https://www.camara.leg.br"
+        "caseName": "Operação Akuanduba / Exportação de Madeira (Gestão MMA)",
+        "source": "STF / Justiça Federal do Pará",
+        "investigationFindings": "Investigação da PF sobre alterações de normas de fiscalização do Ibama relativas à exportação de cargas florestais.",
+        "legalOutcome": "Em Andamento (Primeira Instância). Com o fim do foro no STF e remessa à 1ª instância, o processo segue em fase de defesa prévia/instrução, sem qualquer condenação colegiada. Candidatura deferida e apta."
       }
-    ],
-    "fichaJuridica": [
-      {
-        "id": "legal-salles-madeira",
-        "tituloCaso": "Operação Akuanduba (Exportação de Madeira)",
-        "tribunalOuOrgao": "Justiça Federal do Pará / STF",
-        "numeroProcessoOuInquerito": "Ação Penal 1018942-12.2021.4.01.3900",
-        "linkFonte": "https://www.trf1.jus.br",
-        "dataInicio": "2021-05-19",
-        "dataDesfecho": "",
-        "status": "EM_ANDAMENTO",
-        "resumoCaso": "Denúncia do MPF apurando suposta facilitação de exportação de madeira nativa para os EUA e Europa.",
-        "elementosInvestigacaoEProvas": "Despacho do Ibama simplificando certidões de exportação e laudos de apreensão de cargas portuárias.",
-        "desfechoRealEJuridico": "EM ANDAMENTO: O processo foi remetido para a 1ª instância federal do Pará após perda de foro de ministro. Não há sentença condenatória proferida."
-      },
-      {
-        "id": "legal-salles-varzea-tiete",
-        "tituloCaso": "Ação de Improbidade - Plano de Manejo da Várzea do Tietê",
-        "tribunalOuOrgao": "TJ-SP",
-        "numeroProcessoOuInquerito": "Apelação Cível 1007823-33.2017.8.26.0053",
-        "linkFonte": "https://www.tjsp.jus.br",
-        "dataInicio": "2017-03-01",
-        "dataDesfecho": "2021-02-18",
-        "status": "ABSOLVIDO_MERITO",
-        "resumoCaso": "Acusação de alteração indevida de mapas ambientais quando atuou como Secretário de Meio Ambiente de São Paulo no governo Alckmin.",
-        "elementosInvestigacaoEProvas": "Laudos técnicos do Instituto de Botânica versus minutas técnicas da Fundação Florestal.",
-        "desfechoRealEJuridico": "ABSOLVIÇÃO NO MÉRITO: A 2ª Câmara de Direito Público do TJ-SP reformou a sentença inicial e julgou improcedente a ação por inexistência de dano ao erário ou dolo do agente, inocentando-o com base na Lei 14.230/2021."
-      }
-    ],
-    "resumoSituacaoJuridica": "Absolvido no mérito pelo Tribunal de Justiça de São Paulo na ação de improbidade da Várzea do Tietê. Responde em primeira instância federal à ação sobre madeira apreendida sem qualquer condenação ou restrição de direitos políticos."
+    ]
   },
   {
-    "id": "kim-kataguiri",
-    "nomeCompleto": "Kim Patroca Kataguiri",
-    "nomeUrna": "Kim Kataguiri",
-    "numeroUrna": 144,
-    "cargo": "SENADOR_SP",
-    "fotoUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80",
-    "partido": {
-      "id": "missao",
-      "sigla": "MISSÃO",
-      "numero": 14,
-      "nome": "Partido Missão",
-      "espectro": "Centro-Direita",
-      "corHex": "#EAB308"
+    "id": "andre-do-prado",
+    "name": "André do Prado",
+    "ballotNumber": "222",
+    "party": "PL",
+    "coalition": "Chapa Tarcísio de Freitas (PL / Republicanos / PP)",
+    "role": "SENADOR_SP",
+    "isBaseline": false,
+    "pillars": {
+      "segurancaPublica": "Fortalecimento do efetivo policial no interior e Região Metropolitana de SP e aprovação de reajustes às forças de segurança.",
+      "gastosPublicos": "Conduziu como presidente da ALESP a aprovação das reformas administrativas e fiscais do governo Tarcísio.",
+      "tamanhoDoEstado": "Articulou e pautou a aprovação da privatização da Sabesp e concessões estaduais na ALESP.",
+      "saude": "Destinação de emendas para hospitais regionais e Santas Casas paulistas.",
+      "educacao": "Pautou e aprovou o projeto das escolas cívico-militares na Assembleia Legislativa."
     },
-    "coligacaoOuFederacao": "Partido Missão (Chapa Pura)",
-    "estado": "SP",
-    "isBaselineReference": false,
-    "resumoPerfil": "Deputado Federal por São Paulo reeleito com quase 300 mil votos em 2022. Considerado um dos parlamentares mais atuantes em fiscalização de gastos, combate a privilégios e reformas de Estado.",
-    "termometroAlinhamento": {
-      "liberdadeEconomica": 97,
-      "estadoEnxuto": 98,
-      "conservadorismo": 72,
-      "segurancaRigorosa": 91,
-      "scoreGeral": 90,
-      "classificacao": "Direita Liberal / Anticorrupção"
-    },
-    "pilares": {
-      "SEGURANCA_PUBLICA": {
-        "score": 9.3,
-        "summary": "Autor de projetos para bloqueio total de celulares em presídios e tipificação qualificada do golpe do Pix.",
-        "keyProposals": ["Bloqueadores de sinal em 100% dos presídios com custo assumido pelas operadoras", "Aumento da pena base para furtos cometidos com manipulação eletrônica"]
-      },
-      "GASTOS_PUBLICOS": {
-        "score": 9.9,
-        "summary": "Economizou 100% das verbas de gabinete dispensáveis, renunciou a aposentadoria especial parlamentar e liderou ação que derrubou aumento do fundão.",
-        "keyProposals": ["Extinção de cotas parlamentares e verba indenizatória de moradia", "Impedimento de reajustes automáticos para o topo do funcionalismo"]
-      },
-      "TAMANHO_DO_ESTADO": {
-        "score": 9.7,
-        "summary": "Defensor intransigente da Lei de Liberdade Econômica, privatizações e redução do Custo Brasil.",
-        "keyProposals": ["Fim de exigência de diplomas para profissões sem risco à integridade física", "Simplificação tributária unilateral com alíquotas zeradas para novos negócios"]
-      },
-      "SAUDE": {
-        "score": 8.0,
-        "summary": "Desregulamentação de telemedicina e direcionamento de emendas exclusivamente para cirurgias eletivas em Santas Casas.",
-        "keyProposals": ["Destinação de recursos para zerar filas de oncologia em SP", "Auditoria de compras hospitalares com blockchain"]
-      },
-      "EDUCACAO": {
-        "score": 8.5,
-        "summary": "Educação financeira nas escolas, vouchers estudantis para famílias de baixa renda e reforma do ensino superior público.",
-        "keyProposals": ["Cobrança de mensalidade para alunos ricos em universidades públicas", "Vouchers para matrículas no ensino privado de qualidade"]
-      }
-    },
-    "trajetoriaPolitica": [
+    "legislativeVotes": [
       {
-        "periodo": "2019 - Presente",
-        "cargoOuAtividade": "Deputado Federal por São Paulo (Dois Mandatos)",
-        "detalhes": "Apontado consecutivamente como melhor parlamentar do Brasil pelo Ranking dos Políticos.",
-        "partidoOuLocal": "Câmara dos Deputados"
+        "code": "Lei Estadual 17.865/2023",
+        "title": "Privatização da Sabesp (Presidente da ALESP)",
+        "vote": "FAVORÁVEL (PAUTOU E CONDUZIU A VOTAÇÃO)",
+        "summary": "Garantiu a tramitação e aprovação do projeto estratégico de desestatização do governo Tarcísio.",
+        "source": "Assembleia Legislativa de SP (ALESP)"
       }
     ],
-    "historicoPartidario": [
-      { "partido": "MISSÃO", "periodo": "2024 - Presente" },
-      { "partido": "União Brasil", "periodo": "2022 - 2024" },
-      { "partido": "DEM", "periodo": "2018 - 2021" }
-    ],
-    "votacoesLegislativas": [
+    "legalRecords": [
       {
-        "id": "vote-kim-reforma-trib",
-        "projetoCodigo": "PEC 45/2019",
-        "tema": "Reforma Tributária",
-        "ementa": "Unificação tributária sob novo regime de IVA.",
-        "data": "2023-07-07",
-        "voto": "SIM",
-        "orientacaoBancada": "A favor da simplificação",
-        "descricaoImpacto": "Votou favoravelmente com inclusão de travas ao aumento da carga tributária global.",
-        "linkOficial": "https://www.camara.leg.br"
-      },
+        "caseName": "Verificação de Contas e Mandatos Parlamentares",
+        "source": "TRE-SP / TJ-SP",
+        "investigationFindings": "Análises rotineiras de prestações de contas eleitorais ao longo de quatro mandatos estaduais.",
+        "legalOutcome": "Sem Condenações. Ficha limpa sem registros de ações penais por corrupção."
+      }
+    ]
+  },
+  {
+    "id": "guto-schiavetto",
+    "name": "Guto Schiavetto",
+    "ballotNumber": "140",
+    "party": "MISSÃO",
+    "coalition": "Partido isolado (MISSÃO)",
+    "role": "SENADOR_SP",
+    "isBaseline": false,
+    "pillars": {
+      "segurancaPublica": "Endurecimento penal inspirado no modelo de El Salvador, fim da progressão branda de regime e combate às facções.",
+      "gastosPublicos": "Corte de privilégios do Judiciário e Legislativo, fim de emendas impositivas sem transparência.",
+      "tamanhoDoEstado": "Privatização de todas as estatais e redução drástica de cargos comissionados.",
+      "saude": "Parcerias privadas e digitalização da gestão hospitalar.",
+      "educacao": "Foco em mérito acadêmico e ensino técnico."
+    },
+    "legislativeVotes": [],
+    "legalRecords": [
       {
-        "id": "vote-kim-fundao",
-        "projetoCodigo": "LDO 2022 / Fundo Eleitoral",
-        "tema": "Aumento do Fundo Eleitoral para R$ 5,7 bi",
-        "ementa": "Elevação de verbas partidárias.",
-        "data": "2021-07-15",
-        "voto": "NAO",
-        "orientacaoBancada": "Contrário à elevação de gastos partidários",
-        "descricaoImpacto": "Votou e acionou o STF para suspender o aumento abusivo de verbas eleitorais.",
-        "linkOficial": "https://www.camara.leg.br"
+        "caseName": "Certidões Judiciais Eleitorais 2026",
+        "source": "DivulgaCandContas TSE",
+        "investigationFindings": "Sem histórico de processos criminais ou administrativos.",
+        "legalOutcome": "Ficha Limpa. Certidões negativas em todas as esferas."
+      }
+    ]
+  },
+  {
+    "id": "marina-silva",
+    "name": "Marina Silva (Referencial de Comparação)",
+    "ballotNumber": "180",
+    "party": "REDE",
+    "coalition": "Federação PSOL-REDE / Chapa Fernando Haddad",
+    "role": "SENADOR_SP",
+    "isBaseline": true,
+    "pillars": {
+      "segurancaPublica": "Foco em policiamento ambiental, restrição a armas de fogo e prevenção social.",
+      "gastosPublicos": "Apoio ao orçamento federal voltado à transição ecológica e programas sociais.",
+      "tamanhoDoEstado": "Fortalecimento de órgãos reguladores e estatais estratégicas.",
+      "saude": "Defesa do SUS 100% estatal.",
+      "educacao": "Pautas socioambientais e diversidade no currículo escolar."
+    },
+    "legislativeVotes": [
+      {
+        "code": "PL 2903/2023",
+        "title": "Marco Temporal das Terras Indígenas",
+        "vote": "NÃO",
+        "summary": "Posicionou-se contrariamente ao Marco Temporal e articulou o veto presidencial parcial à lei.",
+        "source": "Câmara dos Deputados / MMA"
       }
     ],
-    "fichaJuridica": [],
-    "resumoSituacaoJuridica": "Nenhum processo por corrupção ou improbidade na carreira política. Ficha limpa total."
+    "legalRecords": [
+      {
+        "caseName": "Certidões Judiciais TSE",
+        "source": "TSE",
+        "investigationFindings": "Sem condenações criminais.",
+        "legalOutcome": "Ficha Limpa."
+      }
+    ]
   }
 ]

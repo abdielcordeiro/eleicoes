@@ -131,6 +131,18 @@ export interface PollCandidateShare {
   partySigla: string;
   percentage: number;
   color?: string;
+  realTimePercent?: number;
+  quaestPercent?: number;
+  spectrum?: string;
+  isBaseline?: boolean;
+}
+
+export interface SecondRoundScenario {
+  scenario: string;
+  lula: number;
+  opponent: number;
+  undecided: number;
+  status: string;
 }
 
 export interface PollResult {
@@ -150,6 +162,11 @@ export interface PollResult {
   intencoes: PollCandidateShare[];
   brancosNulos: number;
   indecisos: number;
+  secondRoundRunoff?: SecondRoundScenario[];
+  fieldPeriod?: string;
+  publishedAtText?: string;
+  marginOfErrorText?: string;
+  isDualComparison?: boolean;
 }
 
 export interface SantinhoBallotSelections {

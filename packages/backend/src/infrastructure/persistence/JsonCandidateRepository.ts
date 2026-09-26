@@ -68,6 +68,13 @@ function normalizeCandidate(raw: any, defaultRole: OfficeRole): Candidate {
     'ronaldo-caiado': { lib: 82, est: 80, cons: 88, seg: 99, score: 87, desc: 'Direita Agro / Segurança Forte' },
     'renan-santos': { lib: 88, est: 85, cons: 72, seg: 92, score: 84, desc: 'Direita Liberal Republicana' },
     'lula': { lib: 32, est: 20, cons: 18, seg: 35, score: 26, desc: 'Esquerda Desenvolvimentista' },
+    'tarcisio-de-freitas': { lib: 92, est: 90, cons: 78, seg: 92, score: 88, desc: 'Direita Técnica / Pragmática' },
+    'fernando-haddad': { lib: 34, est: 22, cons: 20, seg: 38, score: 28, desc: 'Esquerda Desenvolvimentista' },
+    'guilherme-derrite': { lib: 84, est: 82, cons: 95, seg: 99, score: 90, desc: 'Direita Conservadora / ROTA' },
+    'ricardo-salles': { lib: 95, est: 96, cons: 82, seg: 90, score: 91, desc: 'Direita Liberal Combativa' },
+    'andre-do-prado': { lib: 82, est: 84, cons: 85, seg: 88, score: 85, desc: 'Centro-Direita Articulador' },
+    'guto-schiavetto': { lib: 96, est: 98, cons: 75, seg: 96, score: 91, desc: 'Direita Liberal / MBL' },
+    'marina-silva': { lib: 35, est: 30, cons: 25, seg: 35, score: 31, desc: 'Esquerda Socioambientalista' },
   };
   const defAlign = defaultAlignments[id] || { lib: 70, est: 70, cons: 70, seg: 70, score: 70, desc: 'Centro' };
 
@@ -87,6 +94,13 @@ function normalizeCandidate(raw: any, defaultRole: OfficeRole): Candidate {
     'ronaldo-caiado': { seg: 9.9, gas: 8.0, tam: 8.1, sau: 8.4, edu: 9.2 },
     'renan-santos': { seg: 9.1, gas: 8.9, tam: 8.6, sau: 7.9, edu: 8.1 },
     'lula': { seg: 4.5, gas: 3.8, tam: 2.5, sau: 7.5, edu: 6.8 },
+    'tarcisio-de-freitas': { seg: 9.4, gas: 8.9, tam: 9.6, sau: 8.3, edu: 8.5 },
+    'fernando-haddad': { seg: 4.2, gas: 4.0, tam: 3.0, sau: 7.4, edu: 7.8 },
+    'guilherme-derrite': { seg: 9.9, gas: 8.2, tam: 8.8, sau: 7.5, edu: 7.9 },
+    'ricardo-salles': { seg: 9.2, gas: 9.5, tam: 9.8, sau: 7.5, edu: 7.8 },
+    'andre-do-prado': { seg: 8.8, gas: 8.5, tam: 8.9, sau: 8.2, edu: 8.4 },
+    'guto-schiavetto': { seg: 9.5, gas: 9.6, tam: 9.7, sau: 7.8, edu: 8.2 },
+    'marina-silva': { seg: 4.0, gas: 4.2, tam: 3.5, sau: 7.0, edu: 7.5 },
   };
   const candScores = defaultScores[id] || { seg: 7.0, gas: 7.0, tam: 7.0, sau: 7.0, edu: 7.0 };
 

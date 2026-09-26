@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-card transition-all">
-    <!-- Header with Office Tabs -->
+    <!-- Header with Office Tabs & Poll Sub-selector -->
     <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6 pb-4 border-b border-slate-100">
       <div>
         <div class="flex items-center gap-2">
@@ -14,7 +14,7 @@
           </h2>
         </div>
         <p class="text-xs text-slate-500 mt-1">
-          Cenário eleitoral estimulado com dados registrados e auditáveis perante a Justiça Eleitoral.
+          Cenário eleitoral estimulado com dados registrados e auditáveis perante a Justiça Eleitoral (Setembro/2026).
         </p>
       </div>
 
@@ -30,6 +30,20 @@
           {{ tab.label }}
         </button>
       </div>
+    </div>
+
+    <!-- Sub-selector for Multiple Polls (e.g. AtlasIntel vs Agregador for President) -->
+    <div v-if="pollsStore.polls.length > 1" class="mb-5 flex items-center gap-2 overflow-x-auto pb-1">
+      <span class="text-xs font-bold text-slate-500 uppercase tracking-wider mr-1">Pesquisas Disponíveis:</span>
+      <button
+        v-for="p in pollsStore.polls"
+        :key="p.id"
+        @click="pollsStore.setPoll(p)"
+        class="px-3 py-1 rounded-lg text-xs font-bold transition-all border cursor-pointer"
+        :class="currentPoll?.id === p.id ? 'bg-slate-900 text-white border-slate-900 shadow-sm' : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'"
+      >
+        {{ p.instituto.split('(')[0].trim() }}
+      </button>
     </div>
 
     <!-- Loading / Empty / Content -->
@@ -49,39 +63,90 @@
       </div>
 
       <!-- Candidate Quick Stats Row -->
-      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 mt-6 pt-6 border-t border-slate-100">
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mt-6 pt-6 border-t border-slate-100">
         <div
           v-for="item in currentPoll.intencoes"
           :key="item.candidateId"
           class="p-3 rounded-xl bg-slate-50 border border-slate-100 flex flex-col justify-between"
+          :class="{ 'ring-1 ring-red-400 bg-red-50/20': item.isBaseline }"
         >
           <div class="flex items-center justify-between gap-1 mb-1">
-            <span class="text-xs font-bold text-slate-700 truncate">{{ item.candidateName }}</span>
-            <span class="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-white border text-slate-600">
+            <span class="text-xs font-bold text-slate-700 truncate" :title="item.candidateName">
+              {{ item.candidateName }}
+            </span>
+            <span v-if="item.partySigla" class="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-white border text-slate-600">
               {{ item.partySigla }}
             </span>
           </div>
-          <div class="flex items-baseline gap-1">
+
+          <!-- When Dual Comparison (Senate) -->
+          <div v-if="currentPoll.isDualComparison && item.realTimePercent !== undefined" class="space-y-1">
+            <div class="flex justify-between items-baseline text-xs">
+              <span class="text-blue-700 font-semibold text-[10px]">RealTime:</span>
+              <span class="font-extrabold text-blue-900">{{ item.realTimePercent }}%</span>
+            </div>
+            <div class="flex justify-between items-baseline text-xs">
+              <span class="text-purple-700 font-semibold text-[10px]">Quaest:</span>
+              <span class="font-extrabold text-purple-900">{{ item.quaestPercent }}%</span>
+            </div>
+            <span v-if="item.spectrum" class="text-[9px] text-slate-500 block truncate">{{ item.spectrum }}</span>
+          </div>
+
+          <!-- Standard Percentage Display -->
+          <div v-else class="flex items-baseline gap-1">
             <span class="text-xl font-extrabold text-slate-900">{{ item.percentage }}%</span>
             <span class="text-[11px] text-slate-400">das intenções</span>
           </div>
         </div>
 
-        <div class="p-3 rounded-xl bg-slate-50 border border-slate-100 flex flex-col justify-between">
+        <div v-if="currentPoll.brancosNulos > 0" class="p-3 rounded-xl bg-slate-50 border border-slate-100 flex flex-col justify-between">
           <div class="flex items-center justify-between gap-1 mb-1">
-            <span class="text-xs font-semibold text-slate-600">Brancos / Nulos</span>
+            <span class="text-xs font-semibold text-slate-600">Brancos / Nulos / Indecisos</span>
           </div>
           <div class="flex items-baseline gap-1">
             <span class="text-xl font-bold text-slate-700">{{ currentPoll.brancosNulos }}%</span>
           </div>
         </div>
+      </div>
 
-        <div class="p-3 rounded-xl bg-slate-50 border border-slate-100 flex flex-col justify-between">
-          <div class="flex items-center justify-between gap-1 mb-1">
-            <span class="text-xs font-semibold text-slate-600">Indecisos / Não Sabe</span>
+      <!-- SECOND ROUND RUNOFF SCENARIOS (IF PRESIDENTIAL ATLASINTEL) -->
+      <div v-if="currentPoll.secondRoundRunoff && currentPoll.secondRoundRunoff.length > 0" class="mt-6 pt-5 border-t border-slate-200">
+        <div class="flex items-center justify-between mb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded text-[10px] font-black uppercase tracking-wider bg-orange-100 text-vibrant-orange border border-orange-200">
+              AtlasIntel / Bloomberg
+            </span>
+            <h3 class="text-sm font-extrabold text-slate-900">Simulações de 2º Turno (Confronto Direto)</h3>
           </div>
-          <div class="flex items-baseline gap-1">
-            <span class="text-xl font-bold text-slate-700">{{ currentPoll.indecisos }}%</span>
+          <span class="text-[11px] text-slate-500">Estimulada 2º Turno</span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          <div
+            v-for="scenario in currentPoll.secondRoundRunoff"
+            :key="scenario.scenario"
+            class="p-3.5 rounded-xl border border-slate-200 bg-slate-50 flex flex-col justify-between"
+          >
+            <div>
+              <strong class="text-xs text-slate-900 block mb-2">{{ scenario.scenario }}</strong>
+              <div class="flex items-center justify-between text-xs mb-1 font-semibold">
+                <span class="text-red-700">Lula: {{ scenario.lula }}%</span>
+                <span class="text-blue-700">Opositor: {{ scenario.opponent }}%</span>
+              </div>
+              <div class="w-full bg-slate-200 h-2 rounded-full overflow-hidden flex">
+                <div class="bg-red-600 h-2" :style="{ width: `${scenario.lula}%` }"></div>
+                <div class="bg-blue-600 h-2" :style="{ width: `${scenario.opponent}%` }"></div>
+              </div>
+            </div>
+            <div class="mt-2.5 pt-2 border-t border-slate-200/60 flex items-center justify-between text-[11px]">
+              <span class="text-slate-500">Indecisos: {{ scenario.undecided }}%</span>
+              <span
+                class="px-1.5 py-0.5 rounded text-[10px] font-bold"
+                :class="scenario.status.includes('Empate') ? 'bg-amber-100 text-amber-900 border border-amber-300' : 'bg-emerald-100 text-emerald-900'"
+              >
+                {{ scenario.status }}
+              </span>
+            </div>
           </div>
         </div>
       </div>
@@ -104,14 +169,22 @@
 
           <div>
             <span class="text-slate-400 block font-medium">Margem de Erro & Amostra:</span>
-            <strong class="text-slate-800">± {{ currentPoll.margemErro.toFixed(1) }} pontos percentuais</strong>
-            <span class="text-[11px] text-slate-500 block">Confiança: {{ currentPoll.nivelConfianca }}% | {{ currentPoll.tamanhoAmostra }} entrevistas</span>
+            <strong class="text-slate-800">
+              ± {{ currentPoll.marginOfErrorText || `${currentPoll.margemErro.toFixed(1)} p.p.` }}
+            </strong>
+            <span class="text-[11px] text-slate-500 block">
+              Confiança: {{ currentPoll.nivelConfianca }}% | {{ currentPoll.tamanhoAmostra }} entrevistas
+            </span>
           </div>
 
           <div>
             <span class="text-slate-400 block font-medium">Data e Hora da Coleta/Publicação:</span>
-            <strong class="text-slate-800">{{ formatTimestamp(currentPoll.dataHoraDivulgacao) }}</strong>
-            <span class="text-[11px] text-slate-500 block">Período: {{ currentPoll.dataColetaInicio }} a {{ currentPoll.dataColetaFim }}</span>
+            <strong class="text-slate-800">
+              {{ currentPoll.publishedAtText || formatTimestamp(currentPoll.dataHoraDivulgacao) }}
+            </strong>
+            <span v-if="currentPoll.fieldPeriod" class="text-[11px] text-slate-500 block">
+              Período: {{ currentPoll.fieldPeriod }}
+            </span>
           </div>
         </div>
       </div>
@@ -120,7 +193,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted } from 'vue';
+import { computed, onMounted, watch } from 'vue';
 import {
   Chart as ChartJS,
   Title,
@@ -144,8 +217,20 @@ const tabs = [
   { role: OfficeRole.SENADOR_SP, label: 'Senador SP' },
 ];
 
+const props = withDefaults(defineProps<{
+  role?: OfficeRole;
+}>(), {
+  role: OfficeRole.PRESIDENTE,
+});
+
 onMounted(async () => {
-  await pollsStore.fetchPolls(OfficeRole.PRESIDENTE);
+  await pollsStore.fetchPolls(props.role || OfficeRole.PRESIDENTE);
+});
+
+watch(() => props.role, async (newRole) => {
+  if (newRole && newRole !== pollsStore.selectedRole) {
+    await pollsStore.fetchPolls(newRole);
+  }
 });
 
 async function changeRole(role: OfficeRole) {
@@ -160,7 +245,32 @@ const chartData = computed(() => {
   }
 
   const items = currentPoll.value.intencoes;
-  const labels = items.map(i => `${i.candidateName} (${i.partySigla})`);
+  const labels = items.map(i => i.candidateName);
+
+  // If Dual Comparison for Senate (Real Time Big Data vs Quaest)
+  if (currentPoll.value.isDualComparison) {
+    return {
+      labels,
+      datasets: [
+        {
+          label: 'Real Time Big Data (SP-07495/2026)',
+          data: items.map(i => i.realTimePercent || 0),
+          backgroundColor: '#2563EB',
+          borderRadius: 6,
+          maxBarThickness: 32,
+        },
+        {
+          label: 'Quaest (SP-02456/2026)',
+          data: items.map(i => i.quaestPercent || 0),
+          backgroundColor: '#9333EA',
+          borderRadius: 6,
+          maxBarThickness: 32,
+        },
+      ],
+    };
+  }
+
+  // Standard Single Poll
   const data = items.map(i => i.percentage);
   const backgroundColors = items.map(i => i.color || '#3B82F6');
 
@@ -179,23 +289,28 @@ const chartData = computed(() => {
   };
 });
 
-const chartOptions = {
+const chartOptions = computed(() => ({
   responsive: true,
   maintainAspectRatio: false,
   plugins: {
     legend: {
-      display: false,
+      display: Boolean(currentPoll.value?.isDualComparison),
+      position: 'top' as const,
+      labels: {
+        font: { family: 'Inter', size: 12, weight: 600 },
+        boxWidth: 14,
+      },
     },
     tooltip: {
       callbacks: {
-        label: (context: any) => ` ${context.parsed.y}% das intenções de voto`,
+        label: (context: any) => ` ${context.dataset.label ? context.dataset.label + ': ' : ''}${context.parsed.y}%`,
       },
     },
   },
   scales: {
     y: {
       beginAtZero: true,
-      max: 60,
+      max: currentPoll.value?.cargo === OfficeRole.GOVERNADOR_SP ? 65 : 55,
       grid: {
         color: '#F1F5F9',
       },
@@ -214,13 +329,13 @@ const chartOptions = {
       ticks: {
         font: {
           family: 'Inter',
-          size: 12,
+          size: 11,
           weight: 600,
         },
       },
     },
   },
-};
+}));
 
 function formatTimestamp(isoString: string): string {
   try {
