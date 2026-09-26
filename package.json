@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "VotoConsciente 2026 - Analisador Político & Santinho Digital (SP)",
   "private": true,
+  "type": "module",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "dev": "concurrently -n backend,frontend -c green,cyan \"npm run dev -w @voto-consciente/backend\" \"npm run dev -w @voto-consciente/frontend\"",
+    "start": "node scripts/dev.js",
+    "dev": "node scripts/dev.js",
+    "dev:concurrently": "concurrently -n backend,frontend -c green,cyan \"npm run dev -w @voto-consciente/backend\" \"npm run dev -w @voto-consciente/frontend\"",
     "dev:backend": "npm run dev -w @voto-consciente/backend",
     "dev:frontend": "npm run dev -w @voto-consciente/frontend",
     "build": "npm run build --workspaces",
