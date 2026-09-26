@@ -4,6 +4,24 @@ import { PoliticalParty } from './PoliticalParty.js';
 import { LegislativeVote } from './LegislativeVote.js';
 import { LegalRecord } from './LegalRecord.js';
 
+export interface PoliticalTrajectoryOffice {
+  role: string;
+  period: string;
+  location: string;
+}
+
+export interface PoliticalTrajectoryParty {
+  party: string;
+  period: string;
+}
+
+export interface PoliticalTrajectory {
+  summary: string;
+  officesHeld: PoliticalTrajectoryOffice[];
+  partyHistory: PoliticalTrajectoryParty[];
+  currentAlliances: string;
+}
+
 export interface PoliticalTrajectoryItem {
   periodo: string;
   cargoOuAtividade: string;
@@ -68,6 +86,8 @@ export interface Candidate {
   votacoesLegislativas: LegislativeVote[];
   fichaJuridica: LegalRecord[];
   resumoSituacaoJuridica: string;
+  wikipediaSlug?: string;
+  politicalTrajectory?: PoliticalTrajectory;
 
   // Campos compactos alternativos
   name?: string;

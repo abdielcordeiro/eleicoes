@@ -6,7 +6,21 @@
     "party": "PP",
     "coalition": "Chapa Tarcísio de Freitas (PP / Republicanos / PL)",
     "role": "SENADOR_SP",
+    "wikipediaSlug": "Guilherme_Derrite",
     "isBaseline": false,
+    "politicalTrajectory": {
+      "summary": "Oficial da reserva da Polícia Militar de São Paulo (ex-comandante de pelotão da ROTA), foi eleito deputado federal por SP em 2018 e reeleito em 2022. Em 2023, assumiu a Secretaria de Segurança Pública do Estado de São Paulo na gestão Tarcísio de Freitas.",
+      "officesHeld": [
+        { "role": "Secretário da Segurança Pública do Estado de SP", "period": "2023 - Presente", "location": "São Paulo" },
+        { "role": "Deputado Federal por São Paulo", "period": "2019 - Presente (Licenciado)", "location": "São Paulo / Brasília" },
+        { "role": "Oficial da Polícia Militar de SP (ROTA)", "period": "2003 - 2018", "location": "São Paulo" }
+      ],
+      "partyHistory": [
+        { "party": "PP", "period": "2020 - Presente" },
+        { "party": "PSL", "period": "2018 - 2020" }
+      ],
+      "currentAlliances": "Chapa governista Tarcísio de Freitas, PP, Republicanos, PL e frentes parlamentares de segurança pública e policiais."
+    },
     "pillars": {
       "segurancaPublica": "Ex-policial da ROTA e ex-Secretário de Segurança de SP. Bandeira central de endurecimento do Código Penal, fim da audiência de custódia para reincidentes e combate letal ao crime organizado.",
       "gastosPublicos": "Votações alinhadas à contenção de gastos e responsabilidade fiscal.",
@@ -39,7 +53,23 @@
     "party": "NOVO",
     "coalition": "Partido isolado (NOVO)",
     "role": "SENADOR_SP",
+    "wikipediaSlug": "Ricardo_Salles",
     "isBaseline": false,
+    "politicalTrajectory": {
+      "summary": "Advogado formado pela PUC-SP, foi secretário particular do governador Geraldo Alckmin, Secretário do Meio Ambiente do Estado de São Paulo e Ministro do Meio Ambiente (2019–2021). Em 2022, foi eleito deputado federal por SP com 640 mil votos, atuando na relatoria da CPI do MST.",
+      "officesHeld": [
+        { "role": "Deputado Federal por São Paulo", "period": "2023 - Presente", "location": "São Paulo / Brasília" },
+        { "role": "Ministro de Estado do Meio Ambiente", "period": "2019 - 2021", "location": "Brasília" },
+        { "role": "Secretário do Meio Ambiente do Estado de SP", "period": "2016 - 2017", "location": "São Paulo" }
+      ],
+      "partyHistory": [
+        { "party": "NOVO", "period": "2024 - Presente" },
+        { "party": "PL", "period": "2022 - 2024" },
+        { "party": "NOVO", "period": "2018 - 2020" },
+        { "party": "PP", "period": "2006 - 2018" }
+      ],
+      "currentAlliances": "Partido Novo, Frente Parlamentar da Agropecuária (FPA), lideranças de livre mercado e bases conservadoras paulistas."
+    },
     "pillars": {
       "segurancaPublica": "Defesa do direito à propriedade privada (criminalização dura de invasões do MST/MTST), legítima defesa e armamento civil.",
       "gastosPublicos": "Corte drástico de despesas públicas, oposição total ao aumento de impostos e defesa do teto de gastos rígido.",
@@ -79,7 +109,20 @@
     "party": "PL",
     "coalition": "Chapa Tarcísio de Freitas (PL / Republicanos / PP)",
     "role": "SENADOR_SP",
+    "wikipediaSlug": "André_do_Prado",
     "isBaseline": false,
+    "politicalTrajectory": {
+      "summary": "Tecnólogo e político paulista natural de Guararema, foi vereador, vice-prefeito e prefeito de sua cidade natal. Deputado estadual desde 2011 por quatro legislaturas, foi eleito Presidente da Assembleia Legislativa de São Paulo (ALESP) em 2023, liderando votações estratégicas de desestatizações.",
+      "officesHeld": [
+        { "role": "Presidente da Assembleia Legislativa de SP (ALESP)", "period": "2023 - Presente", "location": "São Paulo" },
+        { "role": "Deputado Estadual (ALESP)", "period": "2011 - Presente", "location": "São Paulo" },
+        { "role": "Prefeito de Guararema", "period": "2005 - 2008", "location": "Guararema - SP" }
+      ],
+      "partyHistory": [
+        { "party": "PL (antigo PR)", "period": "2007 - Presente" }
+      ],
+      "currentAlliances": "Partido Liberal (PL), coligação Palácio dos Bandeirantes (Tarcísio), Republicanos, PP e maioria parlamentar ampla na ALESP."
+    },
     "pillars": {
       "segurancaPublica": "Fortalecimento do efetivo policial no interior e Região Metropolitana de SP e aprovação de reajustes às forças de segurança.",
       "gastosPublicos": "Conduziu como presidente da ALESP a aprovação das reformas administrativas e fiscais do governo Tarcísio.",
@@ -112,7 +155,19 @@
     "party": "MISSÃO",
     "coalition": "Partido isolado (MISSÃO)",
     "role": "SENADOR_SP",
+    "wikipediaSlug": "",
     "isBaseline": false,
+    "politicalTrajectory": {
+      "summary": "Empresário e liderança cívica, atua na expansão regional do Movimento Brasil Livre (MBL) no estado de São Paulo e participa da estruturação partidária do Missão, com foco na renovação política liberal, combate a privilégios e responsabilidade fiscal.",
+      "officesHeld": [
+        { "role": "Coordenador Regional do MBL (SP)", "period": "2015 - Presente", "location": "São Paulo" },
+        { "role": "Dirigente Estadual do Partido Missão", "period": "2023 - Presente", "location": "São Paulo" }
+      ],
+      "partyHistory": [
+        { "party": "MISSÃO (em formação)", "period": "2023 - Presente" }
+      ],
+      "currentAlliances": "Partido Missão, frentes de juventude liberal, ativistas anticorrupção e movimentos cívicos independentes."
+    },
     "pillars": {
       "segurancaPublica": "Endurecimento penal inspirado no modelo de El Salvador, fim da progressão branda de regime e combate às facções.",
       "gastosPublicos": "Corte de privilégios do Judiciário e Legislativo, fim de emendas impositivas sem transparência.",
@@ -137,7 +192,23 @@
     "party": "REDE",
     "coalition": "Federação PSOL-REDE / Chapa Fernando Haddad",
     "role": "SENADOR_SP",
+    "wikipediaSlug": "Marina_Silva",
     "isBaseline": true,
+    "politicalTrajectory": {
+      "summary": "Historiadora e ambientalista de projeção internacional, iniciou trajetória nas lutas dos seringueiros no Acre. Foi deputada estadual, senadora da República por 16 anos, candidata à presidência em três eleições e Ministra do Meio Ambiente e Mudança do Clima (2003–2008 e 2023–presente).",
+      "officesHeld": [
+        { "role": "Ministra do Meio Ambiente e Mudança do Clima", "period": "2023 - Presente / 2003 - 2008", "location": "Brasília" },
+        { "role": "Deputada Federal por São Paulo", "period": "2023 - Presente (Licenciada)", "location": "São Paulo / Brasília" },
+        { "role": "Senadora da República", "period": "1995 - 2011", "location": "Acre / Brasília" }
+      ],
+      "partyHistory": [
+        { "party": "REDE Sustentabilidade", "period": "2015 - Presente" },
+        { "party": "PSB", "period": "2013 - 2015" },
+        { "party": "PV", "period": "2009 - 2011" },
+        { "party": "PT", "period": "1986 - 2009" }
+      ],
+      "currentAlliances": "Federação PSOL-REDE, governo Lula, redes ambientalistas globais, comunidades indígenas e frentes de sustentabilidade."
+    },
     "pillars": {
       "segurancaPublica": "Foco em policiamento ambiental, restrição a armas de fogo e prevenção social.",
       "gastosPublicos": "Apoio ao orçamento federal voltado à transição ecológica e programas sociais.",

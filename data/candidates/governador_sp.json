@@ -6,7 +6,20 @@
     "party": "REPUBLICANOS",
     "coalition": "São Paulo no Rumo Certo (Republicanos / PL / PP / PSD / MDB / União)",
     "role": "GOVERNADOR_SP",
+    "wikipediaSlug": "Tarcísio_de_Freitas",
     "isBaseline": false,
+    "politicalTrajectory": {
+      "summary": "Engenheiro militar pelo IME, foi diretor-geral do DNIT e Ministro da Infraestrutura (2019–2022), conduzindo privatizações, concessões de portos, aeroportos e ferrovias. Em 2022, elegeu-se Governador do Estado de São Paulo.",
+      "officesHeld": [
+        { "role": "Governador do Estado de São Paulo", "period": "2023 - Presente", "location": "São Paulo" },
+        { "role": "Ministro da Infraestrutura", "period": "2019 - 2022", "location": "Brasília" },
+        { "role": "Diretor-Geral do DNIT", "period": "2014 - 2015", "location": "Brasília" }
+      ],
+      "partyHistory": [
+        { "party": "Republicanos", "period": "2022 - Presente" }
+      ],
+      "currentAlliances": "Republicanos, PL, PP, PSD, MDB, bancada majoritária da ALESP e entidades do setor produtivo e agro paulista."
+    },
     "pillars": {
       "segurancaPublica": "Combate ao PCC no Centro de SP e Baixada Santista (Operação Escudo/Verão), expansão do Muralha Paulista e endurecimento contra reincidência.",
       "gastosPublicos": "Desvinculação de receitas estaduais, enxugamento de autarquias e superávit operacional para investimentos em infraestrutura.",
@@ -46,7 +59,20 @@
     "party": "PT",
     "coalition": "Federação Brasil da Esperança (PT / PCdoB / PV) / PSB / PSOL-REDE",
     "role": "GOVERNADOR_SP",
+    "wikipediaSlug": "Fernando_Haddad",
     "isBaseline": true,
+    "politicalTrajectory": {
+      "summary": "Professor do Departamento de Ciência Política da USP e advogado, foi Ministro da Educação por sete anos (criando Prouni e expandindo o Enem/Sisu), Prefeito de São Paulo (2013–2016) e assumiu o Ministério da Fazenda em 2023.",
+      "officesHeld": [
+        { "role": "Ministro de Estado da Fazenda", "period": "2023 - Presente", "location": "Brasília" },
+        { "role": "Prefeito do Município de São Paulo", "period": "2013 - 2016", "location": "São Paulo" },
+        { "role": "Ministro de Estado da Educação", "period": "2005 - 2012", "location": "Brasília" }
+      ],
+      "partyHistory": [
+        { "party": "PT", "period": "1983 - Presente" }
+      ],
+      "currentAlliances": "Federação Brasil da Esperança (PT, PCdoB, PV), PSB, federação PSOL-REDE e movimentos de servidores e centrais sindicais."
+    },
     "pillars": {
       "segurancaPublica": "Uso obrigatório de câmeras corporais em toda a PM, foco em inteligência financeira e policiamento comunitário.",
       "gastosPublicos": "Ampliação do orçamento público estadual e revisão de isenções fiscais concedidas a setores empresariais.",

@@ -65,9 +65,8 @@
                 Referencial / Baseline
               </div>
               <div class="flex items-center gap-3 pt-4">
-                <img
-                  :src="baseline.fotoUrl || baseline.photoUrl"
-                  :alt="baseline.nomeUrna || baseline.name"
+                <CandidatePhoto
+                  :candidate="baseline"
                   class="w-14 h-14 rounded-full object-cover border-2 border-red-500 shadow-sm"
                 />
                 <div>
@@ -112,9 +111,8 @@
               class="p-5 min-w-[280px] max-w-[320px] bg-white border-r border-slate-200 last:border-r-0 align-top"
             >
               <div class="flex items-center gap-3">
-                <img
-                  :src="candidate.fotoUrl || candidate.photoUrl"
-                  :alt="candidate.nomeUrna || candidate.name"
+                <CandidatePhoto
+                  :candidate="candidate"
                   class="w-14 h-14 rounded-full object-cover border-2 border-slate-200 shadow-sm"
                 />
                 <div>
@@ -404,6 +402,7 @@ import { ref, computed, watch } from 'vue';
 import { Candidate, OfficeRole } from '../domain/models.js';
 import { useSantinhoStore } from '../stores/santinho.js';
 import { useCandidatesStore } from '../stores/candidates.js';
+import CandidatePhoto from './CandidatePhoto.vue';
 
 const props = withDefaults(defineProps<{
   candidates?: Candidate[];

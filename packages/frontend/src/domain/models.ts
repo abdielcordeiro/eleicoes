@@ -47,6 +47,24 @@ export interface CandidatePillarsProfile {
   [ThematicPillar.EDUCACAO]: PillarScore;
 }
 
+export interface PoliticalTrajectoryOffice {
+  role: string;
+  period: string;
+  location: string;
+}
+
+export interface PoliticalTrajectoryParty {
+  party: string;
+  period: string;
+}
+
+export interface PoliticalTrajectory {
+  summary: string;
+  officesHeld: PoliticalTrajectoryOffice[];
+  partyHistory: PoliticalTrajectoryParty[];
+  currentAlliances: string;
+}
+
 export interface PoliticalTrajectoryItem {
   periodo: string;
   cargoOuAtividade: string;
@@ -113,6 +131,8 @@ export interface Candidate {
   votacoesLegislativas: LegislativeVote[];
   fichaJuridica: LegalRecord[];
   resumoSituacaoJuridica: string;
+  wikipediaSlug?: string;
+  politicalTrajectory?: PoliticalTrajectory;
   name?: string;
   ballotNumber?: string;
   party?: string;

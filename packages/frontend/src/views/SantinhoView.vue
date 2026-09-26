@@ -50,7 +50,7 @@
               :class="santinhoStore.isCandidateSelected(c.id) ? 'border-vibrant-orange ring-1 ring-vibrant-orange bg-orange-50/20' : 'border-slate-200'"
             >
               <div class="flex items-center gap-2.5 min-w-0">
-                <img :src="c.fotoUrl" :alt="c.nomeUrna" class="w-10 h-10 rounded-full object-cover shrink-0" />
+                <CandidatePhoto :candidate="c" class="w-10 h-10 rounded-full object-cover shrink-0" />
                 <div class="min-w-0">
                   <strong class="text-xs text-slate-900 block truncate">{{ c.nomeUrna }}</strong>
                   <span class="text-[10px] text-slate-500">{{ c.partido.sigla }} • {{ c.numeroUrna }}</span>
@@ -73,6 +73,7 @@
 <script setup lang="ts">
 import { onMounted } from 'vue';
 import SantinhoCard from '../components/SantinhoCard.vue';
+import CandidatePhoto from '../components/CandidatePhoto.vue';
 import { useSantinhoStore } from '../stores/santinho.js';
 import { useCandidatesStore } from '../stores/candidates.js';
 import { OfficeRole } from '../domain/models.js';

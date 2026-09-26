@@ -19,9 +19,8 @@
         <!-- Photo & Identity -->
         <div class="flex flex-col sm:flex-row items-start sm:items-center gap-6">
           <div class="relative w-28 h-28 sm:w-32 sm:h-32 rounded-2xl overflow-hidden shadow-md shrink-0 border-2 border-slate-200">
-            <img
-              :src="candidate.fotoUrl"
-              :alt="candidate.nomeUrna"
+            <CandidatePhoto
+              :candidate="candidate"
               class="w-full h-full object-cover"
             />
             <div
@@ -198,35 +197,75 @@
         </div>
       </div>
 
+      <!-- Resumo da Trajetória (Summary) -->
+      <div v-if="trajectorySummary" class="mb-6 p-4 rounded-2xl bg-slate-50 border border-slate-200/80">
+        <span class="text-[11px] font-bold text-vibrant-orange uppercase tracking-wider block mb-1">
+          Resumo da Carreira Pública
+        </span>
+        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed font-medium">
+          {{ trajectorySummary }}
+        </p>
+      </div>
+
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <!-- Mandatos e Cargos -->
+        <!-- Mandatos e Cargos Exercidos (officesHeld) -->
         <div>
-          <h3 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-4">Mandatos e Atividades Relevantes</h3>
-          <div class="space-y-4">
+          <h3 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-4 flex items-center gap-1.5">
+            <span>🏛️</span>
+            <span>Cargos e Mandatos Exercidos</span>
+          </h3>
+
+          <div v-if="officesHeldList.length === 0" class="text-xs text-slate-400 italic">
+            Nenhum mandato público registrado anteriormente.
+          </div>
+
+          <div v-else class="space-y-4">
             <div
-              v-for="item in candidate.trajetoriaPolitica"
-              :key="item.periodo"
+              v-for="item in officesHeldList"
+              :key="item.role + item.period"
               class="border-l-2 border-vibrant-orange pl-4 relative"
             >
               <div class="absolute -left-1.5 top-0.5 w-2.5 h-2.5 rounded-full bg-vibrant-orange"></div>
-              <span class="text-[11px] font-mono font-bold text-vibrant-orange block">{{ item.periodo }}</span>
-              <strong class="text-sm text-slate-900 block">{{ item.cargoOuAtividade }}</strong>
-              <p class="text-xs text-slate-600 mt-1 leading-relaxed">{{ item.detalhes }}</p>
+              <div class="flex items-center justify-between gap-2 flex-wrap">
+                <span class="text-[11px] font-mono font-bold text-vibrant-orange">{{ item.period }}</span>
+                <span v-if="item.location" class="text-[10px] px-2 py-0.5 rounded bg-slate-100 font-semibold text-slate-600">
+                  {{ item.location }}
+                </span>
+              </div>
+              <strong class="text-sm text-slate-900 block mt-0.5">{{ item.role }}</strong>
             </div>
           </div>
         </div>
 
-        <!-- Histórico Partidário -->
-        <div>
-          <h3 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-4">Histórico de Filiações Partidárias</h3>
-          <div class="bg-slate-50 rounded-2xl p-4 border border-slate-200 space-y-2">
-            <div
-              v-for="party in candidate.historicoPartidario"
-              :key="party.partido"
-              class="flex justify-between items-center py-1.5 border-b border-slate-200 last:border-b-0 text-xs"
-            >
-              <span class="font-extrabold text-slate-800">{{ party.partido }}</span>
-              <span class="text-slate-500 font-mono">{{ party.periodo }}</span>
+        <!-- Histórico Partidário & Alianças -->
+        <div class="space-y-6">
+          <!-- Party History -->
+          <div>
+            <h3 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-4 flex items-center gap-1.5">
+              <span>🏷️</span>
+              <span>Histórico de Filiações Partidárias</span>
+            </h3>
+
+            <div class="bg-slate-50 rounded-2xl p-4 border border-slate-200 space-y-2">
+              <div
+                v-for="party in partyHistoryList"
+                :key="party.party + party.period"
+                class="flex justify-between items-center py-1.5 border-b border-slate-200 last:border-b-0 text-xs"
+              >
+                <span class="font-extrabold text-slate-800">{{ party.party }}</span>
+                <span class="text-slate-500 font-mono">{{ party.period }}</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Current Alliances -->
+          <div v-if="currentAlliancesText">
+            <h3 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+              <span>🤝</span>
+              <span>Alianças e Coligações Atuais</span>
+            </h3>
+            <div class="p-3.5 rounded-xl bg-orange-50/50 border border-orange-200/60 text-xs text-slate-700 leading-relaxed">
+              {{ currentAlliancesText }}
             </div>
           </div>
         </div>
@@ -251,6 +290,7 @@ import { useRoute } from 'vue-router';
 import { useCandidatesStore } from '../stores/candidates.js';
 import { useSantinhoStore } from '../stores/santinho.js';
 import { OfficeRole } from '../domain/models.js';
+import CandidatePhoto from '../components/CandidatePhoto.vue';
 import RadarPillarsChart from '../components/RadarPillarsChart.vue';
 import LegislativeVotesTable from '../components/LegislativeVotesTable.vue';
 import LegalRaioX from '../components/LegalRaioX.vue';
@@ -262,6 +302,44 @@ const santinhoStore = useSantinhoStore();
 const candidate = computed(() => candidatesStore.currentCandidate);
 const isLoading = computed(() => candidatesStore.isLoading);
 const isSelected = computed(() => candidate.value ? santinhoStore.isCandidateSelected(candidate.value.id) : false);
+
+const trajectorySummary = computed(() => {
+  return candidate.value?.politicalTrajectory?.summary || candidate.value?.resumoPerfil || '';
+});
+
+const officesHeldList = computed(() => {
+  if (candidate.value?.politicalTrajectory?.officesHeld && candidate.value.politicalTrajectory.officesHeld.length > 0) {
+    return candidate.value.politicalTrajectory.officesHeld;
+  }
+  if (candidate.value?.trajetoriaPolitica && candidate.value.trajetoriaPolitica.length > 0) {
+    return candidate.value.trajetoriaPolitica.map(t => ({
+      role: t.cargoOuAtividade,
+      period: t.periodo,
+      location: t.partidoOuLocal || t.detalhes || '',
+    }));
+  }
+  return [];
+});
+
+const partyHistoryList = computed(() => {
+  if (candidate.value?.politicalTrajectory?.partyHistory && candidate.value.politicalTrajectory.partyHistory.length > 0) {
+    return candidate.value.politicalTrajectory.partyHistory;
+  }
+  if (candidate.value?.historicoPartidario && candidate.value.historicoPartidario.length > 0) {
+    return candidate.value.historicoPartidario.map(p => ({
+      party: p.partido,
+      period: p.periodo,
+    }));
+  }
+  return [];
+});
+
+const currentAlliancesText = computed(() => {
+  return candidate.value?.politicalTrajectory?.currentAlliances ||
+         candidate.value?.coligacaoOuFederacao ||
+         candidate.value?.coalition ||
+         '';
+});
 
 onMounted(async () => {
   const candidateId = route.params.id as string;

@@ -7,7 +7,22 @@
     "coalition": "Partido isolado (PL)",
     "role": "PRESIDENTE",
     "photoUrl": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5979.jpg",
+    "wikipediaSlug": "Flávio_Bolsonaro",
     "isBaseline": false,
+    "politicalTrajectory": {
+      "summary": "Advogado e empresário, foi deputado estadual no Rio de Janeiro por quatro mandatos consecutivos (2003–2019) e eleito Senador da República em 2018 com mais de 4,3 milhões de votos, exercendo liderança da oposição no Congresso Nacional.",
+      "officesHeld": [
+        { "role": "Senador da República", "period": "2019 - Presente", "location": "Rio de Janeiro / Brasília" },
+        { "role": "Deputado Estadual (ALERJ)", "period": "2003 - 2019", "location": "Rio de Janeiro" }
+      ],
+      "partyHistory": [
+        { "party": "PL", "period": "2021 - Presente" },
+        { "party": "Republicanos", "period": "2020 - 2021" },
+        { "party": "PSL", "period": "2018 - 2019" },
+        { "party": "PSC / PP", "period": "2003 - 2018" }
+      ],
+      "currentAlliances": "Bancada do Partido Liberal (PL), frentes parlamentares da segurança pública, agronegócio e bases conservadoras."
+    },
     "pillars": {
       "segurancaPublica": "Endurecimento da legislação penal, redução da maioridade penal, armamento civil e apoio irrestrito às forças policiais.",
       "gastosPublicos": "Defesa de contenção de despesas da máquina pública e oposição a aumento de tributos.",
@@ -55,7 +70,18 @@
     "coalition": "Partido isolado (NOVO)",
     "role": "PRESIDENTE",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Romeu_Zema_em_2023.jpg",
+    "wikipediaSlug": "Romeu_Zema",
     "isBaseline": false,
+    "politicalTrajectory": {
+      "summary": "Administrador e empresário, presidiu o Grupo Zema antes de ingressar na vida partidária em 2018, quando foi eleito Governador de Minas Gerais pelo Partido Novo, conquistando a reeleição em primeiro turno em 2022 com agenda de austeridade fiscal.",
+      "officesHeld": [
+        { "role": "Governador do Estado de Minas Gerais", "period": "2019 - Presente", "location": "Belo Horizonte - MG" }
+      ],
+      "partyHistory": [
+        { "party": "NOVO", "period": "2018 - Presente" }
+      ],
+      "currentAlliances": "Partido Novo, setores liberais da indústria e comércio, bancadas de austeridade fiscal e lideranças empresariais do Sudeste."
+    },
     "pillars": {
       "segurancaPublica": "Integração das polícias Militar e Civil, investimento em inteligência, monitoramento por câmeras e valorização das forças com foco em redução de homicídios.",
       "gastosPublicos": "Ajuste fiscal severo, corte de secretarias, redução de mordomias e congelamento de novas contratações não essenciais.",
@@ -96,7 +122,20 @@
     "coalition": "Partido isolado (PSD)",
     "role": "PRESIDENTE",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Ronaldo_Caiado_em_2023.jpg",
+    "wikipediaSlug": "Ronaldo_Caiado",
     "isBaseline": false,
+    "politicalTrajectory": {
+      "summary": "Médico e produtor rural, fundou a UDR na redemocratização. Foi deputado federal por cinco legislaturas, senador da República e eleito Governador de Goiás em 2018 e reeleito em 2022 com altos índices de aprovação popular em segurança pública.",
+      "officesHeld": [
+        { "role": "Governador do Estado de Goiás", "period": "2019 - Presente", "location": "Goiânia - GO" },
+        { "role": "Senador da República por Goiás", "period": "2015 - 2018", "location": "Goiás / Brasília" },
+        { "role": "Deputado Federal por Goiás", "period": "1991 - 1995 / 1999 - 2014", "location": "Goiás / Brasília" }
+      ],
+      "partyHistory": [
+        { "party": "União Brasil (antigo DEM / PFL)", "period": "1990 - Presente" }
+      ],
+      "currentAlliances": "União Brasil, bancada da FPA (Frente Parlamentar da Agropecuária), governadores do Centro-Oeste e frentes de segurança."
+    },
     "pillars": {
       "segurancaPublica": "Tolerância zero com facções criminosas, ocupação ostensiva de território pelas forças estaduais e empoderamento das tropas policiais.",
       "gastosPublicos": "Reestruturação fiscal de Goiás, renegociação de passivos fiscais e equilíbrio orçamentário.",
@@ -130,7 +169,20 @@
     "coalition": "Partido isolado (MISSÃO)",
     "role": "PRESIDENTE",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Renan_Santos_em_debate.jpg",
+    "wikipediaSlug": "Renan_Santos",
     "isBaseline": false,
+    "politicalTrajectory": {
+      "summary": "Ativista político e comunicador, é um dos fundadores e articuladores do Movimento Brasil Livre (MBL), liderando mobilizações nacionais por reformas liberais e capitaneando a fundação do Partido Missão para o ciclo eleitoral de 2026.",
+      "officesHeld": [
+        { "role": "Coordenador Nacional do MBL", "period": "2014 - Presente", "location": "Nacional" },
+        { "role": "Presidente / Articulador do Partido Missão", "period": "2023 - Presente", "location": "Nacional" }
+      ],
+      "partyHistory": [
+        { "party": "MISSÃO (em formação)", "period": "2023 - Presente" },
+        { "party": "União Brasil / DEM (Articulação Externa)", "period": "2016 - 2022" }
+      ],
+      "currentAlliances": "Partido Missão, bancadas jovens liberais, núcleos universitários e movimentos civis anticorrupção."
+    },
     "pillars": {
       "segurancaPublica": "Encarceramento em massa de líderes de facções (modelo Cecot / Nayib Bukele), isolamento total em presídios de segurança máxima e repressão severa ao crime organizado.",
       "gastosPublicos": "Reforma administrativa radical, fim de privilégios do funcionalismo de topo (supersalários) e equilíbrio fiscal estrito.",
@@ -164,7 +216,19 @@
     "coalition": "Federação Brasil da Esperança (PT / PCdoB / PV)",
     "role": "PRESIDENTE",
     "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Foto_oficial_do_presidente_Luiz_In%C3%A1cio_Lula_da_Silva_%28recorte%29.jpg",
+    "wikipediaSlug": "Luiz_Inácio_Lula_da_Silva",
     "isBaseline": true,
+    "politicalTrajectory": {
+      "summary": "Ex-metalúrgico e líder sindical do ABC Paulista, liderou as grandes greves do final dos anos 1970, foi deputado constituinte em 1988, cofundou o PT e foi eleito Presidente da República por três mandatos (2002, 2006 e 2022).",
+      "officesHeld": [
+        { "role": "Presidente da República Federativa do Brasil", "period": "2023 - Presente / 2003 - 2010", "location": "Brasília / Brasil" },
+        { "role": "Deputado Federal Constituinte", "period": "1987 - 1991", "location": "São Paulo / Brasília" }
+      ],
+      "partyHistory": [
+        { "party": "PT", "period": "1980 - Presente" }
+      ],
+      "currentAlliances": "Federação Brasil da Esperança (PT, PCdoB, PV), PSB, ampla frente partidária ministerial de centro-esquerda e centrismo pragmático."
+    },
     "pillars": {
       "segurancaPublica": "Enfoque em políticas sociais de prevenção, desarmamento civil, controle do uso da força policial e combate a crimes ambientais/financeiros.",
       "gastosPublicos": "Priorização do investimento público sobre metas fiscais rígidas; ajuste centrado no aumento de arrecadação e taxação de altas rendas.",

@@ -6,9 +6,8 @@
     <!-- Top Image & Quick Info -->
     <div>
       <div class="relative h-44 bg-slate-100 overflow-hidden">
-        <img
-          :src="candidate.fotoUrl"
-          :alt="candidate.nomeUrna"
+        <CandidatePhoto
+          :candidate="candidate"
           class="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500"
         />
 
@@ -105,6 +104,7 @@
 import { computed } from 'vue';
 import { Candidate } from '../domain/models.js';
 import { useSantinhoStore } from '../stores/santinho.js';
+import CandidatePhoto from './CandidatePhoto.vue';
 
 const props = defineProps<{
   candidate: Candidate;

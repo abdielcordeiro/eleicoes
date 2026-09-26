@@ -180,6 +180,22 @@ function normalizeCandidate(raw: any, defaultRole: OfficeRole): Candidate {
     };
   });
 
+  const wikipediaSlug = raw.wikipediaSlug || '';
+  const rawTrajectory = raw.politicalTrajectory;
+  const politicalTrajectory = rawTrajectory || (raw.trajetoriaPolitica ? {
+    summary: raw.resumoPerfil || `${name} - Candidato nas Eleições 2026.`,
+    officesHeld: (raw.trajetoriaPolitica || []).map((t: any) => ({
+      role: t.cargoOuAtividade || '',
+      period: t.periodo || '',
+      location: t.partidoOuLocal || 'SP / Brasil',
+    })),
+    partyHistory: (raw.historicoPartidario || []).map((p: any) => ({
+      party: p.partido || '',
+      period: p.periodo || '',
+    })),
+    currentAlliances: raw.coligacaoOuFederacao || raw.coalition || '',
+  } : undefined);
+
   const resumoSituacaoJuridica = raw.resumoSituacaoJuridica || (rawLegal.length > 0
     ? rawLegal.map((r: any) => `${r.caseName}: ${r.legalOutcome}`).join('. ')
     : 'Sem registros de condenações judiciais.');
@@ -205,16 +221,25 @@ function normalizeCandidate(raw: any, defaultRole: OfficeRole): Candidate {
     termometroAlinhamento,
     pillars: raw.pillars,
     pilares,
-    trajetoriaPolitica: raw.trajetoriaPolitica || [
+    wikipediaSlug,
+    politicalTrajectory,
+    trajetoriaPolitica: raw.trajetoriaPolitica || (politicalTrajectory ? politicalTrajectory.officesHeld.map((o: any) => ({
+      periodo: o.period,
+      cargoOuAtividade: o.role,
+      detalhes: o.location,
+    })) : [
       {
         periodo: '2023 - 2026',
         cargoOuAtividade: `Atuação Política Relevante`,
         detalhes: raw.resumoPerfil || `Liderança política em destaque para as eleições de 2026.`,
       },
-    ],
-    historicoPartidario: raw.historicoPartidario || [
+    ]),
+    historicoPartidario: raw.historicoPartidario || (politicalTrajectory ? politicalTrajectory.partyHistory.map((p: any) => ({
+      partido: p.party,
+      periodo: p.period,
+    })) : [
       { partido: partySigla, periodo: 'Atual' },
-    ],
+    ]),
     legislativeVotes: raw.legislativeVotes,
     votacoesLegislativas,
     legalRecords: raw.legalRecords,

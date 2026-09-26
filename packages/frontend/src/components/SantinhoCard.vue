@@ -61,10 +61,9 @@
               1º
             </div>
             <div class="w-14 h-14 rounded-full overflow-hidden bg-slate-200 shrink-0 border border-slate-300">
-              <img
+              <CandidatePhoto
                 v-if="ballot.deputadoFederal"
-                :src="ballot.deputadoFederal.fotoUrl"
-                :alt="ballot.deputadoFederal.nomeUrna"
+                :candidate="ballot.deputadoFederal"
                 class="w-full h-full object-cover"
               />
               <div v-else class="w-full h-full flex items-center justify-center text-slate-400 font-bold text-xs">
@@ -102,10 +101,9 @@
               2º
             </div>
             <div class="w-14 h-14 rounded-full overflow-hidden bg-slate-200 shrink-0 border border-slate-300">
-              <img
+              <CandidatePhoto
                 v-if="ballot.deputadoEstadual"
-                :src="ballot.deputadoEstadual.fotoUrl"
-                :alt="ballot.deputadoEstadual.nomeUrna"
+                :candidate="ballot.deputadoEstadual"
                 class="w-full h-full object-cover"
               />
               <div v-else class="w-full h-full flex items-center justify-center text-slate-400 font-bold text-xs">
@@ -143,10 +141,9 @@
               3º
             </div>
             <div class="w-14 h-14 rounded-full overflow-hidden bg-slate-200 shrink-0 border border-slate-300">
-              <img
+              <CandidatePhoto
                 v-if="ballot.senador1"
-                :src="ballot.senador1.fotoUrl"
-                :alt="ballot.senador1.nomeUrna"
+                :candidate="ballot.senador1"
                 class="w-full h-full object-cover"
               />
               <div v-else class="w-full h-full flex items-center justify-center text-slate-400 font-bold text-xs">
@@ -184,10 +181,9 @@
               4º
             </div>
             <div class="w-14 h-14 rounded-full overflow-hidden bg-slate-200 shrink-0 border border-slate-300">
-              <img
+              <CandidatePhoto
                 v-if="ballot.senador2"
-                :src="ballot.senador2.fotoUrl"
-                :alt="ballot.senador2.nomeUrna"
+                :candidate="ballot.senador2"
                 class="w-full h-full object-cover"
               />
               <div v-else class="w-full h-full flex items-center justify-center text-slate-400 font-bold text-xs">
@@ -225,10 +221,9 @@
               5º
             </div>
             <div class="w-14 h-14 rounded-full overflow-hidden bg-slate-200 shrink-0 border border-slate-300">
-              <img
+              <CandidatePhoto
                 v-if="ballot.governador"
-                :src="ballot.governador.fotoUrl"
-                :alt="ballot.governador.nomeUrna"
+                :candidate="ballot.governador"
                 class="w-full h-full object-cover"
               />
               <div v-else class="w-full h-full flex items-center justify-center text-slate-400 font-bold text-xs">
@@ -266,10 +261,9 @@
               6º
             </div>
             <div class="w-14 h-14 rounded-full overflow-hidden bg-slate-200 shrink-0 border border-slate-300">
-              <img
+              <CandidatePhoto
                 v-if="ballot.presidente"
-                :src="ballot.presidente.fotoUrl"
-                :alt="ballot.presidente.nomeUrna"
+                :candidate="ballot.presidente"
                 class="w-full h-full object-cover"
               />
               <div v-else class="w-full h-full flex items-center justify-center text-slate-400 font-bold text-xs">
@@ -312,6 +306,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { useSantinhoStore } from '../stores/santinho.js';
+import CandidatePhoto from './CandidatePhoto.vue';
 
 const santinhoStore = useSantinhoStore();
 

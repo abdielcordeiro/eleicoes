@@ -5,6 +5,7 @@
     "nomeUrna": "Guto Zacarias",
     "numeroUrna": 14000,
     "cargo": "DEPUTADO_ESTADUAL_SP",
+    "wikipediaSlug": "Guto_Zacarias",
     "fotoUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=80",
     "partido": {
       "id": "missao",
@@ -98,6 +99,7 @@
     "nomeUrna": "Lucas Pavanato",
     "numeroUrna": 22000,
     "cargo": "DEPUTADO_ESTADUAL_SP",
+    "wikipediaSlug": "Lucas_Pavanato",
     "fotoUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=500&q=80",
     "partido": {
       "id": "pl",
