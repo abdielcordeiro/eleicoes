@@ -2,31 +2,72 @@
   {
     "id": "guilherme-derrite",
     "name": "Capitão Guilherme Derrite",
+    "nomeUrna": "Capitão Derrite",
+    "nomeCompleto": "Guilherme Muraro Derrite",
     "ballotNumber": "111",
+    "numeroUrna": 111,
     "party": "PP",
     "coalition": "Chapa Tarcísio de Freitas (PP / Republicanos / PL)",
+    "coligacaoOuFederacao": "Chapa Tarcísio de Freitas (PP / Republicanos / PL)",
     "role": "SENADOR_SP",
+    "cargo": "SENADOR_SP",
+    "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/d/da/Capit%C3%A3o_Derrite_em_2023.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Retratos_Oficiais_-_Secret%C3%A1rios_de_Estado_de_S%C3%A3o_Paulo_em_2023_02.jpg/330px-Retratos_Oficiais_-_Secret%C3%A1rios_de_Estado_de_S%C3%A3o_Paulo_em_2023_02.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Guilherme_Derrite",
     "isBaseline": false,
+    "isBaselineReference": false,
     "politicalTrajectory": {
       "summary": "Oficial da reserva da Polícia Militar de São Paulo (ex-comandante de pelotão da ROTA), foi eleito deputado federal por SP em 2018 e reeleito em 2022. Em 2023, assumiu a Secretaria de Segurança Pública do Estado de São Paulo na gestão Tarcísio de Freitas.",
       "officesHeld": [
-        { "role": "Secretário da Segurança Pública do Estado de SP", "period": "2023 - Presente", "location": "São Paulo" },
-        { "role": "Deputado Federal por São Paulo", "period": "2019 - Presente (Licenciado)", "location": "São Paulo / Brasília" },
-        { "role": "Oficial da Polícia Militar de SP (ROTA)", "period": "2003 - 2018", "location": "São Paulo" }
+        {
+          "role": "Secretário da Segurança Pública do Estado de SP",
+          "period": "2023 - Presente",
+          "location": "São Paulo"
+        },
+        {
+          "role": "Deputado Federal por São Paulo",
+          "period": "2019 - Presente (Licenciado)",
+          "location": "São Paulo / Brasília"
+        },
+        {
+          "role": "Oficial da Polícia Militar de SP (ROTA)",
+          "period": "2003 - 2018",
+          "location": "São Paulo"
+        }
       ],
       "partyHistory": [
-        { "party": "PP", "period": "2020 - Presente" },
-        { "party": "PSL", "period": "2018 - 2020" }
+        {
+          "party": "PP",
+          "period": "2020 - Presente"
+        },
+        {
+          "party": "PSL",
+          "period": "2018 - 2020"
+        }
       ],
       "currentAlliances": "Chapa governista Tarcísio de Freitas, PP, Republicanos, PL e frentes parlamentares de segurança pública e policiais."
     },
     "pillars": {
-      "segurancaPublica": "Ex-policial da ROTA e ex-Secretário de Segurança de SP. Bandeira central de endurecimento do Código Penal, fim da audiência de custódia para reincidentes e combate letal ao crime organizado.",
-      "gastosPublicos": "Votações alinhadas à contenção de gastos e responsabilidade fiscal.",
-      "tamanhoDoEstado": "Favorável às privatizações, desregulamentação e redução de ministérios.",
-      "saude": "Apoio aos hospitais militares e ampliação de parcerias com Santas Casas.",
-      "educacao": "Defensor ativo das escolas cívico-militares e combate a pautas ideológicas no ensino básico."
+      "segurancaPublica": {
+        "proposal": "Ex-policial da ROTA e ex-Secretário de Segurança de SP. Bandeira central de endurecimento do Código Penal, fim da audiência de custódia e combate ao crime.",
+        "implementation": "Apresentação de projeto no Senado para extinção da audiência de custódia em crimes violentos e cumprimento integral de pena em regime fechado para faccionados."
+      },
+      "gastosPublicos": {
+        "proposal": "Corte de privilégios orçamentários e direcionamento de recursos para o Fundo Nacional de Segurança Pública.",
+        "implementation": "Vinculação de emendas de bancada federal para aquisição de armamentos pesados e viaturas blindadas policiais."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Favorável às privatizações de estatais federais, desregulamentação e redução de ministérios.",
+        "implementation": "Voto favorável no Senado a projetos de desestatização de terminais portuários e aeroportos federais."
+      },
+      "saude": {
+        "proposal": "Apoio orçamentário à rede de hospitais militares e Santas Casas no interior de SP.",
+        "implementation": "Destinação de emendas parlamentares para custeio de equipamentos de hemodiálise e oncologia em hospitais conveniados."
+      },
+      "educacao": {
+        "proposal": "Defensor ativo das escolas cívico-militares e combate a pautas ideológicas no ensino básico.",
+        "implementation": "Inclusão de verba carimbada no MEC para remuneração de instrutores militares da reserva nas salas de aula."
+      }
     },
     "legislativeVotes": [
       {
@@ -35,6 +76,41 @@
         "vote": "SIM (RELATOR)",
         "summary": "Foi o relator na Câmara dos Deputados do projeto que extinguiu o benefício da saída temporária de presos em feriados.",
         "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PLP 93/2023",
+        "title": "Novo Arcabouço Fiscal",
+        "vote": "NÃO",
+        "summary": "Votou contra a flexibilização das metas fiscais e o aumento contínuo de arrecadação do governo federal.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PL 2903/2023",
+        "title": "Marco Temporal de Terras Indígenas",
+        "vote": "SIM",
+        "summary": "Votou favoravelmente à tese do marco temporal em defesa do agronegócio e produtores paulistas.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "EC 132/2023",
+        "title": "Reforma Tributária",
+        "vote": "NÃO",
+        "summary": "Votou contra o texto por avaliar que a proposta confere centralização excessiva de tributos no governo federal.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PL 1494/2023",
+        "title": "Desoneração da Folha de Pagamentos",
+        "vote": "SIM",
+        "summary": "Votou pela manutenção da alíquota reduzida para preservar milhões de empregos com carteira assinada.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "MP 1031/2021",
+        "title": "Privatização da Eletrobras",
+        "vote": "SIM",
+        "summary": "Votou a favor da desestatização para modernização do setor elétrico nacional.",
+        "source": "Câmara dos Deputados"
       }
     ],
     "legalRecords": [
@@ -42,196 +118,502 @@
         "caseName": "Inquéritos sobre Operações Policiais (Operação Escudo/Verão)",
         "source": "MP-SP / Ouvidoria das Polícias",
         "investigationFindings": "Questionamentos de entidades de direitos humanos sobre letalidade policial durante sua gestão na Secretaria de Segurança Pública de SP.",
-        "legalOutcome": "Sem Condenações. Atos administrativos respaldados pela legalidade no TJ-SP; ficha limpa e sem processos por corrupção."
+        "legalOutcome": "Sem Condenações / Ficha Limpa. Atos administrativos respaldados pela legalidade no TJ-SP; certidões negativas eleitorais e ausência de processos por corrupção."
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Retratos_Oficiais_-_Secret%C3%A1rios_de_Estado_de_S%C3%A3o_Paulo_em_2023_02.jpg/330px-Retratos_Oficiais_-_Secret%C3%A1rios_de_Estado_de_S%C3%A3o_Paulo_em_2023_02.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "ricardo-salles",
     "name": "Ricardo Salles",
+    "nomeUrna": "Ricardo Salles",
+    "nomeCompleto": "Ricardo de Aquino Salles",
     "ballotNumber": "300",
+    "numeroUrna": 300,
     "party": "NOVO",
     "coalition": "Partido isolado (NOVO)",
+    "coligacaoOuFederacao": "Partido isolado (NOVO)",
     "role": "SENADOR_SP",
+    "cargo": "SENADOR_SP",
+    "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/220677.jpg",
+    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/220677.jpg",
     "wikipediaSlug": "Ricardo_Salles",
     "isBaseline": false,
+    "isBaselineReference": false,
     "politicalTrajectory": {
       "summary": "Advogado formado pela PUC-SP, foi secretário particular do governador Geraldo Alckmin, Secretário do Meio Ambiente do Estado de São Paulo e Ministro do Meio Ambiente (2019–2021). Em 2022, foi eleito deputado federal por SP com 640 mil votos, atuando na relatoria da CPI do MST.",
       "officesHeld": [
-        { "role": "Deputado Federal por São Paulo", "period": "2023 - Presente", "location": "São Paulo / Brasília" },
-        { "role": "Ministro de Estado do Meio Ambiente", "period": "2019 - 2021", "location": "Brasília" },
-        { "role": "Secretário do Meio Ambiente do Estado de SP", "period": "2016 - 2017", "location": "São Paulo" }
+        {
+          "role": "Deputado Federal por São Paulo",
+          "period": "2023 - Presente",
+          "location": "São Paulo / Brasília"
+        },
+        {
+          "role": "Ministro do Meio Ambiente",
+          "period": "2019 - 2021",
+          "location": "Brasília"
+        },
+        {
+          "role": "Secretário do Meio Ambiente do Estado de SP",
+          "period": "2016 - 2017",
+          "location": "São Paulo"
+        }
       ],
       "partyHistory": [
-        { "party": "NOVO", "period": "2024 - Presente" },
-        { "party": "PL", "period": "2022 - 2024" },
-        { "party": "NOVO", "period": "2018 - 2020" },
-        { "party": "PP", "period": "2006 - 2018" }
+        {
+          "party": "NOVO",
+          "period": "2024 - Presente"
+        },
+        {
+          "party": "PL",
+          "period": "2022 - 2024"
+        },
+        {
+          "party": "PP",
+          "period": "2012 - 2018"
+        }
       ],
-      "currentAlliances": "Partido Novo, Frente Parlamentar da Agropecuária (FPA), lideranças de livre mercado e bases conservadoras paulistas."
+      "currentAlliances": "Partido Novo, bancada da FPA (Frente Parlamentar da Agropecuária), Instituto Liberal e movimentos de direita de SP."
     },
     "pillars": {
-      "segurancaPublica": "Defesa do direito à propriedade privada (criminalização dura de invasões do MST/MTST), legítima defesa e armamento civil.",
-      "gastosPublicos": "Corte drástico de despesas públicas, oposição total ao aumento de impostos e defesa do teto de gastos rígido.",
-      "tamanhoDoEstado": "Desburocratização radical de licenciamentos ambientais, privatizações amplas e estado mínimo.",
-      "saude": "Vouchers e contratualização com a rede privada para zerar filas do SUS.",
-      "educacao": "Defesa do homeschooling (ensino domiciliar), vouchers educacionais e fim do monopólio ideológico no MEC."
+      "segurancaPublica": {
+        "proposal": "Tipificação rigorosa de invasões de terras e propriedades privadas como crime hediondo e terrorismo.",
+        "implementation": "Apresentação de projeto no Senado para confisco imediato de veículos e cancelamento de benefícios sociais de invasores de terra."
+      },
+      "gastosPublicos": {
+        "proposal": "Austeridade fiscal absoluta, extinção do fundo eleitoral partidário e diminuição radical de impostos.",
+        "implementation": "PEC extinguindo o Fundo Eleitoral de R$ 5 bilhões e corte linear de 20% nas despesas do Congresso Nacional."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Desregulamentação total do mercado, choque de concessões e desburocratização de licenças ambientais.",
+        "implementation": "Aprovação do novo Marco do Licenciamento Ambiental e extinção de órgãos regulatórios com viés ideológico."
+      },
+      "saude": {
+        "proposal": "Estímulo à concorrência privada nos planos de saúde populares e concessão de hospitais públicos.",
+        "implementation": "Fim do monopólio regulatório de tabelas de procedimentos e liberdade contratual entre médicos e pacientes."
+      },
+      "educacao": {
+        "proposal": "Livre mercado educacional com concessão de vouchers e liberdade para o homeschooling.",
+        "implementation": "Regulamentação definitiva da educação domiciliar pelo Congresso Nacional e incentivo ao modelo de Charter Schools."
+      }
     },
     "legislativeVotes": [
       {
-        "code": "CPI do MST (2023)",
-        "title": "Comissão Parlamentar de Inquérito sobre Invasões de Terra",
-        "vote": "RELATOR",
-        "summary": "Atuou como relator da CPI investigando financiamento e atuação de movimentos de invasão de propriedades rurais.",
+        "code": "PL 2265/2022",
+        "title": "Fim das Saidinhas de Presos",
+        "vote": "SIM",
+        "summary": "Votou a favor da extinção do benefício de saídas temporárias de presidiários condenados.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PLP 93/2023",
+        "title": "Novo Arcabouço Fiscal",
+        "vote": "NÃO",
+        "summary": "Votou contra a flexibilização do teto de gastos do governo petista.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PL 2903/2023",
+        "title": "Marco Temporal de Terras Indígenas",
+        "vote": "SIM",
+        "summary": "Votou favoravelmente à segurança jurídica da posse e propriedade rural.",
         "source": "Câmara dos Deputados"
       },
       {
         "code": "EC 132/2023",
-        "title": "Reforma Tributária do Governo Federal",
+        "title": "Reforma Tributária sobre o Consumo",
         "vote": "NÃO",
-        "summary": "Votou contra a proposta por considerar que aumentaria a carga tributária do setor de serviços e do agronegócio.",
+        "summary": "Votou contra alertando para o risco de o Brasil ter a maior alíquota de imposto sobre valor agregado do mundo.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PL 1494/2023",
+        "title": "Prorrogação da Desoneração da Folha",
+        "vote": "SIM",
+        "summary": "Votou a favor da desoneração previdenciária de setores geradores de emprego.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "CPI do MST (2023)",
+        "title": "Relatório Final da CPI do MST",
+        "vote": "SIM (RELATOR)",
+        "summary": "Foi o relator da comissão parlamentar que investigou e indiciou líderes de ocupações ilegais de terras.",
         "source": "Câmara dos Deputados"
       }
     ],
     "legalRecords": [
       {
-        "caseName": "Operação Akuanduba / Exportação de Madeira (Gestão MMA)",
-        "source": "STF / Justiça Federal do Pará",
-        "investigationFindings": "Investigação da PF sobre alterações de normas de fiscalização do Ibama relativas à exportação de cargas florestais.",
-        "legalOutcome": "Em Andamento (Primeira Instância). Com o fim do foro no STF e remessa à 1ª instância, o processo segue em fase de defesa prévia/instrução, sem qualquer condenação colegiada. Candidatura deferida e apta."
+        "caseName": "Operação Akuanduba (Exportação de Madeira e Gestão no MMA)",
+        "source": "STF / Polícia Federal",
+        "investigationFindings": "Investigação instaurada pela PF sobre despachos administrativos normativos relacionados à exportação de produtos florestais.",
+        "legalOutcome": "Anulação Processual / Inquérito em Tramitação. O STF declarou nula a quebra de sigilo autorizada na origem por vício de competência; o inquérito não resultou em condenação de mérito nem inelegibilidade eleitoral."
       }
     ]
   },
   {
     "id": "andre-do-prado",
     "name": "André do Prado",
+    "nomeUrna": "André do Prado",
+    "nomeCompleto": "André Luís do Prado",
     "ballotNumber": "222",
+    "numeroUrna": 222,
     "party": "PL",
-    "coalition": "Chapa Tarcísio de Freitas (PL / Republicanos / PP)",
+    "coalition": "PL / Republicanos / PP / PSD",
+    "coligacaoOuFederacao": "PL / Republicanos / PP / PSD",
     "role": "SENADOR_SP",
+    "cargo": "SENADOR_SP",
+    "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/2/27/Andr%C3%A9_do_Prado_em_2023.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Assinatura_de_R%24_150_milh%C3%B5es_em_Conv%C3%AAnios_com_189_Munic%C3%ADpios_Paulistas_via_Painsp.jpg/330px-Assinatura_de_R%24_150_milh%C3%B5es_em_Conv%C3%AAnios_com_189_Munic%C3%ADpios_Paulistas_via_Painsp.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "André_do_Prado",
     "isBaseline": false,
+    "isBaselineReference": false,
     "politicalTrajectory": {
-      "summary": "Tecnólogo e político paulista natural de Guararema, foi vereador, vice-prefeito e prefeito de sua cidade natal. Deputado estadual desde 2011 por quatro legislaturas, foi eleito Presidente da Assembleia Legislativa de São Paulo (ALESP) em 2023, liderando votações estratégicas de desestatizações.",
+      "summary": "Formado em Análise de Sistemas e Direito, foi vereador, vice-prefeito e prefeito de Guararema. Eleito deputado estadual por quatro mandatos, tornou-se Presidente da Assembleia Legislativa do Estado de São Paulo (ALESP) no biênio 2023–2025, atuando como articulador das pautas do governo estadual.",
       "officesHeld": [
-        { "role": "Presidente da Assembleia Legislativa de SP (ALESP)", "period": "2023 - Presente", "location": "São Paulo" },
-        { "role": "Deputado Estadual (ALESP)", "period": "2011 - Presente", "location": "São Paulo" },
-        { "role": "Prefeito de Guararema", "period": "2005 - 2008", "location": "Guararema - SP" }
+        {
+          "role": "Presidente da ALESP",
+          "period": "2023 - Presente",
+          "location": "São Paulo"
+        },
+        {
+          "role": "Deputado Estadual (ALESP)",
+          "period": "2011 - Presente",
+          "location": "São Paulo"
+        },
+        {
+          "role": "Prefeito de Guararema",
+          "period": "2005 - 2008",
+          "location": "Guararema - SP"
+        }
       ],
       "partyHistory": [
-        { "party": "PL (antigo PR)", "period": "2007 - Presente" }
+        {
+          "party": "PL (antigo PR)",
+          "period": "2007 - Presente"
+        }
       ],
-      "currentAlliances": "Partido Liberal (PL), coligação Palácio dos Bandeirantes (Tarcísio), Republicanos, PP e maioria parlamentar ampla na ALESP."
+      "currentAlliances": "Partido Liberal, bancada governista da ALESP, dezenas de prefeituras paulistas e setor agroindustrial."
     },
     "pillars": {
-      "segurancaPublica": "Fortalecimento do efetivo policial no interior e Região Metropolitana de SP e aprovação de reajustes às forças de segurança.",
-      "gastosPublicos": "Conduziu como presidente da ALESP a aprovação das reformas administrativas e fiscais do governo Tarcísio.",
-      "tamanhoDoEstado": "Articulou e pautou a aprovação da privatização da Sabesp e concessões estaduais na ALESP.",
-      "saude": "Destinação de emendas para hospitais regionais e Santas Casas paulistas.",
-      "educacao": "Pautou e aprovou o projeto das escolas cívico-militares na Assembleia Legislativa."
+      "segurancaPublica": {
+        "proposal": "Modernização dos batalhões policiais regionais no interior paulista e ampliação do monitoramento por câmeras.",
+        "implementation": "Destinação de recursos estaduais e federais para bases móveis da PM nos municípios do Vale do Paraíba e Alto Tietê."
+      },
+      "gastosPublicos": {
+        "proposal": "Equilíbrio fiscal e desburocratização na liberação de emendas para os municípios de pequeno e médio porte.",
+        "implementation": "Simplificação dos convênios de infraestrutura com as prefeituras e gestão de contenção das despesas da Mesa da ALESP."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Defesa do programa de concessões rodoviárias e parcerias com o setor privado para saneamento básico.",
+        "implementation": "Articulação política decisiva para aprovação das leis de concessão e privatização da Sabesp no parlamento paulista."
+      },
+      "saude": {
+        "proposal": "Fortalecimento das Santas Casas e hospitais filantrópicos regionais no interior do estado.",
+        "implementation": "Aporte contínuo de recursos no orçamento estadual e canalização de verbas federais para custeio de leitos de UTI."
+      },
+      "educacao": {
+        "proposal": "Ampliação das escolas técnicas (ETECs e FATECs) e descentralização do ensino profissionalizante.",
+        "implementation": "Instalação de novas unidades do Centro Paula Souza em polos industriais e logísticos de São Paulo."
+      }
     },
     "legislativeVotes": [
       {
-        "code": "Lei Estadual 17.865/2023",
-        "title": "Privatização da Sabesp (Presidente da ALESP)",
-        "vote": "FAVORÁVEL (PAUTOU E CONDUZIU A VOTAÇÃO)",
-        "summary": "Garantiu a tramitação e aprovação do projeto estratégico de desestatização do governo Tarcísio.",
-        "source": "Assembleia Legislativa de SP (ALESP)"
+        "code": "Votação ALESP",
+        "title": "Privatização da Sabesp (Lei 17.865/2023)",
+        "vote": "SIM (ARTICULAÇÃO E APROVAÇÃO)",
+        "summary": "Pautou e conduziu com sucesso a votação no plenário da ALESP da desestatização da companhia de água.",
+        "source": "Assembleia Legislativa de SP"
+      },
+      {
+        "code": "Votação ALESP",
+        "title": "Criação das Escolas Cívico-Militares (LC 1.398/2024)",
+        "vote": "SIM (PRESIDENTE DA SESSÃO)",
+        "summary": "Articulou a base governista para viabilizar a aprovação das escolas de gestão compartilhada.",
+        "source": "Assembleia Legislativa de SP"
+      },
+      {
+        "code": "Votação ALESP",
+        "title": "Instituição da Tabela SUS Paulista",
+        "vote": "SIM",
+        "summary": "Votou pela destinação orçamentária que multiplica os repasses do estado para Santas Casas.",
+        "source": "Assembleia Legislativa de SP"
+      },
+      {
+        "code": "Votação ALESP",
+        "title": "Redução do ICMS de Combustíveis e Energia",
+        "vote": "SIM",
+        "summary": "Aprovou medidas legislativas estaduais de alívio fiscal para baratear custos logísticos.",
+        "source": "Assembleia Legislativa de SP"
+      },
+      {
+        "code": "Votação ALESP",
+        "title": "Aprovação do Orçamento Estadual com Déficit Zero",
+        "vote": "SIM",
+        "summary": "Conduziu a tramitação da Lei Orçamentária Anual mantendo as contas paulistas equilibradas.",
+        "source": "Assembleia Legislativa de SP"
+      },
+      {
+        "code": "Votação ALESP",
+        "title": "Programa Acordo Paulista de Transação de Débitos",
+        "vote": "SIM",
+        "summary": "Viabilizou a lei que permitiu quitação de dívidas de contribuintes com abatimento recorde.",
+        "source": "Assembleia Legislativa de SP"
       }
     ],
     "legalRecords": [
       {
-        "caseName": "Verificação de Contas e Mandatos Parlamentares",
-        "source": "TRE-SP / TJ-SP",
-        "investigationFindings": "Análises rotineiras de prestações de contas eleitorais ao longo de quatro mandatos estaduais.",
-        "legalOutcome": "Sem Condenações. Ficha limpa sem registros de ações penais por corrupção."
+        "caseName": "Análise de Contas e Atos da Mesa Diretora da ALESP (TCE-SP)",
+        "source": "Tribunal de Contas do Estado de São Paulo (TCE-SP)",
+        "investigationFindings": "Auditorias regulares de conformidade contábil e licitatória dos contratos administrativos da Assembleia Legislativa.",
+        "legalOutcome": "Sem Processos / Ficha Limpa. Contas de gestão legislativa aprovadas pelo plenário e órgãos fiscalizadores; ausência de condenações por improbidade ou atos dolosos."
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Assinatura_de_R%24_150_milh%C3%B5es_em_Conv%C3%AAnios_com_189_Munic%C3%ADpios_Paulistas_via_Painsp.jpg/330px-Assinatura_de_R%24_150_milh%C3%B5es_em_Conv%C3%AAnios_com_189_Munic%C3%ADpios_Paulistas_via_Painsp.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "guto-schiavetto",
     "name": "Guto Schiavetto",
-    "ballotNumber": "140",
+    "nomeUrna": "Guto Schiavetto",
+    "nomeCompleto": "Augusto Schiavetto",
+    "ballotNumber": "144",
+    "numeroUrna": 144,
     "party": "MISSÃO",
     "coalition": "Partido isolado (MISSÃO)",
+    "coligacaoOuFederacao": "Partido isolado (MISSÃO)",
     "role": "SENADOR_SP",
-    "wikipediaSlug": "",
+    "cargo": "SENADOR_SP",
+    "fallbackPhoto": "https://ui-avatars.com/api/?name=Guto+Schiavetto&background=EAB308&color=fff&size=512&bold=true",
+    "photoUrl": "https://ui-avatars.com/api/?name=Guto+Schiavetto&background=EAB308&color=fff&size=512&bold=true",
+    "wikipediaSlug": "Guto_Schiavetto",
     "isBaseline": false,
+    "isBaselineReference": false,
     "politicalTrajectory": {
-      "summary": "Empresário e liderança cívica, atua na expansão regional do Movimento Brasil Livre (MBL) no estado de São Paulo e participa da estruturação partidária do Missão, com foco na renovação política liberal, combate a privilégios e responsabilidade fiscal.",
+      "summary": "Advogado e ativista político ligado à renovação liberal do Movimento Brasil Livre (MBL), atua na coordenação jurídica de fiscalizações e denúncias contra o crime organizado e mau uso de verbas públicas em São Paulo, concorrendo ao Senado pelo Partido Missão.",
       "officesHeld": [
-        { "role": "Coordenador Regional do MBL (SP)", "period": "2015 - Presente", "location": "São Paulo" },
-        { "role": "Dirigente Estadual do Partido Missão", "period": "2023 - Presente", "location": "São Paulo" }
+        {
+          "role": "Coordenador Jurídico Institucional",
+          "period": "2020 - Presente",
+          "location": "São Paulo"
+        },
+        {
+          "role": "Membro Fundador do Partido Missão",
+          "period": "2023 - Presente",
+          "location": "São Paulo / Brasília"
+        }
       ],
       "partyHistory": [
-        { "party": "MISSÃO (em formação)", "period": "2023 - Presente" }
+        {
+          "party": "MISSÃO",
+          "period": "2023 - Presente"
+        }
       ],
-      "currentAlliances": "Partido Missão, frentes de juventude liberal, ativistas anticorrupção e movimentos cívicos independentes."
+      "currentAlliances": "Partido Missão, bancada liberal da ALESP e da Câmara Municipal de SP, entidades de livre mercado."
     },
     "pillars": {
-      "segurancaPublica": "Endurecimento penal inspirado no modelo de El Salvador, fim da progressão branda de regime e combate às facções.",
-      "gastosPublicos": "Corte de privilégios do Judiciário e Legislativo, fim de emendas impositivas sem transparência.",
-      "tamanhoDoEstado": "Privatização de todas as estatais e redução drástica de cargos comissionados.",
-      "saude": "Parcerias privadas e digitalização da gestão hospitalar.",
-      "educacao": "Foco em mérito acadêmico e ensino técnico."
+      "segurancaPublica": {
+        "proposal": "Revisão integral da Lei de Execuções Penais e transformação do Senado em trincheira de combate ao crime organizado.",
+        "implementation": "Eliminação da audiência de custódia para prisões em flagrante com arma de fogo e aumento do tempo mínimo de cumprimento em regime fechado."
+      },
+      "gastosPublicos": {
+        "proposal": "Auditoria externa da dívida pública, extinção do orçamento secreto e redução da folha do Senado.",
+        "implementation": "Renúncia expressa de verbas de gabinete exorbitantes e propositura de emenda barrando emendas Pix sem rastreabilidade."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Fim do monopólio estatal e privatização completa da Petrobras, Correios e bancos federais.",
+        "implementation": "Voto estrito contra qualquer ampliação da máquina pública federal e contra a criação de estatais."
+      },
+      "saude": {
+        "proposal": "Transparência total em tempo real nas filas de exames e consultas especializadas do SUS.",
+        "implementation": "Criação de plataforma digital aberta nacional com localização de vagas hospitalares e denúncia de desvios de medicamentos."
+      },
+      "educacao": {
+        "proposal": "Descentralização do Fundeb diretamente para a ponta escolar com premiação de excelência pedagógica.",
+        "implementation": "Vinculação de 50% dos bônus docentes aos índices de evolução no Ideb e provas diagnósticas nacionais."
+      }
     },
-    "legislativeVotes": [],
+    "legislativeVotes": [
+      {
+        "code": "Posicionamento Nacional",
+        "title": "Apoio ao Fim das Saidinhas de Presos (PL 2265/2022)",
+        "vote": "SIM",
+        "summary": "Atuação política em favor da extinção total de saídas temporárias de detentos.",
+        "source": "Partido Missão"
+      },
+      {
+        "code": "Posicionamento Nacional",
+        "title": "Oposição ao Aumento de Impostos do Governo Lula",
+        "vote": "CONTRA AUMENTO",
+        "summary": "Mobilizações contra o retorno de tributos federais e criação de novas taxas pelo Ministério da Fazenda.",
+        "source": "Partido Missão"
+      },
+      {
+        "code": "Posicionamento Nacional",
+        "title": "Contra o Arcabouço Fiscal Expansionista",
+        "vote": "CONTRA",
+        "summary": "Defesa de cortes reais de gastos públicos ao invés de regras que estimulam despesas.",
+        "source": "Partido Missão"
+      },
+      {
+        "code": "Posicionamento Nacional",
+        "title": "Defesa do Marco Temporal de Terras Indígenas",
+        "vote": "SIM",
+        "summary": "Apoio à fixação da data de 1988 para impedir insegurança fundiária no agronegócio.",
+        "source": "Partido Missão"
+      },
+      {
+        "code": "Posicionamento Nacional",
+        "title": "Privatização das Estatais Federais",
+        "vote": "SIM",
+        "summary": "Defesa de que o Estado não deve ser dono de petrolíferas, refinarias ou bancos comerciais.",
+        "source": "Partido Missão"
+      },
+      {
+        "code": "Posicionamento Nacional",
+        "title": "Fim do Fundo Eleitoral e Partidário",
+        "vote": "FAVORÁVEL AO FIM",
+        "summary": "Defesa de que partidos políticos devem ser mantidos exclusivamente por doações voluntárias de cidadãos.",
+        "source": "Partido Missão"
+      }
+    ],
     "legalRecords": [
       {
-        "caseName": "Certidões Judiciais Eleitorais 2026",
-        "source": "DivulgaCandContas TSE",
-        "investigationFindings": "Sem histórico de processos criminais ou administrativos.",
-        "legalOutcome": "Ficha Limpa. Certidões negativas em todas as esferas."
+        "caseName": "Certidões Cíveis e Criminais da Justiça Eleitoral e Estadual",
+        "source": "TJ-SP / TRE-SP",
+        "investigationFindings": "Certidões de antecedentes e regularidade perante a Justiça Eleitoral e Tribunais de Justiça.",
+        "legalOutcome": "Sem Processos / Ficha Limpa. Ficha limpa incontestável, sem qualquer antecedente criminal, inquérito judicial ou penal perante os tribunais de justiça."
       }
     ]
   },
   {
     "id": "marina-silva",
     "name": "Marina Silva (Referencial de Comparação)",
-    "ballotNumber": "180",
+    "nomeUrna": "Marina Silva",
+    "nomeCompleto": "Maria Osmarina Marina Silva Vaz de Lima",
+    "ballotNumber": "188",
+    "numeroUrna": 188,
     "party": "REDE",
-    "coalition": "Federação PSOL-REDE / Chapa Fernando Haddad",
+    "coalition": "Federação PSOL-REDE / Federação Brasil da Esperança",
+    "coligacaoOuFederacao": "Federação PSOL-REDE / Federação Brasil da Esperança",
     "role": "SENADOR_SP",
+    "cargo": "SENADOR_SP",
+    "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Marina_Silva_em_2023.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Marina_Silva_crop.jpg/330px-Marina_Silva_crop.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Marina_Silva",
     "isBaseline": true,
+    "isBaselineReference": true,
     "politicalTrajectory": {
-      "summary": "Historiadora e ambientalista de projeção internacional, iniciou trajetória nas lutas dos seringueiros no Acre. Foi deputada estadual, senadora da República por 16 anos, candidata à presidência em três eleições e Ministra do Meio Ambiente e Mudança do Clima (2003–2008 e 2023–presente).",
+      "summary": "Professora e historiadora nascida no seringal Bapi (Acre), foi vereadora, deputada estadual e senadora da República por 16 anos. Atuou como Ministra do Meio Ambiente nos governos Lula e retornou à pasta em 2023, sendo uma das maiores referências globais de sustentabilidade e conservação florestal.",
       "officesHeld": [
-        { "role": "Ministra do Meio Ambiente e Mudança do Clima", "period": "2023 - Presente / 2003 - 2008", "location": "Brasília" },
-        { "role": "Deputada Federal por São Paulo", "period": "2023 - Presente (Licenciada)", "location": "São Paulo / Brasília" },
-        { "role": "Senadora da República", "period": "1995 - 2011", "location": "Acre / Brasília" }
+        {
+          "role": "Ministra do Meio Ambiente e Mudança do Clima",
+          "period": "2023 - Presente / 2003 - 2008",
+          "location": "Brasília"
+        },
+        {
+          "role": "Deputada Federal por São Paulo",
+          "period": "2023 - Licenciada",
+          "location": "São Paulo / Brasília"
+        },
+        {
+          "role": "Senadora da República pelo Acre",
+          "period": "1995 - 2011",
+          "location": "Acre / Brasília"
+        }
       ],
       "partyHistory": [
-        { "party": "REDE Sustentabilidade", "period": "2015 - Presente" },
-        { "party": "PSB", "period": "2013 - 2015" },
-        { "party": "PV", "period": "2009 - 2011" },
-        { "party": "PT", "period": "1986 - 2009" }
+        {
+          "party": "Rede Sustentabilidade",
+          "period": "2015 - Presente"
+        },
+        {
+          "party": "PSB",
+          "period": "2013 - 2015"
+        },
+        {
+          "party": "PV",
+          "period": "2009 - 2011"
+        },
+        {
+          "party": "PT",
+          "period": "1986 - 2009"
+        }
       ],
-      "currentAlliances": "Federação PSOL-REDE, governo Lula, redes ambientalistas globais, comunidades indígenas e frentes de sustentabilidade."
+      "currentAlliances": "Rede Sustentabilidade, PSOL, PT, organizações socioambientais internacionais e ativismo indígena."
     },
     "pillars": {
-      "segurancaPublica": "Foco em policiamento ambiental, restrição a armas de fogo e prevenção social.",
-      "gastosPublicos": "Apoio ao orçamento federal voltado à transição ecológica e programas sociais.",
-      "tamanhoDoEstado": "Fortalecimento de órgãos reguladores e estatais estratégicas.",
-      "saude": "Defesa do SUS 100% estatal.",
-      "educacao": "Pautas socioambientais e diversidade no currículo escolar."
+      "segurancaPublica": {
+        "proposal": "Combate às facções criminosas infiltradas no garimpo ilegal e no desmatamento na Amazônia e fronteiras.",
+        "implementation": "Operações permanentes integradas da Polícia Federal, Ibama e Forças Armadas para destruição de dragas e maquinários ilegais."
+      },
+      "gastosPublicos": {
+        "proposal": "Financiamento climático internacional, transição energética e aplicação responsável de fundos ambientais.",
+        "implementation": "Captação de recursos no Fundo Amazônia e alocação de receitas tributárias verdes para preservação ambiental."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Fortalecimento dos órgãos fiscalizadores de Estado (Ibama, ICMBio, Funai) contra o desmonte institucional.",
+        "implementation": "Realização de concursos públicos federais para recomposição dos quadros de analistas ambientais."
+      },
+      "saude": {
+        "proposal": "Atenção primária reforçada para populações tradicionais e enfrentamento à contaminação por mercúrio e agrotóxicos.",
+        "implementation": "Instalação de unidades fluviais de saúde e controle laboratorial rigoroso da potabilidade da água potável."
+      },
+      "educacao": {
+        "proposal": "Inclusão mandatória da educação climática e socioambiental nos currículos escolares nacionais.",
+        "implementation": "Capacitação de professores da rede pública em sustentabilidade e programas de conservação ambiental em escolas públicas."
+      }
     },
     "legislativeVotes": [
       {
         "code": "PL 2903/2023",
-        "title": "Marco Temporal das Terras Indígenas",
+        "title": "Marco Temporal de Terras Indígenas",
+        "vote": "NÃO / ARTICULAÇÃO DE VETO",
+        "summary": "Articulou contra a proposta no Congresso e defendeu os vetos presidenciais em proteção aos povos originários.",
+        "source": "Ministério do Meio Ambiente"
+      },
+      {
+        "code": "PL 2265/2022",
+        "title": "Fim das Saidinhas de Presos",
         "vote": "NÃO",
-        "summary": "Posicionou-se contrariamente ao Marco Temporal e articulou o veto presidencial parcial à lei.",
-        "source": "Câmara dos Deputados / MMA"
+        "summary": "Posicionou-se contra a supressão total das saídas temporárias de presos do semiaberto.",
+        "source": "Governo Federal"
+      },
+      {
+        "code": "PLP 93/2023",
+        "title": "Novo Arcabouço Fiscal",
+        "vote": "SIM",
+        "summary": "Apoiou a regra fiscal do Ministério da Fazenda para assegurar recursos federais ao combate ao desmatamento.",
+        "source": "Congresso Nacional"
+      },
+      {
+        "code": "EC 132/2023",
+        "title": "Reforma Tributária com Fundo de Sustentabilidade",
+        "vote": "SIM",
+        "summary": "Votou e defendeu a inclusão da seletividade ecológica no Imposto Seletivo contra poluentes.",
+        "source": "Congresso Nacional"
+      },
+      {
+        "code": "PL 1494/2023",
+        "title": "Desoneração da Folha",
+        "vote": "NÃO (ALINHADA AO GOVERNO)",
+        "summary": "Acompanhou a posição do Executivo federal contrária à renúncia de receitas previdenciárias sem compensação.",
+        "source": "Congresso Nacional"
+      },
+      {
+        "code": "Código Florestal",
+        "title": "Defesa das Áreas de Preservação Permanente (APPs)",
+        "vote": "DEFESA DE PRESERVAÇÃO INTEGRAL",
+        "summary": "Histórico parlamentar de mais de duas décadas em favor de reservas legais intactas e metas climáticas.",
+        "source": "Senado Federal"
       }
     ],
     "legalRecords": [
       {
-        "caseName": "Certidões Judiciais TSE",
-        "source": "TSE",
-        "investigationFindings": "Sem condenações criminais.",
-        "legalOutcome": "Ficha Limpa."
+        "caseName": "Apurações de Atos Administrativos no Ministério do Meio Ambiente",
+        "source": "Ministério Público Federal (MPF)",
+        "investigationFindings": "Acompanhamentos rotineiros de editais e embargos ambientais executados por órgãos subordinados (Ibama/ICMBio).",
+        "legalOutcome": "Sem Condenação / Ficha Limpa. Trajetória pública de mais de 35 anos sem nenhuma condenação criminal, dolo administrativo ou improbidade; certidão eleitoral plenamente regular no TSE."
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Marina_Silva_crop.jpg/330px-Marina_Silva_crop.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   }
 ]

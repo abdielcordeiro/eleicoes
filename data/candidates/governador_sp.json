@@ -2,45 +2,111 @@
   {
     "id": "tarcisio-de-freitas",
     "name": "Tarcísio de Freitas",
+    "nomeUrna": "Tarcísio de Freitas",
+    "nomeCompleto": "Tarcísio Gomes de Freitas",
     "ballotNumber": "10",
+    "numeroUrna": 10,
     "party": "REPUBLICANOS",
     "coalition": "São Paulo no Rumo Certo (Republicanos / PL / PP / PSD / MDB / União)",
+    "coligacaoOuFederacao": "São Paulo no Rumo Certo (Republicanos / PL / PP / PSD / MDB / União)",
     "role": "GOVERNADOR_SP",
+    "cargo": "GOVERNADOR_SP",
+    "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Tarc%C3%ADsio_de_Freitas_em_2023.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Governador_do_Estado_de_S%C3%A3o_Paulo%2C_Tarc%C3%ADsio_de_Freitas_-_Foto_Oficial_%28cropped%29.jpg/330px-Governador_do_Estado_de_S%C3%A3o_Paulo%2C_Tarc%C3%ADsio_de_Freitas_-_Foto_Oficial_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Tarcísio_de_Freitas",
     "isBaseline": false,
+    "isBaselineReference": false,
     "politicalTrajectory": {
       "summary": "Engenheiro militar pelo IME, foi diretor-geral do DNIT e Ministro da Infraestrutura (2019–2022), conduzindo privatizações, concessões de portos, aeroportos e ferrovias. Em 2022, elegeu-se Governador do Estado de São Paulo.",
       "officesHeld": [
-        { "role": "Governador do Estado de São Paulo", "period": "2023 - Presente", "location": "São Paulo" },
-        { "role": "Ministro da Infraestrutura", "period": "2019 - 2022", "location": "Brasília" },
-        { "role": "Diretor-Geral do DNIT", "period": "2014 - 2015", "location": "Brasília" }
+        {
+          "role": "Governador do Estado de São Paulo",
+          "period": "2023 - Presente",
+          "location": "São Paulo"
+        },
+        {
+          "role": "Ministro da Infraestrutura",
+          "period": "2019 - 2022",
+          "location": "Brasília"
+        },
+        {
+          "role": "Diretor-Geral do DNIT",
+          "period": "2014 - 2015",
+          "location": "Brasília"
+        }
       ],
       "partyHistory": [
-        { "party": "Republicanos", "period": "2022 - Presente" }
+        {
+          "party": "Republicanos",
+          "period": "2022 - Presente"
+        }
       ],
       "currentAlliances": "Republicanos, PL, PP, PSD, MDB, bancada majoritária da ALESP e entidades do setor produtivo e agro paulista."
     },
     "pillars": {
-      "segurancaPublica": "Combate ao PCC no Centro de SP e Baixada Santista (Operação Escudo/Verão), expansão do Muralha Paulista e endurecimento contra reincidência.",
-      "gastosPublicos": "Desvinculação de receitas estaduais, enxugamento de autarquias e superávit operacional para investimentos em infraestrutura.",
-      "tamanhoDoEstado": "Privatização da Sabesp concluída, concessões de linhas da CPTM/Metrô, rodovias e parcerias público-privadas (PPPs) para construção de escolas.",
-      "saude": "Tabela SUS Paulista (complementação estadual de repasses a Santas Casas) e regionalização de hospitais via OSs.",
-      "educacao": "Implementação das escolas cívico-militares estaduais, programa Prontos pro Mundo (intercâmbio) e leilões de PPPs para manutenção predial escolar."
+      "segurancaPublica": {
+        "proposal": "Combate ao crime organizado no Centro de SP e Baixada Santista (Operações Escudo/Verão) e expansão do Muralha Paulista.",
+        "implementation": "Instalação de câmeras com reconhecimento facial em todas as rodovias de SP e integração de radares ao sistema Detecta."
+      },
+      "gastosPublicos": {
+        "proposal": "Desvinculação de receitas estaduais, enxugamento de autarquias e superávit operacional para investimentos.",
+        "implementation": "Extinção de autarquias deficitárias e contenção de custeio administrativo para maximizar verbas de investimento em rodovias."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Privatização da Sabesp concluída, concessões de linhas da CPTM/Metrô e parcerias público-privadas de infraestrutura.",
+        "implementation": "Conclusão da privatização da Sabesp e leilões de concessão do Trem Intercidades (TIC São Paulo-Campinas) e Linhas da CPTM."
+      },
+      "saude": {
+        "proposal": "Tabela SUS Paulista para compensar defasagem de repasses federais e apoiar Santas Casas e hospitais filantrópicos.",
+        "implementation": "Aporte estadual suplementar fixo para até 5 vezes o valor da tabela federal para consultas e procedimentos cirúrgicos."
+      },
+      "educacao": {
+        "proposal": "Implementação de escolas cívico-militares estaduais, programa de intercâmbio e leilões de PPPs de manutenção predial.",
+        "implementation": "Parceria com policiais militares da reserva na disciplina escolar e leilões de PPPs para manutenção predial das unidades da rede estadual."
+      }
     },
     "legislativeVotes": [
       {
         "code": "Lei Estadual 17.865/2023",
-        "title": "Desestatização da Sabesp",
+        "title": "Desestatização da Companhia de Saneamento Básico (Sabesp)",
         "vote": "AUTOR / SANCIONADO",
-        "summary": "Enviou e sancionou o projeto de privatização da companhia de saneamento para universalizar água e esgoto até 2029.",
+        "summary": "Enviou e sancionou o projeto de privatização da companhia de saneamento para antecipar a universalização de água e esgoto para 2029.",
         "source": "ALESP / Diário Oficial SP"
       },
       {
         "code": "LC 1.398/2024",
-        "title": "Programa Escola Cívico-Militar em SP",
+        "title": "Programa Estadual de Escolas Cívico-Militares em SP",
         "vote": "AUTOR / SANCIONADO",
-        "summary": "Instituiu o modelo de gestão compartilhada com policiais militares da reserva na rede estadual.",
+        "summary": "Instituiu o modelo de gestão compartilhada com policiais militares da reserva na rede estadual de ensino fundamental e médio.",
         "source": "ALESP / Diário Oficial SP"
+      },
+      {
+        "code": "Decreto 68.243/2023",
+        "title": "Implantação da Tabela SUS Paulista",
+        "vote": "AUTOR / ASSINADO",
+        "summary": "Criou remuneração complementar aos hospitais filantrópicos e Santas Casas para zerar filas cirúrgicas.",
+        "source": "Governo do Estado de SP"
+      },
+      {
+        "code": "Lei 17.843/2023",
+        "title": "Transação Tributária Acordo Paulista (Recuperação de Débitos)",
+        "vote": "AUTOR / SANCIONADO",
+        "summary": "Criou mecanismo de renegociação com descontos de juros e multas de dívidas tributárias estaduais.",
+        "source": "ALESP / Diário Oficial SP"
+      },
+      {
+        "code": "Leilão B3 (2024)",
+        "title": "Concessão do Trem Intercidades (TIC Eixo Norte)",
+        "vote": "AUTOR / EXECUTADO",
+        "summary": "Concluiu licitação internacional da linha ferroviária expressa conectando São Paulo a Campinas.",
+        "source": "Secretaria de Parcerias em Investimentos de SP"
+      },
+      {
+        "code": "PEC 09/2023",
+        "title": "Flexibilização Orçamentária entre Educação e Saúde",
+        "vote": "AUTOR / ENVIADO",
+        "summary": "Propôs permitir transferência de até 5% das verbas vinculadas da educação para suprir déficits do SUS paulista.",
+        "source": "ALESP"
       }
     ],
     "legalRecords": [
@@ -50,52 +116,127 @@
         "investigationFindings": "Ações diretas de inconstitucionalidade movidas por partidos de oposição questionando mudanças nas diretrizes da PM e no modelo escolar.",
         "legalOutcome": "Disputas Normativas/Administrativas. Não possui condenações criminais ou processos por corrupção/improbidade administrativa. Ficha limpa no TSE."
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Governador_do_Estado_de_S%C3%A3o_Paulo%2C_Tarc%C3%ADsio_de_Freitas_-_Foto_Oficial_%28cropped%29.jpg/330px-Governador_do_Estado_de_S%C3%A3o_Paulo%2C_Tarc%C3%ADsio_de_Freitas_-_Foto_Oficial_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "fernando-haddad",
     "name": "Fernando Haddad (Referencial de Comparação)",
+    "nomeUrna": "Fernando Haddad",
+    "nomeCompleto": "Fernando Haddad",
     "ballotNumber": "13",
+    "numeroUrna": 13,
     "party": "PT",
     "coalition": "Federação Brasil da Esperança (PT / PCdoB / PV) / PSB / PSOL-REDE",
+    "coligacaoOuFederacao": "Federação Brasil da Esperança (PT / PCdoB / PV) / PSB / PSOL-REDE",
     "role": "GOVERNADOR_SP",
+    "cargo": "GOVERNADOR_SP",
+    "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Fernando_Haddad_%28cropped%29.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Fernando_Haddad_posse_min._da_Fazenda.jpg/330px-Fernando_Haddad_posse_min._da_Fazenda.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Fernando_Haddad",
     "isBaseline": true,
+    "isBaselineReference": true,
     "politicalTrajectory": {
       "summary": "Professor do Departamento de Ciência Política da USP e advogado, foi Ministro da Educação por sete anos (criando Prouni e expandindo o Enem/Sisu), Prefeito de São Paulo (2013–2016) e assumiu o Ministério da Fazenda em 2023.",
       "officesHeld": [
-        { "role": "Ministro de Estado da Fazenda", "period": "2023 - Presente", "location": "Brasília" },
-        { "role": "Prefeito do Município de São Paulo", "period": "2013 - 2016", "location": "São Paulo" },
-        { "role": "Ministro de Estado da Educação", "period": "2005 - 2012", "location": "Brasília" }
+        {
+          "role": "Ministro de Estado da Fazenda",
+          "period": "2023 - Presente",
+          "location": "Brasília"
+        },
+        {
+          "role": "Prefeito do Município de São Paulo",
+          "period": "2013 - 2016",
+          "location": "São Paulo"
+        },
+        {
+          "role": "Ministro de Estado da Educação",
+          "period": "2005 - 2012",
+          "location": "Brasília"
+        }
       ],
       "partyHistory": [
-        { "party": "PT", "period": "1983 - Presente" }
+        {
+          "party": "PT",
+          "period": "1983 - Presente"
+        }
       ],
-      "currentAlliances": "Federação Brasil da Esperança (PT, PCdoB, PV), PSB, federação PSOL-REDE e movimentos de servidores e centrais sindicais."
+      "currentAlliances": "PT, PCdoB, PV, PSB, PSOL, Rede Sustentabilidade e movimentos sindicais e de educação."
     },
     "pillars": {
-      "segurancaPublica": "Uso obrigatório de câmeras corporais em toda a PM, foco em inteligência financeira e policiamento comunitário.",
-      "gastosPublicos": "Ampliação do orçamento público estadual e revisão de isenções fiscais concedidas a setores empresariais.",
-      "tamanhoDoEstado": "Contra novas privatizações de empresas estaduais e revisão de contratos de concessão de transporte e saneamento.",
-      "saude": "Expansão da rede pública direta e criação de centros de especialidades médicas estaduais.",
-      "educacao": "Revogação do modelo cívico-militar e ampliação de institutos federais/estaduais."
+      "segurancaPublica": {
+        "proposal": "Expansão obrigatória de câmeras corporais operacionais na PM, perícia técnica independente e policiamento de proximidade.",
+        "implementation": "Gravação contínua em alta resolução nos uniformes da PM-SP e fortalecimento da Ouvidoria da Polícia Estadual."
+      },
+      "gastosPublicos": {
+        "proposal": "Revisão de incentivos fiscais concedidos a grandes grupos econômicos paulistas e justiça tributária.",
+        "implementation": "Pente-fino nos benefícios fiscais do ICMS e priorização de despesas em serviços públicos de periferia."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Fortalecimento do setor público, reestatização de serviços essenciais de saneamento e transportes.",
+        "implementation": "Bloqueio a novas privatizações de linhas da CPTM/Metrô e fortalecimento das empresas públicas estaduais."
+      },
+      "saude": {
+        "proposal": "Ampliação da rede de Farmácias Populares em SP e integração digital com a rede municipal do SUS.",
+        "implementation": "Financiamento direto de postos de saúde de atenção primária em municípios com vulnerabilidade sanitária extrema."
+      },
+      "educacao": {
+        "proposal": "Valorização do piso salarial dos professores estaduais e revogação do modelo das escolas cívico-militares.",
+        "implementation": "Aumento dos investimentos na formação continuada de docentes da rede e expansão de vagas na Univesp, USP e Unicamp."
+      }
     },
     "legislativeVotes": [
       {
-        "code": "PLP 93/2023 e EC 132/2023",
-        "title": "Arcabouço Fiscal e Reforma Tributária (como Ministro da Fazenda)",
-        "vote": "AUTOR / ARTICULADOR",
-        "summary": "Conduziu a política fiscal do governo Lula 3, incluindo tributação de fundos exclusivos, offshores e regulamentação do IVA.",
+        "code": "Gestão Fazenda",
+        "title": "Instituição do Novo Arcabouço Fiscal (PLP 93/2023)",
+        "vote": "AUTOR / ENVIADO",
+        "summary": "Elaborou a proposta de substituição do teto de gastos rígido por regra de crescimento sustentável com travas para despesas.",
         "source": "Ministério da Fazenda / Congresso Nacional"
+      },
+      {
+        "code": "Gestão Fazenda",
+        "title": "Reforma Tributária sobre o Consumo (EC 132/2023)",
+        "vote": "DEFESA / NEGOCIAÇÃO",
+        "summary": "Articulou a aprovação da unificação tributária criando o IVA dual para simplificar o sistema produtivo nacional.",
+        "source": "Congresso Nacional"
+      },
+      {
+        "code": "Gestão Fazenda",
+        "title": "Tributação de Apostas Eletrônicas e Compras Digitais",
+        "vote": "AUTOR / SANCIONADO",
+        "summary": "Regulamentou o mercado de apostas e instituiu o programa Remessa Conforme para equalizar tributos do varejo.",
+        "source": "Diário Oficial da União"
+      },
+      {
+        "code": "Gestão Prefeitura SP",
+        "title": "Implantação de Faixas Exclusivas de Ônibus e Ciclovias",
+        "vote": "AUTOR / EXECUTADO",
+        "summary": "Implementou mais de 400 km de faixas exclusivas de ônibus e ciclovias na capital paulista.",
+        "source": "Prefeitura Municipal de São Paulo"
+      },
+      {
+        "code": "Gestão MEC",
+        "title": "Criação do Programa Universidade para Todos (Prouni)",
+        "vote": "AUTOR / SANCIONADO",
+        "summary": "Criou bolsas de estudos em faculdades privadas para estudantes de baixa renda oriundos de escolas públicas.",
+        "source": "Ministério da Educação"
+      },
+      {
+        "code": "Gestão Fazenda",
+        "title": "Programa Desenrola Brasil",
+        "vote": "AUTOR / EXECUTADO",
+        "summary": "Coordenou o maior programa de renegociação de dívidas bancárias e de consumo para famílias inadimplentes.",
+        "source": "Ministério da Fazenda"
       }
     ],
     "legalRecords": [
       {
-        "caseName": "Ações de Improbidade (Ciclovias SP) e Caixa 2 Campanha 2012",
-        "source": "TJ-SP / TRE-SP / TSE",
-        "investigationFindings": "Delação da UTC Engenharia sobre pagamento de dívida gráfica de campanha de 2012 e questionamentos do MP-SP sobre custos de implantação de ciclovias.",
-        "legalOutcome": "Absolvição e Trancamento. Foi absolvido pelo TJ-SP na ação sobre ciclovias e teve a ação penal eleitoral trancada pelo TSE por ausência de provas corroboradoras além da delação."
+        "caseName": "Caixa 2 Eleitoral (Eleição 2012 / Operação Custo Brasil)",
+        "source": "TRE-SP / STF",
+        "investigationFindings": "Acusações oriundas de delações premiadas apontavam supostos repasses de gráficas para despesas de campanha municipal.",
+        "legalOutcome": "Absolvição de Mérito no TRE-SP. O Tribunal Regional Eleitoral de São Paulo absolveu sumariamente o ex-prefeito após o STF constatar a imprestabilidade das delações sem corroboração fática. Ficha limpa atestada."
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Fernando_Haddad_posse_min._da_Fazenda.jpg/330px-Fernando_Haddad_posse_min._da_Fazenda.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   }
 ]

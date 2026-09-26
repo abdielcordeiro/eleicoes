@@ -2,11 +2,16 @@ import { defineStore } from 'pinia';
 import { ref } from 'vue';
 import { SyncMetadata, SyncResult } from '../domain/models.js';
 import { politicalApi } from '../services/api.js';
+import { useCandidatesStore } from './candidates.js';
+import { usePollsStore } from './polls.js';
+import { useSantinhoStore } from './santinho.js';
 
 export const useSyncStore = defineStore('sync', () => {
   const metadata = ref<SyncMetadata>({
     lastSync: new Date().toISOString(),
+    lastSyncAt: 'Carregando...',
     formattedDate: 'Carregando...',
+    sourcesChecked: [],
     sources: ['TSE', 'Câmara', 'Senado', 'Institutos Registrados'],
     status: 'IDLE',
     recordsUpdated: 0,
@@ -33,13 +38,27 @@ export const useSyncStore = defineStore('sync', () => {
       const result = await politicalApi.triggerSync();
       metadata.value = {
         lastSync: result.timestamp,
-        formattedDate: result.formattedTimestamp,
+        lastSyncAt: result.lastSyncAt || result.formattedTimestamp,
+        formattedDate: result.lastSyncAt || result.formattedTimestamp,
+        sourcesChecked: result.sourcesChecked || [],
         sources: result.sources,
         status: 'SUCCESS',
         recordsUpdated: result.recordsUpdated,
         details: result.message,
       };
-      syncSuccessMessage.value = `Dados atualizados com sucesso em ${result.formattedTimestamp}!`;
+
+      // Automatically reload Pinia stores without requiring page refresh (F5)
+      const candidatesStore = useCandidatesStore();
+      const pollsStore = usePollsStore();
+      const santinhoStore = useSantinhoStore();
+
+      await Promise.allSettled([
+        candidatesStore.fetchCandidates(),
+        pollsStore.fetchPolls(pollsStore.selectedRole),
+        santinhoStore.fetchSantinho(),
+      ]);
+
+      syncSuccessMessage.value = `Base sincronizada com sucesso em ${metadata.value.lastSyncAt}! (${result.recordsUpdated} registros auditados)`;
       setTimeout(() => {
         syncSuccessMessage.value = null;
       }, 5000);

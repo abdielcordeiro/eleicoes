@@ -1,167 +1,699 @@
 [
   {
     "id": "adriana-ventura",
-    "nomeCompleto": "Adriana Miguel Ventura",
+    "name": "Adriana Ventura",
     "nomeUrna": "Adriana Ventura",
+    "nomeCompleto": "Adriana Miguel Ventura",
+    "ballotNumber": "3030",
     "numeroUrna": 3030,
-    "cargo": "DEPUTADO_FEDERAL_SP",
-    "wikipediaSlug": "Adriana_Ventura",
-    "fotoUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=500&q=80",
-    "partido": {
-      "id": "novo",
-      "sigla": "NOVO",
-      "numero": 30,
-      "nome": "Partido Novo",
-      "espectro": "Direita",
-      "corHex": "#F97316"
-    },
+    "party": "NOVO",
+    "coalition": "Partido Novo",
     "coligacaoOuFederacao": "Partido Novo",
-    "estado": "SP",
+    "role": "DEPUTADO_FEDERAL_SP",
+    "cargo": "DEPUTADO_FEDERAL_SP",
+    "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/204528.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Solenidade_de_entrega_do_Pr%C3%AAmio_Dr._Pinotti_-_Hospital_Amigo_da_Mulher._Dep._Maria_Rosas_%28REPUBLICANOS-SP%29%2C_Dep._Jack_Rocha_%28PT-ES%29_e_Dep._Adriana_Ventura_%28NOVO_-_SP%29_01_%283x4%29.jpg/330px-thumbnail.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipediaSlug": "Adriana_Ventura",
+    "isBaseline": false,
     "isBaselineReference": false,
-    "resumoPerfil": "Professora de Gestão Pública da FGV-EAESP e Deputada Federal reeleita por São Paulo. Reconhecida com prêmios de excelência parlamentar pelo combate a desperdícios no SUS, governança e transparência fiscal.",
-    "termometroAlinhamento": {
-      "liberdadeEconomica": 95,
-      "estadoEnxuto": 96,
-      "conservadorismo": 72,
-      "segurancaRigorosa": 88,
-      "scoreGeral": 88,
-      "classificacao": "Direita Liberal / Governança"
+    "politicalTrajectory": {
+      "summary": "Professora de Gestão Pública da FGV-EAESP e Deputada Federal reeleita por São Paulo. Reconhecida com prêmios de excelência parlamentar pelo combate a desperdícios no SUS, governança e transparência fiscal.",
+      "officesHeld": [
+        {
+          "role": "Deputada Federal por São Paulo",
+          "period": "2019 - Presente",
+          "location": "São Paulo / Brasília"
+        },
+        {
+          "role": "Professora da FGV-EAESP",
+          "period": "2005 - Presente",
+          "location": "São Paulo"
+        }
+      ],
+      "partyHistory": [
+        {
+          "party": "NOVO",
+          "period": "2018 - Presente"
+        }
+      ],
+      "currentAlliances": "Partido Novo, bancada da saúde e gestão pública, frentes de liberdade econômica e transparência fiscal."
     },
-    "pilares": {
-      "SEGURANCA_PUBLICA": {
-        "score": 8.8,
-        "summary": "Combate a fraudes digitais, fortalecimento da perícia criminal e rastreamento financeiro de ilícitos.",
-        "keyProposals": ["Fortalecimento de equipes periciais e compliance penitenciário", "Endurecimento de penas para estelionato contra idosos"]
+    "pillars": {
+      "segurancaPublica": {
+        "proposal": "Combate à corrupção, fraudes digitais e fortalecimento da perícia criminal.",
+        "implementation": "Endurecimento das penas para golpes cibernéticos contra idosos e garantia de compliance orçamentário penitenciário."
       },
-      "GASTOS_PUBLICOS": {
-        "score": 9.9,
-        "summary": "Recordista em economia de cotas parlamentares e autora da Lei da Telessaúde e fiscalização do orçamento secreto.",
-        "keyProposals": ["Extinção de verbas indenizatórias sem comprovação fiscal minuciosa", "Auditoria de folhas de pagamento públicas com teto remuneratório real"]
+      "gastosPublicos": {
+        "proposal": "Recordista em economia parlamentar e fiscalização severa do orçamento público.",
+        "implementation": "Renúncia a cotas parlamentares de luxo e aprovação da Lei de Transparência nas Emendas Parlamentares."
       },
-      "TAMANHO_DO_ESTADO": {
-        "score": 9.5,
-        "summary": "Defesa enfática da Lei da Liberdade Econômica, facilitação de abertura de microempresas e desregulamentação.",
-        "keyProposals": ["Eliminação de alvarás prévios para centenas de atividades econômicas", "Fim de monopólios estatais em serviços postais"]
+      "tamanhoDoEstado": {
+        "proposal": "Desregulamentação para fomento do empreendedorismo e redução de tributos.",
+        "implementation": "Aplicação do Estatuto da Liberdade Econômica e desregulamentação de abertura e baixa de microempresas."
       },
-      "SAUDE": {
-        "score": 9.7,
-        "summary": "Principal relatora da legislação de Telessaúde no Brasil (Lei 14.510/2022) e defensora da eficiência hospitalar e digitalização do SUS.",
-        "keyProposals": ["Digitalização integral das filas de espera de especialidades e exames do SUS", "Incentivo a contratos de gestão orientados por desfecho clínico"]
+      "saude": {
+        "proposal": "Digitalização do SUS e expansão da telessaúde em âmbito nacional.",
+        "implementation": "Autoria da Lei da Telessaúde (Lei 14.510/2022) e implementação de prontuários eletrônicos interconectados."
       },
-      "EDUCACAO": {
-        "score": 9.0,
-        "summary": "Prioridade total para a primeira infância, alfabetização no tempo certo e meritocracia docente.",
-        "keyProposals": ["Foco do Fundeb em escolas que comprovem alfabetização até os 7 anos", "Capacitação continuada de professores com base em evidências científicas"]
+      "educacao": {
+        "proposal": "Foco na alfabetização no tempo certo e meritocracia docente.",
+        "implementation": "Direcionamento do Fundeb às redes de ensino com melhores índices de alfabetização aos 7 anos."
       }
     },
-    "trajetoriaPolitica": [
+    "legislativeVotes": [
       {
-        "periodo": "2019 - Presente",
-        "cargoOuAtividade": "Deputada Federal por São Paulo (Dois Mandatos)",
-        "detalhes": "Premiada seguidamente pelo Congresso em Foco e Ranking dos Políticos como melhor deputada de SP.",
-        "partidoOuLocal": "Câmara dos Deputados"
+        "code": "PL 2265/2022",
+        "title": "Fim das Saidinhas de Presos",
+        "vote": "SIM",
+        "summary": "Votou favoravelmente à extinção da saída temporária de detentos condenados.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PLP 93/2023",
+        "title": "Novo Arcabouço Fiscal",
+        "vote": "NÃO",
+        "summary": "Votou contra a nova regra fiscal denunciando gatilhos insuficientes de corte de despesas.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "EC 132/2023",
+        "title": "Reforma Tributária",
+        "vote": "NÃO",
+        "summary": "Votou contra devido às centenas de exceções setoriais inseridas no texto final.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PL 2903/2023",
+        "title": "Marco Temporal de Terras Indígenas",
+        "vote": "SIM",
+        "summary": "Votou a favor da tese constitucional de 1988 para garantia de segurança jurídica no campo.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PL 1494/2023",
+        "title": "Desoneração da Folha de Pagamento",
+        "vote": "SIM",
+        "summary": "Votou pela prorrogação da desoneração para manter a competitividade de 17 setores econômicos.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "Lei 14.510/2022",
+        "title": "Marco Legal da Telessaúde no Brasil",
+        "vote": "SIM (AUTORA)",
+        "summary": "Autora do projeto que regulamentou e expandiu consultas médicas remotas em todo o Brasil.",
+        "source": "Câmara dos Deputados"
       }
     ],
-    "historicoPartidario": [
-      { "partido": "NOVO", "periodo": "2018 - Presente" }
-    ],
-    "votacoesLegislativas": [
+    "legalRecords": [
       {
-        "id": "vote-adriana-telessaude",
-        "projetoCodigo": "PL 1998/2020",
-        "tema": "Marco Legal da Telessaúde",
-        "ementa": "Autoriza e disciplina a prática da telessaúde em todo o território nacional.",
-        "data": "2022-12-13",
-        "voto": "SIM",
-        "orientacaoBancada": "Autora e articuladora do projeto aprovado",
-        "descricaoImpacto": "Democratizou o atendimento médico especializado à distância para milhões de brasileiros.",
-        "linkOficial": "https://www.camara.leg.br"
+        "caseName": "Certidões Cíveis e Criminais da Justiça Federal e Eleitoral",
+        "source": "Justiça Federal / TSE",
+        "investigationFindings": "Verificação periódica de contas de gabinete e campanhas eleitorais auditadas.",
+        "legalOutcome": "Sem Processos / Ficha Limpa. Ficha limpa absoluta, 100% das contas aprovadas sem ressalvas e sem qualquer processo criminal."
       }
     ],
-    "fichaJuridica": [],
-    "resumoSituacaoJuridica": "Ficha limpa absoluta, sem nenhuma ocorrência, processo ou inquérito."
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Solenidade_de_entrega_do_Pr%C3%AAmio_Dr._Pinotti_-_Hospital_Amigo_da_Mulher._Dep._Maria_Rosas_%28REPUBLICANOS-SP%29%2C_Dep._Jack_Rocha_%28PT-ES%29_e_Dep._Adriana_Ventura_%28NOVO_-_SP%29_01_%283x4%29.jpg/330px-thumbnail.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "rosana-valle",
-    "nomeCompleto": "Rosana de Oliveira Valle",
+    "name": "Rosana Valle",
     "nomeUrna": "Rosana Valle",
-    "numeroUrna": 2210,
-    "cargo": "DEPUTADO_FEDERAL_SP",
-    "wikipediaSlug": "Rosana_Valle",
-    "fotoUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=500&q=80",
-    "partido": {
-      "id": "pl",
-      "sigla": "PL",
-      "numero": 22,
-      "nome": "Partido Liberal",
-      "espectro": "Direita",
-      "corHex": "#2563EB"
-    },
+    "nomeCompleto": "Rosana de Oliveira Valle",
+    "ballotNumber": "2222",
+    "numeroUrna": 2222,
+    "party": "PL",
+    "coalition": "Partido Liberal",
     "coligacaoOuFederacao": "Partido Liberal",
-    "estado": "SP",
+    "role": "DEPUTADO_FEDERAL_SP",
+    "cargo": "DEPUTADO_FEDERAL_SP",
+    "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/204534.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Rosana_Valle_Dep_%28cropped%29.jpg/330px-Rosana_Valle_Dep_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipediaSlug": "Rosana_Valle",
+    "isBaseline": false,
     "isBaselineReference": false,
-    "resumoPerfil": "Jornalista e Deputada Federal reeleita por SP com mais de 216 mil votos. Presidente do PL Mulher estadual de SP, defensora ferrenha do túnel Santos-Guarujá, segurança pública e combate à violência doméstica.",
-    "termometroAlinhamento": {
-      "liberdadeEconomica": 82,
-      "estadoEnxuto": 78,
-      "conservadorismo": 92,
-      "segurancaRigorosa": 95,
-      "scoreGeral": 87,
-      "classificacao": "Direita Conservadora / Infraestrutura"
+    "politicalTrajectory": {
+      "summary": "Jornalista e apresentadora de televisão por mais de 25 anos na Baixada Santista, elegeu-se deputada federal em 2018 e reelegeu-se em 2022 com mais de 216 mil votos, presidindo a Comissão de Defesa dos Direitos da Mulher da Câmara.",
+      "officesHeld": [
+        {
+          "role": "Deputada Federal por São Paulo",
+          "period": "2019 - Presente",
+          "location": "Santos / Brasília"
+        },
+        {
+          "role": "Presidente da Comissão da Mulher na Câmara",
+          "period": "2023 - 2024",
+          "location": "Brasília"
+        }
+      ],
+      "partyHistory": [
+        {
+          "party": "PL",
+          "period": "2022 - Presente"
+        },
+        {
+          "party": "PSB",
+          "period": "2018 - 2022"
+        }
+      ],
+      "currentAlliances": "Partido Liberal, bancada feminina da Câmara, setor portuário de Santos e prefeituras do litoral paulista."
     },
-    "pilares": {
-      "SEGURANCA_PUBLICA": {
-        "score": 9.5,
-        "summary": "Combate implacável ao tráfico de drogas no Porto de Santos, proteção armada a agentes de segurança e endurecimento da Lei Maria da Penha.",
-        "keyProposals": ["Penas de reclusão inafiançáveis para agressores reincidentes de mulheres", "Modernização de scanners e vigilância da alfândega no Porto de Santos"]
+    "pillars": {
+      "segurancaPublica": {
+        "proposal": "Combate à violência contra a mulher e apoio operacional às polícias na Baixada Santista.",
+        "implementation": "Agravamento de penas para feminicídio e destinação de emendas para compra de viaturas e coletes para a Polícia Civil e Militar de Santos."
       },
-      "GASTOS_PUBLICOS": {
-        "score": 7.8,
-        "summary": "Canalização de emendas parlamentares diretas para Santas Casas e hospitais municipais.",
-        "keyProposals": ["Priorização de recursos para obras de infraestrutura regional", "Fiscalização de repasses federais a empreendimentos portuários"]
+      "gastosPublicos": {
+        "proposal": "Defesa de austeridade e canalização de recursos para obras portuárias e de infraestrutura.",
+        "implementation": "Destinação prioritária de verbas para a dragagem do Porto de Santos e implantação do túnel submerso Santos-Guarujá."
       },
-      "TAMANHO_DO_ESTADO": {
-        "score": 8.0,
-        "summary": "Apoio a parcerias público-privadas e concessões de transporte metroferroviário e rodoviário.",
-        "keyProposals": ["Viabilização em parceria privada do Túnel Submerso Santos-Guarujá", "Desestatização de terminais portuários para ampliar movimentação de cargas"]
+      "tamanhoDoEstado": {
+        "proposal": "Privatização e concessão de terminais logísticos do Porto de Santos.",
+        "implementation": "Apoio a concessões portuárias com garantia de investimentos privados bilionários em mobilidade urbana."
       },
-      "SAUDE": {
-        "score": 8.6,
-        "summary": "Apoio a hospitais de câncer do estado de SP e atenção especial ao diagnóstico precoce de câncer de mama.",
-        "keyProposals": ["Ampliação de carretas de mamografia gratuita no interior e litoral", "Aumento do teto MAC para custeio de procedimentos de alta complexidade"]
+      "saude": {
+        "proposal": "Aporte financeiro para hospitais oncológicos e Santas Casas litorâneas.",
+        "implementation": "Repasses de recursos federais para a ampliação de leitos de quimioterapia na Santa Casa de Santos."
       },
-      "EDUCACAO": {
-        "score": 8.1,
-        "summary": "Apoio a escolas cívico-militares e capacitação técnica ligada à atividade portuária e logística.",
-        "keyProposals": ["Cursos de capacitação em logística portuária para jovens do litoral paulista", "Implantação de unidades de escolas cívico-militares na Baixada Santista"]
+      "educacao": {
+        "proposal": "Ensino profissionalizante marítimo e expansão das escolas cívico-militares.",
+        "implementation": "Criação de centros de formação técnica portuária em parceria com entidades de comércio exterior."
       }
     },
-    "trajetoriaPolitica": [
+    "legislativeVotes": [
       {
-        "periodo": "2019 - Presente",
-        "cargoOuAtividade": "Deputada Federal por São Paulo (Dois Mandatos)",
-        "detalhes": "Atuante na Comissão de Viação e Transportes e Comissão de Defesa dos Direitos da Mulher.",
-        "partidoOuLocal": "Câmara dos Deputados"
+        "code": "PL 2265/2022",
+        "title": "Fim das Saidinhas de Presos",
+        "vote": "SIM",
+        "summary": "Votou pela extinção das saídas temporárias de presidiários.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PLP 93/2023",
+        "title": "Novo Arcabouço Fiscal",
+        "vote": "NÃO",
+        "summary": "Votou contra o projeto por discordar de aumentos na arrecadação federal.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PL 2903/2023",
+        "title": "Marco Temporal de Terras Indígenas",
+        "vote": "SIM",
+        "summary": "Votou favoravelmente à preservação da data de 1988 para demarcações.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "EC 132/2023",
+        "title": "Reforma Tributária",
+        "vote": "NÃO",
+        "summary": "Votou contra a proposta aprovada na Câmara.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PL 1494/2023",
+        "title": "Desoneração da Folha de Pagamentos",
+        "vote": "SIM",
+        "summary": "Votou a favor da preservação de postos de trabalho em setores intensivos.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "Articulação Federal",
+        "title": "Túnel Submerso Santos-Guarujá",
+        "vote": "SIM (ARTICULAÇÃO)",
+        "summary": "Liderou frentes parlamentares para viabilizar a inclusão do túnel nos investimentos federais e estaduais.",
+        "source": "Câmara dos Deputados"
       }
     ],
-    "historicoPartidario": [
-      { "partido": "PL", "periodo": "2022 - Presente" },
-      { "partido": "PSB", "periodo": "2018 - 2022" }
-    ],
-    "votacoesLegislativas": [
+    "legalRecords": [
       {
-        "id": "vote-rosana-saidinha",
-        "projetoCodigo": "PL 2253/2022",
-        "tema": "Fim das Saidinhas",
-        "ementa": "Restrição às saídas temporárias de presidiários.",
-        "data": "2024-03-20",
-        "voto": "SIM",
-        "orientacaoBancada": "A favor da segurança pública",
-        "descricaoImpacto": "Votou com a ampla maioria pró-segurança pela aprovação da matéria.",
-        "linkOficial": "https://www.camara.leg.br"
+        "caseName": "Certidões de Idoneidade Eleitoral e Contas de Campanha",
+        "source": "TRE-SP",
+        "investigationFindings": "Verificação periódica das contas prestadas à Justiça Eleitoral.",
+        "legalOutcome": "Sem Processos / Ficha Limpa. Inexistência de processos por crimes funcionais ou corrupção; situação eleitoral regular."
       }
     ],
-    "fichaJuridica": [],
-    "resumoSituacaoJuridica": "Ficha limpa total, sem nenhum processo ou condenação."
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Rosana_Valle_Dep_%28cropped%29.jpg/330px-Rosana_Valle_Dep_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "mario-frias",
+    "name": "Mario Frias",
+    "nomeUrna": "Mario Frias",
+    "nomeCompleto": "Mario Luís Frias",
+    "ballotNumber": "2200",
+    "numeroUrna": 2200,
+    "party": "PL",
+    "coalition": "Partido Liberal",
+    "coligacaoOuFederacao": "Partido Liberal",
+    "role": "DEPUTADO_FEDERAL_SP",
+    "cargo": "DEPUTADO_FEDERAL_SP",
+    "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/220556.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/M%C3%A1rio_Frias_em_2020.jpg/330px-M%C3%A1rio_Frias_em_2020.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipediaSlug": "Mário_Frias",
+    "isBaseline": false,
+    "isBaselineReference": false,
+    "politicalTrajectory": {
+      "summary": "Ator e apresentador, assumiu a Secretaria Especial de Cultura do Governo Federal (2020–2022). Em 2022, elegeu-se deputado federal por São Paulo com mais de 240 mil votos, atuando na oposição ao governo Lula nas comissões de Cultura e Segurança Pública.",
+      "officesHeld": [
+        {
+          "role": "Deputado Federal por São Paulo",
+          "period": "2023 - Presente",
+          "location": "São Paulo / Brasília"
+        },
+        {
+          "role": "Secretário Especial da Cultura",
+          "period": "2020 - 2022",
+          "location": "Brasília"
+        }
+      ],
+      "partyHistory": [
+        {
+          "party": "PL",
+          "period": "2022 - Presente"
+        }
+      ],
+      "currentAlliances": "Partido Liberal, bancada da bala, frentes conservadoras e movimentos cristãos."
+    },
+    "pillars": {
+      "segurancaPublica": {
+        "proposal": "Apoio irrestrito às forças policiais e facilitação da posse e porte de armas de fogo para cidadãos idôneos.",
+        "implementation": "Projetos de lei prevendo isenção de IPI na compra de armas e munições e endurecimento da punição para roubo qualificado."
+      },
+      "gastosPublicos": {
+        "proposal": "Auditoria e corte de repasses federais a produções culturais com viés político-partidário.",
+        "implementation": "Fiscalização da prestação de contas da Lei Rouanet e Lei Paulo Gustavo, bloqueando projetos com irregularidades."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Desregulamentação econômica e privatização de estatais de comunicação pública.",
+        "implementation": "Apoio à privatização da EBC e corte de verbas estatais de publicidade."
+      },
+      "saude": {
+        "proposal": "Liberdade de escolha em saúde e descentralização de recursos federais para tratamento de doenças raras.",
+        "implementation": "Vedação a qualquer tipo de imposição estatal de medidas sanitárias restritivas ou passaportes vacinais."
+      },
+      "educacao": {
+        "proposal": "Combate à ideologia de gênero nas escolas e resgate dos valores cívicos e patrióticos.",
+        "implementation": "Proposta de lei federal tipificando a doutrinação político-ideológica nas salas de aula de ensino fundamental."
+      }
+    },
+    "legislativeVotes": [
+      {
+        "code": "PL 2265/2022",
+        "title": "Fim das Saidinhas de Presos",
+        "vote": "SIM",
+        "summary": "Votou pela revogação das saídas temporárias de apenados.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PLP 93/2023",
+        "title": "Novo Arcabouço Fiscal",
+        "vote": "NÃO",
+        "summary": "Votou contra o projeto de despesas do governo federal.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PL 2903/2023",
+        "title": "Marco Temporal de Terras Indígenas",
+        "vote": "SIM",
+        "summary": "Votou pela vigência do marco temporal de 1988.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "EC 132/2023",
+        "title": "Reforma Tributária",
+        "vote": "NÃO",
+        "summary": "Votou contra o texto aprovado pela Câmara.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PL 1494/2023",
+        "title": "Desoneração da Folha de Pagamentos",
+        "vote": "SIM",
+        "summary": "Votou pela prorrogação da desoneração.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "CPI do 8 de Janeiro",
+        "title": "Relatório Alternativo de Oposição",
+        "vote": "SIM",
+        "summary": "Assinou relatório paralelo rechaçando acusações de golpe de estado institucional.",
+        "source": "Congresso Nacional"
+      }
+    ],
+    "legalRecords": [
+      {
+        "caseName": "Análise de Despesas na Secretaria Especial de Cultura (TCU)",
+        "source": "Tribunal de Contas da União (TCU)",
+        "investigationFindings": "Apurações sobre custos de passagens e diárias em viagens oficiais durante o exercício do cargo no Executivo.",
+        "legalOutcome": "Arquivamento / Sem Condenação Criminal. Apurações do TCU arquivadas sem condenação por dolo ou restituição por improbidade; certidão eleitoral 100% regular."
+      }
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/M%C3%A1rio_Frias_em_2020.jpg/330px-M%C3%A1rio_Frias_em_2020.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "kim-kataguiri",
+    "name": "Kim Kataguiri",
+    "nomeUrna": "Kim Kataguiri",
+    "nomeCompleto": "Kim Patroca Kataguiri",
+    "ballotNumber": "1444",
+    "numeroUrna": 1444,
+    "party": "MISSÃO",
+    "coalition": "Partido Missão",
+    "coligacaoOuFederacao": "Partido Missão",
+    "role": "DEPUTADO_FEDERAL_SP",
+    "cargo": "DEPUTADO_FEDERAL_SP",
+    "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/204536.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Deputado_Federal_Kim_Kataguiri.jpg/330px-Deputado_Federal_Kim_Kataguiri.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipediaSlug": "Kim_Kataguiri",
+    "isBaseline": false,
+    "isBaselineReference": false,
+    "politicalTrajectory": {
+      "summary": "Líder do Movimento Brasil Livre (MBL), foi eleito deputado federal por SP em 2018 aos 22 anos e reeleito em 2022 com mais de 295 mil votos. Destaque em atuações regimentais, comissões de finanças e combate a privilégios da máquina pública.",
+      "officesHeld": [
+        {
+          "role": "Deputado Federal por São Paulo",
+          "period": "2019 - Presente",
+          "location": "São Paulo / Brasília"
+        },
+        {
+          "role": "Líder / Porta-Voz do MBL",
+          "period": "2014 - Presente",
+          "location": "Nacional"
+        }
+      ],
+      "partyHistory": [
+        {
+          "party": "MISSÃO",
+          "period": "2024 - Presente"
+        },
+        {
+          "party": "União Brasil (antigo DEM)",
+          "period": "2018 - 2024"
+        }
+      ],
+      "currentAlliances": "Partido Missão, bancadas jovens liberais, frentes pró-livre mercado e renovação política."
+    },
+    "pillars": {
+      "segurancaPublica": {
+        "proposal": "Endurecimento do cumprimento de pena em regime fechado, fim da visita íntima e desbaratamento financeiro de facções.",
+        "implementation": "Propositura do novo Código Penal com agravamento severo de reincidência e bloqueio judicial sumário de bens do crime organizado."
+      },
+      "gastosPublicos": {
+        "proposal": "Reforma administrativa no topo do funcionalismo, fim dos supersalários e teto absoluto de gastos.",
+        "implementation": "Apresentação da PEC contra Supersalários e corte radical dos gastos de gabinetes e emendas de relator."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Desregulamentação de profissões, privatizações aceleradas e liberdade comercial plena.",
+        "implementation": "Autoria da Lei de Liberdade de Empreender e projetos de revogação de licenças corporativistas abusivas."
+      },
+      "saude": {
+        "proposal": "Criação de vouchers de saúde e liberdade de credenciamento hospitalar privado no SUS.",
+        "implementation": "Permissão para cidadãos utilizarem créditos estatais para exames e cirurgias na rede particular quando a fila do SUS ultrapassar 30 dias."
+      },
+      "educacao": {
+        "proposal": "Educação financeira obrigatória, vouchers para ensino técnico e avaliação externa rigorosa.",
+        "implementation": "Financiamento atrelado ao desempenho dos alunos no Saeb e incentivo ao modelo de livre escolha de escolas pelas famílias."
+      }
+    },
+    "legislativeVotes": [
+      {
+        "code": "PL 2265/2022",
+        "title": "Fim das Saidinhas de Presos",
+        "vote": "SIM",
+        "summary": "Votou pela extinção definitiva do benefício da saída temporária.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PLP 93/2023",
+        "title": "Novo Arcabouço Fiscal",
+        "vote": "NÃO",
+        "summary": "Votou contra a flexibilização do teto de gastos apresentando emendas de contenção.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PL 2903/2023",
+        "title": "Marco Temporal de Terras Indígenas",
+        "vote": "SIM",
+        "summary": "Votou pela fixação do marco temporal para segurança jurídica do agronegócio.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "EC 132/2023",
+        "title": "Reforma Tributária",
+        "vote": "NÃO",
+        "summary": "Votou contra o texto alertando para o risco de criação do maior imposto sobre consumo do mundo.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PL 1494/2023",
+        "title": "Desoneração da Folha de Pagamentos",
+        "vote": "SIM",
+        "summary": "Votou pela prorrogação da desoneração tributária para manter empregos.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "MP 1031/2021",
+        "title": "Privatização da Eletrobras",
+        "vote": "SIM",
+        "summary": "Votou favoravelmente à venda de ações para desestatizar o setor elétrico.",
+        "source": "Câmara dos Deputados"
+      }
+    ],
+    "legalRecords": [
+      {
+        "caseName": "Certidões Cíveis e Criminais da Justiça Eleitoral e Federal",
+        "source": "STF / Justiça Federal",
+        "investigationFindings": "Questionamentos judiciais e representações formuladas por adversários políticos.",
+        "legalOutcome": "Sem Processos / Ficha Limpa. Ficha limpa confirmada no TSE; ausência de condenações colegiadas ou inelegibilidade eleitoral."
+      }
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Deputado_Federal_Kim_Kataguiri.jpg/330px-Deputado_Federal_Kim_Kataguiri.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "tabata-amaral",
+    "name": "Tabata Amaral",
+    "nomeUrna": "Tabata Amaral",
+    "nomeCompleto": "Tabata Claudia Amaral de Pontes",
+    "ballotNumber": "4040",
+    "numeroUrna": 4040,
+    "party": "PSB",
+    "coalition": "Federação PSB / PDT",
+    "coligacaoOuFederacao": "Federação PSB / PDT",
+    "role": "DEPUTADO_FEDERAL_SP",
+    "cargo": "DEPUTADO_FEDERAL_SP",
+    "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/204537.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Deputada_Tabata_Amaral_1%C2%BA_07_2026_-_Foto_Chico_Ferreira_%2855368148587%29.jpg/330px-Deputada_Tabata_Amaral_1%C2%BA_07_2026_-_Foto_Chico_Ferreira_%2855368148587%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipediaSlug": "Tabata_Amaral",
+    "isBaseline": false,
+    "isBaselineReference": false,
+    "politicalTrajectory": {
+      "summary": "Cientista política e astrofísica graduada em Harvard, originária da periferia de São Paulo (Vila Missionária). Foi eleita deputada federal em 2018 e reeleita em 2022 com mais de 337 mil votos, destacando-se na coautoria do Novo Fundeb e na lei da pobreza menstrual.",
+      "officesHeld": [
+        {
+          "role": "Deputada Federal por São Paulo",
+          "period": "2019 - Presente",
+          "location": "São Paulo / Brasília"
+        }
+      ],
+      "partyHistory": [
+        {
+          "party": "PSB",
+          "period": "2021 - Presente"
+        },
+        {
+          "party": "PDT",
+          "period": "2018 - 2021"
+        }
+      ],
+      "currentAlliances": "PSB, frentes parlamentares de educação pública, movimentos de renovação cívica e setor de tecnologia."
+    },
+    "pillars": {
+      "segurancaPublica": {
+        "proposal": "Segurança cidadã com uso inteligente de dados, inteligência investigativa e proteção integral a jovens em periferias.",
+        "implementation": "Criação da Política Nacional de Redução de Homicídios de Jovens e fortalecimento do sistema unificado de segurança pública (SUSP)."
+      },
+      "gastosPublicos": {
+        "proposal": "Responsabilidade fiscal associada ao investimento social estratégico baseado em evidências.",
+        "implementation": "Apoio a reformas estruturais equilibradas, racionalização de subsídios ineficientes e transparência em emendas parlamentares."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Estado inovador e indutor da transição ecológica, focado na garantia de direitos fundamentais.",
+        "implementation": "Parcerias público-privadas para inovação científica e fortalecimento da governança pública sem corporativismos."
+      },
+      "saude": {
+        "proposal": "Atenção primária integral, saúde mental nas escolas e redução do tempo de espera por especialistas.",
+        "implementation": "Ampliação de centros de atenção psicossocial (CAPS) infantojuvenis e combate à pobreza menstrual (Lei 14.214/2021)."
+      },
+      "educacao": {
+        "proposal": "Autora do Novo Fundeb e defensora da conectividade e alfabetização em tempo integral.",
+        "implementation": "Articulação e aprovação do Fundeb permanente na Constituição e criação da Poupança Ensino Médio (Pé-de-Meia)."
+      }
+    },
+    "legislativeVotes": [
+      {
+        "code": "PLP 93/2023",
+        "title": "Novo Arcabouço Fiscal",
+        "vote": "SIM",
+        "summary": "Votou a favor da nova regra orçamentária do país com metas de investimento.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "EC 132/2023",
+        "title": "Reforma Tributária",
+        "vote": "SIM",
+        "summary": "Votou pela modernização e unificação dos tributos com devolução de imposto (cashback) para os mais pobres.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PL 2265/2022",
+        "title": "Fim das Saidinhas de Presos",
+        "vote": "NÃO",
+        "summary": "Votou contra a extinção total do benefício para manter a reinserção social gradual.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PL 2903/2023",
+        "title": "Marco Temporal de Terras Indígenas",
+        "vote": "NÃO",
+        "summary": "Votou contra o marco temporal para resguardar a demarcação de terras indígenas.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PL 1494/2023",
+        "title": "Desoneração da Folha de Pagamentos",
+        "vote": "SIM",
+        "summary": "Votou a favor da manutenção dos empregos nas cadeias produtivas contempladas.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PEC 06/2019",
+        "title": "Reforma da Previdência",
+        "vote": "SIM (VOTO DE CONVICÇÃO)",
+        "summary": "Votou a favor da sustentabilidade das contas públicas e combate a aposentadorias precoces.",
+        "source": "Câmara dos Deputados"
+      }
+    ],
+    "legalRecords": [
+      {
+        "caseName": "Certidões Cíveis e Eleitorais",
+        "source": "TRE-SP / TSE",
+        "investigationFindings": "Contas de campanha aprovadas pelos órgãos eleitorais.",
+        "legalOutcome": "Sem Processos / Ficha Limpa. Ficha limpa atestada pela Justiça Eleitoral, sem processos criminais ou cíveis condenatórios."
+      }
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Deputada_Tabata_Amaral_1%C2%BA_07_2026_-_Foto_Chico_Ferreira_%2855368148587%29.jpg/330px-Deputada_Tabata_Amaral_1%C2%BA_07_2026_-_Foto_Chico_Ferreira_%2855368148587%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+    "id": "guilherme-boulos",
+    "name": "Guilherme Boulos (Referencial de Comparação)",
+    "nomeUrna": "Guilherme Boulos",
+    "nomeCompleto": "Guilherme Castro Boulos",
+    "ballotNumber": "5050",
+    "numeroUrna": 5050,
+    "party": "PSOL",
+    "coalition": "Federação PSOL-REDE / Federação Brasil da Esperança",
+    "coligacaoOuFederacao": "Federação PSOL-REDE / Federação Brasil da Esperança",
+    "role": "DEPUTADO_FEDERAL_SP",
+    "cargo": "DEPUTADO_FEDERAL_SP",
+    "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/220593.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Audi%C3%AAncia_P%C3%BAblica_-_Guilherme_Boulos_%28cropped%29.jpg/330px-Audi%C3%AAncia_P%C3%BAblica_-_Guilherme_Boulos_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipediaSlug": "Guilherme_Boulos",
+    "isBaseline": true,
+    "isBaselineReference": true,
+    "politicalTrajectory": {
+      "summary": "Filósofo e psicanalista pela USP, coordenou o Movimento dos Trabalhadores Sem-Teto (MTST) por duas décadas. Foi candidato à Presidência da República em 2018 e à Prefeitura de SP em 2020 e 2024, eleito o deputado federal mais votado de São Paulo em 2022 com mais de 1 milhão de votos.",
+      "officesHeld": [
+        {
+          "role": "Deputado Federal por São Paulo",
+          "period": "2023 - Presente",
+          "location": "São Paulo / Brasília"
+        },
+        {
+          "role": "Coordenador Nacional do MTST",
+          "period": "2002 - Presente",
+          "location": "São Paulo / Nacional"
+        }
+      ],
+      "partyHistory": [
+        {
+          "party": "PSOL",
+          "period": "2018 - Presente"
+        }
+      ],
+      "currentAlliances": "Federação PSOL-Rede, Federação Brasil da Esperança (PT/PCdoB/PV), movimentos populares e sindicatos."
+    },
+    "pillars": {
+      "segurancaPublica": {
+        "proposal": "Desmilitarização das polícias, foco em inteligência contra lavagem de dinheiro e política preventiva comunitária.",
+        "implementation": "Reforma do sistema de segurança com controle civil da atividade policial e câmeras corporais obrigatórias."
+      },
+      "gastosPublicos": {
+        "proposal": "Tributação sobre lucros e dividendos, taxação de grandes fortunas e fim de privilégios fiscais a corporações.",
+        "implementation": "Revogação de regras de contingenciamento fiscal sobre áreas sociais e criação do Imposto sobre Grandes Fortunas (IGF)."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Estado provedor e planejador, reversão de privatizações de serviços públicos essenciais e estatais.",
+        "implementation": "Reestatização da Sabesp e da Eletrobras e ampliação maciça de moradia popular pelo Ministério das Cidades."
+      },
+      "saude": {
+        "proposal": "Financiamento 100% público do SUS, erradicação da terceirização por OSs e farmácia popular gratuita universal.",
+        "implementation": "Aumento do piso constitucional da saúde para 15% da receita corrente líquida e estatização de hospitais filantrópicos endividados."
+      },
+      "educacao": {
+        "proposal": "Educação pública laica e gratuita em todos os níveis, valorização docente e passe livre estudantil.",
+        "implementation": "Aporte de 10% do PIB nacional na educação pública e valorização do Piso Salarial Nacional do Magistério."
+      }
+    },
+    "legislativeVotes": [
+      {
+        "code": "PLP 93/2023",
+        "title": "Novo Arcabouço Fiscal",
+        "vote": "SIM (APOIO AO GOVERNO)",
+        "summary": "Votou com a base governista para permitir expansão de despesas sociais do governo Lula.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "EC 132/2023",
+        "title": "Reforma Tributária",
+        "vote": "SIM",
+        "summary": "Votou pela aprovação da reforma destacando a tributação de jatinhos e iates e a cesta básica zerada.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PL 2265/2022",
+        "title": "Fim das Saidinhas de Presos",
+        "vote": "NÃO",
+        "summary": "Votou contra a extinção do benefício das saídas temporárias de presos do semiaberto.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PL 2903/2023",
+        "title": "Marco Temporal de Terras Indígenas",
+        "vote": "NÃO",
+        "summary": "Votou veementemente contra a limitação das demarcações de terras indígenas.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "PL 1494/2023",
+        "title": "Desoneração da Folha",
+        "vote": "NÃO",
+        "summary": "Votou contra a renúncia fiscal de receitas que financiam a seguridade social.",
+        "source": "Câmara dos Deputados"
+      },
+      {
+        "code": "MP 1031/2021",
+        "title": "Privatização da Eletrobras",
+        "vote": "NÃO",
+        "summary": "Posicionou-se frontalmente contra a venda de ativos estratégicos de geração de energia.",
+        "source": "Câmara dos Deputados"
+      }
+    ],
+    "legalRecords": [
+      {
+        "caseName": "Ações e Protestos por Moradia Urbana (MTST)",
+        "source": "TJ-SP / Justiça Estadual",
+        "investigationFindings": "Processos relativos a manifestações sociais de rua e ocupações de terrenos urbanos abandonados.",
+        "legalOutcome": "Absolvição e Arquivamento / Ficha Limpa. Processos criminais relativos a atos políticos trancados pelo TJ-SP por ausência de crime; certidões da Justiça Eleitoral atestam ficha limpa regular."
+      }
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Audi%C3%AAncia_P%C3%BAblica_-_Guilherme_Boulos_%28cropped%29.jpg/330px-Audi%C3%AAncia_P%C3%BAblica_-_Guilherme_Boulos_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   }
 ]

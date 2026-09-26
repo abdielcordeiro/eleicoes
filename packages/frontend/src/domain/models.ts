@@ -231,17 +231,29 @@ export interface ComparisonMatrixOutput {
   }>;
 }
 
+export interface SourceCheckResult {
+  name: string;
+  url: string;
+  status: number | string;
+  ok: boolean;
+  message?: string;
+}
+
 export interface SyncResult {
   timestamp: string;
+  lastSyncAt: string;
   formattedTimestamp: string;
+  sourcesChecked: SourceCheckResult[];
   sources: string[];
   recordsUpdated: number;
   message: string;
 }
 
 export interface SyncMetadata {
-  lastSync: string;
+  lastSync?: string;
+  lastSyncAt: string;
   formattedDate: string;
+  sourcesChecked: SourceCheckResult[];
   sources: string[];
   status: 'SUCCESS' | 'ERROR' | 'IDLE';
   recordsUpdated: number;

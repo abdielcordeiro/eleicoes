@@ -105,32 +105,32 @@ function normalizeCandidate(raw: any, defaultRole: OfficeRole): Candidate {
   const candScores = defaultScores[id] || { seg: 7.0, gas: 7.0, tam: 7.0, sau: 7.0, edu: 7.0 };
 
   const rawPillars = raw.pillars || {};
+
+  function parsePillarEntry(entry: any, defaultScore: number) {
+    if (!entry) {
+      return { score: defaultScore, summary: 'Sem dados', keyProposals: [] };
+    }
+    if (typeof entry === 'string') {
+      return { score: defaultScore, summary: entry, keyProposals: [entry] };
+    }
+    if (typeof entry === 'object') {
+      const proposal = entry.proposal || '';
+      const implementation = entry.implementation || '';
+      const summary = proposal || implementation || 'Sem dados';
+      const keyProposals: string[] = [];
+      if (proposal) keyProposals.push(`Proposta: ${proposal}`);
+      if (implementation) keyProposals.push(`Como implementar: ${implementation}`);
+      return { score: defaultScore, summary, keyProposals };
+    }
+    return { score: defaultScore, summary: String(entry), keyProposals: [] };
+  }
+
   const pilares: CandidatePillarsProfile = raw.pilares || {
-    [ThematicPillar.SEGURANCA_PUBLICA]: {
-      score: candScores.seg,
-      summary: rawPillars.segurancaPublica || 'Sem dados',
-      keyProposals: rawPillars.segurancaPublica ? [rawPillars.segurancaPublica] : [],
-    },
-    [ThematicPillar.GASTOS_PUBLICOS]: {
-      score: candScores.gas,
-      summary: rawPillars.gastosPublicos || 'Sem dados',
-      keyProposals: rawPillars.gastosPublicos ? [rawPillars.gastosPublicos] : [],
-    },
-    [ThematicPillar.TAMANHO_DO_ESTADO]: {
-      score: candScores.tam,
-      summary: rawPillars.tamanhoDoEstado || 'Sem dados',
-      keyProposals: rawPillars.tamanhoDoEstado ? [rawPillars.tamanhoDoEstado] : [],
-    },
-    [ThematicPillar.SAUDE]: {
-      score: candScores.sau,
-      summary: rawPillars.saude || 'Sem dados',
-      keyProposals: rawPillars.saude ? [rawPillars.saude] : [],
-    },
-    [ThematicPillar.EDUCACAO]: {
-      score: candScores.edu,
-      summary: rawPillars.educacao || 'Sem dados',
-      keyProposals: rawPillars.educacao ? [rawPillars.educacao] : [],
-    },
+    [ThematicPillar.SEGURANCA_PUBLICA]: parsePillarEntry(rawPillars.segurancaPublica, candScores.seg),
+    [ThematicPillar.GASTOS_PUBLICOS]: parsePillarEntry(rawPillars.gastosPublicos, candScores.gas),
+    [ThematicPillar.TAMANHO_DO_ESTADO]: parsePillarEntry(rawPillars.tamanhoDoEstado, candScores.tam),
+    [ThematicPillar.SAUDE]: parsePillarEntry(rawPillars.saude, candScores.sau),
+    [ThematicPillar.EDUCACAO]: parsePillarEntry(rawPillars.educacao, candScores.edu),
   };
 
   // Votações Legislativas

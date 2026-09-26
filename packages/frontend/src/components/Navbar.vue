@@ -9,15 +9,15 @@
             Dados Auditados
           </span>
           <span class="text-slate-300">
-            Última atualização: <strong class="text-white">{{ syncStore.metadata.formattedDate }}</strong> —
-            <span class="text-slate-400">Fontes: TSE / Câmara / Senado / Institutos Registrados</span>
+            Última atualização: <strong class="text-white">{{ syncStore.metadata.lastSyncAt || syncStore.metadata.formattedDate }}</strong> —
+            <span class="text-slate-400">Fontes: TSE / Câmara / Senado / Wikipédia / Institutos Registrados</span>
           </span>
         </div>
 
         <button
           @click="handleSync"
           :disabled="syncStore.isSyncing"
-          class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-md font-semibold text-xs text-white bg-vibrant-orange hover:bg-vibrant-orange-hover transition-all transform active:scale-95 shadow-sm disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
+          class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-md font-semibold text-xs text-white bg-vibrant-orange hover:bg-vibrant-orange-hover transition-all transform active:scale-95 shadow-sm disabled:opacity-75 disabled:cursor-not-allowed cursor-pointer"
         >
           <svg
             :class="{ 'animate-spin': syncStore.isSyncing }"
@@ -29,7 +29,7 @@
           >
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
           </svg>
-          <span>{{ syncStore.isSyncing ? 'Sincronizando...' : '🔄 Buscar e Atualizar Dados' }}</span>
+          <span>{{ syncStore.isSyncing ? 'Consultando API da Câmara, Senado, Wikipédia e Pesquisas...' : '🔄 Buscar e Atualizar Dados' }}</span>
         </button>
       </div>
     </div>

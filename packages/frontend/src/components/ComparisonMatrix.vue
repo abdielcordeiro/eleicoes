@@ -248,7 +248,7 @@
                 Nota: {{ baseline.pilares?.SEGURANCA_PUBLICA?.score || 4.5 }}/10
               </span>
               <p class="text-xs text-slate-600 leading-relaxed">
-                {{ baseline.pillars?.segurancaPublica || baseline.pilares?.SEGURANCA_PUBLICA?.summary }}
+                {{ formatPillarText(baseline.pillars?.segurancaPublica || baseline.pilares?.SEGURANCA_PUBLICA?.summary) }}
               </p>
             </td>
             <td v-for="c in challengers" :key="c.id" class="p-4 border-r border-slate-100 align-top">
@@ -256,7 +256,7 @@
                 Nota: {{ c.pilares?.SEGURANCA_PUBLICA?.score || 9.0 }}/10
               </span>
               <p class="text-xs text-slate-700 leading-relaxed">
-                {{ c.pillars?.segurancaPublica || c.pilares?.SEGURANCA_PUBLICA?.summary }}
+                {{ formatPillarText(c.pillars?.segurancaPublica || c.pilares?.SEGURANCA_PUBLICA?.summary) }}
               </p>
             </td>
           </tr>
@@ -274,7 +274,7 @@
                 Nota: {{ baseline.pilares?.GASTOS_PUBLICOS?.score || 4.0 }}/10
               </span>
               <p class="text-xs text-slate-600 leading-relaxed">
-                {{ baseline.pillars?.gastosPublicos || baseline.pilares?.GASTOS_PUBLICOS?.summary }}
+                {{ formatPillarText(baseline.pillars?.gastosPublicos || baseline.pilares?.GASTOS_PUBLICOS?.summary) }}
               </p>
             </td>
             <td v-for="c in challengers" :key="c.id" class="p-4 border-r border-slate-100 align-top">
@@ -282,7 +282,7 @@
                 Nota: {{ c.pilares?.GASTOS_PUBLICOS?.score || 8.5 }}/10
               </span>
               <p class="text-xs text-slate-700 leading-relaxed">
-                {{ c.pillars?.gastosPublicos || c.pilares?.GASTOS_PUBLICOS?.summary }}
+                {{ formatPillarText(c.pillars?.gastosPublicos || c.pilares?.GASTOS_PUBLICOS?.summary) }}
               </p>
             </td>
           </tr>
@@ -300,7 +300,7 @@
                 Nota: {{ baseline.pilares?.TAMANHO_DO_ESTADO?.score || 3.0 }}/10
               </span>
               <p class="text-xs text-slate-600 leading-relaxed">
-                {{ baseline.pillars?.tamanhoDoEstado || baseline.pilares?.TAMANHO_DO_ESTADO?.summary }}
+                {{ formatPillarText(baseline.pillars?.tamanhoDoEstado || baseline.pilares?.TAMANHO_DO_ESTADO?.summary) }}
               </p>
             </td>
             <td v-for="c in challengers" :key="c.id" class="p-4 border-r border-slate-100 align-top">
@@ -308,7 +308,7 @@
                 Nota: {{ c.pilares?.TAMANHO_DO_ESTADO?.score || 9.0 }}/10
               </span>
               <p class="text-xs text-slate-700 leading-relaxed">
-                {{ c.pillars?.tamanhoDoEstado || c.pilares?.TAMANHO_DO_ESTADO?.summary }}
+                {{ formatPillarText(c.pillars?.tamanhoDoEstado || c.pilares?.TAMANHO_DO_ESTADO?.summary) }}
               </p>
             </td>
           </tr>
@@ -326,7 +326,7 @@
                 Nota: {{ baseline.pilares?.SAUDE?.score || 7.5 }}/10
               </span>
               <p class="text-xs text-slate-600 leading-relaxed">
-                {{ baseline.pillars?.saude || baseline.pilares?.SAUDE?.summary }}
+                {{ formatPillarText(baseline.pillars?.saude || baseline.pilares?.SAUDE?.summary) }}
               </p>
             </td>
             <td v-for="c in challengers" :key="c.id" class="p-4 border-r border-slate-100 align-top">
@@ -334,7 +334,7 @@
                 Nota: {{ c.pilares?.SAUDE?.score || 8.0 }}/10
               </span>
               <p class="text-xs text-slate-700 leading-relaxed">
-                {{ c.pillars?.saude || c.pilares?.SAUDE?.summary }}
+                {{ formatPillarText(c.pillars?.saude || c.pilares?.SAUDE?.summary) }}
               </p>
             </td>
           </tr>
@@ -352,7 +352,7 @@
                 Nota: {{ baseline.pilares?.EDUCACAO?.score || 7.0 }}/10
               </span>
               <p class="text-xs text-slate-600 leading-relaxed">
-                {{ baseline.pillars?.educacao || baseline.pilares?.EDUCACAO?.summary }}
+                {{ formatPillarText(baseline.pillars?.educacao || baseline.pilares?.EDUCACAO?.summary) }}
               </p>
             </td>
             <td v-for="c in challengers" :key="c.id" class="p-4 border-r border-slate-100 align-top">
@@ -360,7 +360,7 @@
                 Nota: {{ c.pilares?.EDUCACAO?.score || 8.0 }}/10
               </span>
               <p class="text-xs text-slate-700 leading-relaxed">
-                {{ c.pillars?.educacao || c.pilares?.EDUCACAO?.summary }}
+                {{ formatPillarText(c.pillars?.educacao || c.pilares?.EDUCACAO?.summary) }}
               </p>
             </td>
           </tr>
@@ -465,4 +465,16 @@ const headerDescription = computed(() => {
       return 'Análise detalhada dos principais postulantes à Presidência frente a Luiz Inácio Lula da Silva (PT) como baseline de referência governamental.';
   }
 });
+
+function formatPillarText(val: any): string {
+  if (!val) return '';
+  if (typeof val === 'string') return val;
+  if (typeof val === 'object') {
+    const prop = val.proposal || '';
+    const impl = val.implementation || '';
+    if (prop && impl) return `${prop} (Como implementar: ${impl})`;
+    return prop || impl || '';
+  }
+  return String(val);
+}
 </script>

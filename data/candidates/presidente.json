@@ -2,33 +2,75 @@
   {
     "id": "flavio-bolsonaro",
     "name": "Flávio Bolsonaro",
+    "nomeUrna": "Flávio Bolsonaro",
+    "nomeCompleto": "Flávio Nantes Bolsonaro",
     "ballotNumber": "22",
+    "numeroUrna": 22,
     "party": "PL",
     "coalition": "Partido isolado (PL)",
+    "coligacaoOuFederacao": "Partido isolado (PL)",
     "role": "PRESIDENTE",
-    "photoUrl": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5979.jpg",
+    "cargo": "PRESIDENTE",
+    "fallbackPhoto": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5979.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_%28v._AgSen%29_%283x4%29.jpg/330px-Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_%28v._AgSen%29_%283x4%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Flávio_Bolsonaro",
     "isBaseline": false,
+    "isBaselineReference": false,
     "politicalTrajectory": {
       "summary": "Advogado e empresário, foi deputado estadual no Rio de Janeiro por quatro mandatos consecutivos (2003–2019) e eleito Senador da República em 2018 com mais de 4,3 milhões de votos, exercendo liderança da oposição no Congresso Nacional.",
       "officesHeld": [
-        { "role": "Senador da República", "period": "2019 - Presente", "location": "Rio de Janeiro / Brasília" },
-        { "role": "Deputado Estadual (ALERJ)", "period": "2003 - 2019", "location": "Rio de Janeiro" }
+        {
+          "role": "Senador da República",
+          "period": "2019 - Presente",
+          "location": "Rio de Janeiro / Brasília"
+        },
+        {
+          "role": "Deputado Estadual (ALERJ)",
+          "period": "2003 - 2019",
+          "location": "Rio de Janeiro"
+        }
       ],
       "partyHistory": [
-        { "party": "PL", "period": "2021 - Presente" },
-        { "party": "Republicanos", "period": "2020 - 2021" },
-        { "party": "PSL", "period": "2018 - 2019" },
-        { "party": "PSC / PP", "period": "2003 - 2018" }
+        {
+          "party": "PL",
+          "period": "2021 - Presente"
+        },
+        {
+          "party": "Republicanos",
+          "period": "2020 - 2021"
+        },
+        {
+          "party": "PSL",
+          "period": "2018 - 2019"
+        },
+        {
+          "party": "PSC / PP",
+          "period": "2003 - 2018"
+        }
       ],
       "currentAlliances": "Bancada do Partido Liberal (PL), frentes parlamentares da segurança pública, agronegócio e bases conservadoras."
     },
     "pillars": {
-      "segurancaPublica": "Endurecimento da legislação penal, redução da maioridade penal, armamento civil e apoio irrestrito às forças policiais.",
-      "gastosPublicos": "Defesa de contenção de despesas da máquina pública e oposição a aumento de tributos.",
-      "tamanhoDoEstado": "Privatizações de estatais federais e desregulamentação setorial.",
-      "saude": "Descentralização de verbas para estados/municípios e ampliação de convênios público-privados.",
-      "educacao": "Pauta conservadora nas escolas (combate à doutrinação ideológica) e expansão do modelo cívico-militar."
+      "segurancaPublica": {
+        "proposal": "Endurecimento da legislação penal, redução da maioridade penal para 16 anos e armamento civil.",
+        "implementation": "Articulação de PEC para alteração do art. 228 da CF, revisão do Estatuto do Desarmamento e ampliação do excludente de ilicitude para policiais."
+      },
+      "gastosPublicos": {
+        "proposal": "Contenção rigorosa de despesas primárias e oposição a aumentos de carga tributária.",
+        "implementation": "Revisão e corte de subsídios fiscais ineficientes, corte de cargos de confiança no Executivo federal e limitação do crescimento de despesas correntes."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Aceleração de privatizações de estatais federais e desregulamentação da atividade econômica.",
+        "implementation": "Inclusão da Petrobras, Correios e bancos públicos menores no Programa Nacional de Desestatização (PND)."
+      },
+      "saude": {
+        "proposal": "Descentralização de verbas federais para estados e municípios com foco em parcerias público-privadas no SUS.",
+        "implementation": "Revisão da Tabela de repasses do SUS e ampliação de contratos de gestão com Santas Casas e hospitais filantrópicos."
+      },
+      "educacao": {
+        "proposal": "Foco no combate à doutrinação ideológica, fortalecimento do ensino básico e expansão do modelo cívico-militar.",
+        "implementation": "Condicionamento de repasses do Fundeb a critérios técnicos de aprendizagem e ampliação do Programa Nacional das Escolas Cívico-Militares."
+      }
     },
     "legislativeVotes": [
       {
@@ -51,43 +93,94 @@
         "vote": "SIM",
         "summary": "Votou a favor de restringir demarcações às áreas ocupadas em 05/10/1988, priorizando a segurança jurídica do agronegócio.",
         "source": "Senado Federal (Atividade Legislativa)"
+      },
+      {
+        "code": "EC 132/2023",
+        "title": "Reforma Tributária sobre o Consumo",
+        "vote": "NÃO",
+        "summary": "Votou contra a PEC da Reforma Tributária alegando riscos de aumento da carga com as alíquotas do IBS/CBS e perda de autonomia federativa.",
+        "source": "Senado Federal (Atividade Legislativa)"
+      },
+      {
+        "code": "PL 1494/2023",
+        "title": "Prorrogação da Desoneração da Folha de Pagamentos",
+        "vote": "SIM",
+        "summary": "Votou a favor de manter a desoneração de 17 setores intensivos em empregos para preservar postos de trabalho.",
+        "source": "Senado Federal (Atividade Legislativa)"
+      },
+      {
+        "code": "MP 1031/2021",
+        "title": "Privatização da Eletrobras",
+        "vote": "SIM",
+        "summary": "Votou a favor da capitalização e privatização da holding estatal do setor elétrico para atrair investimentos privados.",
+        "source": "Senado Federal (Atividade Legislativa)"
       }
     ],
     "legalRecords": [
       {
-        "caseName": "Caso das 'Rachadinhas' (Gabinete ALERJ / Operação Furna da Onça)",
+        "caseName": "Caso das \"Rachadinhas\" (Gabinete ALERJ / Operação Furna da Onça)",
         "source": "MP-RJ / STJ (HC 649.036) / STF (Rcl 46.883)",
         "investigationFindings": "Relatórios do COAF e auditorias bancárias apontaram repasses de parte dos salários de assessores ao operador Fabrício Queiroz, além de depósitos fracionados em espécie e pagamentos de despesas pessoais.",
         "legalOutcome": "Anulação Processual (Vício Formal). O STJ anulou o compartilhamento de dados bancários do COAF sem autorização judicial e reconheceu foro por prerrogativa de função no Órgão Especial do TJ-RJ, anulando a denúncia do MP-RJ. As provas foram invalidadas sem que houvesse julgamento de mérito sobre a culpa ou inocência."
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_%28v._AgSen%29_%283x4%29.jpg/330px-Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_%28v._AgSen%29_%283x4%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "romeu-zema",
     "name": "Romeu Zema",
+    "nomeUrna": "Romeu Zema",
+    "nomeCompleto": "Romeu Zema Neto",
     "ballotNumber": "30",
+    "numeroUrna": 30,
     "party": "NOVO",
     "coalition": "Partido isolado (NOVO)",
+    "coligacaoOuFederacao": "Partido isolado (NOVO)",
     "role": "PRESIDENTE",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Romeu_Zema_em_2023.jpg",
+    "cargo": "PRESIDENTE",
+    "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/8/87/Romeu_Zema_em_2023.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Romeu_Zema_2025_%28cropped%29.jpg/330px-Romeu_Zema_2025_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Romeu_Zema",
     "isBaseline": false,
+    "isBaselineReference": false,
     "politicalTrajectory": {
       "summary": "Administrador e empresário, presidiu o Grupo Zema antes de ingressar na vida partidária em 2018, quando foi eleito Governador de Minas Gerais pelo Partido Novo, conquistando a reeleição em primeiro turno em 2022 com agenda de austeridade fiscal.",
       "officesHeld": [
-        { "role": "Governador do Estado de Minas Gerais", "period": "2019 - Presente", "location": "Belo Horizonte - MG" }
+        {
+          "role": "Governador do Estado de Minas Gerais",
+          "period": "2019 - Presente",
+          "location": "Belo Horizonte - MG"
+        }
       ],
       "partyHistory": [
-        { "party": "NOVO", "period": "2018 - Presente" }
+        {
+          "party": "NOVO",
+          "period": "2018 - Presente"
+        }
       ],
       "currentAlliances": "Partido Novo, setores liberais da indústria e comércio, bancadas de austeridade fiscal e lideranças empresariais do Sudeste."
     },
     "pillars": {
-      "segurancaPublica": "Integração das polícias Militar e Civil, investimento em inteligência, monitoramento por câmeras e valorização das forças com foco em redução de homicídios.",
-      "gastosPublicos": "Ajuste fiscal severo, corte de secretarias, redução de mordomias e congelamento de novas contratações não essenciais.",
-      "tamanhoDoEstado": "Desestatizações (Copasa, Cemig), desregulamentação, atração de investimentos privados e eliminação de burocracias estatais.",
-      "saude": "Gestão hospitalar via Organizações Sociais (OSs) e foco em zerar filas de cirurgias eletivas via contratualização.",
-      "educacao": "Expansão de escolas de tempo integral, modelo de gestão por metas e parcerias técnico-profissionalizantes."
+      "segurancaPublica": {
+        "proposal": "Integração das forças de segurança, investimento intensivo em inteligência e cercamento eletrônico.",
+        "implementation": "Interligação de bancos de dados criminais nacionais, metas de produtividade policial e compras compartilhadas de viaturas e armamentos."
+      },
+      "gastosPublicos": {
+        "proposal": "Ajuste fiscal severo, corte substancial de ministérios e reforma administrativa no topo do funcionalismo.",
+        "implementation": "Extinção de 15 ministérios federais, limitação de benefícios salariais a servidores de topo e criação do teto remuneratório sem penduricalhos."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Choque de privatizações de estatais federais e desregulamentação radical para atração de investimentos.",
+        "implementation": "Leilões competitivos de infraestrutura na B3 e adesão ao padrão OCDE para facilitação de negócios e licenciamentos."
+      },
+      "saude": {
+        "proposal": "Gestão hospitalar orientada por contratos de desempenho com Organizações Sociais (OSs).",
+        "implementation": "Remuneração do SUS atrelada a desfecho clínico e digitalização unificada do prontuário do paciente em âmbito federal."
+      },
+      "educacao": {
+        "proposal": "Expansão de escolas de tempo integral com foco em ensino técnico profissionalizante.",
+        "implementation": "Parcerias público-privadas com o Sistema S para integração curricular e bonificação por mérito aos professores da rede pública."
+      }
     },
     "legislativeVotes": [
       {
@@ -103,6 +196,34 @@
         "vote": "FAVORÁVEL",
         "summary": "Extinguiu 8 secretarias estaduais e abriu mão do próprio salário de governador até o equilíbrio das contas.",
         "source": "Diário Oficial do Estado de Minas Gerais"
+      },
+      {
+        "code": "Gestão Executiva (MG)",
+        "title": "Concessão do Rodoanel Metropolitano de BH",
+        "vote": "FAVORÁVEL",
+        "summary": "Conduziu a modelagem e leilão de concessão rodoviária bilionária para desafogar o tráfego da Grande BH.",
+        "source": "Secretaria de Infraestrutura de MG"
+      },
+      {
+        "code": "Gestão Executiva (MG)",
+        "title": "Privatização de Estatais (Copasa e Cemig)",
+        "vote": "FAVORÁVEL",
+        "summary": "Enviou à ALMG projetos de emenda constitucional e privatização de empresas energéticas e de saneamento básico.",
+        "source": "Assembleia Legislativa de MG"
+      },
+      {
+        "code": "Gestão Executiva (MG)",
+        "title": "Currículo Técnico Profissionalizante no Ensino Médio",
+        "vote": "FAVORÁVEL",
+        "summary": "Implementou o projeto Trilhas de Futuro capacitando mais de 100 mil jovens mineiros em cursos técnicos.",
+        "source": "Secretaria de Educação de MG"
+      },
+      {
+        "code": "Gestão Executiva (MG)",
+        "title": "Combate a Penduricalhos no Orçamento",
+        "vote": "FAVORÁVEL",
+        "summary": "Vetou reajustes setoriais acima da capacidade fiscal para preservar a solvência do tesouro mineiro.",
+        "source": "Diário Oficial do Estado de Minas Gerais"
       }
     ],
     "legalRecords": [
@@ -110,38 +231,76 @@
         "caseName": "Auditoria de Gestão Fiscal e Contratos",
         "source": "Tribunal de Contas do Estado de Minas Gerais (TCE-MG)",
         "investigationFindings": "Apurações de órgãos de controle e oposição relativas a parcelamentos de repasses a municípios e critérios de reajustes salariais da segurança pública.",
-        "legalOutcome": "Sem Condenação Criminal. Nenhum processo por desvio, corrupção passiva ou enriquecimento ilícito registrado. Ficha limpa perante a Justiça Eleitoral."
+        "legalOutcome": "Sem Condenação Criminal / Ficha Limpa. Nenhum processo por desvio, corrupção passiva ou enriquecimento ilícito registrado. Ficha limpa perante a Justiça Eleitoral."
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Romeu_Zema_2025_%28cropped%29.jpg/330px-Romeu_Zema_2025_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "ronaldo-caiado",
     "name": "Ronaldo Caiado",
+    "nomeUrna": "Ronaldo Caiado",
+    "nomeCompleto": "Ronaldo Ramos Caiado",
     "ballotNumber": "55",
+    "numeroUrna": 55,
     "party": "PSD",
     "coalition": "Partido isolado (PSD)",
+    "coligacaoOuFederacao": "Partido isolado (PSD)",
     "role": "PRESIDENTE",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Ronaldo_Caiado_em_2023.jpg",
+    "cargo": "PRESIDENTE",
+    "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Ronaldo_Caiado_em_2023.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Foto_oficial_do_governador_de_Goi%C3%A1s%2C_Ronaldo_Caiado_em_2023_%28ombros%29.jpg/330px-Foto_oficial_do_governador_de_Goi%C3%A1s%2C_Ronaldo_Caiado_em_2023_%28ombros%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Ronaldo_Caiado",
     "isBaseline": false,
+    "isBaselineReference": false,
     "politicalTrajectory": {
       "summary": "Médico e produtor rural, fundou a UDR na redemocratização. Foi deputado federal por cinco legislaturas, senador da República e eleito Governador de Goiás em 2018 e reeleito em 2022 com altos índices de aprovação popular em segurança pública.",
       "officesHeld": [
-        { "role": "Governador do Estado de Goiás", "period": "2019 - Presente", "location": "Goiânia - GO" },
-        { "role": "Senador da República por Goiás", "period": "2015 - 2018", "location": "Goiás / Brasília" },
-        { "role": "Deputado Federal por Goiás", "period": "1991 - 1995 / 1999 - 2014", "location": "Goiás / Brasília" }
+        {
+          "role": "Governador do Estado de Goiás",
+          "period": "2019 - Presente",
+          "location": "Goiânia - GO"
+        },
+        {
+          "role": "Senador da República por Goiás",
+          "period": "2015 - 2018",
+          "location": "Goiás / Brasília"
+        },
+        {
+          "role": "Deputado Federal por Goiás",
+          "period": "1991 - 1995 / 1999 - 2014",
+          "location": "Goiás / Brasília"
+        }
       ],
       "partyHistory": [
-        { "party": "União Brasil (antigo DEM / PFL)", "period": "1990 - Presente" }
+        {
+          "party": "União Brasil (antigo DEM / PFL)",
+          "period": "1990 - Presente"
+        }
       ],
       "currentAlliances": "União Brasil, bancada da FPA (Frente Parlamentar da Agropecuária), governadores do Centro-Oeste e frentes de segurança."
     },
     "pillars": {
-      "segurancaPublica": "Tolerância zero com facções criminosas, ocupação ostensiva de território pelas forças estaduais e empoderamento das tropas policiais.",
-      "gastosPublicos": "Reestruturação fiscal de Goiás, renegociação de passivos fiscais e equilíbrio orçamentário.",
-      "tamanhoDoEstado": "Estado focado em segurança, infraestrutura e apoio ao agronegócio; ceticismo com aparelhamento ideológico.",
-      "saude": "Regionalização da saúde pública com policlínicas estaduais no interior de Goiás.",
-      "educacao": "Distribuição de kits escolares, bolsas para permanência de estudantes do ensino médio e suporte aos colégios militares estaduais."
+      "segurancaPublica": {
+        "proposal": "Tolerância zero com facções criminosas, ocupação ostensiva de território pelas forças estaduais e empoderamento das tropas policiais.",
+        "implementation": "Isolamento absoluto de líderes de facções em presídios de segurança máxima e reformulação do Código Penal para tipificar facções como organizações terroristas."
+      },
+      "gastosPublicos": {
+        "proposal": "Responsabilidade fiscal com reestruturação da dívida e canalização de recursos para obras de infraestrutura.",
+        "implementation": "Renegociação de indexadores das dívidas dos entes federados e aplicação rigorosa de metas de superávit primário."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Estado focado nas atribuições essenciais (segurança, saúde, educação) e fomento prioritário ao agronegócio.",
+        "implementation": "Desburocratização de licenças ambientais para o agronegócio e segurança jurídica da propriedade privada."
+      },
+      "saude": {
+        "proposal": "Regionalização da média e alta complexidade hospitalar no interior do país.",
+        "implementation": "Construção de policlínicas estaduais de diagnóstico e implantação de UTIs móveis integradas."
+      },
+      "educacao": {
+        "proposal": "Incentivo financeiro à permanência de estudantes do ensino médio e suporte aos colégios militares.",
+        "implementation": "Expansão nacional de programas de poupança para estudantes secundaristas e implantação de padrões de disciplina e mérito."
+      }
     },
     "legislativeVotes": [
       {
@@ -150,6 +309,41 @@
         "vote": "NÃO AO DESARMAMENTO",
         "summary": "Histórico de votações consistente pela legítima defesa, porte rural de armas e recrudescimento das penas para reincidentes.",
         "source": "Câmara dos Deputados / Senado Federal"
+      },
+      {
+        "code": "Histórico Parlamentar",
+        "title": "Marco Temporal de Terras Indígenas",
+        "vote": "SIM",
+        "summary": "Defesa enfática da tese do marco temporal de 1988 para garantia da segurança jurídica e proteção da produção agropecuária.",
+        "source": "Senado Federal"
+      },
+      {
+        "code": "Gestão Executiva (GO)",
+        "title": "Fundo Estadual de Infraestrutura (Fundeinfra / Taxa do Agro)",
+        "vote": "FAVORÁVEL",
+        "summary": "Instituiu contribuição setorial sobre produtos agrícolas voltada exclusivamente para asfaltamento e manutenção de rodovias estaduais.",
+        "source": "Assembleia Legislativa de Goiás"
+      },
+      {
+        "code": "Gestão Executiva (GO)",
+        "title": "Operações de Tolerância Zero contra Facções",
+        "vote": "FAVORÁVEL",
+        "summary": "Determinou expulsão e isolamento de facções criminosas no território goiano com forte retaguarda jurídica às polícias.",
+        "source": "Secretaria de Segurança Pública de Goiás"
+      },
+      {
+        "code": "Gestão Executiva (GO)",
+        "title": "Programa Mães de Goiás e Bolsa Estudo",
+        "vote": "FAVORÁVEL",
+        "summary": "Criou benefícios de transferência de renda condicionados à vacinação infantil e permanência dos jovens nas escolas.",
+        "source": "Governo do Estado de Goiás"
+      },
+      {
+        "code": "Histórico Parlamentar",
+        "title": "Reforma Trabalhista de 2017 (Lei 13.467)",
+        "vote": "SIM",
+        "summary": "Votou a favor da modernização da CLT, prevalência do acordado sobre o legislado e fim do imposto sindical compulsório.",
+        "source": "Senado Federal"
       }
     ],
     "legalRecords": [
@@ -159,44 +353,116 @@
         "investigationFindings": "Questionamentos pontuais de adversários políticos sobre atos de propaganda eleitoral e despesas de campanhas passadas.",
         "legalOutcome": "Contas Aprovadas / Sem Condenações Criminais. Ficha limpa regularizada e sem sentenças condenatórias por crimes contra a administração pública."
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Foto_oficial_do_governador_de_Goi%C3%A1s%2C_Ronaldo_Caiado_em_2023_%28ombros%29.jpg/330px-Foto_oficial_do_governador_de_Goi%C3%A1s%2C_Ronaldo_Caiado_em_2023_%28ombros%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "renan-santos",
     "name": "Renan Santos",
+    "nomeUrna": "Renan Santos",
+    "nomeCompleto": "Renan Antônio Ferreira dos Santos",
     "ballotNumber": "14",
+    "numeroUrna": 14,
     "party": "MISSÃO",
     "coalition": "Partido isolado (MISSÃO)",
+    "coligacaoOuFederacao": "Partido isolado (MISSÃO)",
     "role": "PRESIDENTE",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Renan_Santos_em_debate.jpg",
+    "cargo": "PRESIDENTE",
+    "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/3/30/Renan_Santos_em_debate.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Renan_Santos_-_Congresso_do_Partido_Miss%C3%A3o%2C_2026_%28cropped_2%29.jpg/330px-Renan_Santos_-_Congresso_do_Partido_Miss%C3%A3o%2C_2026_%28cropped_2%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Renan_Santos",
     "isBaseline": false,
+    "isBaselineReference": false,
     "politicalTrajectory": {
       "summary": "Ativista político e comunicador, é um dos fundadores e articuladores do Movimento Brasil Livre (MBL), liderando mobilizações nacionais por reformas liberais e capitaneando a fundação do Partido Missão para o ciclo eleitoral de 2026.",
       "officesHeld": [
-        { "role": "Coordenador Nacional do MBL", "period": "2014 - Presente", "location": "Nacional" },
-        { "role": "Presidente / Articulador do Partido Missão", "period": "2023 - Presente", "location": "Nacional" }
+        {
+          "role": "Coordenador Nacional do MBL",
+          "period": "2014 - Presente",
+          "location": "Nacional"
+        },
+        {
+          "role": "Presidente / Articulador do Partido Missão",
+          "period": "2023 - Presente",
+          "location": "Nacional"
+        }
       ],
       "partyHistory": [
-        { "party": "MISSÃO (em formação)", "period": "2023 - Presente" },
-        { "party": "União Brasil / DEM (Articulação Externa)", "period": "2016 - 2022" }
+        {
+          "party": "MISSÃO (em formação)",
+          "period": "2023 - Presente"
+        },
+        {
+          "party": "União Brasil / DEM (Articulação Externa)",
+          "period": "2016 - 2022"
+        }
       ],
       "currentAlliances": "Partido Missão, bancadas jovens liberais, núcleos universitários e movimentos civis anticorrupção."
     },
     "pillars": {
-      "segurancaPublica": "Encarceramento em massa de líderes de facções (modelo Cecot / Nayib Bukele), isolamento total em presídios de segurança máxima e repressão severa ao crime organizado.",
-      "gastosPublicos": "Reforma administrativa radical, fim de privilégios do funcionalismo de topo (supersalários) e equilíbrio fiscal estrito.",
-      "tamanhoDoEstado": "Choque de privatizações, corte de ministérios e incentivo agressivo ao livre mercado.",
-      "saude": "Concessão de unidades básicas à iniciativa privada e digitalização do atendimento médico.",
-      "educacao": "Foco em formação científica, exatas, testes padronizados de desempenho e erradicação de pautas progressistas no currículo."
+      "segurancaPublica": {
+        "proposal": "Encarceramento em massa de líderes de facções (modelo Cecot / Nayib Bukele), isolamento total em presídios de segurança máxima e repressão severa.",
+        "implementation": "Construção de megacomplexos penitenciários de segurança máxima em áreas isoladas, corte de visitas íntimas e bloqueio eletromagnético de telecomunicações."
+      },
+      "gastosPublicos": {
+        "proposal": "Reforma administrativa radical, fim de privilégios do funcionalismo de topo (supersalários) e equilíbrio fiscal estrito.",
+        "implementation": "Eliminação imediata de penduricalhos, férias de 60 dias do Judiciário e estabilidade para cargos meramente burocráticos."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Choque de privatizações, corte de ministérios e incentivo agressivo ao livre mercado.",
+        "implementation": "Redução para apenas 12 ministérios, privatização integral de empresas públicas e revogação em massa de normas regulatórias."
+      },
+      "saude": {
+        "proposal": "Concessão de unidades básicas à iniciativa privada e digitalização do atendimento médico.",
+        "implementation": "Implementação de vouchers de saúde para atendimento na rede particular e aplicativo unificado de telemedicina."
+      },
+      "educacao": {
+        "proposal": "Foco em formação científica, exatas, testes padronizados de desempenho e erradicação de pautas progressistas no currículo.",
+        "implementation": "Permissão para famílias optarem por escolas conveniadas via crédito educacional e fim da progressão continuada no ensino fundamental."
+      }
     },
     "legislativeVotes": [
       {
         "code": "Atuação Política Institucional",
-        "title": "Bandeiras de Oposição ao Governo Federal",
+        "title": "Campanha Popular pelo Impeachment de Dilma Rousseff",
+        "vote": "FAVORÁVEL AO IMPEACHMENT",
+        "summary": "Articulou marchas e protestos nacionais pela destituição da presidente em razão de pedaladas fiscais.",
+        "source": "Movimento Brasil Livre"
+      },
+      {
+        "code": "Atuação Política Institucional",
+        "title": "Mobilização pelo Teto de Gastos (EC 95/2016)",
+        "vote": "FAVORÁVEL AO TETO",
+        "summary": "Liderou campanhas públicas e pressão parlamentar pela aprovação do limite constitucional de despesas.",
+        "source": "Movimento Brasil Livre"
+      },
+      {
+        "code": "Atuação Política Institucional",
+        "title": "Apoio à Reforma da Previdência (EC 103/2019)",
+        "vote": "FAVORÁVEL À REFORMA",
+        "summary": "Defendeu o fim de aposentadorias precoces e convergência de regras entre os setores público e privado.",
+        "source": "Movimento Brasil Livre"
+      },
+      {
+        "code": "Atuação Política Institucional",
+        "title": "Oposição ao Aumento de Impostos do Governo Lula",
         "vote": "CONTRA POLÍTICAS ESTATIZANTES",
-        "summary": "Atuação externa na organização de mobilizações populares pelo impeachment, reformas liberais e combate à corrupção.",
+        "summary": "Organizou manifestações contra o aumento de ICMS, tributação de compras importadas e novo arcabouço fiscal.",
         "source": "Movimento Brasil Livre / Partido Missão"
+      },
+      {
+        "code": "Atuação Política Institucional",
+        "title": "Combate e Denúncia ao Orçamento Secreto",
+        "vote": "CONTRA EMENDAS SECRETAS",
+        "summary": "Apresentou representações contra a falta de transparência na distribuição de emendas de relator RP9.",
+        "source": "Movimento Brasil Livre"
+      },
+      {
+        "code": "Atuação Política Institucional",
+        "title": "Apoio ao Fim da Saidinha Temporária de Presos",
+        "vote": "FAVORÁVEL AO FIM DA SAIDINHA",
+        "summary": "Pressionou o Congresso Nacional pela derrubada dos vetos presidenciais ao projeto de lei penal.",
+        "source": "Partido Missão"
       }
     ],
     "legalRecords": [
@@ -206,35 +472,69 @@
         "investigationFindings": "Investigação deflagrada em 2020 apurou suposta lavagem de dinheiro e movimentações atípicas através de doações por plataformas digitais e empresas ligadas a membros do movimento.",
         "legalOutcome": "Arquivamento por Falta de Provas. A Justiça de São Paulo determinou o trancamento e arquivamento das apurações por ausência de elementos probatórios ou indícios de prática criminosa."
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Renan_Santos_-_Congresso_do_Partido_Miss%C3%A3o%2C_2026_%28cropped_2%29.jpg/330px-Renan_Santos_-_Congresso_do_Partido_Miss%C3%A3o%2C_2026_%28cropped_2%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "lula",
     "name": "Luiz Inácio Lula da Silva (Referencial de Comparação)",
+    "nomeUrna": "Lula",
+    "nomeCompleto": "Luiz Inácio Lula da Silva",
     "ballotNumber": "13",
+    "numeroUrna": 13,
     "party": "PT",
     "coalition": "Federação Brasil da Esperança (PT / PCdoB / PV)",
+    "coligacaoOuFederacao": "Federação Brasil da Esperança (PT / PCdoB / PV)",
     "role": "PRESIDENTE",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Foto_oficial_do_presidente_Luiz_In%C3%A1cio_Lula_da_Silva_%28recorte%29.jpg",
+    "cargo": "PRESIDENTE",
+    "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Foto_oficial_do_presidente_Luiz_In%C3%A1cio_Lula_da_Silva_%28recorte%29.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28ombros%29_denoise.jpg/330px-Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28ombros%29_denoise.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Luiz_Inácio_Lula_da_Silva",
     "isBaseline": true,
+    "isBaselineReference": true,
     "politicalTrajectory": {
       "summary": "Ex-metalúrgico e líder sindical do ABC Paulista, liderou as grandes greves do final dos anos 1970, foi deputado constituinte em 1988, cofundou o PT e foi eleito Presidente da República por três mandatos (2002, 2006 e 2022).",
       "officesHeld": [
-        { "role": "Presidente da República Federativa do Brasil", "period": "2023 - Presente / 2003 - 2010", "location": "Brasília / Brasil" },
-        { "role": "Deputado Federal Constituinte", "period": "1987 - 1991", "location": "São Paulo / Brasília" }
+        {
+          "role": "Presidente da República Federativa do Brasil",
+          "period": "2023 - Presente / 2003 - 2010",
+          "location": "Brasília / Brasil"
+        },
+        {
+          "role": "Deputado Federal Constituinte",
+          "period": "1987 - 1991",
+          "location": "São Paulo / Brasília"
+        }
       ],
       "partyHistory": [
-        { "party": "PT", "period": "1980 - Presente" }
+        {
+          "party": "PT",
+          "period": "1980 - Presente"
+        }
       ],
       "currentAlliances": "Federação Brasil da Esperança (PT, PCdoB, PV), PSB, ampla frente partidária ministerial de centro-esquerda e centrismo pragmático."
     },
     "pillars": {
-      "segurancaPublica": "Enfoque em políticas sociais de prevenção, desarmamento civil, controle do uso da força policial e combate a crimes ambientais/financeiros.",
-      "gastosPublicos": "Priorização do investimento público sobre metas fiscais rígidas; ajuste centrado no aumento de arrecadação e taxação de altas rendas.",
-      "tamanhoDoEstado": "Papel central do Estado como indutor da economia, fortalecimento de estatais (Petrobras, BNDES, Caixa) e interrupção de privatizações.",
-      "saude": "Recomposição de verbas federais para o SUS, Farmácia Popular e retomada do programa Mais Médicos.",
-      "educacao": "Expansão de universidades federais, recomposição orçamentária do MEC, reajuste de bolsas e foco em cotas afirmativas."
+      "segurancaPublica": {
+        "proposal": "Enfoque em políticas sociais de prevenção, desarmamento civil, controle do uso da força policial e combate a crimes ambientais/financeiros.",
+        "implementation": "Revogação de decretos armamentistas, investimentos em segurança comunitária no Pronasci e combate a crimes ambientais na Amazônia."
+      },
+      "gastosPublicos": {
+        "proposal": "Priorização do investimento público sobre metas fiscais rígidas; ajuste centrado no aumento de arrecadação e taxação de altas rendas.",
+        "implementation": "Instituição do Novo Arcabouço Fiscal com piso de investimento, tributação de fundos exclusivos e lucros de offshores."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Papel central do Estado como indutor da economia, fortalecimento de estatais (Petrobras, BNDES, Caixa) e interrupção de privatizações.",
+        "implementation": "Interrupção dos planos de privatização da Petrobras, Correios e EBC, e reorientação do BNDES para crédito produtivo sustentável."
+      },
+      "saude": {
+        "proposal": "Recomposição de verbas federais para o SUS, Farmácia Popular e retomada do programa Mais Médicos.",
+        "implementation": "Reativação do Programa Mais Médicos com preferência a brasileiros e recomposição de estoques da Farmácia Popular."
+      },
+      "educacao": {
+        "proposal": "Expansão de universidades federais, recomposição orçamentária do MEC, reajuste de bolsas e foco em cotas afirmativas.",
+        "implementation": "Criação do Programa Pé-de-Meia para estudantes do ensino médio e reajuste histórico das bolsas de pesquisa da Capes/CNPq."
+      }
     },
     "legislativeVotes": [
       {
@@ -250,6 +550,34 @@
         "vote": "PROMULGADA COM APOIO DO GOVERNO",
         "summary": "Unificação de tributos federais e subnacionais em regime de IVA dual (CBS e IBS).",
         "source": "Congresso Nacional"
+      },
+      {
+        "code": "PL 2903/2023",
+        "title": "Marco Temporal de Terras Indígenas",
+        "vote": "VETADO PARCIALMENTE",
+        "summary": "Vetou o marco temporal de ocupação em 1988 para resguardar direitos constitucionais originários de povos indígenas.",
+        "source": "Presidência da República"
+      },
+      {
+        "code": "PL 2265/2022",
+        "title": "Fim das Saidinhas de Presos",
+        "vote": "VETADO PARCIALMENTE (DERRUBADO)",
+        "summary": "Vetou a proibição de visitas familiares para presos do semiaberto, mantendo o veto derrubado pelo Congresso.",
+        "source": "Congresso Nacional"
+      },
+      {
+        "code": "Lei 14.789/2023",
+        "title": "Tributação de Fundos Exclusivos e Offshores",
+        "vote": "SANCIONADO",
+        "summary": "Sancionou a cobrança periódica de imposto de renda (come-cotas) sobre aplicações financeiras no exterior e fundos fechados.",
+        "source": "Diário Oficial da União"
+      },
+      {
+        "code": "Lei 14.818/2024",
+        "title": "Instituição do Programa Pé-de-Meia",
+        "vote": "SANCIONADO",
+        "summary": "Instituiu incentivo financeiro mensal e poupança de formatura para permanência de estudantes de baixa renda no ensino médio.",
+        "source": "Diário Oficial da União"
       }
     ],
     "legalRecords": [
@@ -259,6 +587,7 @@
         "investigationFindings": "Depoimentos de delatores de empreiteiras (OAS e Odebrecht), comprovantes de custos de reformas em imóveis e notas fiscais colhidas pelo MPF apontavam benefício indevido.",
         "legalOutcome": "Anulação Processual e Prescrição (Sem Julgamento de Mérito). O STF declarou a incompetência territorial da 13ª Vara Federal de Curitiba e a suspeição do juiz Sergio Moro, anulando todos os atos decisórios. Remetidos a Brasília, os processos foram extintos por prescrição antes de nova sentença de mérito."
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28ombros%29_denoise.jpg/330px-Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28ombros%29_denoise.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   }
 ]
