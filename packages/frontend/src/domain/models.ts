@@ -37,6 +37,9 @@ export interface PillarScore {
   score: number;
   summary: string;
   keyProposals: string[];
+  proposal?: string;
+  implementation?: string;
+  hasImplementationDetail?: boolean;
 }
 
 export interface CandidatePillarsProfile {

@@ -110,74 +110,66 @@
 
         <!-- Pillars Detail Cards (Right Column) -->
         <div class="lg:col-span-7 space-y-4">
-          <!-- Pillar: Segurança Pública -->
-          <div class="p-4 rounded-2xl bg-blue-50/50 border border-blue-200">
-            <div class="flex justify-between items-center mb-1.5">
-              <span class="font-bold text-xs text-blue-900 uppercase">🛡️ Segurança Pública</span>
-              <span class="px-2 py-0.5 rounded font-black text-xs bg-blue-200 text-blue-900">
-                Nota {{ candidate.pilares.SEGURANCA_PUBLICA?.score || 0 }}/10
+          <div
+            v-for="cfg in pillarConfigs"
+            :key="cfg.key"
+            class="p-5 rounded-2xl border transition-all"
+            :class="[cfg.borderClass, cfg.bgClass]"
+          >
+            <!-- Pillar Header -->
+            <div class="flex justify-between items-center mb-3">
+              <span class="font-extrabold text-xs uppercase flex items-center gap-1.5 text-slate-800">
+                <span>{{ cfg.icon }}</span>
+                <span>{{ cfg.title }}</span>
+              </span>
+              <span class="px-2.5 py-0.5 rounded-full font-black text-xs shadow-2xs" :class="[cfg.badgeBg, cfg.badgeText]">
+                Nota {{ getPillarData(cfg.key)?.score || 0 }}/10
               </span>
             </div>
-            <p class="text-xs text-slate-700 mb-2 leading-relaxed">{{ candidate.pilares.SEGURANCA_PUBLICA?.summary }}</p>
-            <ul class="text-[11px] text-slate-600 space-y-1 list-disc list-inside">
-              <li v-for="prop in candidate.pilares.SEGURANCA_PUBLICA?.keyProposals" :key="prop">{{ prop }}</li>
-            </ul>
-          </div>
 
-          <!-- Pillar: Gastos Públicos -->
-          <div class="p-4 rounded-2xl bg-emerald-50/50 border border-emerald-200">
-            <div class="flex justify-between items-center mb-1.5">
-              <span class="font-bold text-xs text-emerald-900 uppercase">💰 Gastos Públicos</span>
-              <span class="px-2 py-0.5 rounded font-black text-xs bg-emerald-200 text-emerald-900">
-                Nota {{ candidate.pilares.GASTOS_PUBLICOS?.score || 0 }}/10
-              </span>
+            <!-- 1. O QUE DIZ QUE VAI FAZER (Proposta / Diretriz) -->
+            <div class="mb-3 p-3.5 rounded-xl bg-white border border-slate-200/90 shadow-2xs">
+              <div class="flex items-center gap-1.5 mb-1.5">
+                <span class="w-2 h-2 rounded-full bg-blue-600 shrink-0"></span>
+                <span class="text-[11px] font-bold uppercase tracking-wider text-slate-700">
+                  1. O que diz que vai fazer (Proposta / Diretriz):
+                </span>
+              </div>
+              <p class="text-xs text-slate-900 leading-relaxed font-medium">
+                {{ getPillarProposal(getPillarData(cfg.key)) }}
+              </p>
             </div>
-            <p class="text-xs text-slate-700 mb-2 leading-relaxed">{{ candidate.pilares.GASTOS_PUBLICOS?.summary }}</p>
-            <ul class="text-[11px] text-slate-600 space-y-1 list-disc list-inside">
-              <li v-for="prop in candidate.pilares.GASTOS_PUBLICOS?.keyProposals" :key="prop">{{ prop }}</li>
-            </ul>
-          </div>
 
-          <!-- Pillar: Tamanho do Estado -->
-          <div class="p-4 rounded-2xl bg-purple-50/50 border border-purple-200">
-            <div class="flex justify-between items-center mb-1.5">
-              <span class="font-bold text-xs text-purple-900 uppercase">🏛️ Tamanho do Estado & Privatizações</span>
-              <span class="px-2 py-0.5 rounded font-black text-xs bg-purple-200 text-purple-900">
-                Nota {{ candidate.pilares.TAMANHO_DO_ESTADO?.score || 0 }}/10
-              </span>
+            <!-- 2. COMO VAI FAZER (Mecanismo Prático) OU ALERTA CLARO -->
+            <div
+              v-if="hasImplementationDetail(getPillarData(cfg.key))"
+              class="p-3.5 rounded-xl bg-slate-50/90 border border-slate-200/90 shadow-2xs"
+            >
+              <div class="flex items-center gap-1.5 mb-1.5">
+                <span class="w-2 h-2 rounded-full bg-emerald-600 shrink-0"></span>
+                <span class="text-[11px] font-bold uppercase tracking-wider text-slate-700">
+                  2. Como vai fazer (Mecanismo Prático de Implementação):
+                </span>
+              </div>
+              <p class="text-xs text-slate-800 leading-relaxed font-normal">
+                {{ getPillarImplementation(getPillarData(cfg.key)) }}
+              </p>
             </div>
-            <p class="text-xs text-slate-700 mb-2 leading-relaxed">{{ candidate.pilares.TAMANHO_DO_ESTADO?.summary }}</p>
-            <ul class="text-[11px] text-slate-600 space-y-1 list-disc list-inside">
-              <li v-for="prop in candidate.pilares.TAMANHO_DO_ESTADO?.keyProposals" :key="prop">{{ prop }}</li>
-            </ul>
-          </div>
 
-          <!-- Pillar: Saúde -->
-          <div class="p-4 rounded-2xl bg-amber-50/50 border border-amber-200">
-            <div class="flex justify-between items-center mb-1.5">
-              <span class="font-bold text-xs text-amber-900 uppercase">🏥 Saúde</span>
-              <span class="px-2 py-0.5 rounded font-black text-xs bg-amber-200 text-amber-900">
-                Nota {{ candidate.pilares.SAUDE?.score || 0 }}/10
-              </span>
+            <div
+              v-else
+              class="p-3.5 rounded-xl bg-amber-50/90 border-2 border-amber-300 text-amber-950 flex items-start gap-2.5 shadow-2xs"
+            >
+              <span class="text-base leading-none shrink-0 mt-0.5">⚠️</span>
+              <div>
+                <strong class="font-extrabold text-xs block text-amber-950">
+                  Mecanismo prático de implementação não detalhado pelo candidato
+                </strong>
+                <p class="text-[11px] text-amber-900 leading-relaxed mt-0.5">
+                  O candidato não especificou projetos de lei, fontes orçamentárias de custeio, cronogramas ou ações executivas concretas para viabilizar esta proposta em seu plano de governo ou manifestações públicas oficiais.
+                </p>
+              </div>
             </div>
-            <p class="text-xs text-slate-700 mb-2 leading-relaxed">{{ candidate.pilares.SAUDE?.summary }}</p>
-            <ul class="text-[11px] text-slate-600 space-y-1 list-disc list-inside">
-              <li v-for="prop in candidate.pilares.SAUDE?.keyProposals" :key="prop">{{ prop }}</li>
-            </ul>
-          </div>
-
-          <!-- Pillar: Educação -->
-          <div class="p-4 rounded-2xl bg-rose-50/50 border border-rose-200">
-            <div class="flex justify-between items-center mb-1.5">
-              <span class="font-bold text-xs text-rose-900 uppercase">📚 Educação</span>
-              <span class="px-2 py-0.5 rounded font-black text-xs bg-rose-200 text-rose-900">
-                Nota {{ candidate.pilares.EDUCACAO?.score || 0 }}/10
-              </span>
-            </div>
-            <p class="text-xs text-slate-700 mb-2 leading-relaxed">{{ candidate.pilares.EDUCACAO?.summary }}</p>
-            <ul class="text-[11px] text-slate-600 space-y-1 list-disc list-inside">
-              <li v-for="prop in candidate.pilares.EDUCACAO?.keyProposals" :key="prop">{{ prop }}</li>
-            </ul>
           </div>
         </div>
       </div>
@@ -289,7 +281,7 @@ import { computed, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
 import { useCandidatesStore } from '../stores/candidates.js';
 import { useSantinhoStore } from '../stores/santinho.js';
-import { OfficeRole } from '../domain/models.js';
+import { OfficeRole, ThematicPillar, PillarScore } from '../domain/models.js';
 import CandidatePhoto from '../components/CandidatePhoto.vue';
 import RadarPillarsChart from '../components/RadarPillarsChart.vue';
 import LegislativeVotesTable from '../components/LegislativeVotesTable.vue';
@@ -298,6 +290,84 @@ import LegalRaioX from '../components/LegalRaioX.vue';
 const route = useRoute();
 const candidatesStore = useCandidatesStore();
 const santinhoStore = useSantinhoStore();
+
+interface PillarConfig {
+  key: ThematicPillar;
+  title: string;
+  icon: string;
+  borderClass: string;
+  bgClass: string;
+  badgeBg: string;
+  badgeText: string;
+}
+
+const pillarConfigs: PillarConfig[] = [
+  {
+    key: ThematicPillar.SEGURANCA_PUBLICA,
+    title: 'Segurança Pública & Combate ao Crime',
+    icon: '🛡️',
+    borderClass: 'border-blue-200',
+    bgClass: 'bg-blue-50/40',
+    badgeBg: 'bg-blue-100',
+    badgeText: 'text-blue-900 border border-blue-300'
+  },
+  {
+    key: ThematicPillar.GASTOS_PUBLICOS,
+    title: 'Gastos Públicos & Responsabilidade Fiscal',
+    icon: '💰',
+    borderClass: 'border-emerald-200',
+    bgClass: 'bg-emerald-50/40',
+    badgeBg: 'bg-emerald-100',
+    badgeText: 'text-emerald-900 border border-emerald-300'
+  },
+  {
+    key: ThematicPillar.TAMANHO_DO_ESTADO,
+    title: 'Tamanho do Estado & Desestatizações',
+    icon: '🏛️',
+    borderClass: 'border-purple-200',
+    bgClass: 'bg-purple-50/40',
+    badgeBg: 'bg-purple-100',
+    badgeText: 'text-purple-900 border border-purple-300'
+  },
+  {
+    key: ThematicPillar.SAUDE,
+    title: 'Saúde Pública & Gestão Hospitalar',
+    icon: '🏥',
+    borderClass: 'border-amber-200',
+    bgClass: 'bg-amber-50/40',
+    badgeBg: 'bg-amber-100',
+    badgeText: 'text-amber-900 border border-amber-300'
+  },
+  {
+    key: ThematicPillar.EDUCACAO,
+    title: 'Educação Básica & Ensino Técnico',
+    icon: '📚',
+    borderClass: 'border-rose-200',
+    bgClass: 'bg-rose-50/40',
+    badgeBg: 'bg-rose-100',
+    badgeText: 'text-rose-900 border border-rose-300'
+  }
+];
+
+function getPillarData(key: ThematicPillar): PillarScore | undefined {
+  return candidate.value?.pilares?.[key];
+}
+
+function getPillarProposal(p?: PillarScore): string {
+  if (!p) return 'Proposta não informada.';
+  return p.proposal || p.summary || 'Proposta não informada.';
+}
+
+function getPillarImplementation(p?: PillarScore): string {
+  if (!p) return '';
+  return p.implementation || '';
+}
+
+function hasImplementationDetail(p?: PillarScore): boolean {
+  if (!p) return false;
+  if (p.hasImplementationDetail !== undefined) return Boolean(p.hasImplementationDetail);
+  return Boolean(p.implementation && p.implementation.trim().length > 0);
+}
 
 const candidate = computed(() => candidatesStore.currentCandidate);
 const isLoading = computed(() => candidatesStore.isLoading);

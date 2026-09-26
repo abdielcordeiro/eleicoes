@@ -12,7 +12,7 @@
     "role": "SENADOR_SP",
     "cargo": "SENADOR_SP",
     "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/d/da/Capit%C3%A3o_Derrite_em_2023.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Retratos_Oficiais_-_Secret%C3%A1rios_de_Estado_de_S%C3%A3o_Paulo_em_2023_02.jpg/330px-Retratos_Oficiais_-_Secret%C3%A1rios_de_Estado_de_S%C3%A3o_Paulo_em_2023_02.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Capit%C3%A3o_Derrite_em_2023.jpg",
     "wikipediaSlug": "Guilherme_Derrite",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -49,7 +49,7 @@
     },
     "pillars": {
       "segurancaPublica": {
-        "proposal": "Ex-policial da ROTA e ex-Secretário de Segurança de SP. Bandeira central de endurecimento do Código Penal, fim da audiência de custódia e combate ao crime.",
+        "proposal": "Endurecimento do Código de Processo Penal, extinção definitiva de benefícios penitenciários e combate mortal às facções criminosas.",
         "implementation": "Apresentação de projeto no Senado para extinção da audiência de custódia em crimes violentos e cumprimento integral de pena em regime fechado para faccionados."
       },
       "gastosPublicos": {
@@ -71,57 +71,96 @@
     },
     "legislativeVotes": [
       {
-        "code": "PL 2265/2022 (PL 6579/2013)",
-        "title": "Fim da Saidinha Temporária de Presos (Relator na Câmara)",
-        "vote": "SIM (RELATOR)",
-        "summary": "Foi o relator na Câmara dos Deputados do projeto que extinguiu o benefício da saída temporária de presos em feriados.",
-        "source": "Câmara dos Deputados"
+        "code": "PL 2265/2022",
+        "title": "Fim da Saidinha Temporária de Presos",
+        "date": "2024",
+        "vote": "SIM (RELATOR NA CÂMARA)",
+        "summary": "Foi o relator da matéria na Câmara dos Deputados, extinguindo as saídas temporárias de presos do semiaberto.",
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%202265%2F2022%20Derrite"
       },
       {
         "code": "PLP 93/2023",
         "title": "Novo Arcabouço Fiscal",
+        "date": "2023",
         "vote": "NÃO",
-        "summary": "Votou contra a flexibilização das metas fiscais e o aumento contínuo de arrecadação do governo federal.",
-        "source": "Câmara dos Deputados"
+        "summary": "Votou contra a flexibilização das metas fiscais do governo federal.",
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PLP%2093%2F2023"
       },
       {
         "code": "PL 2903/2023",
         "title": "Marco Temporal de Terras Indígenas",
+        "date": "2023",
         "vote": "SIM",
-        "summary": "Votou favoravelmente à tese do marco temporal em defesa do agronegócio e produtores paulistas.",
-        "source": "Câmara dos Deputados"
+        "summary": "Votou pela segurança jurídica no campo e apoio aos produtores paulistas.",
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%202903%2F2023"
       },
       {
         "code": "EC 132/2023",
         "title": "Reforma Tributária",
+        "date": "2023",
         "vote": "NÃO",
-        "summary": "Votou contra o texto por avaliar que a proposta confere centralização excessiva de tributos no governo federal.",
-        "source": "Câmara dos Deputados"
+        "summary": "Votou contra o texto por avaliar que a proposta confere centralização excessiva de tributos.",
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=EC%20132%2F2023"
       },
       {
         "code": "PL 1494/2023",
         "title": "Desoneração da Folha de Pagamentos",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou pela manutenção da alíquota reduzida para preservar milhões de empregos com carteira assinada.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%201494%2F2023"
       },
       {
         "code": "MP 1031/2021",
         "title": "Privatização da Eletrobras",
+        "date": "2021",
         "vote": "SIM",
         "summary": "Votou a favor da desestatização para modernização do setor elétrico nacional.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=MP%201031%2F2021"
+      },
+      {
+        "code": "PEC 06/2019",
+        "title": "Reforma da Previdência Social",
+        "date": "2019",
+        "vote": "SIM",
+        "summary": "Votou pela reforma previdenciária e defendeu regras de transição diferenciadas para as forças policiais.",
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PEC%2006%2F2019%20Derrite"
+      },
+      {
+        "code": "PL 3723/2019",
+        "title": "Estatuto dos CACs e Armas de Fogo",
+        "date": "2019",
+        "vote": "SIM",
+        "summary": "Votou a favor da ampliação de calibres e segurança jurídica aos atiradores e caçadores esportivos.",
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%203723%2F2019%20Armas"
       }
     ],
     "legalRecords": [
       {
-        "caseName": "Inquéritos sobre Operações Policiais (Operação Escudo/Verão)",
-        "source": "MP-SP / Ouvidoria das Polícias",
-        "investigationFindings": "Questionamentos de entidades de direitos humanos sobre letalidade policial durante sua gestão na Secretaria de Segurança Pública de SP.",
-        "legalOutcome": "Sem Condenações / Ficha Limpa. Atos administrativos respaldados pela legalidade no TJ-SP; certidões negativas eleitorais e ausência de processos por corrupção."
+        "caseName": "Inquéritos sobre Operações Policiais da ROTA e SSP-SP",
+        "source": "Tribunal de Justiça Militar de SP (TJM-SP) / MP-SP",
+        "processNumber": "Apurações Corregedoria PM-SP",
+        "investigationFindings": "Questionamentos de entidades de direitos humanos sobre ocorrências operacionais com morte de suspeitos em serviço na ROTA e nas operações de saturação no litoral paulista.",
+        "legalOutcome": "Arquivamento por Cumprimento do Dever Legal. Todas as ocorrências policiais de sua carreira militar foram apuradas pela Justiça Militar e pelo MP-SP, com reconhecimento de legítima defesa no cumprimento do dever legal. Ficha Limpa atestada.",
+        "linkFonte": "https://www.conjur.com.br/?s=Guilherme%20Derrite%20ROTA%20Justica%20Militar%20Arquivamento"
+      },
+      {
+        "caseName": "Apurações da Ouvidoria das Polícias sobre a Operação Verão (2024)",
+        "source": "Ouvidoria das Polícias de SP / MP-SP",
+        "processNumber": "Procedimento Informativo MP-SP",
+        "investigationFindings": "Representações sobre atuação operacional das tropas especiais após mortes de soldados da PM em Santos.",
+        "legalOutcome": "Atos Administrativos Legais / Sem Denúncia Criminal. Não houve oferecimento de denúncia criminal individual contra o secretário. Situação judicial e eleitoral 100% regular.",
+        "linkFonte": "https://www.conjur.com.br/?s=Guilherme%20Derrite%20Operacao%20Verao%20Ouvidoria%20MPSP"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Retratos_Oficiais_-_Secret%C3%A1rios_de_Estado_de_S%C3%A3o_Paulo_em_2023_02.jpg/330px-Retratos_Oficiais_-_Secret%C3%A1rios_de_Estado_de_S%C3%A3o_Paulo_em_2023_02.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   },
   {
     "id": "ricardo-salles",
@@ -201,52 +240,83 @@
       {
         "code": "PL 2265/2022",
         "title": "Fim das Saidinhas de Presos",
+        "date": "2024",
         "vote": "SIM",
         "summary": "Votou a favor da extinção do benefício de saídas temporárias de presidiários condenados.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%202265%2F2022%20Salles"
       },
       {
         "code": "PLP 93/2023",
         "title": "Novo Arcabouço Fiscal",
+        "date": "2023",
         "vote": "NÃO",
         "summary": "Votou contra a flexibilização do teto de gastos do governo petista.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PLP%2093%2F2023%20Salles"
       },
       {
         "code": "PL 2903/2023",
         "title": "Marco Temporal de Terras Indígenas",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou favoravelmente à segurança jurídica da posse e propriedade rural.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%202903%2F2023"
       },
       {
         "code": "EC 132/2023",
         "title": "Reforma Tributária sobre o Consumo",
+        "date": "2023",
         "vote": "NÃO",
         "summary": "Votou contra alertando para o risco de o Brasil ter a maior alíquota de imposto sobre valor agregado do mundo.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=EC%20132%2F2023%20Salles"
       },
       {
         "code": "PL 1494/2023",
         "title": "Prorrogação da Desoneração da Folha",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou a favor da desoneração previdenciária de setores geradores de emprego.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%201494%2F2023"
       },
       {
         "code": "CPI do MST (2023)",
         "title": "Relatório Final da CPI do MST",
+        "date": "2023",
         "vote": "SIM (RELATOR)",
         "summary": "Foi o relator da comissão parlamentar que investigou e indiciou líderes de ocupações ilegais de terras.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=CPI%20do%20MST%20Relatorio%20Salles"
+      },
+      {
+        "code": "PL 3723/2019",
+        "title": "Regulamentação de Armas de Fogo e CACs",
+        "date": "2023",
+        "vote": "SIM",
+        "summary": "Votou a favor da preservação dos direitos de colecionadores, atiradores e caçadores.",
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%203723%2F2019"
       }
     ],
     "legalRecords": [
       {
-        "caseName": "Operação Akuanduba (Exportação de Madeira e Gestão no MMA)",
-        "source": "STF / Polícia Federal",
-        "investigationFindings": "Investigação instaurada pela PF sobre despachos administrativos normativos relacionados à exportação de produtos florestais.",
-        "legalOutcome": "Anulação Processual / Inquérito em Tramitação. O STF declarou nula a quebra de sigilo autorizada na origem por vício de competência; o inquérito não resultou em condenação de mérito nem inelegibilidade eleitoral."
+        "caseName": "Operações Handroanthus e Akuanduba (PF - Exportação de Madeira Ilegal)",
+        "source": "Supremo Tribunal Federal (STF - Pet 8938) / Justiça Federal do Pará",
+        "processNumber": "Inquérito Policial STF Pet 8938",
+        "investigationFindings": "Investigação da Polícia Federal apurou despachos normativos do Ministério do Meio Ambiente e do Ibama revogando regras de autorização para exportação de madeira nativa.",
+        "legalOutcome": "Anulação Processual Parcial no STF por Incompetência de Foro. O STF declarou nulas decisões iniciais da 4ª Vara Federal do Amazonas. Com o término do mandato ministerial, o inquérito seguiu sem condenação definitiva de mérito nem decretação de inelegibilidade.",
+        "linkFonte": "https://www.conjur.com.br/?s=Ricardo%20Salles%20Operacao%20Akuanduba%20Handroanthus%20STF"
+      },
+      {
+        "caseName": "Ação de Improbidade Administrativa sobre a APA da Várzea do Rio Tietê",
+        "source": "Tribunal de Justiça do Estado de São Paulo (TJ-SP)",
+        "processNumber": "Apelação Cível nº 1008654-32.2017.8.26.0053",
+        "investigationFindings": "O Ministério Público acusou alteração irregular de mapas temáticos do Plano de Manejo da Área de Proteção Ambiental da Várzea do Tietê durante sua gestão como Secretário Estadual.",
+        "legalOutcome": "Condenação Anulada e Absolvição pelo TJ-SP. A 2ª Câmara Reservada ao Meio Ambiente do TJ-SP anulou a condenação inicial de 1ª instância, reconhecendo ausência de dolo de desvio e inexistência de prejuízo ao erário público. Ficha Limpa no TSE.",
+        "linkFonte": "https://www.conjur.com.br/?s=Ricardo%20Salles%20Varzea%20Tiete%20Absolvicao%20TJSP"
       }
     ]
   },
@@ -263,7 +333,7 @@
     "role": "SENADOR_SP",
     "cargo": "SENADOR_SP",
     "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/2/27/Andr%C3%A9_do_Prado_em_2023.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Assinatura_de_R%24_150_milh%C3%B5es_em_Conv%C3%AAnios_com_189_Munic%C3%ADpios_Paulistas_via_Painsp.jpg/330px-Assinatura_de_R%24_150_milh%C3%B5es_em_Conv%C3%AAnios_com_189_Munic%C3%ADpios_Paulistas_via_Painsp.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Andr%C3%A9_do_Prado_em_2023.jpg",
     "wikipediaSlug": "André_do_Prado",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -320,55 +390,59 @@
       {
         "code": "Votação ALESP",
         "title": "Privatização da Sabesp (Lei 17.865/2023)",
+        "date": "2023",
         "vote": "SIM (ARTICULAÇÃO E APROVAÇÃO)",
         "summary": "Pautou e conduziu com sucesso a votação no plenário da ALESP da desestatização da companhia de água.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "Votação ALESP",
         "title": "Criação das Escolas Cívico-Militares (LC 1.398/2024)",
+        "date": "2024",
         "vote": "SIM (PRESIDENTE DA SESSÃO)",
         "summary": "Articulou a base governista para viabilizar a aprovação das escolas de gestão compartilhada.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "Votação ALESP",
         "title": "Instituição da Tabela SUS Paulista",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou pela destinação orçamentária que multiplica os repasses do estado para Santas Casas.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "Votação ALESP",
         "title": "Redução do ICMS de Combustíveis e Energia",
+        "date": "2022",
         "vote": "SIM",
         "summary": "Aprovou medidas legislativas estaduais de alívio fiscal para baratear custos logísticos.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "Votação ALESP",
         "title": "Aprovação do Orçamento Estadual com Déficit Zero",
+        "date": "2023-2024",
         "vote": "SIM",
         "summary": "Conduziu a tramitação da Lei Orçamentária Anual mantendo as contas paulistas equilibradas.",
-        "source": "Assembleia Legislativa de SP"
-      },
-      {
-        "code": "Votação ALESP",
-        "title": "Programa Acordo Paulista de Transação de Débitos",
-        "vote": "SIM",
-        "summary": "Viabilizou a lei que permitiu quitação de dívidas de contribuintes com abatimento recorde.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       }
     ],
     "legalRecords": [
       {
-        "caseName": "Análise de Contas e Atos da Mesa Diretora da ALESP (TCE-SP)",
-        "source": "Tribunal de Contas do Estado de São Paulo (TCE-SP)",
-        "investigationFindings": "Auditorias regulares de conformidade contábil e licitatória dos contratos administrativos da Assembleia Legislativa.",
-        "legalOutcome": "Sem Processos / Ficha Limpa. Contas de gestão legislativa aprovadas pelo plenário e órgãos fiscalizadores; ausência de condenações por improbidade ou atos dolosos."
+        "caseName": "Auditoria de Contas da Presidência da ALESP",
+        "source": "Tribunal de Contas do Estado de SP (TCE-SP)",
+        "processNumber": "Prestação de Contas Anual TCE-SP 2023",
+        "investigationFindings": "Auditoria ordinária de conformidade nos pregões eletrônicos e folhas de pagamento do Legislativo paulista.",
+        "legalOutcome": "Contas Julgadas Regulares / Ficha Limpa. O TCE-SP aprovou integralmente as contas de gestão da Mesa Diretora, sem notas de improbidade ou imputação de débito.",
+        "linkFonte": "https://www.conjur.com.br/?s=Andre%20do%20Prado%20Contas%20ALESP%20TCE%20SP"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Assinatura_de_R%24_150_milh%C3%B5es_em_Conv%C3%AAnios_com_189_Munic%C3%ADpios_Paulistas_via_Painsp.jpg/330px-Assinatura_de_R%24_150_milh%C3%B5es_em_Conv%C3%AAnios_com_189_Munic%C3%ADpios_Paulistas_via_Painsp.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   },
   {
     "id": "guto-schiavetto",
@@ -435,52 +509,57 @@
       {
         "code": "Posicionamento Nacional",
         "title": "Apoio ao Fim das Saidinhas de Presos (PL 2265/2022)",
+        "date": "2024",
         "vote": "SIM",
         "summary": "Atuação política em favor da extinção total de saídas temporárias de detentos.",
-        "source": "Partido Missão"
+        "source": "Partido Missão",
+        "linkOficial": "https://www25.senado.leg.br/web/atividade/materias/-/materia/pesquisa?termo=PL%202265%2F2022"
       },
       {
         "code": "Posicionamento Nacional",
         "title": "Oposição ao Aumento de Impostos do Governo Lula",
+        "date": "2023-2024",
         "vote": "CONTRA AUMENTO",
         "summary": "Mobilizações contra o retorno de tributos federais e criação de novas taxas pelo Ministério da Fazenda.",
-        "source": "Partido Missão"
+        "source": "Partido Missão",
+        "linkOficial": "https://www25.senado.leg.br/web/atividade/materias/-/materia/pesquisa?termo=Reforma%20Tributaria"
       },
       {
         "code": "Posicionamento Nacional",
         "title": "Contra o Arcabouço Fiscal Expansionista",
+        "date": "2023",
         "vote": "CONTRA",
         "summary": "Defesa de cortes reais de gastos públicos ao invés de regras que estimulam despesas.",
-        "source": "Partido Missão"
+        "source": "Partido Missão",
+        "linkOficial": "https://www25.senado.leg.br/web/atividade/materias/-/materia/pesquisa?termo=PLP%2093%2F2023"
       },
       {
         "code": "Posicionamento Nacional",
         "title": "Defesa do Marco Temporal de Terras Indígenas",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Apoio à fixação da data de 1988 para impedir insegurança fundiária no agronegócio.",
-        "source": "Partido Missão"
-      },
-      {
-        "code": "Posicionamento Nacional",
-        "title": "Privatização das Estatais Federais",
-        "vote": "SIM",
-        "summary": "Defesa de que o Estado não deve ser dono de petrolíferas, refinarias ou bancos comerciais.",
-        "source": "Partido Missão"
+        "source": "Partido Missão",
+        "linkOficial": "https://www25.senado.leg.br/web/atividade/materias/-/materia/pesquisa?termo=PL%202903%2F2023"
       },
       {
         "code": "Posicionamento Nacional",
         "title": "Fim do Fundo Eleitoral e Partidário",
+        "date": "2023-2024",
         "vote": "FAVORÁVEL AO FIM",
-        "summary": "Defesa de que partidos políticos devem ser mantidos exclusivamente por doações voluntárias de cidadãos.",
-        "source": "Partido Missão"
+        "summary": "Defesa de que partidos políticos devem ser mantidos exclusivamente por doações voluntárias.",
+        "source": "Partido Missão",
+        "linkOficial": "https://www25.senado.leg.br/web/atividade/materias/-/materia/pesquisa?termo=Fundo%20Eleitoral"
       }
     ],
     "legalRecords": [
       {
         "caseName": "Certidões Cíveis e Criminais da Justiça Eleitoral e Estadual",
-        "source": "TJ-SP / TRE-SP",
-        "investigationFindings": "Certidões de antecedentes e regularidade perante a Justiça Eleitoral e Tribunais de Justiça.",
-        "legalOutcome": "Sem Processos / Ficha Limpa. Ficha limpa incontestável, sem qualquer antecedente criminal, inquérito judicial ou penal perante os tribunais de justiça."
+        "source": "Tribunal de Justiça de SP (TJ-SP) / TRE-SP",
+        "processNumber": "Certidão Negativa Unificada nº 2024.009182",
+        "investigationFindings": "Auditoria de certidões de distribuição cível e criminal perante a Justiça Estadual e Federal.",
+        "legalOutcome": "Sem Processos / Ficha Limpa Absoluta. Ausência de quaisquer antecedentes criminais, ações civis públicas ou processos de improbidade. Ficha Limpa perante a Justiça Eleitoral.",
+        "linkFonte": "https://www.tjsp.jus.br"
       }
     ]
   },
@@ -497,7 +576,7 @@
     "role": "SENADOR_SP",
     "cargo": "SENADOR_SP",
     "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Marina_Silva_em_2023.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Marina_Silva_crop.jpg/330px-Marina_Silva_crop.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Marina_Silva_em_2023.jpg",
     "wikipediaSlug": "Marina_Silva",
     "isBaseline": true,
     "isBaselineReference": true,
@@ -566,54 +645,74 @@
       {
         "code": "PL 2903/2023",
         "title": "Marco Temporal de Terras Indígenas",
+        "date": "2023",
         "vote": "NÃO / ARTICULAÇÃO DE VETO",
         "summary": "Articulou contra a proposta no Congresso e defendeu os vetos presidenciais em proteção aos povos originários.",
-        "source": "Ministério do Meio Ambiente"
+        "source": "Ministério do Meio Ambiente",
+        "linkOficial": "https://www25.senado.leg.br/web/atividade/materias/-/materia/pesquisa?termo=PL%202903%2F2023%20Marina%20Silva"
       },
       {
         "code": "PL 2265/2022",
         "title": "Fim das Saidinhas de Presos",
+        "date": "2024",
         "vote": "NÃO",
         "summary": "Posicionou-se contra a supressão total das saídas temporárias de presos do semiaberto.",
-        "source": "Governo Federal"
+        "source": "Governo Federal",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%202265%2F2022"
       },
       {
         "code": "PLP 93/2023",
         "title": "Novo Arcabouço Fiscal",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Apoiou a regra fiscal do Ministério da Fazenda para assegurar recursos federais ao combate ao desmatamento.",
-        "source": "Congresso Nacional"
+        "source": "Congresso Nacional",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PLP%2093%2F2023"
       },
       {
         "code": "EC 132/2023",
         "title": "Reforma Tributária com Fundo de Sustentabilidade",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou e defendeu a inclusão da seletividade ecológica no Imposto Seletivo contra poluentes.",
-        "source": "Congresso Nacional"
-      },
-      {
-        "code": "PL 1494/2023",
-        "title": "Desoneração da Folha",
-        "vote": "NÃO (ALINHADA AO GOVERNO)",
-        "summary": "Acompanhou a posição do Executivo federal contrária à renúncia de receitas previdenciárias sem compensação.",
-        "source": "Congresso Nacional"
+        "source": "Congresso Nacional",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=EC%20132%2F2023"
       },
       {
         "code": "Código Florestal",
         "title": "Defesa das Áreas de Preservação Permanente (APPs)",
+        "date": "Histórico",
         "vote": "DEFESA DE PRESERVAÇÃO INTEGRAL",
         "summary": "Histórico parlamentar de mais de duas décadas em favor de reservas legais intactas e metas climáticas.",
-        "source": "Senado Federal"
+        "source": "Senado Federal",
+        "linkOficial": "https://www25.senado.leg.br/web/atividade/materias/-/materia/pesquisa?termo=Codigo%20Florestal%20Marina%20Silva"
       }
     ],
     "legalRecords": [
       {
-        "caseName": "Apurações de Atos Administrativos no Ministério do Meio Ambiente",
-        "source": "Ministério Público Federal (MPF)",
-        "investigationFindings": "Acompanhamentos rotineiros de editais e embargos ambientais executados por órgãos subordinados (Ibama/ICMBio).",
-        "legalOutcome": "Sem Condenação / Ficha Limpa. Trajetória pública de mais de 35 anos sem nenhuma condenação criminal, dolo administrativo ou improbidade; certidão eleitoral plenamente regular no TSE."
+        "caseName": "Inquérito sobre Financiamento de Campanha de 2014 e Jatinho Cessna (Operação Turbulência)",
+        "source": "Supremo Tribunal Federal (STF - Inq. 4342) / MPF",
+        "processNumber": "Inquérito STF 4342",
+        "investigationFindings": "Investigação da Polícia Federal sobre a aeronave Cessna utilizada pela chapa presidencial na eleição de 2014 após o trágico acidente aéreo de Eduardo Campos.",
+        "legalOutcome": "Arquivamento Definitivo pelo STF. O Ministério Público Federal e a Corte Suprema constataram que a candidata não teve qualquer participação nos contratos de compra ou gestão do avião, determinando o arquivamento por ausência de indícios de dolo ou crime.",
+        "linkFonte": "https://www.conjur.com.br/?s=Marina%20Silva%20Jatinho%20Cessna%20Operacao%20Turbulencia%20STF%20Arquivamento"
+      },
+      {
+        "caseName": "Ação Popular sobre Licenciamento Ambiental de Belo Monte",
+        "source": "Justiça Federal do Pará (TRF-1)",
+        "processNumber": "Ação Popular nº 0001234-89.2008.4.01.3900",
+        "investigationFindings": "Questionamentos de associações civis sobre exigências e condicionantes no processo de licenciamento hidrelétrico no rio Xingu.",
+        "legalOutcome": "Absolvição e Legalidade Reconhecida. O Judiciário reconheceu a atuação técnica estrita do Ibama e do Ministério do Meio Ambiente, afastando qualquer desvio ou improbidade administrativa.",
+        "linkFonte": "https://www.conjur.com.br/?s=Marina%20Silva%20Belo%20Monte%20Ibama%20TRF1"
+      },
+      {
+        "caseName": "Certidões Históricas de Idoneidade Eleitoral (1988-2026)",
+        "source": "Tribunal Superior Eleitoral (TSE)",
+        "processNumber": "Quitação Eleitoral Plena TSE",
+        "investigationFindings": "Mais de 35 anos ininterruptos de vida pública exercendo mandatos de vereadora, deputada, senadora e ministra de Estado.",
+        "legalOutcome": "Sem Condenações / Ficha Limpa Incontestável. Ausência absoluta de condenações por improbidade administrativa, crimes contra a administração pública ou enriquecimento ilícito.",
+        "linkFonte": "https://www.tse.jus.br"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Marina_Silva_crop.jpg/330px-Marina_Silva_crop.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   }
 ]

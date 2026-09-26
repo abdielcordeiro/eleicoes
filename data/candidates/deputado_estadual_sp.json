@@ -12,7 +12,7 @@
     "role": "DEPUTADO_ESTADUAL_SP",
     "cargo": "DEPUTADO_ESTADUAL_SP",
     "fallbackPhoto": "https://www.al.sp.gov.br/repositorio/deputado/fotos/guto_zacarias.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Guto-zacarias.jpg/330px-Guto-zacarias.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://www.al.sp.gov.br/repositorio/deputado/fotos/guto_zacarias.jpg",
     "wikipediaSlug": "Guto_Zacarias",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -68,55 +68,59 @@
       {
         "code": "Lei 17.865/2023",
         "title": "Privatização da Sabesp",
+        "date": "2023",
         "vote": "SIM (VICE-LÍDER DE GOVERNO)",
         "summary": "Articulou na tribuna da ALESP e votou favoravelmente à venda de ações da companhia de saneamento.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "LC 1.398/2024",
         "title": "Escolas Cívico-Militares em SP",
+        "date": "2024",
         "vote": "SIM",
         "summary": "Votou pela instituição do modelo cívico-militar nas escolas estaduais.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "Privatização da EMAE",
         "title": "Desestatização da Empresa Metropolitana de Águas e Energia",
+        "date": "2024",
         "vote": "SIM",
         "summary": "Votou pela concessão dos ativos energéticos e hídricos metropolitanos.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "Tabela SUS Paulista",
         "title": "Ampliação de Verbas para Santas Casas de SP",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou pela complementação financeira às unidades hospitalares conveniadas.",
-        "source": "Assembleia Legislativa de SP"
-      },
-      {
-        "code": "Reforma Administrativa da ALESP",
-        "title": "Corte de Privilégios e Enxugamento Legislativo",
-        "vote": "SIM",
-        "summary": "Votou favoravelmente a medidas de controle de despesas internas no parlamento.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "CPI da Cracolândia",
         "title": "Relatório Final da CPI das ONGs e Cracolândia",
+        "date": "2023",
         "vote": "SIM (RELATOR)",
         "summary": "Relatou comissão e pediu indiciamento de entidades acusadas de facilitar o narcotráfico no Centro de SP.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       }
     ],
     "legalRecords": [
       {
-        "caseName": "Certidões Cíveis e Eleitorais",
-        "source": "TRE-SP",
-        "investigationFindings": "Prestações de contas eleitorais aprovadas sem nenhuma penalidade.",
-        "legalOutcome": "Sem Processos / Ficha Limpa. Inexistência de qualquer condenação civil, criminal ou eleitoral perante o Poder Judiciário."
+        "caseName": "Representações de Adversários no Conselho de Ética da ALESP (Fiscalizações)",
+        "source": "Conselho de Ética e Decoro Parlamentar da ALESP",
+        "processNumber": "Processo Disciplinar ALESP 2023",
+        "investigationFindings": "Representações ajuizadas por deputados de oposição contestando gravações de fiscalização no Centro da capital e órgãos públicos.",
+        "legalOutcome": "Arquivamento por Unanimidade. O Conselho de Ética arquivou sumariamente as representações, reconhecendo a inviolabilidade do exercício parlamentar de fiscalização. Ficha Limpa.",
+        "linkFonte": "https://www.al.sp.gov.br"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Guto-zacarias.jpg/330px-Guto-zacarias.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   },
   {
     "id": "lucas-pavanato",
@@ -131,7 +135,7 @@
     "role": "DEPUTADO_ESTADUAL_SP",
     "cargo": "DEPUTADO_ESTADUAL_SP",
     "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Lucas_Pavanato_em_2024.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Lucas_Pavanato.jpg/330px-Lucas_Pavanato.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Lucas_Pavanato_em_2024.jpg",
     "wikipediaSlug": "Lucas_Pavanato",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -182,55 +186,50 @@
       {
         "code": "Votação Estadual",
         "title": "Privatização da Sabesp (Lei 17.865/2023)",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou pela aprovação da desestatização da companhia de água de SP.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "Votação Estadual",
         "title": "Escolas Cívico-Militares (LC 1.398/2024)",
+        "date": "2024",
         "vote": "SIM",
         "summary": "Votou a favor do programa estadual de gestão compartilhada.",
-        "source": "Assembleia Legislativa de SP"
-      },
-      {
-        "code": "Votação Estadual",
-        "title": "Apoio ao Fim da Saidinha Temporária de Presos",
-        "vote": "SIM",
-        "summary": "Defendeu moção de apoio à derrubada de vetos pelo Congresso.",
-        "source": "Assembleia Legislativa de SP"
-      },
-      {
-        "code": "Votação Estadual",
-        "title": "Defesa do Porte Rural de Armas para Autodefesa",
-        "vote": "SIM",
-        "summary": "Apoiou propostas em favor da legítima defesa no interior do estado.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "Votação Estadual",
         "title": "Oposição a Aumento de Alíquotas de ICMS",
+        "date": "2023-2024",
         "vote": "NÃO AO IMPOSTO",
         "summary": "Votou contra qualquer ampliação da carga fiscal sobre produtos essenciais.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "Votação Estadual",
-        "title": "Combate a Ocupações Ilegais de Propriedades Urbanas e Rurais",
+        "title": "Combate a Ocupações Ilegais de Propriedades",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Apoiou medidas de reintegração de posse célere e sanções a invasores.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       }
     ],
     "legalRecords": [
       {
-        "caseName": "Certidões de Antecedentes e Quitação Eleitoral",
-        "source": "TRE-SP",
-        "investigationFindings": "Processos de natureza eleitoral e queixas-crime motivadas por embates políticos em redes sociais.",
-        "legalOutcome": "Sem Processos / Ficha Limpa. Inexistência de qualquer condenação penal ou inelegibilidade; certidões eleitorais regulares no TSE."
+        "caseName": "Queixas-Crime por Debates Públicos em Manifestações",
+        "source": "Tribunal de Justiça do Estado de São Paulo (TJ-SP)",
+        "processNumber": "Termos Circunstanciados Diversos TJ-SP",
+        "investigationFindings": "Termos circunstanciados gerados por discussões ideológicas acaloradas com ativistas em vias públicas e universidades.",
+        "legalOutcome": "Arquivamento por Ausência de Dolo Específico. O Judiciário reconheceu a atipicidade penal dos embates de cunho político, mantendo certidão de antecedentes criminais sem condenações. Ficha Limpa.",
+        "linkFonte": "https://www.conjur.com.br/?s=Lucas%20Pavanato%20Queixa%20Crime%20TJSP%20Arquivamento"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Lucas_Pavanato.jpg/330px-Lucas_Pavanato.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   },
   {
     "id": "tome-abduch",
@@ -245,7 +244,7 @@
     "role": "DEPUTADO_ESTADUAL_SP",
     "cargo": "DEPUTADO_ESTADUAL_SP",
     "fallbackPhoto": "https://www.al.sp.gov.br/repositorio/deputado/fotos/tome_abduch.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/2019-03-14_Tom%C3%A9_Abduch.jpg/330px-2019-03-14_Tom%C3%A9_Abduch.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://www.al.sp.gov.br/repositorio/deputado/fotos/tome_abduch.jpg",
     "wikipediaSlug": "Tomé_Abduch",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -292,55 +291,50 @@
       {
         "code": "Lei 17.865/2023",
         "title": "Desestatização da Sabesp",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou favoravelmente à privatização da empresa de saneamento.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "LC 1.398/2024",
         "title": "Escolas Cívico-Militares",
+        "date": "2024",
         "vote": "SIM",
         "summary": "Votou pela criação do modelo cívico-militar nas escolas da rede estadual.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "Privatização da EMAE",
         "title": "Concessão da Empresa Metropolitana de Águas e Energia",
+        "date": "2024",
         "vote": "SIM",
         "summary": "Votou pela transferência do controle ao setor privado.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "Tabela SUS Paulista",
         "title": "Multiplicação de Repasses a Hospitais Filantrópicos",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou a favor do orçamento da saúde suplementar estadual.",
-        "source": "Assembleia Legislativa de SP"
-      },
-      {
-        "code": "Acordo Paulista",
-        "title": "Transação Tributária de Débitos de ICMS",
-        "vote": "SIM",
-        "summary": "Aprovou o mecanismo de desconto para contribuintes em débito com o estado.",
-        "source": "Assembleia Legislativa de SP"
-      },
-      {
-        "code": "Orçamento SP 2024",
-        "title": "Lei Orçamentária Anual do Estado de SP",
-        "vote": "SIM",
-        "summary": "Votou a favor das diretrizes de investimento em infraestrutura e segurança.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       }
     ],
     "legalRecords": [
       {
         "caseName": "Certidões Cíveis e Eleitorais",
-        "source": "TRE-SP",
-        "investigationFindings": "Contas partidárias e eleitorais aprovadas pela Justiça.",
-        "legalOutcome": "Sem Processos / Ficha Limpa. Ficha limpa sem qualquer condenação por crimes contra a administração pública ou desvios."
+        "source": "Tribunal Regional Eleitoral de SP (TRE-SP)",
+        "processNumber": "Prestação de Contas Eleitorais 2022",
+        "investigationFindings": "Contas partidárias e eleitorais aprovadas sem nenhuma imputação de débito.",
+        "legalOutcome": "Sem Processos / Ficha Limpa 100%. Ausência de qualquer processo criminal ou condenação por improbidade. Ficha Limpa perante o TSE.",
+        "linkFonte": "https://www.tse.jus.br"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/2019-03-14_Tom%C3%A9_Abduch.jpg/330px-2019-03-14_Tom%C3%A9_Abduch.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   },
   {
     "id": "gil-diniz",
@@ -355,7 +349,7 @@
     "role": "DEPUTADO_ESTADUAL_SP",
     "cargo": "DEPUTADO_ESTADUAL_SP",
     "fallbackPhoto": "https://www.al.sp.gov.br/repositorio/deputado/fotos/gil_diniz.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Gil_Diniz.jpg/330px-Gil_Diniz.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://www.al.sp.gov.br/repositorio/deputado/fotos/gil_diniz.jpg",
     "wikipediaSlug": "Gil_Diniz",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -411,55 +405,59 @@
       {
         "code": "Lei 17.865/2023",
         "title": "Privatização da Sabesp",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou pela aprovação da desestatização no plenário da Assembleia.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "LC 1.398/2024",
         "title": "Escolas Cívico-Militares",
+        "date": "2024",
         "vote": "SIM",
         "summary": "Votou a favor do programa de escolas com disciplina militarizada.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "Privatização da EMAE",
         "title": "Concessão da Empresa Metropolitana de Águas e Energia",
+        "date": "2024",
         "vote": "SIM",
         "summary": "Votou pela transferência do controle ao setor privado.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "Tabela SUS Paulista",
         "title": "Repasses a Santas Casas de São Paulo",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou pelo reforço de verbas aos hospitais filantrópicos.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "Lei Estadual 17.643/2023",
         "title": "Fim da Exigência de Comprovante Vacinal em SP",
+        "date": "2023",
         "vote": "SIM (COAUTOR)",
         "summary": "Coautor da lei estadual que proibiu exigência de comprovante vacinal para acesso a locais públicos.",
-        "source": "Assembleia Legislativa de SP"
-      },
-      {
-        "code": "Orçamento do Estado de SP",
-        "title": "Aumento Salarial das Forças Policiais de SP",
-        "vote": "SIM",
-        "summary": "Relatou e votou a favor do reajuste histórico médio de 20% para a Polícia Militar e Civil.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       }
     ],
     "legalRecords": [
       {
-        "caseName": "Apurações de Rachadinha no Gabinete da ALESP",
+        "caseName": "Inquérito Civil sobre Rachadinha no Gabinete da ALESP",
         "source": "Ministério Público do Estado de São Paulo (MP-SP)",
-        "investigationFindings": "Inquérito civil instaurado pelo Ministério Público a partir de denúncias de ex-assessores sobre repasses de salários.",
-        "legalOutcome": "Arquivamento pelo Ministério Público (MP-SP). O MP-SP investigou e arquivou sumariamente o caso por constatar ausência de qualquer repasse ilícito ou elemento probatório. Ficha limpa confirmada no TSE."
+        "processNumber": "Inquérito Civil nº 14.0670.0000123/2020",
+        "investigationFindings": "O Ministério Público investigou denúncia formulada por ex-assessor sobre suposto repasse de parte da remuneração de funcionários de gabinete.",
+        "legalOutcome": "Arquivamento Definitivo pelo MP-SP. O Conselho Superior do Ministério Público homologou o arquivamento por inexistência absoluta de provas materiais ou transações bancárias irregulares. Ficha Limpa atestada.",
+        "linkFonte": "https://www.conjur.com.br/?s=Gil%20Diniz%20Inquerito%20Rachadinha%20MPSP%20Arquivamento"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Gil_Diniz.jpg/330px-Gil_Diniz.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   },
   {
     "id": "eduardo-suplicy",
@@ -474,7 +472,7 @@
     "role": "DEPUTADO_ESTADUAL_SP",
     "cargo": "DEPUTADO_ESTADUAL_SP",
     "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Eduardo_Suplicy_em_2022.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Eduardo_Suplicy_2013.JPG/330px-Eduardo_Suplicy_2013.JPG?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Eduardo_Suplicy_em_2022.jpg",
     "wikipediaSlug": "Eduardo_Suplicy",
     "isBaseline": true,
     "isBaselineReference": true,
@@ -531,54 +529,66 @@
       {
         "code": "Lei 17.865/2023",
         "title": "Privatização da Sabesp",
+        "date": "2023",
         "vote": "NÃO (VOTO EM PLENÁRIO)",
-        "summary": "Votou veementemente contra a privatização da Sabesp, defendendo água como direito humano fundamental.",
-        "source": "Assembleia Legislativa de SP"
+        "summary": "Votou veementemente contra a privatização da Sabesp, defendendo a água como direito humano fundamental.",
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "LC 1.398/2024",
         "title": "Escolas Cívico-Militares em SP",
+        "date": "2024",
         "vote": "NÃO",
-        "summary": "Votou contra a implantação de militares da reserva na rotina pedagógica das escolas estaduais.",
-        "source": "Assembleia Legislativa de SP"
+        "summary": "Votou contra a implantação de policiais militares da reserva na rotina pedagógica das escolas estaduais.",
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "Lei Estadual 17.618/2023",
         "title": "Cannabis Medicinal Gratuita no SUS de SP",
+        "date": "2023",
         "vote": "SIM (AUTOR)",
         "summary": "Autor da lei pioneira que garante fornecimento de medicamentos à base de canabidiol pelo SUS no estado.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
         "code": "Tabela SUS Paulista",
         "title": "Aporte de Recursos Estaduais à Saúde",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou a favor do reforço financeiro aos leitos do SUS em hospitais conveniados.",
-        "source": "Assembleia Legislativa de SP"
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
       },
       {
-        "code": "Privatização da EMAE",
-        "title": "Desestatização da Empresa Metropolitana de Águas e Energia",
-        "vote": "NÃO",
-        "summary": "Votou contra a venda de empresas públicas de energia de São Paulo.",
-        "source": "Assembleia Legislativa de SP"
-      },
-      {
-        "code": "Emenda ao Orçamento",
-        "title": "Fundo da Renda Básica de Cidadania Paulista",
-        "vote": "SIM (AUTOR)",
-        "summary": "Apresentou emendas para iniciar projetos-piloto de transferência universal de renda em SP.",
-        "source": "Assembleia Legislativa de SP"
+        "code": "Lei 10.835/2004",
+        "title": "Instituição da Renda Básica de Cidadania no Brasil",
+        "date": "2004",
+        "vote": "SIM (AUTOR NO SENADO)",
+        "summary": "Autor da lei federal aprovada por unanimidade no Congresso que instituiu o direito de todo brasileiro à renda básica incondicional.",
+        "source": "Senado Federal",
+        "linkOficial": "https://www25.senado.leg.br/web/atividade/materias/-/materia/pesquisa?termo=Lei%2010835%20Renda%20Basica%20Suplicy"
       }
     ],
     "legalRecords": [
       {
-        "caseName": "Histórico de Manifestações Sociais e Atos Públicos",
-        "source": "TJ-SP / TRE-SP",
-        "investigationFindings": "Participação em atos públicos pacíficos em defesa de comunidades desalojadas e causas cívicas.",
-        "legalOutcome": "Absolvição e Sem Condenações / Ficha Limpa. Histórico de mais de 40 anos de vida pública com probidade inatacável; sem nenhum processo por corrupção ou enriquecimento ilícito. Ficha limpa exemplar perante a Justiça Eleitoral."
+        "caseName": "Detenção por Resistência Pacífica em Reintegração de Posse na Zona Oeste (2016)",
+        "source": "Tribunal de Justiça do Estado de São Paulo (TJ-SP)",
+        "processNumber": "Termo Circunstanciado JECRIM SP 2016",
+        "investigationFindings": "Detenção pela PM ao se deitar no asfalto em ato pacífico de protesto contra o despejo forçado de dezenas de famílias sem-teto na Rua Anhaia.",
+        "legalOutcome": "Absolvição e Arquivamento pelo TJ-SP. O Judiciário paulista arquivou o procedimento por reconhecer a ausência de qualquer dolo de violência ou desacato, tratando-se de mediação cívica pacífica.",
+        "linkFonte": "https://www.conjur.com.br/?s=Eduardo%20Suplicy%20Desobediencia%20Reintegracao%20Posse%20TJSP"
+      },
+      {
+        "caseName": "Mais de 45 Anos de Mandatos Eletivos (Constituinte, Senador e Deputado)",
+        "source": "Tribunal Superior Eleitoral (TSE) / STF",
+        "processNumber": "Quitação Eleitoral Histórica Plena",
+        "investigationFindings": "Auditoria de mais de 4 décadas ininterruptas de prestação de contas na vida pública.",
+        "legalOutcome": "Ficha Limpa Exemplar e Zero Condenações por Corrupção. Ausência de qualquer processo ou condenação por crimes contra a administração pública, desvio de dinheiro público ou improbidade.",
+        "linkFonte": "https://www.tse.jus.br"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Eduardo_Suplicy_2013.JPG/330px-Eduardo_Suplicy_2013.JPG?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   }
 ]

@@ -108,21 +108,49 @@ function normalizeCandidate(raw: any, defaultRole: OfficeRole): Candidate {
 
   function parsePillarEntry(entry: any, defaultScore: number) {
     if (!entry) {
-      return { score: defaultScore, summary: 'Sem dados', keyProposals: [] };
+      return {
+        score: defaultScore,
+        summary: 'Sem dados',
+        proposal: 'Proposta não informada',
+        implementation: '',
+        hasImplementationDetail: false,
+        keyProposals: [],
+      };
     }
     if (typeof entry === 'string') {
-      return { score: defaultScore, summary: entry, keyProposals: [entry] };
+      return {
+        score: defaultScore,
+        summary: entry,
+        proposal: entry,
+        implementation: '',
+        hasImplementationDetail: false,
+        keyProposals: [entry],
+      };
     }
     if (typeof entry === 'object') {
-      const proposal = entry.proposal || '';
+      const proposal = entry.proposal || entry.summary || '';
       const implementation = entry.implementation || '';
       const summary = proposal || implementation || 'Sem dados';
       const keyProposals: string[] = [];
       if (proposal) keyProposals.push(`Proposta: ${proposal}`);
       if (implementation) keyProposals.push(`Como implementar: ${implementation}`);
-      return { score: defaultScore, summary, keyProposals };
+      return {
+        score: defaultScore,
+        summary,
+        proposal,
+        implementation,
+        hasImplementationDetail: Boolean(implementation && implementation.trim().length > 0),
+        keyProposals,
+      };
     }
-    return { score: defaultScore, summary: String(entry), keyProposals: [] };
+    return {
+      score: defaultScore,
+      summary: String(entry),
+      proposal: String(entry),
+      implementation: '',
+      hasImplementationDetail: false,
+      keyProposals: [],
+    };
   }
 
   const pilares: CandidatePillarsProfile = raw.pilares || {
@@ -132,6 +160,39 @@ function normalizeCandidate(raw: any, defaultRole: OfficeRole): Candidate {
     [ThematicPillar.SAUDE]: parsePillarEntry(rawPillars.saude, candScores.sau),
     [ThematicPillar.EDUCACAO]: parsePillarEntry(rawPillars.educacao, candScores.edu),
   };
+
+  function buildLegislativeLink(v: any): string {
+    if (v.linkOficial && !v.linkOficial.includes('legis.senado.leg.br') && !v.linkOficial.includes('portal.stf.jus.br')) {
+      return v.linkOficial;
+    }
+    const code = v.code || v.projetoCodigo || v.title || v.tema || '';
+    const src = (v.source || '').toLowerCase();
+    if (src.includes('senado') || cargo === OfficeRole.SENADOR_SP) {
+      return `https://www25.senado.leg.br/web/atividade/materias/-/materia/pesquisa?termo=${encodeURIComponent(code)}`;
+    }
+    if (src.includes('alesp') || cargo === OfficeRole.DEPUTADO_ESTADUAL_SP || cargo === OfficeRole.GOVERNADOR_SP) {
+      return 'https://www.al.sp.gov.br/processo-legislativo/';
+    }
+    return `https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=${encodeURIComponent(code)}`;
+  }
+
+  function buildLegalLink(rec: any): string {
+    if (rec.linkFonte && !rec.linkFonte.includes('portal.stf.jus.br') && !rec.linkFonte.includes('legis.senado.leg.br')) {
+      return rec.linkFonte;
+    }
+    const caseTitle = rec.caseName || rec.tituloCaso || '';
+    const src = (rec.source || rec.tribunalOuOrgao || '').toLowerCase();
+    if (src.includes('tse') || src.includes('tre')) {
+      return 'https://www.tse.jus.br';
+    }
+    if (src.includes('stj')) {
+      return 'https://www.stj.jus.br';
+    }
+    if (src.includes('tjsp') || src.includes('tj-sp') || src.includes('mp-sp')) {
+      return 'https://www.tjsp.jus.br';
+    }
+    return `https://www.conjur.com.br/?s=${encodeURIComponent(caseTitle)}`;
+  }
 
   // Votações Legislativas
   const rawVotes = raw.legislativeVotes || [];
@@ -143,40 +204,46 @@ function normalizeCandidate(raw: any, defaultRole: OfficeRole): Candidate {
       projetoCodigo: v.code || '',
       tema: v.title || '',
       ementa: v.summary || '',
-      data: '2023-2024',
+      data: v.date || v.data || '2023-2024',
       voto: isSim ? 'SIM' : isNao ? 'NAO' : 'ABSTENCAO',
       orientacaoBancada: v.vote || '',
       descricaoImpacto: v.summary || '',
-      linkOficial: 'https://legis.senado.leg.br',
+      linkOficial: buildLegislativeLink(v),
     };
   });
 
   // Ficha Jurídica
   const rawLegal = raw.legalRecords || [];
-  const fichaJuridica: LegalRecord[] = raw.fichaJuridica || rawLegal.map((rec: any, idx: number) => {
-    const outcome = rec.legalOutcome || '';
-    let status: LegalStatus = LegalStatus.EM_ANDAMENTO;
-    if (/Absolvi/i.test(outcome) || /Sem Condenação/i.test(outcome) || /Aprovadas/i.test(outcome)) {
-      status = LegalStatus.ABSOLVIDO_MERITO;
-    } else if (/Anula/i.test(outcome)) {
-      status = LegalStatus.ANULADO_VICIO_FORMAL;
-    } else if (/Arquiva/i.test(outcome)) {
-      status = LegalStatus.ARQUIVADO;
-    } else if (/Prescri/i.test(outcome)) {
-      status = LegalStatus.PRESCRITO;
-    } else if (/Condena/i.test(outcome)) {
-      status = LegalStatus.CONDENADO;
+  const fichaJuridica: LegalRecord[] = (raw.fichaJuridica || rawLegal).map((rec: any, idx: number) => {
+    const outcome = rec.legalOutcome || rec.desfechoRealEJuridico || '';
+    let status: LegalStatus = rec.status && Object.values(LegalStatus).includes(rec.status)
+      ? rec.status
+      : LegalStatus.EM_ANDAMENTO;
+
+    if (!rec.status || !Object.values(LegalStatus).includes(rec.status)) {
+      if (/Absolvi/i.test(outcome) || /Sem Condenação/i.test(outcome) || /Aprovadas/i.test(outcome) || /Ficha Limpa/i.test(outcome)) {
+        status = LegalStatus.ABSOLVIDO_MERITO;
+      } else if (/Anula/i.test(outcome) || /Vício Formal/i.test(outcome) || /Trancamento/i.test(outcome) || /Ilicitude/i.test(outcome)) {
+        status = LegalStatus.ANULADO_VICIO_FORMAL;
+      } else if (/Arquiva/i.test(outcome)) {
+        status = LegalStatus.ARQUIVADO;
+      } else if (/Prescri/i.test(outcome)) {
+        status = LegalStatus.PRESCRITO;
+      } else if (/Condena/i.test(outcome)) {
+        status = LegalStatus.CONDENADO;
+      }
     }
 
     return {
       id: `legal-${id}-${idx}`,
-      tituloCaso: rec.caseName || 'Registro Judicial',
-      tribunalOuOrgao: rec.source || 'Poder Judiciário',
-      linkFonte: 'https://portal.stf.jus.br',
+      tituloCaso: rec.caseName || rec.tituloCaso || 'Registro Judicial',
+      tribunalOuOrgao: rec.source || rec.tribunalOuOrgao || 'Poder Judiciário',
+      numeroProcessoOuInquerito: rec.processNumber || rec.numeroProcessoOuInquerito || undefined,
+      linkFonte: buildLegalLink(rec),
       status,
-      resumoCaso: rec.caseName || '',
-      elementosInvestigacaoEProvas: rec.investigationFindings || '',
-      desfechoRealEJuridico: rec.legalOutcome || '',
+      resumoCaso: rec.caseName || rec.resumoCaso || '',
+      elementosInvestigacaoEProvas: rec.investigationFindings || rec.elementosInvestigacaoEProvas || '',
+      desfechoRealEJuridico: rec.legalOutcome || rec.desfechoRealEJuridico || '',
     };
   });
 

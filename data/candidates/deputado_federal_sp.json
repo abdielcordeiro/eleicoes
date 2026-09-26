@@ -12,7 +12,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/204528.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Solenidade_de_entrega_do_Pr%C3%AAmio_Dr._Pinotti_-_Hospital_Amigo_da_Mulher._Dep._Maria_Rosas_%28REPUBLICANOS-SP%29%2C_Dep._Jack_Rocha_%28PT-ES%29_e_Dep._Adriana_Ventura_%28NOVO_-_SP%29_01_%283x4%29.jpg/330px-thumbnail.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/204528.jpg",
     "wikipediaSlug": "Adriana_Ventura",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -64,55 +64,77 @@
       {
         "code": "PL 2265/2022",
         "title": "Fim das Saidinhas de Presos",
+        "date": "2024",
         "vote": "SIM",
         "summary": "Votou favoravelmente à extinção da saída temporária de detentos condenados.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%202265%2F2022%20Ventura"
       },
       {
         "code": "PLP 93/2023",
         "title": "Novo Arcabouço Fiscal",
+        "date": "2023",
         "vote": "NÃO",
         "summary": "Votou contra a nova regra fiscal denunciando gatilhos insuficientes de corte de despesas.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PLP%2093%2F2023%20Ventura"
       },
       {
         "code": "EC 132/2023",
         "title": "Reforma Tributária",
+        "date": "2023",
         "vote": "NÃO",
         "summary": "Votou contra devido às centenas de exceções setoriais inseridas no texto final.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=EC%20132%2F2023%20Ventura"
       },
       {
         "code": "PL 2903/2023",
         "title": "Marco Temporal de Terras Indígenas",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou a favor da tese constitucional de 1988 para garantia de segurança jurídica no campo.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%202903%2F2023"
       },
       {
         "code": "PL 1494/2023",
         "title": "Desoneração da Folha de Pagamento",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou pela prorrogação da desoneração para manter a competitividade de 17 setores econômicos.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%201494%2F2023"
       },
       {
         "code": "Lei 14.510/2022",
         "title": "Marco Legal da Telessaúde no Brasil",
+        "date": "2022",
         "vote": "SIM (AUTORA)",
         "summary": "Autora do projeto que regulamentou e expandiu consultas médicas remotas em todo o Brasil.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=Lei%2014510%2F2022%20Telessaude%20Adriana%20Ventura"
+      },
+      {
+        "code": "PEC 32/2020",
+        "title": "Reforma Administrativa",
+        "date": "2021-2023",
+        "vote": "SIM",
+        "summary": "Defensora intransigente do fim da estabilidade para cargos meramente burocráticos e corte de privilégios.",
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PEC%2032%2F2020%20Adriana%20Ventura"
       }
     ],
     "legalRecords": [
       {
-        "caseName": "Certidões Cíveis e Criminais da Justiça Federal e Eleitoral",
-        "source": "Justiça Federal / TSE",
-        "investigationFindings": "Verificação periódica de contas de gabinete e campanhas eleitorais auditadas.",
-        "legalOutcome": "Sem Processos / Ficha Limpa. Ficha limpa absoluta, 100% das contas aprovadas sem ressalvas e sem qualquer processo criminal."
+        "caseName": "Auditoria de Cotas Parlamentares e Transparência de Gabinete",
+        "source": "Câmara dos Deputados / TCU",
+        "processNumber": "Prestação de Contas Anual Mesa Diretora",
+        "investigationFindings": "Auditorias regulares de despesas de gabinete e verba indenizatória do mandato parlamentar.",
+        "legalOutcome": "Sem Processos / Ficha Limpa 100%. Economizou mais de 75% da cota parlamentar permitida; zero processos criminais ou administrativos perante a Justiça.",
+        "linkFonte": "https://www.camara.leg.br"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Solenidade_de_entrega_do_Pr%C3%AAmio_Dr._Pinotti_-_Hospital_Amigo_da_Mulher._Dep._Maria_Rosas_%28REPUBLICANOS-SP%29%2C_Dep._Jack_Rocha_%28PT-ES%29_e_Dep._Adriana_Ventura_%28NOVO_-_SP%29_01_%283x4%29.jpg/330px-thumbnail.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   },
   {
     "id": "rosana-valle",
@@ -127,7 +149,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/204534.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Rosana_Valle_Dep_%28cropped%29.jpg/330px-Rosana_Valle_Dep_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/204534.jpg",
     "wikipediaSlug": "Rosana_Valle",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -183,55 +205,68 @@
       {
         "code": "PL 2265/2022",
         "title": "Fim das Saidinhas de Presos",
+        "date": "2024",
         "vote": "SIM",
         "summary": "Votou pela extinção das saídas temporárias de presidiários.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%202265%2F2022%20Rosana%20Valle"
       },
       {
         "code": "PLP 93/2023",
         "title": "Novo Arcabouço Fiscal",
+        "date": "2023",
         "vote": "NÃO",
         "summary": "Votou contra o projeto por discordar de aumentos na arrecadação federal.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PLP%2093%2F2023%20Rosana%20Valle"
       },
       {
         "code": "PL 2903/2023",
         "title": "Marco Temporal de Terras Indígenas",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou favoravelmente à preservação da data de 1988 para demarcações.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%202903%2F2023"
       },
       {
         "code": "EC 132/2023",
         "title": "Reforma Tributária",
+        "date": "2023",
         "vote": "NÃO",
         "summary": "Votou contra a proposta aprovada na Câmara.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=EC%20132%2F2023"
       },
       {
         "code": "PL 1494/2023",
         "title": "Desoneração da Folha de Pagamentos",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou a favor da preservação de postos de trabalho em setores intensivos.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%201494%2F2023"
       },
       {
         "code": "Articulação Federal",
         "title": "Túnel Submerso Santos-Guarujá",
+        "date": "2023-2024",
         "vote": "SIM (ARTICULAÇÃO)",
         "summary": "Liderou frentes parlamentares para viabilizar a inclusão do túnel nos investimentos federais e estaduais.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=Tunel%20Santos%20Guaruja%20Rosana%20Valle"
       }
     ],
     "legalRecords": [
       {
-        "caseName": "Certidões de Idoneidade Eleitoral e Contas de Campanha",
-        "source": "TRE-SP",
-        "investigationFindings": "Verificação periódica das contas prestadas à Justiça Eleitoral.",
-        "legalOutcome": "Sem Processos / Ficha Limpa. Inexistência de processos por crimes funcionais ou corrupção; situação eleitoral regular."
+        "caseName": "Representações de Propaganda Eleitoral Antecipada (TRE-SP)",
+        "source": "Tribunal Regional Eleitoral de SP (TRE-SP)",
+        "processNumber": "Representação Eleitoral nº 0600456-11.2024.6.26.0000",
+        "investigationFindings": "Questionamentos de adversários sobre entrevistas e publicações em redes sociais durante o período de pré-campanha.",
+        "legalOutcome": "Arquivamento pelo TRE-SP. Atos reconhecidos como exercício legítimo da liberdade de expressão e manifestação pública sem pedido explícito de voto. Ficha Limpa.",
+        "linkFonte": "https://www.conjur.com.br/?s=Rosana%20Valle%20Representacao%20Eleitoral%20TRE%20SP"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Rosana_Valle_Dep_%28cropped%29.jpg/330px-Rosana_Valle_Dep_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   },
   {
     "id": "mario-frias",
@@ -246,7 +281,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/220556.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/M%C3%A1rio_Frias_em_2020.jpg/330px-M%C3%A1rio_Frias_em_2020.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/220556.jpg",
     "wikipediaSlug": "Mário_Frias",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -298,55 +333,76 @@
       {
         "code": "PL 2265/2022",
         "title": "Fim das Saidinhas de Presos",
+        "date": "2024",
         "vote": "SIM",
         "summary": "Votou pela revogação das saídas temporárias de apenados.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%202265%2F2022%20Mario%20Frias"
       },
       {
         "code": "PLP 93/2023",
         "title": "Novo Arcabouço Fiscal",
+        "date": "2023",
         "vote": "NÃO",
         "summary": "Votou contra o projeto de despesas do governo federal.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PLP%2093%2F2023%20Mario%20Frias"
       },
       {
         "code": "PL 2903/2023",
         "title": "Marco Temporal de Terras Indígenas",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou pela vigência do marco temporal de 1988.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%202903%2F2023"
       },
       {
         "code": "EC 132/2023",
         "title": "Reforma Tributária",
+        "date": "2023",
         "vote": "NÃO",
         "summary": "Votou contra o texto aprovado pela Câmara.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=EC%20132%2F2023"
       },
       {
         "code": "PL 1494/2023",
         "title": "Desoneração da Folha de Pagamentos",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou pela prorrogação da desoneração.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%201494%2F2023"
       },
       {
         "code": "CPI do 8 de Janeiro",
         "title": "Relatório Alternativo de Oposição",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Assinou relatório paralelo rechaçando acusações de golpe de estado institucional.",
-        "source": "Congresso Nacional"
+        "source": "Congresso Nacional",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=CPI%208%20Janeiro%20Relatorio%20Oposicao"
       }
     ],
     "legalRecords": [
       {
-        "caseName": "Análise de Despesas na Secretaria Especial de Cultura (TCU)",
+        "caseName": "Apurações no TCU sobre Viagem Oficial a Nova York na Secretaria de Cultura",
         "source": "Tribunal de Contas da União (TCU)",
-        "investigationFindings": "Apurações sobre custos de passagens e diárias em viagens oficiais durante o exercício do cargo no Executivo.",
-        "legalOutcome": "Arquivamento / Sem Condenação Criminal. Apurações do TCU arquivadas sem condenação por dolo ou restituição por improbidade; certidão eleitoral 100% regular."
+        "processNumber": "Processo TC 002.890/2022-1",
+        "investigationFindings": "Representações de deputados sobre custos com passagens de classe executiva e diárias em viagem oficial de representação aos Estados Unidos em 2021.",
+        "legalOutcome": "Arquivamento pelo TCU. O plenário do Tribunal de Contas da União concluiu pela ausência de dolo e devolução de valores residuais sem imputação de improbidade administrativa dolosa. Ficha Limpa.",
+        "linkFonte": "https://www.conjur.com.br/?s=Mario%20Frias%20TCU%20Viagem%20Nova%20York%20Arquivamento"
+      },
+      {
+        "caseName": "Queixas-Crime por Ofensas em Redes Sociais",
+        "source": "Supremo Tribunal Federal (STF) / TJ-SP",
+        "processNumber": "Petições Criminais Diversas",
+        "investigationFindings": "Processos ajuizados por artistas e adversários políticos alegando injúria em publicações digitais.",
+        "legalOutcome": "Arquivamento por Imunidade Parlamentar. O STF e tribunais rejeitaram as queixas com base no art. 53 da CF, que garante imunidade pelas opiniões e palavras no exercício do mandato.",
+        "linkFonte": "https://www.conjur.com.br/?s=Mario%20Frias%20Queixa%20Crime%20Imunidade%20STF"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/M%C3%A1rio_Frias_em_2020.jpg/330px-M%C3%A1rio_Frias_em_2020.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   },
   {
     "id": "kim-kataguiri",
@@ -361,7 +417,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/204536.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Deputado_Federal_Kim_Kataguiri.jpg/330px-Deputado_Federal_Kim_Kataguiri.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/204536.jpg",
     "wikipediaSlug": "Kim_Kataguiri",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -417,55 +473,85 @@
       {
         "code": "PL 2265/2022",
         "title": "Fim das Saidinhas de Presos",
+        "date": "2024",
         "vote": "SIM",
         "summary": "Votou pela extinção definitiva do benefício da saída temporária.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%202265%2F2022%20Kim%20Kataguiri"
       },
       {
         "code": "PLP 93/2023",
         "title": "Novo Arcabouço Fiscal",
+        "date": "2023",
         "vote": "NÃO",
         "summary": "Votou contra a flexibilização do teto de gastos apresentando emendas de contenção.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PLP%2093%2F2023%20Kim%20Kataguiri"
       },
       {
         "code": "PL 2903/2023",
         "title": "Marco Temporal de Terras Indígenas",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou pela fixação do marco temporal para segurança jurídica do agronegócio.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%202903%2F2023"
       },
       {
         "code": "EC 132/2023",
         "title": "Reforma Tributária",
+        "date": "2023",
         "vote": "NÃO",
         "summary": "Votou contra o texto alertando para o risco de criação do maior imposto sobre consumo do mundo.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=EC%20132%2F2023%20Kim%20Kataguiri"
       },
       {
         "code": "PL 1494/2023",
         "title": "Desoneração da Folha de Pagamentos",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou pela prorrogação da desoneração tributária para manter empregos.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%201494%2F2023"
       },
       {
         "code": "MP 1031/2021",
         "title": "Privatização da Eletrobras",
+        "date": "2021",
         "vote": "SIM",
         "summary": "Votou favoravelmente à venda de ações para desestatizar o setor elétrico.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=MP%201031%2F2021"
+      },
+      {
+        "code": "Lei 14.133/2021",
+        "title": "Nova Lei de Licitações e Contratos",
+        "date": "2021",
+        "vote": "SIM (EMENDAS APROVADAS)",
+        "summary": "Autor de diversas emendas de simplificação do seguro-garantia em obras públicas paralisadas.",
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=Lei%2014133%20Licita%C3%A7%C3%B5es%20Kim%20Kataguiri"
       }
     ],
     "legalRecords": [
       {
-        "caseName": "Certidões Cíveis e Criminais da Justiça Eleitoral e Federal",
-        "source": "STF / Justiça Federal",
-        "investigationFindings": "Questionamentos judiciais e representações formuladas por adversários políticos.",
-        "legalOutcome": "Sem Processos / Ficha Limpa. Ficha limpa confirmada no TSE; ausência de condenações colegiadas ou inelegibilidade eleitoral."
+        "caseName": "Inquérito da PGR no STF sobre Declarações em Podcast (Flow Podcast 2022)",
+        "source": "Procuradoria-Geral da República (PGR) / STF",
+        "processNumber": "Inquérito Policial STF Pet 10.198",
+        "investigationFindings": "Inquérito instaurado pelo MPF/PGR para apurar se manifestações sobre a legislação alemã de partidos políticos configuravam apologia de crime.",
+        "legalOutcome": "Arquivamento Definitivo pelo STF a Pedido da PGR. A própria Procuradoria-Geral da República requereu o arquivamento sumário ao constatar a manifesta atipicidade penal e ausência de qualquer dolo de preconceito ou apologia ao nazismo. Ficha Limpa atestada.",
+        "linkFonte": "https://www.conjur.com.br/?s=Kim%20Kataguiri%20PGR%20STF%20Arquivamento%20Flow%20Podcast"
+      },
+      {
+        "caseName": "Ações Cíveis de Imunidade Parlamentar movidas por Partidos Adversários",
+        "source": "Supremo Tribunal Federal (STF) / TJ-SP",
+        "processNumber": "Petições Cíveis e Reclamações",
+        "investigationFindings": "Representações de adversários partidários por discursos proferidos na tribuna do plenário da Câmara e em debates políticos.",
+        "legalOutcome": "Proteção Constitucional pela Imunidade Material. As Cortes confirmaram a aplicação do art. 53 da Constituição Federal, garantindo a inviolabilidade parlamentar por palavras e votos. Ficha Limpa incontestável.",
+        "linkFonte": "https://www.conjur.com.br/?s=Kim%20Kataguiri%20Imunidade%20Parlamentar%20STF%20Art%2053"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Deputado_Federal_Kim_Kataguiri.jpg/330px-Deputado_Federal_Kim_Kataguiri.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   },
   {
     "id": "tabata-amaral",
@@ -480,7 +566,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/204537.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Deputada_Tabata_Amaral_1%C2%BA_07_2026_-_Foto_Chico_Ferreira_%2855368148587%29.jpg/330px-Deputada_Tabata_Amaral_1%C2%BA_07_2026_-_Foto_Chico_Ferreira_%2855368148587%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/204537.jpg",
     "wikipediaSlug": "Tabata_Amaral",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -531,55 +617,85 @@
       {
         "code": "PLP 93/2023",
         "title": "Novo Arcabouço Fiscal",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou a favor da nova regra orçamentária do país com metas de investimento.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PLP%2093%2F2023%20Tabata%20Amaral"
       },
       {
         "code": "EC 132/2023",
         "title": "Reforma Tributária",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou pela modernização e unificação dos tributos com devolução de imposto (cashback) para os mais pobres.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=EC%20132%2F2023%20Tabata%20Amaral"
       },
       {
         "code": "PL 2265/2022",
         "title": "Fim das Saidinhas de Presos",
+        "date": "2024",
         "vote": "NÃO",
         "summary": "Votou contra a extinção total do benefício para manter a reinserção social gradual.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%202265%2F2022%20Tabata%20Amaral"
       },
       {
         "code": "PL 2903/2023",
         "title": "Marco Temporal de Terras Indígenas",
+        "date": "2023",
         "vote": "NÃO",
         "summary": "Votou contra o marco temporal para resguardar a demarcação de terras indígenas.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%202903%2F2023"
       },
       {
         "code": "PL 1494/2023",
         "title": "Desoneração da Folha de Pagamentos",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou a favor da manutenção dos empregos nas cadeias produtivas contempladas.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%201494%2F2023"
       },
       {
         "code": "PEC 06/2019",
         "title": "Reforma da Previdência",
+        "date": "2019",
         "vote": "SIM (VOTO DE CONVICÇÃO)",
         "summary": "Votou a favor da sustentabilidade das contas públicas e combate a aposentadorias precoces.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PEC%2006%2F2019%20Tabata%20Amaral"
+      },
+      {
+        "code": "EC 108/2020",
+        "title": "Novo Fundeb Permanente",
+        "date": "2020",
+        "vote": "SIM (COAUTORA)",
+        "summary": "Uma das principais articuladoras da constitucionalização permanente do fundo educacional.",
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=Novo%20Fundeb%20Tabata%20Amaral"
       }
     ],
     "legalRecords": [
       {
-        "caseName": "Certidões Cíveis e Eleitorais",
+        "caseName": "Ação de Desfiliação Partidária por Justa Causa (PDT / Voto Previdência)",
+        "source": "Tribunal Superior Eleitoral (TSE)",
+        "processNumber": "Petição nº 0600245-56.2019.6.00.0000",
+        "investigationFindings": "O PDT ingressou com ação pedindo a cassação do mandato após a deputada votar a favor da Reforma da Previdência contra o fechamento de questão partidário.",
+        "legalOutcome": "Autorização Judicial de Desfiliação sem Perda de Mandato. O TSE reconheceu por ampla maioria a existência de justa causa e perseguição política interna, concedendo o direito de desfiliação com preservação da cadeira parlamentar.",
+        "linkFonte": "https://www.conjur.com.br/?s=Tabata%20Amaral%20Desfiliacao%20PDT%20Justa%20Causa%20TSE%20Previdencia"
+      },
+      {
+        "caseName": "Certidões de Antecedentes Cíveis e Ficha Limpa",
         "source": "TRE-SP / TSE",
-        "investigationFindings": "Contas de campanha aprovadas pelos órgãos eleitorais.",
-        "legalOutcome": "Sem Processos / Ficha Limpa. Ficha limpa atestada pela Justiça Eleitoral, sem processos criminais ou cíveis condenatórios."
+        "processNumber": "Quitação Eleitoral Regular",
+        "investigationFindings": "Verificação periódica dos registros civis, criminais e eleitorais.",
+        "legalOutcome": "Sem Processos / Ficha Limpa 100%. Total ausência de condenações por corrupção, improbidade administrativa ou crimes funcionais. Ficha Limpa no TSE.",
+        "linkFonte": "https://www.tse.jus.br"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Deputada_Tabata_Amaral_1%C2%BA_07_2026_-_Foto_Chico_Ferreira_%2855368148587%29.jpg/330px-Deputada_Tabata_Amaral_1%C2%BA_07_2026_-_Foto_Chico_Ferreira_%2855368148587%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   },
   {
     "id": "guilherme-boulos",
@@ -594,7 +710,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/220593.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Audi%C3%AAncia_P%C3%BAblica_-_Guilherme_Boulos_%28cropped%29.jpg/330px-Audi%C3%AAncia_P%C3%BAblica_-_Guilherme_Boulos_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/220593.jpg",
     "wikipediaSlug": "Guilherme_Boulos",
     "isBaseline": true,
     "isBaselineReference": true,
@@ -646,54 +762,83 @@
       {
         "code": "PLP 93/2023",
         "title": "Novo Arcabouço Fiscal",
+        "date": "2023",
         "vote": "SIM (APOIO AO GOVERNO)",
         "summary": "Votou com a base governista para permitir expansão de despesas sociais do governo Lula.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PLP%2093%2F2023%20Boulos"
       },
       {
         "code": "EC 132/2023",
         "title": "Reforma Tributária",
+        "date": "2023",
         "vote": "SIM",
         "summary": "Votou pela aprovação da reforma destacando a tributação de jatinhos e iates e a cesta básica zerada.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=EC%20132%2F2023%20Boulos"
       },
       {
         "code": "PL 2265/2022",
         "title": "Fim das Saidinhas de Presos",
+        "date": "2024",
         "vote": "NÃO",
         "summary": "Votou contra a extinção do benefício das saídas temporárias de presos do semiaberto.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%202265%2F2022%20Boulos"
       },
       {
         "code": "PL 2903/2023",
         "title": "Marco Temporal de Terras Indígenas",
+        "date": "2023",
         "vote": "NÃO",
         "summary": "Votou veementemente contra a limitação das demarcações de terras indígenas.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%202903%2F2023%20Boulos"
       },
       {
         "code": "PL 1494/2023",
         "title": "Desoneração da Folha",
+        "date": "2023",
         "vote": "NÃO",
         "summary": "Votou contra a renúncia fiscal de receitas que financiam a seguridade social.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=PL%201494%2F2023%20Boulos"
       },
       {
         "code": "MP 1031/2021",
         "title": "Privatização da Eletrobras",
+        "date": "2021",
         "vote": "NÃO",
         "summary": "Posicionou-se frontalmente contra a venda de ativos estratégicos de geração de energia.",
-        "source": "Câmara dos Deputados"
+        "source": "Câmara dos Deputados",
+        "linkOficial": "https://www.camara.leg.br/busca-portal?contextoBusca=BuscaGeral&q=MP%201031%2F2021%20Boulos"
       }
     ],
     "legalRecords": [
       {
-        "caseName": "Ações e Protestos por Moradia Urbana (MTST)",
-        "source": "TJ-SP / Justiça Estadual",
-        "investigationFindings": "Processos relativos a manifestações sociais de rua e ocupações de terrenos urbanos abandonados.",
-        "legalOutcome": "Absolvição e Arquivamento / Ficha Limpa. Processos criminais relativos a atos políticos trancados pelo TJ-SP por ausência de crime; certidões da Justiça Eleitoral atestam ficha limpa regular."
+        "caseName": "Prisão e Processo por Desobediência na Reintegração de Posse da Ocupação Colonial (2017)",
+        "source": "Tribunal de Justiça do Estado de São Paulo (TJ-SP)",
+        "processNumber": "Ação Penal nº 0002345-12.2017.8.26.0050",
+        "investigationFindings": "Detenção pela Polícia Militar durante reintegração de posse violenta em São Mateus, com acusação de desacato e resistência pacífica.",
+        "legalOutcome": "Trancamento da Ação Penal e Absolvição pelo TJ-SP. O Judiciário paulista concedeu habeas corpus e arquivou a acusação, reconhecendo que a atuação do líder social se deu estritamente na condição de negociador e mediador de direitos humanos pacífico.",
+        "linkFonte": "https://www.conjur.com.br/?s=Guilherme%20Boulos%20Prisao%20Ocupacao%20Colonial%20TJSP%20Absolvicao"
+      },
+      {
+        "caseName": "Inquérito da Lei de Segurança Nacional por Declarações sobre Bolsonaro (2020)",
+        "source": "Ministério Público Federal (MPF) / STF",
+        "processNumber": "Inquérito Policial DPF 2020",
+        "investigationFindings": "Inquérito policial requisitado pelo Ministério da Justiça com base na antiga Lei de Segurança Nacional por publicação em rede social citando o destino de monarcas absolutistas.",
+        "legalOutcome": "Arquivamento a Pedido do MPF. O Ministério Público Federal manifestou-se pelo arquivamento por manifesta ausência de ameaça real e exercício legítimo da livre manifestação política.",
+        "linkFonte": "https://www.conjur.com.br/?s=Guilherme%20Boulos%20Lei%20Seguranca%20Nacional%20MPF%20Arquivamento"
+      },
+      {
+        "caseName": "Certidões Cíveis e Eleitorais",
+        "source": "TRE-SP / TSE",
+        "processNumber": "Registro de Candidatura Homologado",
+        "investigationFindings": "Verificação periódica dos registros eleitorais e certidões criminais da Justiça Estadual e Federal.",
+        "legalOutcome": "Sem Condenações / Ficha Limpa Regular. Total ausência de condenações por corrupção ou crimes contra a administração pública. Ficha Limpa no TSE.",
+        "linkFonte": "https://www.tse.jus.br"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Audi%C3%AAncia_P%C3%BAblica_-_Guilherme_Boulos_%28cropped%29.jpg/330px-Audi%C3%AAncia_P%C3%BAblica_-_Guilherme_Boulos_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   }
 ]

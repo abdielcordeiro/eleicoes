@@ -247,7 +247,7 @@
               <span class="inline-block px-2 py-0.5 rounded text-xs font-extrabold bg-slate-200 text-slate-800 mb-1.5">
                 Nota: {{ baseline.pilares?.SEGURANCA_PUBLICA?.score || 4.5 }}/10
               </span>
-              <p class="text-xs text-slate-600 leading-relaxed">
+              <p class="text-xs text-slate-600 leading-relaxed whitespace-pre-line">
                 {{ formatPillarText(baseline.pillars?.segurancaPublica || baseline.pilares?.SEGURANCA_PUBLICA?.summary) }}
               </p>
             </td>
@@ -255,7 +255,7 @@
               <span class="inline-block px-2 py-0.5 rounded text-xs font-extrabold bg-blue-100 text-blue-800 mb-1.5">
                 Nota: {{ c.pilares?.SEGURANCA_PUBLICA?.score || 9.0 }}/10
               </span>
-              <p class="text-xs text-slate-700 leading-relaxed">
+              <p class="text-xs text-slate-700 leading-relaxed whitespace-pre-line">
                 {{ formatPillarText(c.pillars?.segurancaPublica || c.pilares?.SEGURANCA_PUBLICA?.summary) }}
               </p>
             </td>
@@ -273,7 +273,7 @@
               <span class="inline-block px-2 py-0.5 rounded text-xs font-extrabold bg-slate-200 text-slate-800 mb-1.5">
                 Nota: {{ baseline.pilares?.GASTOS_PUBLICOS?.score || 4.0 }}/10
               </span>
-              <p class="text-xs text-slate-600 leading-relaxed">
+              <p class="text-xs text-slate-600 leading-relaxed whitespace-pre-line">
                 {{ formatPillarText(baseline.pillars?.gastosPublicos || baseline.pilares?.GASTOS_PUBLICOS?.summary) }}
               </p>
             </td>
@@ -281,7 +281,7 @@
               <span class="inline-block px-2 py-0.5 rounded text-xs font-extrabold bg-emerald-100 text-emerald-800 mb-1.5">
                 Nota: {{ c.pilares?.GASTOS_PUBLICOS?.score || 8.5 }}/10
               </span>
-              <p class="text-xs text-slate-700 leading-relaxed">
+              <p class="text-xs text-slate-700 leading-relaxed whitespace-pre-line">
                 {{ formatPillarText(c.pillars?.gastosPublicos || c.pilares?.GASTOS_PUBLICOS?.summary) }}
               </p>
             </td>
@@ -299,7 +299,7 @@
               <span class="inline-block px-2 py-0.5 rounded text-xs font-extrabold bg-slate-200 text-slate-800 mb-1.5">
                 Nota: {{ baseline.pilares?.TAMANHO_DO_ESTADO?.score || 3.0 }}/10
               </span>
-              <p class="text-xs text-slate-600 leading-relaxed">
+              <p class="text-xs text-slate-600 leading-relaxed whitespace-pre-line">
                 {{ formatPillarText(baseline.pillars?.tamanhoDoEstado || baseline.pilares?.TAMANHO_DO_ESTADO?.summary) }}
               </p>
             </td>
@@ -307,7 +307,7 @@
               <span class="inline-block px-2 py-0.5 rounded text-xs font-extrabold bg-purple-100 text-purple-800 mb-1.5">
                 Nota: {{ c.pilares?.TAMANHO_DO_ESTADO?.score || 9.0 }}/10
               </span>
-              <p class="text-xs text-slate-700 leading-relaxed">
+              <p class="text-xs text-slate-700 leading-relaxed whitespace-pre-line">
                 {{ formatPillarText(c.pillars?.tamanhoDoEstado || c.pilares?.TAMANHO_DO_ESTADO?.summary) }}
               </p>
             </td>
@@ -325,7 +325,7 @@
               <span class="inline-block px-2 py-0.5 rounded text-xs font-extrabold bg-slate-200 text-slate-800 mb-1.5">
                 Nota: {{ baseline.pilares?.SAUDE?.score || 7.5 }}/10
               </span>
-              <p class="text-xs text-slate-600 leading-relaxed">
+              <p class="text-xs text-slate-600 leading-relaxed whitespace-pre-line">
                 {{ formatPillarText(baseline.pillars?.saude || baseline.pilares?.SAUDE?.summary) }}
               </p>
             </td>
@@ -333,7 +333,7 @@
               <span class="inline-block px-2 py-0.5 rounded text-xs font-extrabold bg-amber-100 text-amber-800 mb-1.5">
                 Nota: {{ c.pilares?.SAUDE?.score || 8.0 }}/10
               </span>
-              <p class="text-xs text-slate-700 leading-relaxed">
+              <p class="text-xs text-slate-700 leading-relaxed whitespace-pre-line">
                 {{ formatPillarText(c.pillars?.saude || c.pilares?.SAUDE?.summary) }}
               </p>
             </td>
@@ -351,7 +351,7 @@
               <span class="inline-block px-2 py-0.5 rounded text-xs font-extrabold bg-slate-200 text-slate-800 mb-1.5">
                 Nota: {{ baseline.pilares?.EDUCACAO?.score || 7.0 }}/10
               </span>
-              <p class="text-xs text-slate-600 leading-relaxed">
+              <p class="text-xs text-slate-600 leading-relaxed whitespace-pre-line">
                 {{ formatPillarText(baseline.pillars?.educacao || baseline.pilares?.EDUCACAO?.summary) }}
               </p>
             </td>
@@ -359,7 +359,7 @@
               <span class="inline-block px-2 py-0.5 rounded text-xs font-extrabold bg-rose-100 text-rose-800 mb-1.5">
                 Nota: {{ c.pilares?.EDUCACAO?.score || 8.0 }}/10
               </span>
-              <p class="text-xs text-slate-700 leading-relaxed">
+              <p class="text-xs text-slate-700 leading-relaxed whitespace-pre-line">
                 {{ formatPillarText(c.pillars?.educacao || c.pilares?.EDUCACAO?.summary) }}
               </p>
             </td>
@@ -467,13 +467,20 @@ const headerDescription = computed(() => {
 });
 
 function formatPillarText(val: any): string {
-  if (!val) return '';
-  if (typeof val === 'string') return val;
+  if (!val) return 'Sem dados cadastrados';
+  if (typeof val === 'string') {
+    return `🎯 Proposta: ${val}\n\n⚠️ Como implementar: O candidato não detalhou o mecanismo prático de execução desta proposta em seu plano oficial.`;
+  }
   if (typeof val === 'object') {
-    const prop = val.proposal || '';
+    const prop = val.proposal || val.summary || '';
     const impl = val.implementation || '';
-    if (prop && impl) return `${prop} (Como implementar: ${impl})`;
-    return prop || impl || '';
+    if (prop && impl) {
+      return `🎯 Proposta: ${prop}\n\n⚙️ Como implementar: ${impl}`;
+    }
+    if (prop && !impl) {
+      return `🎯 Proposta: ${prop}\n\n⚠️ Como implementar: O candidato não detalhou o mecanismo prático de execução desta proposta em seu plano oficial.`;
+    }
+    return prop || impl || 'Sem dados cadastrados';
   }
   return String(val);
 }
