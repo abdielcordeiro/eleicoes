@@ -1,0 +1,238 @@
+[
+  {
+    "id": "tarcisio-de-freitas",
+    "nomeCompleto": "Tarcísio Gomes de Freitas",
+    "nomeUrna": "Tarcísio de Freitas",
+    "numeroUrna": 10,
+    "cargo": "GOVERNADOR_SP",
+    "fotoUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=500&q=80",
+    "partido": {
+      "id": "republicanos",
+      "sigla": "Republicanos",
+      "numero": 10,
+      "nome": "Republicanos",
+      "espectro": "Direita",
+      "corHex": "#1E40AF"
+    },
+    "coligacaoOuFederacao": "São Paulo Pra Frente (Republicanos / PL / PSD / PP / Podemos)",
+    "estado": "SP",
+    "isBaselineReference": false,
+    "resumoPerfil": "Engenheiro militar pelo IME e atual Governador de São Paulo (2023-2026). Ex-Ministro da Infraestrutura, focado em entregas de obras pesadas, desestatização (Sabesp, Emae, Trem Intercidades) e modernização da máquina estadual.",
+    "termometroAlinhamento": {
+      "liberdadeEconomica": 92,
+      "estadoEnxuto": 90,
+      "conservadorismo": 78,
+      "segurancaRigorosa": 92,
+      "scoreGeral": 88,
+      "classificacao": "Direita Técnica / Pragmática"
+    },
+    "pilares": {
+      "SEGURANCA_PUBLICA": {
+        "score": 9.2,
+        "summary": "Operações integradas no litoral e Cracolândia (Operação Escudo/Verão), valorização salarial das polícias e investimento em armamento pesado.",
+        "keyProposals": [
+          "Fortalecimento das tropas de elite (Rota e COE) contra o crime organizado",
+          "Reestruturação do fluxo urbano e tratamento compulsório judicial na Cracolândia",
+          "Muralha Paulista: videomonitoramento inteligente com leitura de placas e biometria"
+        ]
+      },
+      "GASTOS_PUBLICOS": {
+        "score": 8.9,
+        "summary": "Gestão fiscal com nota Capag A+, atração recorde de capital privado em leilões na B3 e contenção de custeio.",
+        "keyProposals": [
+          "Redução progressiva da alíquota do ICMS sobre combustíveis e aviação",
+          "Manutenção do equilíbrio orçamentário do estado sem aumento de despesas correntes",
+          "Descentralização do centro administrativo do governo para o centro histórico da capital"
+        ]
+      },
+      "TAMANHO_DO_ESTADO": {
+        "score": 9.6,
+        "summary": "Conclusão histórica da privatização da Sabesp, concessão do Rodoanel Norte e estruturação do Trem Intercidades SP-Campinas.",
+        "keyProposals": [
+          "Concessão da Linha 7-Rubi e expansão do Trem Intercidades até Sorocaba e Santos",
+          "Leilão de lotes rodoviários do interior e transferência de serviços não essenciais",
+          "Desregulamentação de atividades comerciais de baixo impacto com alvará imediato"
+        ]
+      },
+      "SAUDE": {
+        "score": 8.3,
+        "summary": "Tabela SUS Paulista (complementação com recursos estaduais para remunerar Santas Casas) e mutirões de cirurgia.",
+        "keyProposals": [
+          "Expansão contínua da Tabela SUS Paulista para hospitais filantrópicos",
+          "Construção de novos AMEs (Ambulatórios Médicos de Especialidades)",
+          "Digitalização do agendamento de exames e consultas no app Poupatempo"
+        ]
+      },
+      "EDUCACAO": {
+        "score": 8.4,
+        "summary": "Material didático digital alinhado a avaliações contínuas, expansão das escolas cívico-militares e do ensino técnico no Centro Paula Souza.",
+        "keyProposals": [
+          "Ampliação do programa estadual de Escolas Cívico-Militares em áreas conflagradas",
+          "Integração do currículo do Ensino Médio com formação técnica Fatec/Etec",
+          "Premiação de equipes pedagógicas com bônus de desempenho vinculado ao Saresp"
+        ]
+      }
+    },
+    "trajetoriaPolitica": [
+      {
+        "periodo": "2023 - Presente",
+        "cargoOuAtividade": "Governador do Estado de São Paulo",
+        "detalhes": "Eleito em 2022 derrotando Fernando Haddad no 2º turno com mais de 13,4 milhões de votos.",
+        "partidoOuLocal": "Palácio dos Bandeirantes"
+      },
+      {
+        "periodo": "2019 - 2022",
+        "cargoOuAtividade": "Ministro da Infraestrutura",
+        "detalhes": "Concluiu centenas de leilões e concessões de rodovias, ferrovias, aeroportos e portos em todo o país.",
+        "partidoOuLocal": "Ministério da Infraestrutura"
+      },
+      {
+        "periodo": "2011 - 2015",
+        "cargoOuAtividade": "Diretor-Geral do DNIT",
+        "detalhes": "Atuou na reestruturação e auditoria de contratos de engenharia do departamento federal de transportes.",
+        "partidoOuLocal": "DNIT"
+      }
+    ],
+    "historicoPartidario": [
+      { "partido": "Republicanos", "periodo": "2022 - Presente" }
+    ],
+    "votacoesLegislativas": [],
+    "fichaJuridica": [
+      {
+        "id": "legal-tarcisio-cameras",
+        "tituloCaso": "Ação Civil Pública sobre Câmeras Operacionais Corporais na PMESP",
+        "tribunalOuOrgao": "TJ-SP / STF",
+        "numeroProcessoOuInquerito": "Ação Civil Pública 1039841-89.2023.8.26.0053",
+        "linkFonte": "https://www.tjsp.jus.br",
+        "dataInicio": "2023-06-15",
+        "dataDesfecho": "2024-05-22",
+        "status": "EM_ANDAMENTO",
+        "resumoCaso": "Questionamento movido pela Defensoria Pública e entidades civis quanto ao edital de contratação de novas câmeras corporais com acionamento pelo próprio policial.",
+        "elementosInvestigacaoEProvas": "Relatórios de letalidade policial e estudos técnicos da Secretaria de Segurança Pública de SP demonstrando as novas diretrizes do edital.",
+        "desfechoRealEJuridico": "EM ANDAMENTO: O STF e o TJ-SP homologaram termo de conciliação e adequação de protocolos técnicos entre o Ministério da Justiça e o Governo de SP."
+      }
+    ],
+    "resumoSituacaoJuridica": "Sem qualquer condenação criminal ou por improbidade administrativa. Ficha Limpa integral perante o TSE."
+  },
+  {
+    "id": "guilherme-boulos",
+    "nomeCompleto": "Guilherme Castro Boulos",
+    "nomeUrna": "Guilherme Boulos",
+    "numeroUrna": 50,
+    "cargo": "GOVERNADOR_SP",
+    "fotoUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&q=80",
+    "partido": {
+      "id": "psol",
+      "sigla": "PSOL",
+      "numero": 50,
+      "nome": "Partido Socialismo e Liberdade",
+      "espectro": "Esquerda",
+      "corHex": "#DC2626"
+    },
+    "coligacaoOuFederacao": "Federação PSOL / REDE / PT / PCdoB / PV",
+    "estado": "SP",
+    "isBaselineReference": false,
+    "resumoPerfil": "Deputado Federal mais votado de São Paulo em 2022 com 1,001 milhão de votos. Professor, ativista do MTST e principal liderança da esquerda metropolitana em São Paulo.",
+    "termometroAlinhamento": {
+      "liberdadeEconomica": 25,
+      "estadoEnxuto": 18,
+      "conservadorismo": 12,
+      "segurancaRigorosa": 30,
+      "scoreGeral": 21,
+      "classificacao": "Esquerda Social / Estatista"
+    },
+    "pilares": {
+      "SEGURANCA_PUBLICA": {
+        "score": 4.0,
+        "summary": "Foco no combate à letalidade policial, obrigatoriedade de câmeras corporais gravando 100% do tempo e prioridade para inteligência contra a lavagem de dinheiro das facções.",
+        "keyProposals": [
+          "Retorno obrigatório de câmeras corporais contínuas em todos os batalhões da PM",
+          "Fim de megaoperações na Baixada Santista e fortalecimento da corregedoria",
+          "Políticas de prevenção à violência nas periferias com centros culturais e esportivos"
+        ]
+      },
+      "GASTOS_PUBLICOS": {
+        "score": 3.5,
+        "summary": "Defesa de progressividade tributária estadual, aumento da taxação sobre heranças (ITCMD) e fim de isenções fiscais a grandes corporações.",
+        "keyProposals": [
+          "Revisão de todas as isenções de ICMS e IPVA concedidas a grandes conglomerados",
+          "Aumento de alíquotas de ITCMD sobre grandes patrimônios",
+          "Canalização dos recursos para aumento salarial do professorado e servidores da saúde"
+        ]
+      },
+      "TAMANHO_DO_ESTADO": {
+        "score": 2.8,
+        "summary": "Reestatização da Sabesp e de linhas de trens metropolitanos concedidos (Linhas 8 e 9), ampliação da habitação popular pública.",
+        "keyProposals": [
+          "Tentativa jurídica de anulação do contrato de desestatização da Sabesp",
+          "Interrupção de novas parcerias público-privadas no transporte sobre trilhos",
+          "Programa de habitação de interesse social no centro da capital e grandes cidades"
+        ]
+      },
+      "SAUDE": {
+        "score": 7.2,
+        "summary": "Fim da gestão por Organizações Sociais de Saúde (OSs), concurso público para médicos e enfermeiros estatutários.",
+        "keyProposals": [
+          "Estatização progressiva dos hospitais estaduais administrados por OSs",
+          "Abertura de concursos públicos para corpo clínico permanente",
+          "Criação de centros especializados de atendimento à saúde mental infanto-juvenil"
+        ]
+      },
+      "EDUCACAO": {
+        "score": 6.9,
+        "summary": "Revogação da política de escolas cívico-militares, valorização do piso salarial dos professores e retorno ao livro didático impresso.",
+        "keyProposals": [
+          "Extinção imediata do modelo de escolas cívico-militares no estado de SP",
+          "Reajuste do piso salarial do magistério acima da inflação anual",
+          "Fortalecimento e expansão do orçamento das universidades estaduais (USP, Unicamp, Unesp)"
+        ]
+      }
+    },
+    "trajetoriaPolitica": [
+      {
+        "periodo": "2023 - Presente",
+        "cargoOuAtividade": "Deputado Federal por São Paulo",
+        "detalhes": "Parlamentar mais votado em SP em 2022, relator de matérias habitacionais e urbanas.",
+        "partidoOuLocal": "Câmara dos Deputados"
+      },
+      {
+        "periodo": "2020",
+        "cargoOuAtividade": "Candidato a Prefeito de São Paulo",
+        "detalhes": "Chegou ao segundo turno das eleições municipais obtendo mais de 2,1 milhões de votos.",
+        "partidoOuLocal": "São Paulo"
+      }
+    ],
+    "historicoPartidario": [
+      { "partido": "PSOL", "periodo": "2018 - Presente" }
+    ],
+    "votacoesLegislativas": [
+      {
+        "id": "vote-boulos-saidinha",
+        "projetoCodigo": "PL 2253/2022",
+        "tema": "Fim das Saidinhas de Presos",
+        "ementa": "Restrição às saídas temporárias de reclusos.",
+        "data": "2024-03-20",
+        "voto": "NAO",
+        "orientacaoBancada": "Contrário ao projeto",
+        "descricaoImpacto": "Defendeu a manutenção do benefício para ressocialização gradual dos detentos.",
+        "linkOficial": "https://www.camara.leg.br"
+      }
+    ],
+    "fichaJuridica": [
+      {
+        "id": "legal-boulos-desocupacao",
+        "tituloCaso": "Inquérito por Desobediência em Reintegração de Posse (São Mateus)",
+        "tribunalOuOrgao": "TJ-SP / Deic",
+        "numeroProcessoOuInquerito": "IP 0001293-45.2017.8.26.0050",
+        "linkFonte": "https://www.tjsp.jus.br",
+        "dataInicio": "2017-01-17",
+        "dataDesfecho": "2018-05-10",
+        "status": "ARQUIVADO",
+        "resumoCaso": "Prisão temporária durante reintegração de posse na Zona Leste sob acusação de incitação à violência contra a PM.",
+        "elementosInvestigacaoEProvas": "Vídeos da negociação comprovando que atuou na mediação para retirada pacífica dos moradores sem porte de artefatos.",
+        "desfechoRealEJuridico": "ARQUIVAMENTO POR ATIPICIDADE DA CONDUTA: O juízo da 27ª Vara Criminal de SP acolheu o parecer do Ministério Público declarando ausência de dolo penal."
+      }
+    ],
+    "resumoSituacaoJuridica": "Sem condenações penais. Inquéritos decorrentes de atuação em manifestações do MTST foram integralmente arquivados. Apto eleitoralmente."
+  }
+]

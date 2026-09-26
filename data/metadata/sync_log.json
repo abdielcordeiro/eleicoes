@@ -1,0 +1,13 @@
+{
+  "lastSync": "2026-09-25T22:14:00.000Z",
+  "formattedDate": "25/09/2026 às 22:14:00",
+  "sources": [
+    "TSE (DivulgaCandContas)",
+    "Câmara dos Deputados (v2)",
+    "Senado Federal (Legis)",
+    "Institutos Registrados (AtlasIntel / Paraná Pesquisas / Quaest)"
+  ],
+  "status": "SUCCESS",
+  "recordsUpdated": 18,
+  "details": "Base validada contra repositórios oficiais e diários de justiça."
+}

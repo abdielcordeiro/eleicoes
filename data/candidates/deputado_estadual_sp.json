@@ -1,0 +1,165 @@
+[
+  {
+    "id": "guto-zacarias",
+    "nomeCompleto": "Carlos Augusto de Faria Zacarias",
+    "nomeUrna": "Guto Zacarias",
+    "numeroUrna": 14000,
+    "cargo": "DEPUTADO_ESTADUAL_SP",
+    "fotoUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=80",
+    "partido": {
+      "id": "missao",
+      "sigla": "MISSÃO",
+      "numero": 14,
+      "nome": "Partido Missão",
+      "espectro": "Centro-Direita",
+      "corHex": "#EAB308"
+    },
+    "coligacaoOuFederacao": "Partido Missão",
+    "estado": "SP",
+    "isBaselineReference": false,
+    "resumoPerfil": "Deputado Estadual na ALESP, vice-líder do governo Tarcísio de Freitas e relator da CPI das ONGs e Cracolândia. Reconhecido por fiscalizações de campo e combate à corrupção.",
+    "termometroAlinhamento": {
+      "liberdadeEconomica": 94,
+      "estadoEnxuto": 96,
+      "conservadorismo": 75,
+      "segurancaRigorosa": 95,
+      "scoreGeral": 90,
+      "classificacao": "Direita Liberal / Fiscalizadora"
+    },
+    "pilares": {
+      "SEGURANCA_PUBLICA": {
+        "score": 9.7,
+        "summary": "Combate implacável ao tráfico que opera a Cracolândia e apoio irrestrito à Polícia Militar de São Paulo.",
+        "keyProposals": ["Tratamento involuntário de dependentes químicos graves em vias públicas", "Corte de recursos estaduais para entidades que atuem como facilitadoras do fluxo da Cracolândia"]
+      },
+      "GASTOS_PUBLICOS": {
+        "score": 9.8,
+        "summary": "Fiscalização de contratos milionários sem licitação na ALESP e economia de gabinete.",
+        "keyProposals": ["Extinção de empresas públicas estaduais deficitárias", "Abertura permanente de auditoria popular dos gastos da ALESP"]
+      },
+      "TAMANHO_DO_ESTADO": {
+        "score": 9.6,
+        "summary": "Votou favoravelmente à privatização da Sabesp e da Emae e apoia desregulamentação.",
+        "keyProposals": ["Desestatização de terminais rodoviários e hidroviários do estado", "Adesão integral de municípios paulistas ao Estatuto da Liberdade Econômica"]
+      },
+      "SAUDE": {
+        "score": 8.0,
+        "summary": "Fiscalização surpresa em prontos-socorros e AMEs estaduais para combater fura-filas.",
+        "keyProposals": ["Câmeras de controle e ponto biométrico para médicos do SUS estadual", "Canal de denúncias para falta de remédios de alto custo"]
+      },
+      "EDUCACAO": {
+        "score": 8.4,
+        "summary": "Defesa enfática da instalação de escolas cívico-militares em bairros periféricos e avaliação por mérito.",
+        "keyProposals": ["Ampliação das escolas cívico-militares aprovadas na ALESP", "Fim da aprovação automática na rede estadual de ensino de SP"]
+      }
+    },
+    "trajetoriaPolitica": [
+      {
+        "periodo": "2023 - Presente",
+        "cargoOuAtividade": "Deputado Estadual (ALESP)",
+        "detalhes": "Eleito com 152 mil votos em 2022. Atuou como articulador de projetos prioritários do governo na ALESP.",
+        "partidoOuLocal": "ALESP"
+      }
+    ],
+    "historicoPartidario": [
+      { "partido": "MISSÃO", "periodo": "2024 - Presente" },
+      { "partido": "União Brasil", "periodo": "2022 - 2024" }
+    ],
+    "votacoesLegislativas": [
+      {
+        "id": "vote-guto-sabesp",
+        "projetoCodigo": "PL 1501/2023 (ALESP)",
+        "tema": "Desestatização da Sabesp",
+        "ementa": "Autoriza o Poder Executivo a alienar o controle acionário da Sabesp.",
+        "data": "2023-12-06",
+        "voto": "SIM",
+        "orientacaoBancada": "A favor da desestatização",
+        "descricaoImpacto": "Defesa da antecipação da universalização do saneamento básico para 2029 com tarifa reduzida.",
+        "linkOficial": "https://www.al.sp.gov.br"
+      },
+      {
+        "id": "vote-guto-civico-militar",
+        "projetoCodigo": "PL 9/2024 (ALESP)",
+        "tema": "Programa de Escolas Cívico-Militares de SP",
+        "ementa": "Cria o programa estadual de escolas cívico-militares na rede paulista.",
+        "data": "2024-05-21",
+        "voto": "SIM",
+        "orientacaoBancada": "A favor da implantação",
+        "descricaoImpacto": "Votou e articulou a aprovação do projeto em plenário visando disciplina e segurança no ambiente escolar.",
+        "linkOficial": "https://www.al.sp.gov.br"
+      }
+    ],
+    "fichaJuridica": [],
+    "resumoSituacaoJuridica": "Ficha limpa total, sem processo criminal ou eleitoral."
+  },
+  {
+    "id": "lucas-pavanato",
+    "nomeCompleto": "Lucas Pavanato",
+    "nomeUrna": "Lucas Pavanato",
+    "numeroUrna": 22000,
+    "cargo": "DEPUTADO_ESTADUAL_SP",
+    "fotoUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=500&q=80",
+    "partido": {
+      "id": "pl",
+      "sigla": "PL",
+      "numero": 22,
+      "nome": "Partido Liberal",
+      "espectro": "Direita",
+      "corHex": "#2563EB"
+    },
+    "coligacaoOuFederacao": "Partido Liberal",
+    "estado": "SP",
+    "isBaselineReference": false,
+    "resumoPerfil": "Candidato a vereador mais votado da história recente de São Paulo (mais de 160 mil votos em 2024). Jovem ativista conservador com forte mobilização digital em defesa da família tradicional, segurança e combate ao aborto.",
+    "termometroAlinhamento": {
+      "liberdadeEconomica": 85,
+      "estadoEnxuto": 82,
+      "conservadorismo": 99,
+      "segurancaRigorosa": 98,
+      "scoreGeral": 91,
+      "classificacao": "Direita Conservadora / Juventude"
+    },
+    "pilares": {
+      "SEGURANCA_PUBLICA": {
+        "score": 9.8,
+        "summary": "Tolerância zero contra pichação, vandalismo urbano, roubo de celulares e invasões do MST no estado.",
+        "keyProposals": ["Aumento de rondas ostensivas da PM e GCM em centros comerciais", "Punições severas e ressarcimento obrigatório por depredação do patrimônio histórico"]
+      },
+      "GASTOS_PUBLICOS": {
+        "score": 8.2,
+        "summary": "Corte de subsídios estaduais a projetos culturais com conteúdo pornográfico ou ideológico.",
+        "keyProposals": ["Vedação de recursos estaduais do ProAC para peças com teor antirreligioso", "Redução do número de cargos em comissão no estado"]
+      },
+      "TAMANHO_DO_ESTADO": {
+        "score": 8.4,
+        "summary": "Apoio ao modelo liberal de privatizações e defesa dos comerciantes do Brás e 25 de Março.",
+        "keyProposals": ["Proteção e regularização do comércio de rua legal contra o crime organizado", "Desregulamentação de atividades de prestação de serviços individuais"]
+      },
+      "SAUDE": {
+        "score": 7.0,
+        "summary": "Defesa intransigente da vida desde a concepção e apoio ao pré-natal para gestantes vulneráveis.",
+        "keyProposals": ["Criação da Rede Paulista de Acolhimento a Mães Grávidas em Risco", "Campanhas educativas de combate às drogas em ambientes escolares"]
+      },
+      "EDUCACAO": {
+        "score": 8.0,
+        "summary": "Proibição da linguagem neutra em órgãos públicos e escolas estaduais e expansão do modelo militar.",
+        "keyProposals": ["Vedação expressa de dialetos neutros em editais públicos e escolas estaduais", "Priorização de conteúdos clássicos de literatura e matemática"]
+      }
+    },
+    "trajetoriaPolitica": [
+      {
+        "periodo": "2025 - Presente",
+        "cargoOuAtividade": "Vereador da Cidade de São Paulo",
+        "detalhes": "Vereador mais votado do Brasil nas eleições municipais de 2024, atuando na fiscalização do executivo municipal.",
+        "partidoOuLocal": "Câmara Municipal de SP"
+      }
+    ],
+    "historicoPartidario": [
+      { "partido": "PL", "periodo": "2023 - Presente" },
+      { "partido": "NOVO", "periodo": "2020 - 2022" }
+    ],
+    "votacoesLegislativas": [],
+    "fichaJuridica": [],
+    "resumoSituacaoJuridica": "Ficha limpa integral perante a Justiça Eleitoral."
+  }
+]

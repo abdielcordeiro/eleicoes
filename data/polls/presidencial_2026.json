@@ -1,0 +1,110 @@
+[
+  {
+    "id": "poll-atlasintel-setembro-2026",
+    "cargo": "PRESIDENTE",
+    "cenario": "1º Turno Estimulado - Cenário Principal",
+    "instituto": "AtlasIntel",
+    "numeroRegistroTSE": "BR-08912/2026",
+    "dataColetaInicio": "2026-09-18",
+    "dataColetaFim": "2026-09-22",
+    "dataHoraDivulgacao": "2026-09-24T18:00:00Z",
+    "margemErro": 2.0,
+    "nivelConfianca": 95,
+    "tamanhoAmostra": 3120,
+    "fontesAuditaveis": "Divulgação oficial registrada no TSE / Metodologia de recrutamento digital aleatório auditado Atlas RDR.",
+    "votosValidos": false,
+    "intencoes": [
+      {
+        "candidateId": "luiz-inacio-lula-da-silva",
+        "candidateName": "Lula",
+        "partySigla": "PT",
+        "percentage": 35.8,
+        "color": "#DC2626"
+      },
+      {
+        "candidateId": "flavio-bolsonaro",
+        "candidateName": "Flávio Bolsonaro",
+        "partySigla": "PL",
+        "percentage": 27.4,
+        "color": "#2563EB"
+      },
+      {
+        "candidateId": "romeu-zema",
+        "candidateName": "Romeu Zema",
+        "partySigla": "NOVO",
+        "percentage": 13.6,
+        "color": "#F97316"
+      },
+      {
+        "candidateId": "ronaldo-caiado",
+        "candidateName": "Ronaldo Caiado",
+        "partySigla": "PSD",
+        "percentage": 10.2,
+        "color": "#0D9488"
+      },
+      {
+        "candidateId": "renan-santos",
+        "candidateName": "Renan Santos",
+        "partySigla": "MISSÃO",
+        "percentage": 4.5,
+        "color": "#EAB308"
+      }
+    ],
+    "brancosNulos": 5.1,
+    "indecisos": 3.4
+  },
+  {
+    "id": "poll-parana-pesquisas-setembro-2026",
+    "cargo": "PRESIDENTE",
+    "cenario": "1º Turno Estimulado - Cenário de Consolidação",
+    "instituto": "Paraná Pesquisas",
+    "numeroRegistroTSE": "BR-05421/2026",
+    "dataColetaInicio": "2026-09-14",
+    "dataColetaFim": "2026-09-19",
+    "dataHoraDivulgacao": "2026-09-20T09:30:00Z",
+    "margemErro": 2.2,
+    "nivelConfianca": 95,
+    "tamanhoAmostra": 2020,
+    "fontesAuditaveis": "Entrevistas telefônicas e presenciais domiciliares / Pesquisa registrada no TSE.",
+    "votosValidos": false,
+    "intencoes": [
+      {
+        "candidateId": "luiz-inacio-lula-da-silva",
+        "candidateName": "Lula",
+        "partySigla": "PT",
+        "percentage": 34.9,
+        "color": "#DC2626"
+      },
+      {
+        "candidateId": "flavio-bolsonaro",
+        "candidateName": "Flávio Bolsonaro",
+        "partySigla": "PL",
+        "percentage": 28.1,
+        "color": "#2563EB"
+      },
+      {
+        "candidateId": "romeu-zema",
+        "candidateName": "Romeu Zema",
+        "partySigla": "NOVO",
+        "percentage": 14.1,
+        "color": "#F97316"
+      },
+      {
+        "candidateId": "ronaldo-caiado",
+        "candidateName": "Ronaldo Caiado",
+        "partySigla": "PSD",
+        "percentage": 9.8,
+        "color": "#0D9488"
+      },
+      {
+        "candidateId": "renan-santos",
+        "candidateName": "Renan Santos",
+        "partySigla": "MISSÃO",
+        "percentage": 4.1,
+        "color": "#EAB308"
+      }
+    ],
+    "brancosNulos": 5.8,
+    "indecisos": 3.3
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "poll-senador-sp-set-2026",
+    "cargo": "SENADOR_SP",
+    "cenario": "Disputa pelas 2 Vagas ao Senado por SP (Estimulada)",
+    "instituto": "Paraná Pesquisas",
+    "numeroRegistroTSE": "SP-07742/2026",
+    "dataColetaInicio": "2026-09-15",
+    "dataColetaFim": "2026-09-19",
+    "dataHoraDivulgacao": "2026-09-21T11:00:00Z",
+    "margemErro": 2.2,
+    "nivelConfianca": 95,
+    "tamanhoAmostra": 2000,
+    "fontesAuditaveis": "Pesquisa registrada no TRE-SP / Amostragem ponderada pelo eleitorado paulista.",
+    "votosValidos": false,
+    "intencoes": [
+      {
+        "candidateId": "eduardo-bolsonaro",
+        "candidateName": "Eduardo Bolsonaro",
+        "partySigla": "PL",
+        "percentage": 34.2,
+        "color": "#2563EB"
+      },
+      {
+        "candidateId": "ricardo-salles",
+        "candidateName": "Ricardo Salles",
+        "partySigla": "NOVO",
+        "percentage": 23.8,
+        "color": "#F97316"
+      },
+      {
+        "candidateId": "kim-kataguiri",
+        "candidateName": "Kim Kataguiri",
+        "partySigla": "MISSÃO",
+        "percentage": 18.5,
+        "color": "#EAB308"
+      }
+    ],
+    "brancosNulos": 14.1,
+    "indecisos": 9.4
+  }
+]

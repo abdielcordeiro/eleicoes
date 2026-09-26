@@ -1,0 +1,165 @@
+[
+  {
+    "id": "adriana-ventura",
+    "nomeCompleto": "Adriana Miguel Ventura",
+    "nomeUrna": "Adriana Ventura",
+    "numeroUrna": 3030,
+    "cargo": "DEPUTADO_FEDERAL_SP",
+    "fotoUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=500&q=80",
+    "partido": {
+      "id": "novo",
+      "sigla": "NOVO",
+      "numero": 30,
+      "nome": "Partido Novo",
+      "espectro": "Direita",
+      "corHex": "#F97316"
+    },
+    "coligacaoOuFederacao": "Partido Novo",
+    "estado": "SP",
+    "isBaselineReference": false,
+    "resumoPerfil": "Professora de Gestão Pública da FGV-EAESP e Deputada Federal reeleita por São Paulo. Reconhecida com prêmios de excelência parlamentar pelo combate a desperdícios no SUS, governança e transparência fiscal.",
+    "termometroAlinhamento": {
+      "liberdadeEconomica": 95,
+      "estadoEnxuto": 96,
+      "conservadorismo": 72,
+      "segurancaRigorosa": 88,
+      "scoreGeral": 88,
+      "classificacao": "Direita Liberal / Governança"
+    },
+    "pilares": {
+      "SEGURANCA_PUBLICA": {
+        "score": 8.8,
+        "summary": "Combate a fraudes digitais, fortalecimento da perícia criminal e rastreamento financeiro de ilícitos.",
+        "keyProposals": ["Fortalecimento de equipes periciais e compliance penitenciário", "Endurecimento de penas para estelionato contra idosos"]
+      },
+      "GASTOS_PUBLICOS": {
+        "score": 9.9,
+        "summary": "Recordista em economia de cotas parlamentares e autora da Lei da Telessaúde e fiscalização do orçamento secreto.",
+        "keyProposals": ["Extinção de verbas indenizatórias sem comprovação fiscal minuciosa", "Auditoria de folhas de pagamento públicas com teto remuneratório real"]
+      },
+      "TAMANHO_DO_ESTADO": {
+        "score": 9.5,
+        "summary": "Defesa enfática da Lei da Liberdade Econômica, facilitação de abertura de microempresas e desregulamentação.",
+        "keyProposals": ["Eliminação de alvarás prévios para centenas de atividades econômicas", "Fim de monopólios estatais em serviços postais"]
+      },
+      "SAUDE": {
+        "score": 9.7,
+        "summary": "Principal relatora da legislação de Telessaúde no Brasil (Lei 14.510/2022) e defensora da eficiência hospitalar e digitalização do SUS.",
+        "keyProposals": ["Digitalização integral das filas de espera de especialidades e exames do SUS", "Incentivo a contratos de gestão orientados por desfecho clínico"]
+      },
+      "EDUCACAO": {
+        "score": 9.0,
+        "summary": "Prioridade total para a primeira infância, alfabetização no tempo certo e meritocracia docente.",
+        "keyProposals": ["Foco do Fundeb em escolas que comprovem alfabetização até os 7 anos", "Capacitação continuada de professores com base em evidências científicas"]
+      }
+    },
+    "trajetoriaPolitica": [
+      {
+        "periodo": "2019 - Presente",
+        "cargoOuAtividade": "Deputada Federal por São Paulo (Dois Mandatos)",
+        "detalhes": "Premiada seguidamente pelo Congresso em Foco e Ranking dos Políticos como melhor deputada de SP.",
+        "partidoOuLocal": "Câmara dos Deputados"
+      }
+    ],
+    "historicoPartidario": [
+      { "partido": "NOVO", "periodo": "2018 - Presente" }
+    ],
+    "votacoesLegislativas": [
+      {
+        "id": "vote-adriana-telessaude",
+        "projetoCodigo": "PL 1998/2020",
+        "tema": "Marco Legal da Telessaúde",
+        "ementa": "Autoriza e disciplina a prática da telessaúde em todo o território nacional.",
+        "data": "2022-12-13",
+        "voto": "SIM",
+        "orientacaoBancada": "Autora e articuladora do projeto aprovado",
+        "descricaoImpacto": "Democratizou o atendimento médico especializado à distância para milhões de brasileiros.",
+        "linkOficial": "https://www.camara.leg.br"
+      }
+    ],
+    "fichaJuridica": [],
+    "resumoSituacaoJuridica": "Ficha limpa absoluta, sem nenhuma ocorrência, processo ou inquérito."
+  },
+  {
+    "id": "rosana-valle",
+    "nomeCompleto": "Rosana de Oliveira Valle",
+    "nomeUrna": "Rosana Valle",
+    "numeroUrna": 2210,
+    "cargo": "DEPUTADO_FEDERAL_SP",
+    "fotoUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=500&q=80",
+    "partido": {
+      "id": "pl",
+      "sigla": "PL",
+      "numero": 22,
+      "nome": "Partido Liberal",
+      "espectro": "Direita",
+      "corHex": "#2563EB"
+    },
+    "coligacaoOuFederacao": "Partido Liberal",
+    "estado": "SP",
+    "isBaselineReference": false,
+    "resumoPerfil": "Jornalista e Deputada Federal reeleita por SP com mais de 216 mil votos. Presidente do PL Mulher estadual de SP, defensora ferrenha do túnel Santos-Guarujá, segurança pública e combate à violência doméstica.",
+    "termometroAlinhamento": {
+      "liberdadeEconomica": 82,
+      "estadoEnxuto": 78,
+      "conservadorismo": 92,
+      "segurancaRigorosa": 95,
+      "scoreGeral": 87,
+      "classificacao": "Direita Conservadora / Infraestrutura"
+    },
+    "pilares": {
+      "SEGURANCA_PUBLICA": {
+        "score": 9.5,
+        "summary": "Combate implacável ao tráfico de drogas no Porto de Santos, proteção armada a agentes de segurança e endurecimento da Lei Maria da Penha.",
+        "keyProposals": ["Penas de reclusão inafiançáveis para agressores reincidentes de mulheres", "Modernização de scanners e vigilância da alfândega no Porto de Santos"]
+      },
+      "GASTOS_PUBLICOS": {
+        "score": 7.8,
+        "summary": "Canalização de emendas parlamentares diretas para Santas Casas e hospitais municipais.",
+        "keyProposals": ["Priorização de recursos para obras de infraestrutura regional", "Fiscalização de repasses federais a empreendimentos portuários"]
+      },
+      "TAMANHO_DO_ESTADO": {
+        "score": 8.0,
+        "summary": "Apoio a parcerias público-privadas e concessões de transporte metroferroviário e rodoviário.",
+        "keyProposals": ["Viabilização em parceria privada do Túnel Submerso Santos-Guarujá", "Desestatização de terminais portuários para ampliar movimentação de cargas"]
+      },
+      "SAUDE": {
+        "score": 8.6,
+        "summary": "Apoio a hospitais de câncer do estado de SP e atenção especial ao diagnóstico precoce de câncer de mama.",
+        "keyProposals": ["Ampliação de carretas de mamografia gratuita no interior e litoral", "Aumento do teto MAC para custeio de procedimentos de alta complexidade"]
+      },
+      "EDUCACAO": {
+        "score": 8.1,
+        "summary": "Apoio a escolas cívico-militares e capacitação técnica ligada à atividade portuária e logística.",
+        "keyProposals": ["Cursos de capacitação em logística portuária para jovens do litoral paulista", "Implantação de unidades de escolas cívico-militares na Baixada Santista"]
+      }
+    },
+    "trajetoriaPolitica": [
+      {
+        "periodo": "2019 - Presente",
+        "cargoOuAtividade": "Deputada Federal por São Paulo (Dois Mandatos)",
+        "detalhes": "Atuante na Comissão de Viação e Transportes e Comissão de Defesa dos Direitos da Mulher.",
+        "partidoOuLocal": "Câmara dos Deputados"
+      }
+    ],
+    "historicoPartidario": [
+      { "partido": "PL", "periodo": "2022 - Presente" },
+      { "partido": "PSB", "periodo": "2018 - 2022" }
+    ],
+    "votacoesLegislativas": [
+      {
+        "id": "vote-rosana-saidinha",
+        "projetoCodigo": "PL 2253/2022",
+        "tema": "Fim das Saidinhas",
+        "ementa": "Restrição às saídas temporárias de presidiários.",
+        "data": "2024-03-20",
+        "voto": "SIM",
+        "orientacaoBancada": "A favor da segurança pública",
+        "descricaoImpacto": "Votou com a ampla maioria pró-segurança pela aprovação da matéria.",
+        "linkOficial": "https://www.camara.leg.br"
+      }
+    ],
+    "fichaJuridica": [],
+    "resumoSituacaoJuridica": "Ficha limpa total, sem nenhum processo ou condenação."
+  }
+]

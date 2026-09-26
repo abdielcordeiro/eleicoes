@@ -1,0 +1,35 @@
+[
+  {
+    "id": "poll-governador-sp-set-2026",
+    "cargo": "GOVERNADOR_SP",
+    "cenario": "1º Turno Estimulado - Governo de São Paulo",
+    "instituto": "AtlasIntel",
+    "numeroRegistroTSE": "SP-04918/2026",
+    "dataColetaInicio": "2026-09-17",
+    "dataColetaFim": "2026-09-21",
+    "dataHoraDivulgacao": "2026-09-23T16:00:00Z",
+    "margemErro": 2.5,
+    "nivelConfianca": 95,
+    "tamanhoAmostra": 1800,
+    "fontesAuditaveis": "Pesquisa registrada no Tribunal Regional Eleitoral de São Paulo (TRE-SP).",
+    "votosValidos": false,
+    "intencoes": [
+      {
+        "candidateId": "tarcisio-de-freitas",
+        "candidateName": "Tarcísio de Freitas",
+        "partySigla": "Republicanos",
+        "percentage": 52.4,
+        "color": "#1E40AF"
+      },
+      {
+        "candidateId": "guilherme-boulos",
+        "candidateName": "Guilherme Boulos",
+        "partySigla": "PSOL",
+        "percentage": 33.1,
+        "color": "#DC2626"
+      }
+    ],
+    "brancosNulos": 8.5,
+    "indecisos": 6.0
+  }
+]
