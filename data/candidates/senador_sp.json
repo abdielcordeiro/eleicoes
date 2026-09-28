@@ -12,7 +12,7 @@
     "role": "SENADOR_SP",
     "cargo": "SENADOR_SP",
     "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/d/da/Capit%C3%A3o_Derrite_em_2023.jpg",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Capit%C3%A3o_Derrite_em_2023.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Retratos_Oficiais_-_Secret%C3%A1rios_de_Estado_de_S%C3%A3o_Paulo_em_2023_02.jpg/330px-Retratos_Oficiais_-_Secret%C3%A1rios_de_Estado_de_S%C3%A3o_Paulo_em_2023_02.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Guilherme_Derrite",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -160,7 +160,8 @@
         "legalOutcome": "Atos Administrativos Legais / Sem Denúncia Criminal. Não houve oferecimento de denúncia criminal individual contra o secretário. Situação judicial e eleitoral 100% regular.",
         "linkFonte": "https://www.conjur.com.br/?s=Guilherme%20Derrite%20Operacao%20Verao%20Ouvidoria%20MPSP"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Retratos_Oficiais_-_Secret%C3%A1rios_de_Estado_de_S%C3%A3o_Paulo_em_2023_02.jpg/330px-Retratos_Oficiais_-_Secret%C3%A1rios_de_Estado_de_S%C3%A3o_Paulo_em_2023_02.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "ricardo-salles",
@@ -333,7 +334,7 @@
     "role": "SENADOR_SP",
     "cargo": "SENADOR_SP",
     "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/2/27/Andr%C3%A9_do_Prado_em_2023.jpg",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Andr%C3%A9_do_Prado_em_2023.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Assinatura_de_R%24_150_milh%C3%B5es_em_Conv%C3%AAnios_com_189_Munic%C3%ADpios_Paulistas_via_Painsp.jpg/330px-Assinatura_de_R%24_150_milh%C3%B5es_em_Conv%C3%AAnios_com_189_Munic%C3%ADpios_Paulistas_via_Painsp.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "André_do_Prado",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -442,7 +443,8 @@
         "legalOutcome": "Contas Julgadas Regulares / Ficha Limpa. O TCE-SP aprovou integralmente as contas de gestão da Mesa Diretora, sem notas de improbidade ou imputação de débito.",
         "linkFonte": "https://www.conjur.com.br/?s=Andre%20do%20Prado%20Contas%20ALESP%20TCE%20SP"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Assinatura_de_R%24_150_milh%C3%B5es_em_Conv%C3%AAnios_com_189_Munic%C3%ADpios_Paulistas_via_Painsp.jpg/330px-Assinatura_de_R%24_150_milh%C3%B5es_em_Conv%C3%AAnios_com_189_Munic%C3%ADpios_Paulistas_via_Painsp.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "guto-schiavetto",
@@ -576,7 +578,7 @@
     "role": "SENADOR_SP",
     "cargo": "SENADOR_SP",
     "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Marina_Silva_em_2023.jpg",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Marina_Silva_em_2023.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Marina_Silva_crop.jpg/330px-Marina_Silva_crop.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Marina_Silva",
     "isBaseline": true,
     "isBaselineReference": true,
@@ -713,6 +715,7 @@
         "legalOutcome": "Sem Condenações / Ficha Limpa Incontestável. Ausência absoluta de condenações por improbidade administrativa, crimes contra a administração pública ou enriquecimento ilícito.",
         "linkFonte": "https://www.tse.jus.br"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Marina_Silva_crop.jpg/330px-Marina_Silva_crop.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   }
 ]
