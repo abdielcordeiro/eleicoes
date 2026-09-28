@@ -50,3 +50,22 @@ Este documento consolida os Registros de Decisão de Arquitetura (ADRs) adotados
 * **Decisão:**
   - Suportar o deploy estático no **GitLab Pages** configurando o pipeline `.gitlab-ci.yml`.
   - Fornecer no frontend um mecanismo híbrido/estático (Data Adapter) capaz de consumir os arquivos JSON estáticos de `/data` diretamente caso o backend não esteja ativo, viabilizando o funcionamento integral do app em qualquer CDN estática.
+
+---
+
+## ADR-005: Adoção do GitHub Pages e GitHub Actions com Sincronização Diária Autônoma (Cron)
+* **Status:** Aprovado e Implementado
+* **Contexto:** O projeto foi direcionado para o repositório oficial no GitHub (`https://github.com/abdielcordeiro/eleicoes.git`). Há necessidade de coletar dados diariamente de forma autônoma e publicar o resultado atualizado no **GitHub Pages** (`https://abdielcordeiro.github.io/eleicoes/`).
+* **Decisão:**
+  1. Criação do workflow `.github/workflows/daily-sync-and-deploy.yml` configurado com:
+     - Gatilho agendado diário via `cron: '0 9 * * *'` (06:00 BRT).
+     - Gatilho em push na branch `main`.
+     - Gatilho manual via `workflow_dispatch`.
+  2. O workflow executa `node scripts/autonomousSeed.js` para enriquecer `/data` a partir das APIs abertas da Câmara, Senado e TSE.
+  3. Se houver alterações na pasta `data/`, o bot do GitHub Actions faz commit e push com `[skip ci]`.
+  4. O frontend Vue 3 é compilado com a base `/eleicoes/` e implantado diretamente no GitHub Pages via as actions oficiais `actions/configure-pages`, `actions/upload-pages-artifact` e `actions/deploy-pages`.
+* **Consequências:**
+  - 100% automatizado, com zero intervenção manual diária.
+  - Custo zero (\$0,00) usufruindo da cota gratuita de 2.000 minutos/mês do GitHub Actions e banda do GitHub Pages.
+  - Acesso público garantido para qualquer eleitor com total confiabilidade.
+

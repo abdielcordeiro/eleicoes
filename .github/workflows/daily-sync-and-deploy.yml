@@ -1,0 +1,80 @@
+name: Sincronização Diária & Deploy no GitHub Pages
+
+on:
+  # Executa diariamente às 06:00 BRT (09:00 UTC)
+  schedule:
+    - cron: '0 9 * * *'
+  
+  # Executa a cada push na branch principal
+  push:
+    branches:
+      - main
+
+  # Permite disparo manual sob demanda pela aba Actions
+  workflow_dispatch:
+
+# Permissões necessárias para gravar dados auditados e publicar no GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Evita conflitos de deploys simultâneos
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
+jobs:
+  sync-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: 1. Checkout do Repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 2. Configurar Ambiente Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: 3. Instalar Dependências do Monorepo
+        run: npm ci || npm install
+
+      - name: 4. Executar Coleta e Sincronização Autônoma (APIs Oficiais)
+        run: node scripts/autonomousSeed.js
+
+      - name: 5. Commitar Dados Atualizados no Repositório (se houver alterações)
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          if [ -n "$(git status --porcelain data/)" ]; then
+            echo "Novos dados coletados na pasta data/. Criando commit..."
+            git add data/
+            git commit -m "chore(data): sincronização diária autônoma de candidatos e pesquisas [skip ci]"
+            git push
+          else
+            echo "Base de dados já se encontra sincronizada com as fontes oficiais."
+          fi
+
+      - name: 6. Compilar Frontend Jamstack para GitHub Pages (/eleicoes/)
+        env:
+          VITE_BASE_URL: /eleicoes/
+        run: |
+          npm run build -w @voto-consciente/frontend
+
+      - name: 7. Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: 8. Fazer Upload do Artefato Estático
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'packages/frontend/dist'
+
+      - name: 9. Publicar no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -44,7 +44,7 @@ flowchart TD
 
 ---
 
-### Nível 2: Diagrama de Contêineres (Container Diagram - Deploy GitLab Pages)
+### Nível 2: Diagrama de Contêineres (Container Diagram - Deploy GitHub Pages & Actions Cron)
 
 ```mermaid
 flowchart TB
@@ -55,22 +55,25 @@ flowchart TB
         LocalStorage["🗄️ Browser LocalStorage\nChave: 'voto_consciente_santinho_2026'\n[Voto Secreto & Privado: 100% Local]"]
     end
 
-    subgraph HostingGitLab["Hospedagem Estática: GitLab Pages (Free Tier)"]
-        StaticAssets["Assets Compilados (HTML, CSS, JS)\nDistribuição via CDN Global do GitLab"]
+    subgraph HostingGitHub["Hospedagem Estática: GitHub Pages (Free Tier)"]
+        StaticAssets["Assets Compilados (HTML, CSS, JS)\nDistribuição via CDN Global do GitHub"]
         StaticData["Arquivos JSON de Dados Públicos\n(/data/candidates/*.json, /data/polls/*.json)"]
     end
 
-    subgraph DevAndSync["Ambiente de Coleta & Build (GitLab CI/CD / Local)"]
-        FastifyBackend["Backend Node.js Fastify\n(Clean Architecture & Gateways Oficiais)"]
-        DataFolder["Repositório /data\n(Dados enriquecidos e auditados)"]
+    subgraph GitHubAutomation["Automação: GitHub Actions (Daily Cron @ 06:00 BRT)"]
+        SyncJob["Job: autonomousSeed.js\nColeta dados das APIs oficiais da Câmara, Senado e TSE"]
+        CommitStep["Git Commit & Push Bot\nAtualiza pasta /data/ com [skip ci]"]
+        BuildStep["Job: npm run build:frontend\nCompila Vue 3 SPA com base: /eleicoes/"]
     end
 
-    User -->|"Acessa https://usuario.gitlab.io/voto-consciente-2026"| StaticAssets
+    User -->|"Acessa https://abdielcordeiro.github.io/eleicoes/"| StaticAssets
     StaticAssets -->|"Carrega aplicação no navegador"| SPA
     SPA -->|"Lê e Grava Santinho instantaneamente (zero latência)"| LocalStorage
     SPA -->|"Consome dados abertos em JSON"| StaticData
-    FastifyBackend -->|"Sincronização autônoma periódica"| DataFolder
-    DataFolder -->|"Empacotado no build pelo GitLab CI/CD"| StaticData
+    
+    SyncJob -->|"Coleta diária"| CommitStep
+    CommitStep -->|"Salva histórico auditado"| StaticData
+    BuildStep -->|"Publica na CDN do Pages"| StaticAssets
 ```
 
 ---
