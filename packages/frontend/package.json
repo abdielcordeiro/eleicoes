@@ -4,8 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "prebuild": "node ../../scripts/prepare-static-data.js",
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
+    "postbuild": "node -e \"import('node:fs').then(fs => fs.copyFileSync('dist/index.html', 'dist/404.html'))\"",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -1,12 +1,12 @@
 {
   "id": "meu_santinho_sp_2026",
-  "ultimaAtualizacao": "2026-09-26T10:15:32.232Z",
+  "ultimaAtualizacao": "2026-09-28T10:00:00.000Z",
   "selections": {
-    "presidenteId": "flavio-bolsonaro",
-    "governadorId": "tarcisio-de-freitas",
-    "senador1Id": "guilherme-derrite",
+    "presidenteId": null,
+    "governadorId": null,
+    "senador1Id": null,
     "senador2Id": null,
-    "deputadoFederalId": "adriana-ventura",
-    "deputadoEstadualId": "lucas-pavanato"
+    "deputadoFederalId": null,
+    "deputadoEstadualId": null
   }
 }

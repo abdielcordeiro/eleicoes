@@ -5,7 +5,7 @@ import CandidateDetailView from '../views/CandidateDetailView.vue';
 import SantinhoView from '../views/SantinhoView.vue';
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',

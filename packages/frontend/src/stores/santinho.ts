@@ -1,22 +1,24 @@
 import { defineStore } from 'pinia';
 import { ref, computed } from 'vue';
-import { Candidate, OfficeRole, SantinhoBallotPopulated, SantinhoBallotSelections } from '../domain/models.js';
-import { politicalApi } from '../services/api.js';
+import { Candidate, OfficeRole, SantinhoBallotPopulated } from '../domain/models.js';
+import { santinhoStorage, createEmptyBallot } from '../services/santinhoStorage.js';
 
 export const useSantinhoStore = defineStore('santinho', () => {
-  const ballot = ref<SantinhoBallotPopulated>({
-    id: 'meu_santinho_sp_2026',
-    ultimaAtualizacao: new Date().toISOString(),
-    deputadoFederal: null,
-    deputadoEstadual: null,
-    senador1: null,
-    senador2: null,
-    governador: null,
-    presidente: null,
-  });
+  // Inicializa obrigatoriamente a partir do localStorage ou EM BRANCO por padrão
+  const ballot = ref<SantinhoBallotPopulated>(santinhoStorage.load());
 
   const isLoading = ref(false);
   const isSaving = ref(false);
+  const lastActionMessage = ref<string | null>(null);
+  let actionTimeout: ReturnType<typeof setTimeout> | null = null;
+
+  function setActionFeedback(msg: string) {
+    lastActionMessage.value = msg;
+    if (actionTimeout) clearTimeout(actionTimeout);
+    actionTimeout = setTimeout(() => {
+      lastActionMessage.value = null;
+    }, 3500);
+  }
 
   const totalSelected = computed(() => {
     let count = 0;
@@ -32,10 +34,11 @@ export const useSantinhoStore = defineStore('santinho', () => {
   async function fetchSantinho() {
     isLoading.value = true;
     try {
-      const data = await politicalApi.getSantinho();
-      ballot.value = data;
+      // Leitura síncrona, segura e estritamente local (Privacy by Design / LGPD)
+      ballot.value = santinhoStorage.load();
     } catch (err) {
-      console.error('Erro ao buscar Meu Santinho:', err);
+      console.warn('Erro ao carregar Meu Santinho do armazenamento local:', err);
+      ballot.value = createEmptyBallot();
     } finally {
       isLoading.value = false;
     }
@@ -52,85 +55,61 @@ export const useSantinhoStore = defineStore('santinho', () => {
     );
   }
 
-  async function toggleCandidate(candidate: Candidate) {
+  function toggleCandidate(candidate: Candidate) {
     const isSelected = isCandidateSelected(candidate.id);
-    const selections: SantinhoBallotSelections = {
-      presidenteId: ballot.value.presidente?.id || null,
-      governadorId: ballot.value.governador?.id || null,
-      senador1Id: ballot.value.senador1?.id || null,
-      senador2Id: ballot.value.senador2?.id || null,
-      deputadoFederalId: ballot.value.deputadoFederal?.id || null,
-      deputadoEstadualId: ballot.value.deputadoEstadual?.id || null,
-    };
 
     if (isSelected) {
-      // Unselect
-      if (candidate.cargo === OfficeRole.PRESIDENTE) selections.presidenteId = null;
-      else if (candidate.cargo === OfficeRole.GOVERNADOR_SP) selections.governadorId = null;
-      else if (candidate.cargo === OfficeRole.DEPUTADO_FEDERAL_SP) selections.deputadoFederalId = null;
-      else if (candidate.cargo === OfficeRole.DEPUTADO_ESTADUAL_SP) selections.deputadoEstadualId = null;
-      else if (candidate.cargo === OfficeRole.SENADOR_SP) {
-        if (selections.senador1Id === candidate.id) {
-          selections.senador1Id = selections.senador2Id;
-          selections.senador2Id = null;
-        } else if (selections.senador2Id === candidate.id) {
-          selections.senador2Id = null;
-        }
+      // Desmarcar candidato
+      if (ballot.value.presidente?.id === candidate.id) ballot.value.presidente = null;
+      else if (ballot.value.governador?.id === candidate.id) ballot.value.governador = null;
+      else if (ballot.value.deputadoFederal?.id === candidate.id) ballot.value.deputadoFederal = null;
+      else if (ballot.value.deputadoEstadual?.id === candidate.id) ballot.value.deputadoEstadual = null;
+      else if (ballot.value.senador1?.id === candidate.id) {
+        ballot.value.senador1 = ballot.value.senador2;
+        ballot.value.senador2 = null;
+      } else if (ballot.value.senador2?.id === candidate.id) {
+        ballot.value.senador2 = null;
       }
+      setActionFeedback(`Removido do Santinho: ${candidate.nomeUrna}`);
     } else {
-      // Select
-      if (candidate.cargo === OfficeRole.PRESIDENTE) selections.presidenteId = candidate.id;
-      else if (candidate.cargo === OfficeRole.GOVERNADOR_SP) selections.governadorId = candidate.id;
-      else if (candidate.cargo === OfficeRole.DEPUTADO_FEDERAL_SP) selections.deputadoFederalId = candidate.id;
-      else if (candidate.cargo === OfficeRole.DEPUTADO_ESTADUAL_SP) selections.deputadoEstadualId = candidate.id;
-      else if (candidate.cargo === OfficeRole.SENADOR_SP) {
-        // 2 Senate seats in 2026!
-        if (!selections.senador1Id) {
-          selections.senador1Id = candidate.id;
-        } else if (!selections.senador2Id) {
-          selections.senador2Id = candidate.id;
+      // Selecionar candidato para sua vaga específica
+      if (candidate.cargo === OfficeRole.PRESIDENTE) {
+        ballot.value.presidente = candidate;
+      } else if (candidate.cargo === OfficeRole.GOVERNADOR_SP) {
+        ballot.value.governador = candidate;
+      } else if (candidate.cargo === OfficeRole.DEPUTADO_FEDERAL_SP) {
+        ballot.value.deputadoFederal = candidate;
+      } else if (candidate.cargo === OfficeRole.DEPUTADO_ESTADUAL_SP) {
+        ballot.value.deputadoEstadual = candidate;
+      } else if (candidate.cargo === OfficeRole.SENADOR_SP) {
+        // Eleições 2026: 2 Vagas para o Senado Federal por SP
+        if (!ballot.value.senador1) {
+          ballot.value.senador1 = candidate;
+        } else if (!ballot.value.senador2) {
+          ballot.value.senador2 = candidate;
         } else {
-          // Replace second seat
-          selections.senador2Id = candidate.id;
+          // Substitui a 2ª vaga caso ambas já estejam preenchidas
+          ballot.value.senador2 = candidate;
         }
       }
+      setActionFeedback(`✓ Adicionado ao Santinho: ${candidate.nomeUrna} (${candidate.numeroUrna})`);
     }
 
-    isSaving.value = true;
-    try {
-      const updated = await politicalApi.saveSantinho(selections);
-      ballot.value = updated;
-    } catch (err) {
-      console.error('Erro ao salvar seleção no Santinho:', err);
-    } finally {
-      isSaving.value = false;
-    }
+    ballot.value.ultimaAtualizacao = new Date().toISOString();
+    // Persistência imediata 100% no localStorage do navegador do usuário
+    santinhoStorage.save(ballot.value);
   }
 
-  async function clearSantinho() {
-    isSaving.value = true;
-    try {
-      const emptySelections: SantinhoBallotSelections = {
-        presidenteId: null,
-        governadorId: null,
-        senador1Id: null,
-        senador2Id: null,
-        deputadoFederalId: null,
-        deputadoEstadualId: null,
-      };
-      const updated = await politicalApi.saveSantinho(emptySelections);
-      ballot.value = updated;
-    } catch (err) {
-      console.error('Erro ao limpar Santinho:', err);
-    } finally {
-      isSaving.value = false;
-    }
+  function clearSantinho() {
+    ballot.value = santinhoStorage.clear();
+    setActionFeedback('Santinho reinicializado. Todas as vagas estão em branco.');
   }
 
   return {
     ballot,
     isLoading,
     isSaving,
+    lastActionMessage,
     totalSelected,
     fetchSantinho,
     isCandidateSelected,
