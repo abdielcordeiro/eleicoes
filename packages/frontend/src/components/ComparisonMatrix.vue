@@ -405,9 +405,8 @@
       <!-- 2. TABELA COMPLETA (Desktop ou modo tabela clássica no mobile)    -->
       <!-- ================================================================= -->
       <div
-        v-if="mobileViewMode === 'table'"
         class="overflow-x-auto"
-        :class="{ 'block': mobileViewMode === 'table', 'hidden md:block': mobileViewMode !== 'table' }"
+        :class="mobileViewMode === 'duel' ? 'hidden md:block' : 'block'"
       >
         <table class="w-full border-collapse text-left">
           <!-- Table Head: Candidate profiles -->
