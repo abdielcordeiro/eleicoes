@@ -2,7 +2,7 @@
   <div class="min-h-screen flex flex-col bg-background-warm text-slate-800">
     <Navbar />
 
-    <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+    <main class="flex-1 max-w-7xl w-full mx-auto px-3 sm:px-6 lg:px-8 pt-6 sm:pt-8 overflow-x-hidden min-w-0">
       <router-view />
     </main>
 

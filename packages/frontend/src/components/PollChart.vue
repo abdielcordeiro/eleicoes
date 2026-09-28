@@ -19,12 +19,12 @@
       </div>
 
       <!-- Office Filter Tabs -->
-      <div class="inline-flex rounded-xl bg-slate-100 p-1 border border-slate-200 text-xs font-semibold">
+      <div class="grid grid-cols-3 sm:inline-flex rounded-xl bg-slate-100 p-1 border border-slate-200 text-xs font-semibold w-full sm:w-auto">
         <button
           v-for="tab in tabs"
           :key="tab.role"
           @click="changeRole(tab.role)"
-          class="px-3.5 py-1.5 rounded-lg transition-all cursor-pointer"
+          class="px-2 py-1.5 rounded-lg transition-all cursor-pointer text-center text-xs truncate"
           :class="pollsStore.selectedRole === tab.role ? 'bg-white text-slate-900 shadow-sm font-bold' : 'text-slate-600 hover:text-slate-900'"
         >
           {{ tab.label }}
@@ -33,7 +33,7 @@
     </div>
 
     <!-- Sub-selector for Multiple Polls (e.g. AtlasIntel vs Agregador for President) -->
-    <div v-if="pollsStore.polls.length > 1" class="mb-5 flex items-center gap-2 overflow-x-auto pb-1">
+    <div v-if="pollsStore.polls.length > 1" class="mb-5 flex flex-wrap items-center gap-2">
       <span class="text-xs font-bold text-slate-500 uppercase tracking-wider mr-1">Pesquisas Disponíveis:</span>
       <button
         v-for="p in pollsStore.polls"

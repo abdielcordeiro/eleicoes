@@ -27,11 +27,11 @@
         </div>
       </div>
 
-      <!-- Role Tabs -->
-      <div class="flex items-center gap-2 mt-6 overflow-x-auto pb-2 scrollbar-none">
+      <!-- Role Tabs (Responsivo em flex-wrap sem overflow) -->
+      <div class="flex flex-wrap items-center gap-2 mt-6">
         <button
           @click="selectRole(null)"
-          class="px-4 py-2 rounded-xl text-xs font-bold transition-all whitespace-nowrap cursor-pointer"
+          class="px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer"
           :class="selectedRole === null ? 'bg-slate-900 text-white shadow-sm' : 'bg-slate-100 text-slate-600 hover:text-slate-900'"
         >
           Todos os Cargos
@@ -41,11 +41,11 @@
           v-for="role in rolesList"
           :key="role.value"
           @click="selectRole(role.value)"
-          class="px-4 py-2 rounded-xl text-xs font-bold transition-all whitespace-nowrap cursor-pointer"
+          class="px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5"
           :class="selectedRole === role.value ? 'bg-vibrant-orange text-white shadow-sm' : 'bg-slate-100 text-slate-600 hover:text-slate-900'"
         >
           <span>{{ role.label }}</span>
-          <span class="ml-1.5 opacity-80 font-mono text-[10px] bg-black/10 px-1.5 py-0.5 rounded">
+          <span class="opacity-80 font-mono text-[10px] bg-black/10 px-1.5 py-0.5 rounded">
             {{ role.digits }} dígitos
           </span>
         </button>

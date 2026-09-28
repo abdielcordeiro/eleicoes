@@ -38,14 +38,14 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-16">
         <!-- Logo / Brand -->
-        <router-link to="/" class="flex items-center gap-3 group">
-          <div class="w-10 h-10 rounded-lg bg-vibrant-orange flex items-center justify-center text-white font-black text-xl shadow-md group-hover:scale-105 transition-transform">
+        <router-link to="/" class="flex items-center gap-2 sm:gap-3 group shrink-0">
+          <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-lg bg-vibrant-orange flex items-center justify-center text-white font-black text-lg sm:text-xl shadow-md group-hover:scale-105 transition-transform">
             VC
           </div>
           <div>
-            <div class="flex items-center gap-2">
-              <span class="font-extrabold text-lg tracking-tight text-slate-900">VotoConsciente</span>
-              <span class="px-1.5 py-0.5 rounded text-[11px] font-bold bg-vibrant-orange-light text-vibrant-orange border border-orange-200">2026 SP</span>
+            <div class="flex items-center gap-1.5">
+              <span class="font-extrabold text-base sm:text-lg tracking-tight text-slate-900">VotoConsciente</span>
+              <span class="hidden sm:inline-block px-1.5 py-0.5 rounded text-[10px] font-bold bg-vibrant-orange-light text-vibrant-orange border border-orange-200">2026 SP</span>
             </div>
             <p class="text-xs text-slate-500 font-medium hidden sm:block">Analisador Político & Santinho Digital Auditável</p>
           </div>
@@ -55,30 +55,33 @@
         <nav class="flex items-center gap-1 sm:gap-2">
           <router-link
             to="/"
-            class="px-3 py-2 rounded-lg text-sm font-medium transition-colors"
+            class="px-2 sm:px-3 py-1.5 sm:py-2 rounded-lg text-xs sm:text-sm font-medium transition-colors"
             :class="$route.path === '/' ? 'bg-slate-100 text-slate-900 font-semibold' : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'"
           >
-            Comparativo Geral
+            <span class="hidden md:inline">Comparativo Geral</span>
+            <span class="md:hidden">Comparativo</span>
           </router-link>
 
           <!-- Dropdown or Direct Link for Cargos -->
           <router-link
             to="/cargos"
-            class="px-3 py-2 rounded-lg text-sm font-medium transition-colors"
+            class="px-2 sm:px-3 py-1.5 sm:py-2 rounded-lg text-xs sm:text-sm font-medium transition-colors"
             :class="$route.path.startsWith('/cargos') ? 'bg-slate-100 text-slate-900 font-semibold' : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'"
           >
-            Cargos em Disputa
+            <span class="hidden md:inline">Cargos em Disputa</span>
+            <span class="md:hidden">Cargos</span>
           </router-link>
 
           <!-- Santinho Link with Badge -->
           <router-link
             to="/santinho"
-            class="ml-2 inline-flex items-center gap-2 px-3.5 py-2 rounded-lg text-sm font-semibold border transition-all"
+            class="ml-1 sm:ml-2 inline-flex items-center gap-1.5 px-2.5 sm:px-3.5 py-1.5 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold border transition-all"
             :class="$route.path === '/santinho' ? 'bg-vibrant-orange text-white border-vibrant-orange shadow-sm' : 'border-orange-300 bg-orange-50 text-orange-950 hover:bg-orange-100'"
           >
-            <span>Meu Santinho</span>
+            <span class="hidden sm:inline">Meu Santinho</span>
+            <span class="sm:hidden">Santinho</span>
             <span
-              class="w-5 h-5 rounded-full flex items-center justify-center text-xs font-bold"
+              class="w-4 h-4 sm:w-5 sm:h-5 rounded-full flex items-center justify-center text-[10px] sm:text-xs font-bold"
               :class="$route.path === '/santinho' ? 'bg-white text-vibrant-orange' : 'bg-vibrant-orange text-white'"
             >
               {{ santinhoStore.totalSelected }}

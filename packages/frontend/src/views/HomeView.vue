@@ -1,7 +1,7 @@
 <template>
   <div class="space-y-10 pb-16">
     <!-- Hero Section -->
-    <section class="bg-gradient-to-b from-slate-900 via-slate-850 to-slate-900 text-white rounded-3xl p-8 sm:p-12 shadow-xl relative overflow-hidden">
+    <section class="bg-gradient-to-b from-slate-900 via-slate-850 to-slate-900 text-white rounded-3xl p-6 sm:p-12 shadow-xl relative overflow-hidden">
       <div class="absolute -right-10 -bottom-10 w-96 h-96 bg-vibrant-orange/10 rounded-full blur-3xl pointer-events-none"></div>
 
       <div class="max-w-3xl relative z-10">
@@ -10,18 +10,18 @@
           Eleições Gerais Brasil 2026 • Estado de São Paulo
         </div>
 
-        <h1 class="text-3xl sm:text-5xl font-black tracking-tight leading-tight">
+        <h1 class="text-2xl sm:text-5xl font-black tracking-tight leading-tight">
           Analisador Político & Santinho Digital Consciente
         </h1>
 
-        <p class="mt-4 text-sm sm:text-base text-slate-300 leading-relaxed font-normal">
+        <p class="mt-4 text-xs sm:text-base text-slate-300 leading-relaxed font-normal">
           Compare candidatos lado a lado com base em dados auditáveis, votações legislativas reais, termômetro de alinhamento e o Raio-X jurídico detalhado. Monte sua colinha oficial para a urna eletrônica em 2026.
         </p>
 
-        <div class="mt-8 flex flex-wrap items-center gap-3">
+        <div class="mt-8 flex flex-col sm:flex-row sm:items-center gap-3">
           <router-link
             to="/cargos"
-            class="px-5 py-3 rounded-xl font-bold text-sm bg-vibrant-orange hover:bg-vibrant-orange-hover text-white transition-all transform active:scale-95 shadow-md flex items-center gap-2"
+            class="px-5 py-3 rounded-xl font-bold text-sm bg-vibrant-orange hover:bg-vibrant-orange-hover text-white transition-all transform active:scale-95 shadow-md flex items-center justify-center gap-2 text-center"
           >
             <span>Ver Candidatos por Cargo</span>
             <span>→</span>
@@ -29,7 +29,7 @@
 
           <router-link
             to="/santinho"
-            class="px-5 py-3 rounded-xl font-bold text-sm bg-white/10 hover:bg-white/20 text-white transition-all border border-white/20 flex items-center gap-2 backdrop-blur-sm"
+            class="px-5 py-3 rounded-xl font-bold text-sm bg-white/10 hover:bg-white/20 text-white transition-all border border-white/20 flex items-center justify-center gap-2 backdrop-blur-sm text-center"
           >
             <span>Acessar Meu Santinho ({{ santinhoStore.totalSelected }})</span>
           </router-link>
@@ -48,7 +48,7 @@
     </section>
 
     <!-- SECTION 3: SÃO PAULO ELECTIONS SPOTLIGHT -->
-    <section class="bg-white rounded-3xl border border-slate-200 p-8 shadow-card">
+    <section class="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-card">
       <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
         <div>
           <span class="text-xs font-bold text-vibrant-orange uppercase tracking-wider block">Foco Regional</span>

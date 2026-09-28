@@ -18,14 +18,14 @@
         </div>
 
         <!-- Office Tabs and Mobile Mode Switcher -->
-        <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+        <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 w-full md:w-auto">
           <!-- Role selector tabs -->
-          <div class="inline-flex rounded-xl bg-white p-1 border border-slate-200 text-xs font-semibold shadow-2xs overflow-x-auto">
+          <div class="grid grid-cols-3 sm:inline-flex rounded-xl bg-white p-1 border border-slate-200 text-xs font-semibold shadow-2xs w-full sm:w-auto">
             <button
               v-for="tab in matrixTabs"
               :key="tab.role"
               @click="handleSelectRole(tab.role)"
-              class="px-3 py-1.5 rounded-lg transition-all cursor-pointer whitespace-nowrap text-xs"
+              class="px-2 py-1.5 rounded-lg transition-all cursor-pointer text-center text-xs truncate"
               :class="selectedRole === tab.role ? 'bg-slate-900 text-white shadow-2xs font-bold' : 'text-slate-600 hover:text-slate-900'"
             >
               {{ tab.label }}
@@ -33,17 +33,17 @@
           </div>
 
           <!-- Mobile view mode toggle (Duel 1x1 vs Full Table) -->
-          <div class="inline-flex md:hidden rounded-xl bg-slate-200/80 p-1 text-[11px] font-bold">
+          <div class="grid grid-cols-2 md:hidden rounded-xl bg-slate-200/80 p-1 text-[11px] font-bold w-full">
             <button
               @click="mobileViewMode = 'duel'"
-              class="flex-1 px-3 py-1 rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1.5"
+              class="px-3 py-1.5 rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1.5"
               :class="mobileViewMode === 'duel' ? 'bg-white text-slate-900 shadow-2xs font-extrabold' : 'text-slate-600'"
             >
               <span>⚔️ Duelo 1x1</span>
             </button>
             <button
               @click="mobileViewMode = 'table'"
-              class="flex-1 px-3 py-1 rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1.5"
+              class="px-3 py-1.5 rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1.5"
               :class="mobileViewMode === 'table' ? 'bg-white text-slate-900 shadow-2xs font-extrabold' : 'text-slate-600'"
             >
               <span>📊 Tabela Geral</span>
@@ -86,14 +86,14 @@
             </span>
           </div>
 
-          <div class="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none -mx-1 px-1">
+          <div class="flex flex-wrap items-center gap-1.5 w-full">
             <button
               v-for="c in challengers"
               :key="c.id"
               @click="selectedChallengerId = c.id"
-              class="px-3 py-1.5 rounded-xl border text-xs font-bold transition-all shrink-0 flex items-center gap-2 cursor-pointer"
+              class="px-2.5 py-1.5 rounded-xl border text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer"
               :class="activeChallenger?.id === c.id
-                ? 'bg-vibrant-orange text-white border-vibrant-orange shadow-xs scale-102'
+                ? 'bg-vibrant-orange text-white border-vibrant-orange shadow-xs'
                 : 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'"
             >
               <CandidatePhoto :candidate="c" class="w-5 h-5 rounded-full object-cover shrink-0" />
