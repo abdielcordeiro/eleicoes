@@ -69,6 +69,8 @@ jobs:
 
       - name: 7. Configurar GitHub Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: 8. Fazer Upload do Artefato Estático
         uses: actions/upload-pages-artifact@v3
