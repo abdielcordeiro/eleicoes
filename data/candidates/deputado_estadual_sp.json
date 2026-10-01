@@ -12,7 +12,7 @@
     "role": "DEPUTADO_ESTADUAL_SP",
     "cargo": "DEPUTADO_ESTADUAL_SP",
     "fallbackPhoto": "https://www.al.sp.gov.br/repositorio/deputado/fotos/guto_zacarias.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Guto-zacarias.jpg/330px-Guto-zacarias.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://www.al.sp.gov.br/repositorio/deputado/fotos/guto_zacarias.jpg",
     "wikipediaSlug": "Guto_Zacarias",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -120,118 +120,7 @@
         "legalOutcome": "Arquivamento por Unanimidade. O Conselho de Ética arquivou sumariamente as representações, reconhecendo a inviolabilidade do exercício parlamentar de fiscalização. Ficha Limpa.",
         "linkFonte": "https://www.al.sp.gov.br"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Guto-zacarias.jpg/330px-Guto-zacarias.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-  },
-  {
-    "id": "lucas-pavanato",
-    "name": "Lucas Pavanato",
-    "nomeUrna": "Lucas Pavanato",
-    "nomeCompleto": "Lucas Pavanato",
-    "ballotNumber": "22000",
-    "numeroUrna": 22000,
-    "party": "PL",
-    "coalition": "Partido Liberal",
-    "coligacaoOuFederacao": "Partido Liberal",
-    "role": "DEPUTADO_ESTADUAL_SP",
-    "cargo": "DEPUTADO_ESTADUAL_SP",
-    "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Lucas_Pavanato_em_2024.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Lucas_Pavanato.jpg/330px-Lucas_Pavanato.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "wikipediaSlug": "Lucas_Pavanato",
-    "isBaseline": false,
-    "isBaselineReference": false,
-    "politicalTrajectory": {
-      "summary": "Ativista conservador e comunicador digital, eleito com expressiva votação para cargos legislativos em São Paulo com foco em pautas morais, fiscalização de órgãos públicos e combate ao comunismo.",
-      "officesHeld": [
-        {
-          "role": "Deputado Estadual (ALESP)",
-          "period": "2023 - Presente",
-          "location": "São Paulo"
-        }
-      ],
-      "partyHistory": [
-        {
-          "party": "PL",
-          "period": "2022 - Presente"
-        },
-        {
-          "party": "NOVO",
-          "period": "2020 - 2022"
-        }
-      ],
-      "currentAlliances": "Partido Liberal, bancada conservadora da ALESP e movimentos cívicos patrióticos."
-    },
-    "pillars": {
-      "segurancaPublica": {
-        "proposal": "Tolerância zero contra crimes patrimoniais, empoderamento dos agentes policiais e armamento civil.",
-        "implementation": "Projetos de lei de valorização salarial dos policiais militares paulistas e combate ativo a invasões de propriedades."
-      },
-      "gastosPublicos": {
-        "proposal": "Oposição a reajustes de impostos estaduais e corte de gastos com propaganda institucional.",
-        "implementation": "Voto contrário a aumentos do ICMS e fiscalização de despesas supérfluas em órgãos do Executivo e Judiciário."
-      },
-      "tamanhoDoEstado": {
-        "proposal": "Enxugamento da máquina pública estadual e facilitação ao livre empreendedorismo.",
-        "implementation": "Apoio a concessões rodoviárias, privatização da Sabesp e desburocratização de alvarás de funcionamento."
-      },
-      "saude": {
-        "proposal": "Prioridade para hospitais regionais e defesa dos direitos do nascituro em unidades públicas.",
-        "implementation": "Destinação de recursos de emendas para aquisição de ambulâncias e ampliação de leitos pediátricos."
-      },
-      "educacao": {
-        "proposal": "Escola Sem Partido, proibição de pautas de gênero no ambiente escolar e rigor disciplinar.",
-        "implementation": "Proposta legislativa de controle de material didático da rede estadual e defesa de escolas cívico-militares."
-      }
-    },
-    "legislativeVotes": [
-      {
-        "code": "Votação Estadual",
-        "title": "Privatização da Sabesp (Lei 17.865/2023)",
-        "date": "2023",
-        "vote": "SIM",
-        "summary": "Votou pela aprovação da desestatização da companhia de água de SP.",
-        "source": "Assembleia Legislativa de SP",
-        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
-      },
-      {
-        "code": "Votação Estadual",
-        "title": "Escolas Cívico-Militares (LC 1.398/2024)",
-        "date": "2024",
-        "vote": "SIM",
-        "summary": "Votou a favor do programa estadual de gestão compartilhada.",
-        "source": "Assembleia Legislativa de SP",
-        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
-      },
-      {
-        "code": "Votação Estadual",
-        "title": "Oposição a Aumento de Alíquotas de ICMS",
-        "date": "2023-2024",
-        "vote": "NÃO AO IMPOSTO",
-        "summary": "Votou contra qualquer ampliação da carga fiscal sobre produtos essenciais.",
-        "source": "Assembleia Legislativa de SP",
-        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
-      },
-      {
-        "code": "Votação Estadual",
-        "title": "Combate a Ocupações Ilegais de Propriedades",
-        "date": "2023",
-        "vote": "SIM",
-        "summary": "Apoiou medidas de reintegração de posse célere e sanções a invasores.",
-        "source": "Assembleia Legislativa de SP",
-        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
-      }
-    ],
-    "legalRecords": [
-      {
-        "caseName": "Queixas-Crime por Debates Públicos em Manifestações",
-        "source": "Tribunal de Justiça do Estado de São Paulo (TJ-SP)",
-        "processNumber": "Termos Circunstanciados Diversos TJ-SP",
-        "investigationFindings": "Termos circunstanciados gerados por discussões ideológicas acaloradas com ativistas em vias públicas e universidades.",
-        "legalOutcome": "Arquivamento por Ausência de Dolo Específico. O Judiciário reconheceu a atipicidade penal dos embates de cunho político, mantendo certidão de antecedentes criminais sem condenações. Ficha Limpa.",
-        "linkFonte": "https://www.conjur.com.br/?s=Lucas%20Pavanato%20Queixa%20Crime%20TJSP%20Arquivamento"
-      }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Lucas_Pavanato.jpg/330px-Lucas_Pavanato.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   },
   {
     "id": "tome-abduch",
@@ -246,7 +135,7 @@
     "role": "DEPUTADO_ESTADUAL_SP",
     "cargo": "DEPUTADO_ESTADUAL_SP",
     "fallbackPhoto": "https://www.al.sp.gov.br/repositorio/deputado/fotos/tome_abduch.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/2019-03-14_Tom%C3%A9_Abduch.jpg/330px-2019-03-14_Tom%C3%A9_Abduch.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://www.al.sp.gov.br/repositorio/deputado/fotos/tome_abduch.jpg",
     "wikipediaSlug": "Tomé_Abduch",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -336,8 +225,7 @@
         "legalOutcome": "Sem Processos / Ficha Limpa 100%. Ausência de qualquer processo criminal ou condenação por improbidade. Ficha Limpa perante o TSE.",
         "linkFonte": "https://www.tse.jus.br"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/2019-03-14_Tom%C3%A9_Abduch.jpg/330px-2019-03-14_Tom%C3%A9_Abduch.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   },
   {
     "id": "gil-diniz",
@@ -352,7 +240,7 @@
     "role": "DEPUTADO_ESTADUAL_SP",
     "cargo": "DEPUTADO_ESTADUAL_SP",
     "fallbackPhoto": "https://www.al.sp.gov.br/repositorio/deputado/fotos/gil_diniz.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Gil_Diniz.jpg/330px-Gil_Diniz.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://www.al.sp.gov.br/repositorio/deputado/fotos/gil_diniz.jpg",
     "wikipediaSlug": "Gil_Diniz",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -460,8 +348,645 @@
         "legalOutcome": "Arquivamento Definitivo pelo MP-SP. O Conselho Superior do Ministério Público homologou o arquivamento por inexistência absoluta de provas materiais ou transações bancárias irregulares. Ficha Limpa atestada.",
         "linkFonte": "https://www.conjur.com.br/?s=Gil%20Diniz%20Inquerito%20Rachadinha%20MPSP%20Arquivamento"
       }
+    ]
+  },
+  {
+    "id": "major-mecca",
+    "name": "Major Mecca",
+    "nomeUrna": "Major Mecca",
+    "nomeCompleto": "Edilson Mecca",
+    "ballotNumber": "22000",
+    "numeroUrna": 22000,
+    "party": "PL",
+    "coalition": "Partido Liberal",
+    "coligacaoOuFederacao": "Partido Liberal",
+    "role": "DEPUTADO_ESTADUAL_SP",
+    "cargo": "DEPUTADO_ESTADUAL_SP",
+    "fallbackPhoto": "https://www.al.sp.gov.br/repositorio/deputado/fotos/major_mecca.jpg",
+    "photoUrl": "https://www.al.sp.gov.br/repositorio/deputado/fotos/major_mecca.jpg",
+    "wikipediaSlug": "Major_Mecca",
+    "isBaseline": false,
+    "isBaselineReference": false,
+    "politicalTrajectory": {
+      "summary": "Major da Polícia Militar de São Paulo com mais de 30 anos de atuação operacional, deputado estadual eleito em 2018 e reeleito em 2022 com mais de 224 mil votos. É uma das principais vozes da bancada de segurança e dos agentes das forças de segurança pública na ALESP.",
+      "officesHeld": [
+        {
+          "role": "Deputado Estadual (ALESP)",
+          "period": "2019 - Presente",
+          "location": "São Paulo"
+        },
+        {
+          "role": "Oficial da Polícia Militar do Estado de SP",
+          "period": "1989 - 2019",
+          "location": "São Paulo"
+        }
+      ],
+      "partyHistory": [
+        {
+          "party": "PL",
+          "period": "2022 - Presente"
+        },
+        {
+          "party": "PSL",
+          "period": "2018 - 2022"
+        }
+      ],
+      "currentAlliances": "Partido Liberal, bancada da bala e segurança pública na ALESP, associações de praças e oficiais da PM e Polícia Civil."
+    },
+    "pillars": {
+      "segurancaPublica": {
+        "proposal": "Valorização salarial emergencial das polícias, reestruturação da carreira e suporte jurídico total a agentes.",
+        "implementation": "Apresentação de emendas à LDO e orçamento para reajuste salarial da PM/PC e projetos de apoio a familiares de policiais mortos em serviço."
+      },
+      "gastosPublicos": {
+        "proposal": "Alocação rigorosa de verbas no combate ao crime e corte de gastos com burocracia desnecessária.",
+        "implementation": "Cobrança pela aplicação de recursos do Fundo Penitenciário e Fundo de Segurança em equipamentos e blindagem de viaturas."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Foco do Estado nas atividades essenciais: segurança, justiça, saúde básica e ordem pública.",
+        "implementation": "Voto favorável às privatizações e desregulamentações aprovadas na base governista da ALESP."
+      },
+      "saude": {
+        "proposal": "Reestruturação e ampliação do Hospital Cruz Azul e do atendimento de saúde aos agentes de segurança pública.",
+        "implementation": "Destinação de emendas parlamentares estaduais para modernização de equipamentos nos centros médicos da Polícia Militar."
+      },
+      "educacao": {
+        "proposal": "Fortalecimento dos colégios da Polícia Militar e expansão das escolas cívico-militares em áreas de alta vulnerabilidade.",
+        "implementation": "Apoio e voto favorável à LC 1.398/2024 que regulamentou a gestão cívico-militar nas escolas estaduais."
+      }
+    },
+    "legislativeVotes": [
+      {
+        "code": "LC 1.398/2024",
+        "title": "Escolas Cívico-Militares em SP",
+        "date": "2024",
+        "vote": "SIM",
+        "summary": "Votou pela implantação do programa estadual de escolas cívico-militares.",
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      },
+      {
+        "code": "Lei 17.865/2023",
+        "title": "Privatização da Sabesp",
+        "date": "2023",
+        "vote": "SIM",
+        "summary": "Acompanhou a bancada governista na aprovação da desestatização.",
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      },
+      {
+        "code": "Reajuste das Forças de Segurança SP",
+        "title": "Aumento Salarial das Polícias Paulista",
+        "date": "2023",
+        "vote": "SIM (DEFENSOR EM PLENÁRIO)",
+        "summary": "Articulou na tribuna e votou a favor do reajuste salarial concedido às forças de segurança pública pelo governador Tarcísio.",
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      },
+      {
+        "code": "Lei 17.643/2023",
+        "title": "Proibição de Comprovante Vacinal em Locais Públicos",
+        "date": "2023",
+        "vote": "SIM",
+        "summary": "Votou a favor da revogação de exigências vacinais restritivas a cidadãos no estado.",
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      }
     ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Gil_Diniz.jpg/330px-Gil_Diniz.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "legalRecords": [
+      {
+        "caseName": "Certidões Negativas da Justiça Militar e Comum",
+        "source": "Tribunal de Justiça Militar do Estado de SP (TJM-SP) / TJ-SP",
+        "processNumber": "Certidão Negativa TJM-SP 2024",
+        "investigationFindings": "Verificação exaustiva de registros da carreira policial de 30 anos e da atividade política.",
+        "legalOutcome": "Sem Condenações / Ficha Limpa. Total ausência de condenações por improbidade ou infrações funcionais dolosas. Registro regular e Ficha Limpa no TSE.",
+        "linkFonte": "https://www.tse.jus.br"
+      }
+    ]
+  },
+  {
+    "id": "conte-lopes",
+    "name": "Conte Lopes",
+    "nomeUrna": "Conte Lopes",
+    "nomeCompleto": "Roberval Conte Lopes",
+    "ballotNumber": "22190",
+    "numeroUrna": 22190,
+    "party": "PL",
+    "coalition": "Partido Liberal",
+    "coligacaoOuFederacao": "Partido Liberal",
+    "role": "DEPUTADO_ESTADUAL_SP",
+    "cargo": "DEPUTADO_ESTADUAL_SP",
+    "fallbackPhoto": "https://www.al.sp.gov.br/repositorio/deputado/fotos/conte_lopes.jpg",
+    "photoUrl": "https://www.al.sp.gov.br/repositorio/deputado/fotos/conte_lopes.jpg",
+    "wikipediaSlug": "Conte_Lopes",
+    "isBaseline": false,
+    "isBaselineReference": false,
+    "politicalTrajectory": {
+      "summary": "Capitão da ROTA da Polícia Militar de SP, advogado e comunicador de rádio e TV com mais de quatro décadas de trajetória pública. Deputado estadual por múltiplos mandatos e ex-vereador da capital paulista, é uma referência histórica na linha de tolerância zero contra a bandidagem.",
+      "officesHeld": [
+        {
+          "role": "Deputado Estadual (ALESP)",
+          "period": "2023 - Presente / 1987 - 2011",
+          "location": "São Paulo"
+        },
+        {
+          "role": "Vereador de São Paulo",
+          "period": "2013 - 2020",
+          "location": "São Paulo"
+        },
+        {
+          "role": "Oficial Capitão da ROTA (PMESP)",
+          "period": "1970 - 1986",
+          "location": "São Paulo"
+        }
+      ],
+      "partyHistory": [
+        {
+          "party": "PL",
+          "period": "2022 - Presente"
+        },
+        {
+          "party": "PP",
+          "period": "2016 - 2022"
+        },
+        {
+          "party": "PTB",
+          "period": "1998 - 2016"
+        }
+      ],
+      "currentAlliances": "Partido Liberal, bancada policial veterana, comunicadores populares e defensores da segurança pública."
+    },
+    "pillars": {
+      "segurancaPublica": {
+        "proposal": "Retaguarda jurídica para policiais em serviço, ampliação da ROTA no estado e combate direto a facções criminosas.",
+        "implementation": "Apresentação contínua de medidas de valorização da atividade operacional da ROTA e enfrentamento armado ao crime organizado."
+      },
+      "gastosPublicos": {
+        "proposal": "Controle de gastos com regalias institucionais e aplicação prioritária na ponta do serviço policial.",
+        "implementation": "Fiscalização de contratos de serviços terceirizados na administração pública estadual."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Modernização administrativa e desestatização de serviços que oneram o erário paulista.",
+        "implementation": "Voto favorável às medidas de concessão e privatização propostas pelo governo estadual."
+      },
+      "saude": {
+        "proposal": "Atendimento médico e psicológico especializado para veteranos e policiais feridos em combate.",
+        "implementation": "Destinação de recursos estaduais aos centros de reabilitação e saúde mental das corporações."
+      },
+      "educacao": {
+        "proposal": "Disciplina nas escolas estaduais, resgate do respeito ao professor e apoio ao ensino cívico-militar.",
+        "implementation": "Voto a favor da Lei das Escolas Cívico-Militares e defesa de sanções severas a atos de violência contra docentes."
+      }
+    },
+    "legislativeVotes": [
+      {
+        "code": "Lei 17.865/2023",
+        "title": "Privatização da Sabesp",
+        "date": "2023",
+        "vote": "SIM",
+        "summary": "Votou pela aprovação do projeto de privatização da companhia de água de São Paulo.",
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      },
+      {
+        "code": "LC 1.398/2024",
+        "title": "Escolas Cívico-Militares",
+        "date": "2024",
+        "vote": "SIM",
+        "summary": "Votou a favor da criação do modelo cívico-militar nas escolas da rede paulista.",
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      },
+      {
+        "code": "Reajuste Policial SP",
+        "title": "Aumento Salarial da Segurança Pública",
+        "date": "2023",
+        "vote": "SIM",
+        "summary": "Votou favoravelmente ao pacote salarial para policiais civis, militares e técnico-científicos.",
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      }
+    ],
+    "legalRecords": [
+      {
+        "caseName": "Certidões da Vida Pública e Mandatos Parlamentares",
+        "source": "Tribunal Superior Eleitoral (TSE) / TJ-SP",
+        "processNumber": "Certidões Cíveis e Criminais Registradas",
+        "investigationFindings": "Mais de 40 anos de vida pública com acompanhamento de certidões perante tribunais estaduais e eleitorais.",
+        "legalOutcome": "Ficha Limpa / Sem Condenações por Corrupção. Todas as prestações de contas eleitorais aprovadas e ausência de condenações por improbidade administrativa.",
+        "linkFonte": "https://www.tse.jus.br"
+      }
+    ]
+  },
+  {
+    "id": "leticia-aguiar",
+    "name": "Leticia Aguiar",
+    "nomeUrna": "Leticia Aguiar",
+    "nomeCompleto": "Leticia Maria Aguiar dos Santos",
+    "ballotNumber": "11111",
+    "numeroUrna": 11111,
+    "party": "PP",
+    "coalition": "Progressistas",
+    "coligacaoOuFederacao": "Progressistas",
+    "role": "DEPUTADO_ESTADUAL_SP",
+    "cargo": "DEPUTADO_ESTADUAL_SP",
+    "fallbackPhoto": "https://www.al.sp.gov.br/repositorio/deputado/fotos/leticia_aguiar.jpg",
+    "photoUrl": "https://www.al.sp.gov.br/repositorio/deputado/fotos/leticia_aguiar.jpg",
+    "wikipediaSlug": "Leticia_Aguiar",
+    "isBaseline": false,
+    "isBaselineReference": false,
+    "politicalTrajectory": {
+      "summary": "Publicitária e deputada estadual eleita em 2018 e reeleita em 2022 com mais de 68 mil votos pelo Vale do Paraíba. É autora da Lei Estadual do Transtorno do Espectro Autista (TEA) e defensora convicta dos direitos da família, proteção à infância e segurança pública.",
+      "officesHeld": [
+        {
+          "role": "Deputada Estadual (ALESP)",
+          "period": "2019 - Presente",
+          "location": "São Paulo"
+        }
+      ],
+      "partyHistory": [
+        {
+          "party": "PP",
+          "period": "2022 - Presente"
+        },
+        {
+          "party": "PSL",
+          "period": "2018 - 2022"
+        }
+      ],
+      "currentAlliances": "Progressistas, base aliada de Tarcísio de Freitas, movimentos pró-família e associações de apoio a pessoas com autismo."
+    },
+    "pillars": {
+      "segurancaPublica": {
+        "proposal": "Fortalecimento da Patrulha Maria da Penha, proteção integral à mulher e apoio aos agentes de segurança.",
+        "implementation": "Autoria de projetos de defesa à mulher vítima de violência e destinação de emendas para armamento de guardas civis municipais."
+      },
+      "gastosPublicos": {
+        "proposal": "Transparência fiscal, destinação direta de recursos para as prefeituras e combate a desvios.",
+        "implementation": "Fiscalizações in loco em hospitais regionais e prestação de contas pública de 100% das emendas impositivas."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Livre iniciativa econômica, atração de indústrias para o interior paulista e privatizações estratégicas.",
+        "implementation": "Voto favorável às privatizações da Sabesp e da Emae na Assembleia Legislativa."
+      },
+      "saude": {
+        "proposal": "Pioneirismo em políticas públicas para neurodivergentes e expansão de clínicas-escola do autismo.",
+        "implementation": "Autora da Lei Estadual que instituiu a Política Estadual de Proteção aos Direitos da Pessoa com TEA e emissão do CIPTEA em SP."
+      },
+      "educacao": {
+        "proposal": "Inclusão escolar de alunos com deficiência com mediadores qualificados e combate à doutrinação ideológica.",
+        "implementation": "Cobrança do cumprimento da lei de acompanhantes terapêuticos nas salas de aula e apoio às escolas cívico-militares."
+      }
+    },
+    "legislativeVotes": [
+      {
+        "code": "Lei 17.865/2023",
+        "title": "Privatização da Sabesp",
+        "date": "2023",
+        "vote": "SIM",
+        "summary": "Votou pela concessão e privatização da companhia de água e esgoto do estado.",
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      },
+      {
+        "code": "LC 1.398/2024",
+        "title": "Escolas Cívico-Militares",
+        "date": "2024",
+        "vote": "SIM",
+        "summary": "Votou pela aprovação do projeto de escolas cívico-militares da rede paulista.",
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      },
+      {
+        "code": "Lei Estadual 17.158/2019",
+        "title": "Política Estadual de Proteção à Pessoa com TEA",
+        "date": "2019",
+        "vote": "SIM (AUTORA)",
+        "summary": "Autora da legislação de referência que garante direitos, diagnóstico precoce e carteira de identificação a pessoas com autismo em SP.",
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      }
+    ],
+    "legalRecords": [
+      {
+        "caseName": "Certidões Cíveis e Eleitorais",
+        "source": "Tribunal Regional Eleitoral de SP (TRE-SP)",
+        "processNumber": "Prestação de Contas Homologada",
+        "investigationFindings": "Auditoria de contas eleitorais de campanhas e registros cíveis.",
+        "legalOutcome": "Ficha Limpa 100%. Ausência de processos ou condenações penais e por improbidade administrativa. Ficha Limpa no TSE.",
+        "linkFonte": "https://www.tse.jus.br"
+      }
+    ]
+  },
+  {
+    "id": "tenente-coimbra",
+    "name": "Tenente Coimbra",
+    "nomeUrna": "Tenente Coimbra",
+    "nomeCompleto": "Matheus Coimbra Martins de Carvalho",
+    "ballotNumber": "22022",
+    "numeroUrna": 22022,
+    "party": "PL",
+    "coalition": "Partido Liberal",
+    "coligacaoOuFederacao": "Partido Liberal",
+    "role": "DEPUTADO_ESTADUAL_SP",
+    "cargo": "DEPUTADO_ESTADUAL_SP",
+    "fallbackPhoto": "https://www.al.sp.gov.br/repositorio/deputado/fotos/tenente_coimbra.jpg",
+    "photoUrl": "https://www.al.sp.gov.br/repositorio/deputado/fotos/tenente_coimbra.jpg",
+    "wikipediaSlug": "Tenente_Coimbra",
+    "isBaseline": false,
+    "isBaselineReference": false,
+    "politicalTrajectory": {
+      "summary": "Oficial da reserva do Exército Brasileiro formado na AMAN, eleito deputado estadual em 2018 e reeleito em 2022 pelo PL com mais de 99 mil votos. Principal articulador e autor original do programa das Escolas Cívico-Militares no Estado de São Paulo e líder da bancada da Baixada Santista.",
+      "officesHeld": [
+        {
+          "role": "Deputado Estadual (ALESP)",
+          "period": "2019 - Presente",
+          "location": "São Paulo"
+        },
+        {
+          "role": "Oficial Tenente do Exército Brasileiro",
+          "period": "2010 - 2018",
+          "location": "Santos / SP"
+        }
+      ],
+      "partyHistory": [
+        {
+          "party": "PL",
+          "period": "2022 - Presente"
+        },
+        {
+          "party": "PSL",
+          "period": "2018 - 2022"
+        }
+      ],
+      "currentAlliances": "Partido Liberal, bancada militar da ALESP, frentes do agronegócio e desenvolvimento portuário de Santos."
+    },
+    "pillars": {
+      "segurancaPublica": {
+        "proposal": "Aumento da segurança no Porto de Santos contra o tráfico internacional de drogas e apoio tático à PM.",
+        "implementation": "Proposição do Centro de Monitoramento Integrado da Baixada Santista e suporte legal à Operação Escudo no litoral."
+      },
+      "gastosPublicos": {
+        "proposal": "Austeridade nas contas paulistas e corte drástico de incentivos fiscais sem contrapartida social.",
+        "implementation": "Voto favorável às reformas administrativas e corte de cargos comissionados desnecessários."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Privatização portuária e desestatização de serviços estatais para destravar investimentos privados.",
+        "implementation": "Apoio à concessão de rodovias do litoral e privatização da Sabesp e EMAE."
+      },
+      "saude": {
+        "proposal": "Descentralização da alta complexidade hospitalar para a Baixada Santista e Vale do Ribeira.",
+        "implementation": "Destinação de mais de 20 milhões de reais em emendas diretas a hospitais municipais e Santas Casas da região litorânea."
+      },
+      "educacao": {
+        "proposal": "Expansão em massa das escolas cívico-militares para elevar os índices do Ideb e restaurar a hierarquia.",
+        "implementation": "Autor do projeto embrionário na ALESP que culminou na aprovação da Lei Complementar das Escolas Cívico-Militares."
+      }
+    },
+    "legislativeVotes": [
+      {
+        "code": "LC 1.398/2024",
+        "title": "Escolas Cívico-Militares no Estado de SP",
+        "date": "2024",
+        "vote": "SIM (PRINCIPAL ARTICULADOR)",
+        "summary": "Articulou e votou favoravelmente à aprovação do projeto definitivo das escolas cívico-militares.",
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      },
+      {
+        "code": "Lei 17.865/2023",
+        "title": "Privatização da Sabesp",
+        "date": "2023",
+        "vote": "SIM",
+        "summary": "Votou pela privatização da companhia de água e esgoto do estado.",
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      },
+      {
+        "code": "Privatização da EMAE",
+        "title": "Desestatização da Empresa Metropolitana de Águas e Energia",
+        "date": "2024",
+        "vote": "SIM",
+        "summary": "Votou favoravelmente à desestatização energética.",
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      }
+    ],
+    "legalRecords": [
+      {
+        "caseName": "Certidões Cíveis, Militares e Eleitorais",
+        "source": "Tribunal Regional Eleitoral (TRE-SP) / STM",
+        "processNumber": "Certidão Negativa Eleitoral e Militar",
+        "investigationFindings": "Verificação da conduta funcional nas Forças Armadas e na Assembleia Legislativa.",
+        "legalOutcome": "Ficha Limpa 100%. Nenhuma condenação criminal ou administrativa. Certidão de Quitação Eleitoral plena e Ficha Limpa.",
+        "linkFonte": "https://www.tse.jus.br"
+      }
+    ]
+  },
+  {
+    "id": "valeria-bolsonaro",
+    "name": "Valéria Bolsonaro",
+    "nomeUrna": "Valéria Bolsonaro",
+    "nomeCompleto": "Valéria Müller Ramos Bolsonaro",
+    "ballotNumber": "22005",
+    "numeroUrna": 22005,
+    "party": "PL",
+    "coalition": "Partido Liberal",
+    "coligacaoOuFederacao": "Partido Liberal",
+    "role": "DEPUTADO_ESTADUAL_SP",
+    "cargo": "DEPUTADO_ESTADUAL_SP",
+    "fallbackPhoto": "https://www.al.sp.gov.br/repositorio/deputado/fotos/valeria_bolsonaro.jpg",
+    "photoUrl": "https://www.al.sp.gov.br/repositorio/deputado/fotos/valeria_bolsonaro.jpg",
+    "wikipediaSlug": "Valéria_Bolsonaro",
+    "isBaseline": false,
+    "isBaselineReference": false,
+    "politicalTrajectory": {
+      "summary": "Professora da rede pública estadual há mais de 30 anos e bióloga, foi eleita deputada estadual em 2018 e reeleita em 2022 com mais de 131 mil votos. Atua na defesa da família, das mulheres e foi secretária estadual de Políticas para a Mulher no governo Tarcísio de Freitas.",
+      "officesHeld": [
+        {
+          "role": "Deputada Estadual (ALESP)",
+          "period": "2019 - Presente",
+          "location": "São Paulo"
+        },
+        {
+          "role": "Secretária de Estado de Políticas para a Mulher",
+          "period": "2023 - 2024",
+          "location": "São Paulo"
+        }
+      ],
+      "partyHistory": [
+        {
+          "party": "PL",
+          "period": "2022 - Presente"
+        },
+        {
+          "party": "PRTB",
+          "period": "2020 - 2022"
+        },
+        {
+          "party": "PSL",
+          "period": "2018 - 2020"
+        }
+      ],
+      "currentAlliances": "Partido Liberal, base do governador Tarcísio de Freitas, movimentos de professores conservadores e frentes de defesa da mulher."
+    },
+    "pillars": {
+      "segurancaPublica": {
+        "proposal": "Criação de Casas da Mulher Paulista, monitoramento eletrônico de agressores e botão de pânico para vítimas.",
+        "implementation": "Implantação de dezenas de Casas da Mulher Paulista durante sua gestão como secretária de Estado."
+      },
+      "gastosPublicos": {
+        "proposal": "Eficiência na gestão orçamentária dos programas sociais estaduais e foco nas prioridades municipais.",
+        "implementation": "Execução orçamentária transparente e direcionada para a qualificação profissional de mulheres chefes de família."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Foco estatal nas políticas públicas essenciais com atração de investimento privado em infraestrutura.",
+        "implementation": "Apoio aos projetos estruturantes de privatização do governo de São Paulo na ALESP."
+      },
+      "saude": {
+        "proposal": "Prevenção ao câncer de mama e colo de útero e atendimento obstétrico humanizado em todo o interior de SP.",
+        "implementation": "Destinação de carretas móveis da mamografia para municípios carentes do interior do estado."
+      },
+      "educacao": {
+        "proposal": "Valorização dos professores do quadro do magistério estadual e implantação de métodos pedagógicos focados em alfabetização.",
+        "implementation": "Apoio à ampliação do ensino técnico das Etecs e Fatecs e voto favorável às escolas cívico-militares."
+      }
+    },
+    "legislativeVotes": [
+      {
+        "code": "Lei 17.865/2023",
+        "title": "Privatização da Sabesp",
+        "date": "2023",
+        "vote": "SIM",
+        "summary": "Votou pela concessão dos serviços de água e saneamento do Estado de São Paulo.",
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      },
+      {
+        "code": "LC 1.398/2024",
+        "title": "Escolas Cívico-Militares em SP",
+        "date": "2024",
+        "vote": "SIM",
+        "summary": "Votou pela instituição do modelo nas unidades escolares paulistas.",
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      },
+      {
+        "code": "Programa Casa da Mulher Paulista",
+        "title": "Estruturação do Atendimento Integrado à Mulher Vítima",
+        "date": "2023",
+        "vote": "SIM (SECRETÁRIA DE ESTADO)",
+        "summary": "Liderou no Poder Executivo a entrega de centros integrados de proteção psicológica e policial para mulheres.",
+        "source": "Governo do Estado de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      }
+    ],
+    "legalRecords": [
+      {
+        "caseName": "Certidões Cíveis e Eleitorais",
+        "source": "Tribunal Superior Eleitoral (TSE) / TRE-SP",
+        "processNumber": "Contas Eleitorais 2022 Aprovadas",
+        "investigationFindings": "Contas de campanhas julgadas regulares sem imputação de débito ou sanções.",
+        "legalOutcome": "Ficha Limpa 100%. Ausência de processos criminais ou condenações por improbidade administrativa. Ficha Limpa no TSE.",
+        "linkFonte": "https://www.tse.jus.br"
+      }
+    ]
+  },
+  {
+    "id": "paulo-mansur",
+    "name": "Paulo Mansur",
+    "nomeUrna": "Paulo Mansur",
+    "nomeCompleto": "Paulo Roberto Mansur Filho",
+    "ballotNumber": "22222",
+    "numeroUrna": 22222,
+    "party": "PL",
+    "coalition": "Partido Liberal",
+    "coligacaoOuFederacao": "Partido Liberal",
+    "role": "DEPUTADO_ESTADUAL_SP",
+    "cargo": "DEPUTADO_ESTADUAL_SP",
+    "fallbackPhoto": "https://www.al.sp.gov.br/repositorio/deputado/fotos/paulo_mansur.jpg",
+    "photoUrl": "https://www.al.sp.gov.br/repositorio/deputado/fotos/paulo_mansur.jpg",
+    "wikipediaSlug": "Paulo_Mansur",
+    "isBaseline": false,
+    "isBaselineReference": false,
+    "politicalTrajectory": {
+      "summary": "Empresário da comunicação e radiodifusão, eleito deputado estadual por São Paulo em 2022 com mais de 86 mil votos. Defensor da liberdade de expressão irrestrita, livre iniciativa empresarial e desregulamentação econômica no Estado.",
+      "officesHeld": [
+        {
+          "role": "Deputado Estadual (ALESP)",
+          "period": "2023 - Presente",
+          "location": "São Paulo"
+        }
+      ],
+      "partyHistory": [
+        {
+          "party": "PL",
+          "period": "2022 - Presente"
+        }
+      ],
+      "currentAlliances": "Partido Liberal, bancada liberal da ALESP, empreendedores de comunicação e setores do comércio paulista."
+    },
+    "pillars": {
+      "segurancaPublica": {
+        "proposal": "Segurança jurídica para empresas, combate ao furto de cabos e comércio ilegal de peças automotivas.",
+        "implementation": "Proposição de leis estaduais endurecendo a fiscalização em ferros-velhos e receptadores de mercadoria roubada."
+      },
+      "gastosPublicos": {
+        "proposal": "Extinção de taxas estaduais abusivas e redução dos custos com burocracia para abertura de negócios.",
+        "implementation": "Voto a favor de pacotes de simplificação tributária e congelamento de novas taxas administrativas."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Privatização de empresas públicas ineficientes e defesa da liberdade de mercado.",
+        "implementation": "Voto favorável à privatização da Sabesp e da Emae na ALESP."
+      },
+      "saude": {
+        "proposal": "Incentivo à telemedicina em municípios do interior paulista e parcerias com o setor privado.",
+        "implementation": "Emendas para telemedicina em postos de saúde de municípios de pequeno porte."
+      },
+      "educacao": {
+        "proposal": "Ensino financeiro e empreendedorismo nas escolas estaduais e combate à doutrinação política.",
+        "implementation": "Apresentação de projeto para inclusão de noções de economia básica e apoio às escolas cívico-militares."
+      }
+    },
+    "legislativeVotes": [
+      {
+        "code": "Lei 17.865/2023",
+        "title": "Privatização da Sabesp",
+        "date": "2023",
+        "vote": "SIM",
+        "summary": "Votou pela desestatização da companhia de água de São Paulo.",
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      },
+      {
+        "code": "LC 1.398/2024",
+        "title": "Escolas Cívico-Militares",
+        "date": "2024",
+        "vote": "SIM",
+        "summary": "Votou a favor da criação do modelo cívico-militar nas escolas estaduais.",
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      },
+      {
+        "code": "Combate ao Furto de Fios e Cabos",
+        "title": "Rigor contra Receptação de Metais em SP",
+        "date": "2023",
+        "vote": "SIM (COAUTOR)",
+        "summary": "Coautor de medidas para cassação de inscrição estadual de comércios que vendem cabos roubados.",
+        "source": "Assembleia Legislativa de SP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      }
+    ],
+    "legalRecords": [
+      {
+        "caseName": "Certidões Cíveis e Eleitorais",
+        "source": "Tribunal Superior Eleitoral (TSE)",
+        "processNumber": "Prestação de Contas 2022",
+        "investigationFindings": "Verificação da regularidade fiscal e criminal do parlamentar.",
+        "legalOutcome": "Ficha Limpa 100%. Nenhuma condenação criminal ou administrativa. Ficha Limpa no TSE.",
+        "linkFonte": "https://www.tse.jus.br"
+      }
+    ]
   },
   {
     "id": "eduardo-suplicy",
@@ -476,7 +1001,7 @@
     "role": "DEPUTADO_ESTADUAL_SP",
     "cargo": "DEPUTADO_ESTADUAL_SP",
     "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Eduardo_Suplicy_em_2022.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Eduardo_Suplicy_2013.JPG/330px-Eduardo_Suplicy_2013.JPG?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Eduardo_Suplicy_em_2022.jpg",
     "wikipediaSlug": "Eduardo_Suplicy",
     "isBaseline": true,
     "isBaselineReference": true,
@@ -593,7 +1118,6 @@
         "legalOutcome": "Ficha Limpa Exemplar e Zero Condenações por Corrupção. Ausência de qualquer processo ou condenação por crimes contra a administração pública, desvio de dinheiro público ou improbidade.",
         "linkFonte": "https://www.tse.jus.br"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Eduardo_Suplicy_2013.JPG/330px-Eduardo_Suplicy_2013.JPG?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   }
 ]

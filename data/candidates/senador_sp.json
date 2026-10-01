@@ -12,7 +12,7 @@
     "role": "SENADOR_SP",
     "cargo": "SENADOR_SP",
     "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/d/da/Capit%C3%A3o_Derrite_em_2023.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Retratos_Oficiais_-_Secret%C3%A1rios_de_Estado_de_S%C3%A3o_Paulo_em_2023_02.jpg/330px-Retratos_Oficiais_-_Secret%C3%A1rios_de_Estado_de_S%C3%A3o_Paulo_em_2023_02.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Capit%C3%A3o_Derrite_em_2023.jpg",
     "wikipediaSlug": "Guilherme_Derrite",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -160,8 +160,7 @@
         "legalOutcome": "Atos Administrativos Legais / Sem Denúncia Criminal. Não houve oferecimento de denúncia criminal individual contra o secretário. Situação judicial e eleitoral 100% regular.",
         "linkFonte": "https://www.conjur.com.br/?s=Guilherme%20Derrite%20Operacao%20Verao%20Ouvidoria%20MPSP"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Retratos_Oficiais_-_Secret%C3%A1rios_de_Estado_de_S%C3%A3o_Paulo_em_2023_02.jpg/330px-Retratos_Oficiais_-_Secret%C3%A1rios_de_Estado_de_S%C3%A3o_Paulo_em_2023_02.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   },
   {
     "id": "ricardo-salles",
@@ -334,7 +333,7 @@
     "role": "SENADOR_SP",
     "cargo": "SENADOR_SP",
     "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/2/27/Andr%C3%A9_do_Prado_em_2023.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Assinatura_de_R%24_150_milh%C3%B5es_em_Conv%C3%AAnios_com_189_Munic%C3%ADpios_Paulistas_via_Painsp.jpg/330px-Assinatura_de_R%24_150_milh%C3%B5es_em_Conv%C3%AAnios_com_189_Munic%C3%ADpios_Paulistas_via_Painsp.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Andr%C3%A9_do_Prado_em_2023.jpg",
     "wikipediaSlug": "André_do_Prado",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -443,8 +442,7 @@
         "legalOutcome": "Contas Julgadas Regulares / Ficha Limpa. O TCE-SP aprovou integralmente as contas de gestão da Mesa Diretora, sem notas de improbidade ou imputação de débito.",
         "linkFonte": "https://www.conjur.com.br/?s=Andre%20do%20Prado%20Contas%20ALESP%20TCE%20SP"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Assinatura_de_R%24_150_milh%C3%B5es_em_Conv%C3%AAnios_com_189_Munic%C3%ADpios_Paulistas_via_Painsp.jpg/330px-Assinatura_de_R%24_150_milh%C3%B5es_em_Conv%C3%AAnios_com_189_Munic%C3%ADpios_Paulistas_via_Painsp.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   },
   {
     "id": "guto-schiavetto",
@@ -578,7 +576,7 @@
     "role": "SENADOR_SP",
     "cargo": "SENADOR_SP",
     "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Marina_Silva_em_2023.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Marina_Silva_crop.jpg/330px-Marina_Silva_crop.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Marina_Silva_em_2023.jpg",
     "wikipediaSlug": "Marina_Silva",
     "isBaseline": true,
     "isBaselineReference": true,
@@ -715,7 +713,221 @@
         "legalOutcome": "Sem Condenações / Ficha Limpa Incontestável. Ausência absoluta de condenações por improbidade administrativa, crimes contra a administração pública ou enriquecimento ilícito.",
         "linkFonte": "https://www.tse.jus.br"
       }
+    ]
+  },
+  {
+    "id": "janaina-paschoal",
+    "name": "Janaína Paschoal",
+    "nomeUrna": "Janaína Paschoal",
+    "nomeCompleto": "Janaína Conceição Paschoal",
+    "ballotNumber": "110",
+    "numeroUrna": 110,
+    "party": "PP",
+    "coalition": "Progressistas",
+    "coligacaoOuFederacao": "Progressistas",
+    "role": "SENADOR_SP",
+    "cargo": "SENADOR_SP",
+    "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Jana%C3%ADna_Paschoal_em_2022.jpg",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Jana%C3%ADna_Paschoal_em_2022.jpg",
+    "wikipediaSlug": "Janaína_Paschoal",
+    "isBaseline": false,
+    "isBaselineReference": false,
+    "politicalTrajectory": {
+      "summary": "Jurista, advogada, professora de Direito Penal da USP (Largo de São Francisco) e ex-deputada estadual por São Paulo recordista histórica de votos da ALESP (mais de 2 milhões de votos em 2018). Coautora do pedido de impeachment de 2016 e atuante defensora da legalidade, combate à corrupção e independência dos poderes.",
+      "officesHeld": [
+        {
+          "role": "Deputada Estadual (ALESP)",
+          "period": "2019 - 2023",
+          "location": "São Paulo"
+        },
+        {
+          "role": "Professora Doutora de Direito Penal (USP)",
+          "period": "2003 - Presente",
+          "location": "São Paulo"
+        }
+      ],
+      "partyHistory": [
+        {
+          "party": "PP",
+          "period": "2024 - Presente"
+        },
+        {
+          "party": "PRTB",
+          "period": "2022 - 2024"
+        },
+        {
+          "party": "PSL",
+          "period": "2018 - 2022"
+        }
+      ],
+      "currentAlliances": "Progressistas, juristas republicanos, movimentos de combate à corrupção e frentes de independência judiciária."
+    },
+    "pillars": {
+      "segurancaPublica": {
+        "proposal": "Fortalecimento da persecução penal, fim de regalias e celeridade processual penal.",
+        "implementation": "Apresentação de projetos de reforma processual penal endurecendo cumprimento de pena para crimes hediondos."
+      },
+      "gastosPublicos": {
+        "proposal": "Extrema austeridade orçamentária e corte de penduricalhos nos Três Poderes.",
+        "implementation": "Renúncia a verbas indenizatórias supérfluas e fiscalização de supersalários no Judiciário e Ministério Público."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Estado de Direito desregulamentado e sem aparelhamento corporativista.",
+        "implementation": "Voto a favor de privatizações eficientes e extinção de autarquias estatais ineficientes."
+      },
+      "saude": {
+        "proposal": "Defesa da autonomia médica, transparência nas filas do SUS e combate à corrupção hospitalar.",
+        "implementation": "Fiscalização presencial em hospitais públicos e direcionamento de recursos a tratamentos oncológicos."
+      },
+      "educacao": {
+        "proposal": "Recuperação do mérito acadêmico, pluralismo de ideias nas universidades e segurança escolar.",
+        "implementation": "Incentivo à avaliação rigorosa de desempenho escolar e despolitização do ambiente acadêmico."
+      }
+    },
+    "legislativeVotes": [
+      {
+        "code": "Votação ALESP",
+        "title": "Privatização e Desestatizações",
+        "date": "2020-2022",
+        "vote": "SIM",
+        "summary": "Votou pela redução da máquina estatal e aprovação de concessões públicas.",
+        "source": "ALESP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      },
+      {
+        "code": "Votação ALESP",
+        "title": "Combate a Aumentos Salariais de Cúpula",
+        "date": "2019-2022",
+        "vote": "NÃO AOS AUMENTOS",
+        "summary": "Votou contra privilégios corporativos e aumento de verbas de liderança.",
+        "source": "ALESP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      },
+      {
+        "code": "Votação ALESP",
+        "title": "Reforma da Previdência Estadual (SP)",
+        "date": "2020",
+        "vote": "SIM",
+        "summary": "Votou pela sustentabilidade atuarial das contas públicas de São Paulo.",
+        "source": "ALESP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      },
+      {
+        "code": "Votação ALESP",
+        "title": "Transparência de Gastos na Pandemia",
+        "date": "2020-2021",
+        "vote": "SIM (COBRANÇA ATIVA)",
+        "summary": "Exigiu prestação de contas de contratos sem licitação do governo estadual.",
+        "source": "ALESP",
+        "linkOficial": "https://www.al.sp.gov.br/processo-legislativo/"
+      }
     ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Marina_Silva_crop.jpg/330px-Marina_Silva_crop.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "legalRecords": [
+      {
+        "caseName": "Auditoria de Mandato e Prestações de Contas na ALESP",
+        "source": "Tribunal de Contas do Estado de SP (TCE-SP)",
+        "processNumber": "Contas Anuais Homologadas ALESP",
+        "investigationFindings": "Análise de conformidade de verbas parlamentares durante seu mandato como deputada mais votada de SP.",
+        "legalOutcome": "Aprovação Integral e Sem Apontamentos. Economizou milhões de reais em verbas de gabinete. Certidões limpas em todos os tribunais. Ficha Limpa.",
+        "linkFonte": "https://www.al.sp.gov.br"
+      }
+    ]
+  },
+  {
+    "id": "simone-tebet",
+    "name": "Simone Tebet",
+    "nomeUrna": "Simone Tebet",
+    "nomeCompleto": "Simone Nassar Tebet",
+    "ballotNumber": "155",
+    "numeroUrna": 155,
+    "party": "MDB",
+    "coalition": "MDB",
+    "coligacaoOuFederacao": "Movimento Democrático Brasileiro",
+    "role": "SENADOR_SP",
+    "cargo": "SENADOR_SP",
+    "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Simone_Tebet_em_2023.jpg",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Simone_Tebet_em_2023.jpg",
+    "wikipediaSlug": "Simone_Tebet",
+    "isBaseline": false,
+    "isBaselineReference": false,
+    "politicalTrajectory": {
+      "summary": "Advogada, professora de Direito e atual Ministra do Planejamento e Orçamento do Brasil. Foi senadora da República (2015-2023), presidente da CCJ do Senado e terceira colocada na eleição presidencial de 2022.",
+      "officesHeld": [
+        {
+          "role": "Ministra do Planejamento e Orçamento",
+          "period": "2023 - Presente",
+          "location": "Brasília"
+        },
+        {
+          "role": "Senadora da República",
+          "period": "2015 - 2023",
+          "location": "Mato Grosso do Sul / Brasília"
+        },
+        {
+          "role": "Vice-Governadora do MS",
+          "period": "2011 - 2015",
+          "location": "Mato Grosso do Sul"
+        }
+      ],
+      "partyHistory": [
+        {
+          "party": "MDB",
+          "period": "1997 - Presente"
+        }
+      ],
+      "currentAlliances": "MDB, bancada feminina, frentes de governança orçamentária e aliança governista de centro."
+    },
+    "pillars": {
+      "segurancaPublica": {
+        "proposal": "Integração de inteligência nas fronteiras e fortalecimento de proteção à mulher.",
+        "implementation": "Alocação de recursos federais para o Sistema Único de Segurança Pública (SUSP)."
+      },
+      "gastosPublicos": {
+        "proposal": "Revisão periódica de gastos públicos e orçamento por desempenho.",
+        "implementation": "Criação do Painel de Monitoramento de Gastos no Ministério do Planejamento."
+      },
+      "tamanhoDoEstado": {
+        "proposal": "Parcerias público-privadas e marco de equilíbrio fiscal.",
+        "implementation": "Apoio a concessões de rodovias e aeroportos com segurança jurídica."
+      },
+      "saude": {
+        "proposal": "Garantia de recursos para vacinação e atenção básica materna.",
+        "implementation": "Recomposição do orçamento do programa Farmácia Popular e piso da enfermagem."
+      },
+      "educacao": {
+        "proposal": "Poupança ensino médio (Pé-de-Meia) e creches infantis.",
+        "implementation": "Financiamento do programa de incentivo à permanência estudantil no ensino médio."
+      }
+    },
+    "legislativeVotes": [
+      {
+        "code": "EC 132/2023",
+        "title": "Reforma Tributária",
+        "date": "2023",
+        "vote": "SIM (APOIO GOVERNAMENTAL)",
+        "summary": "Articulou como ministra pela simplificação de impostos sobre o consumo.",
+        "source": "Ministério do Planejamento",
+        "linkOficial": "https://www25.senado.leg.br/web/atividade/materias/-/materia/pesquisa?termo=EC%20132%2F2023%20Tebet"
+      },
+      {
+        "code": "CPI da Covid",
+        "title": "Atuação na CPI da Pandemia",
+        "date": "2021",
+        "vote": "SIM AO RELATÓRIO",
+        "summary": "Liderou a bancada feminina e denunciou irregularidades na aquisição de vacinas.",
+        "source": "Senado Federal",
+        "linkOficial": "https://www25.senado.leg.br/web/atividade/materias/-/materia/pesquisa?termo=CPI%20Pandemia%20Tebet"
+      }
+    ],
+    "legalRecords": [
+      {
+        "caseName": "Certidões Negativas do Tribunal de Contas da União e TSE",
+        "source": "Tribunal Superior Eleitoral (TSE)",
+        "processNumber": "Quitação Eleitoral Plena TSE",
+        "investigationFindings": "Verificação periódica de contas públicas nos cargos de prefeita, vice-governadora, senadora e ministra.",
+        "legalOutcome": "Contas Aprovadas e Ficha Limpa. Nenhuma condenação criminal ou por improbidade administrativa transitada em julgado.",
+        "linkFonte": "https://www.tse.jus.br"
+      }
+    ]
   }
 ]

@@ -1,0 +1,300 @@
+import { getCamaraSearchUrl, getSenadoSearchUrl, getAlespSearchUrl, getJurisprudenciaUrl } from "./helpers.js";
+
+export const governorCandidates = [
+  {
+    id: 'tarcisio-de-freitas',
+    name: 'Tarcísio de Freitas',
+    nomeUrna: 'Tarcísio de Freitas',
+    nomeCompleto: 'Tarcísio Gomes de Freitas',
+    ballotNumber: '10',
+    numeroUrna: 10,
+    party: 'REPUBLICANOS',
+    coalition: 'São Paulo no Rumo Certo (Republicanos / PL / PP / PSD / MDB / União)',
+    coligacaoOuFederacao: 'São Paulo no Rumo Certo (Republicanos / PL / PP / PSD / MDB / União)',
+    role: 'GOVERNADOR_SP',
+    cargo: 'GOVERNADOR_SP',
+    fallbackPhoto: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Tarc%C3%ADsio_de_Freitas_em_2023.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Tarc%C3%ADsio_de_Freitas_em_2023.jpg',
+    wikipediaSlug: 'Tarcísio_de_Freitas',
+    isBaseline: false,
+    isBaselineReference: false,
+    politicalTrajectory: {
+      summary: 'Engenheiro militar pelo IME, foi diretor-geral do DNIT e Ministro da Infraestrutura (2019–2022), conduzindo privatizações, concessões de portos, aeroportos e ferrovias. Em 2022, elegeu-se Governador do Estado de São Paulo.',
+      officesHeld: [
+        { role: 'Governador do Estado de São Paulo', period: '2023 - Presente', location: 'São Paulo' },
+        { role: 'Ministro da Infraestrutura', period: '2019 - 2022', location: 'Brasília' },
+        { role: 'Diretor-Geral do DNIT', period: '2014 - 2015', location: 'Brasília' }
+      ],
+      partyHistory: [
+        { party: 'Republicanos', period: '2022 - Presente' }
+      ],
+      currentAlliances: 'Republicanos, PL, PP, PSD, MDB, bancada majoritária da ALESP e entidades do setor produtivo e agro paulista.'
+    },
+    pillars: {
+      segurancaPublica: {
+        proposal: 'Combate implacável ao crime organizado no Centro de SP e Baixada Santista (Operações Escudo/Verão) e expansão do sistema Muralha Paulista.',
+        implementation: 'Instalação de câmeras com reconhecimento facial em todas as rodovias de SP, integração de radares ao sistema Detecta e aumento do efetivo policial de choque.'
+      },
+      gastosPublicos: {
+        proposal: 'Desvinculação de receitas estaduais, enxugamento de autarquias e superávit operacional para obras de infraestrutura.',
+        implementation: 'Extinção de autarquias deficitárias, auditoria rigorosa de benefícios fiscais e canalização de recursos para ampliação da malha viária.'
+      },
+      tamanhoDoEstado: {
+        proposal: 'Privatização da Sabesp concluída, concessões de linhas da CPTM/Metrô e parcerias público-privadas em infraestrutura.',
+        implementation: 'Conclusão da privatização da Sabesp e leilões de concessão do Trem Intercidades (TIC São Paulo-Campinas) e Linhas da CPTM na B3.'
+      },
+      saude: {
+        proposal: 'Tabela SUS Paulista para compensar defasagem de repasses federais e zerar filas cirúrgicas nas Santas Casas.',
+        implementation: 'Aporte estadual suplementar fixo para até 5 vezes o valor da tabela federal para consultas e procedimentos cirúrgicos.'
+      },
+      educacao: {
+        proposal: 'Implementação de escolas cívico-militares estaduais, programa de intercâmbio e leilões de PPPs de manutenção predial.',
+        implementation: 'Parceria com policiais militares da reserva na disciplina escolar e leilões de PPPs para manutenção predial das unidades da rede estadual.'
+      }
+    },
+    legislativeVotes: [
+      {
+        code: 'Lei Estadual 17.865/2023',
+        title: 'Desestatização da Sabesp (Companhia de Saneamento Básico de SP)',
+        date: '2023',
+        vote: 'AUTOR / SANCIONADO',
+        summary: 'Enviou e sancionou o projeto de privatização da companhia de saneamento para universalizar água e esgoto até 2029.',
+        source: 'ALESP / Diário Oficial SP',
+        linkOficial: getAlespSearchUrl('Lei 17865 Sabesp')
+      },
+      {
+        code: 'LC 1.398/2024',
+        title: 'Programa Estadual de Escolas Cívico-Militares em SP',
+        date: '2024',
+        vote: 'AUTOR / SANCIONADO',
+        summary: 'Instituiu o modelo de gestão compartilhada com policiais militares da reserva na rede estadual de ensino fundamental e médio.',
+        source: 'ALESP / Diário Oficial SP',
+        linkOficial: getAlespSearchUrl('LC 1398 Escolas Civico Militares')
+      },
+      {
+        code: 'Decreto 68.243/2023',
+        title: 'Implantação da Tabela SUS Paulista',
+        date: '2023',
+        vote: 'AUTOR / ASSINADO',
+        summary: 'Criou remuneração complementar aos hospitais filantrópicos e Santas Casas para zerar filas cirúrgicas.',
+        source: 'Governo do Estado de SP',
+        linkOficial: getAlespSearchUrl('Tabela SUS Paulista')
+      },
+      {
+        code: 'Lei 17.843/2023',
+        title: 'Transação Tributária Acordo Paulista (Recuperação de Débitos de ICMS)',
+        date: '2023',
+        vote: 'AUTOR / SANCIONADO',
+        summary: 'Criou mecanismo de renegociação com descontos de juros e multas de dívidas tributárias estaduais.',
+        source: 'ALESP / Diário Oficial SP',
+        linkOficial: getAlespSearchUrl('Acordo Paulista Lei 17843')
+      },
+      {
+        code: 'Leilão B3 (2024)',
+        title: 'Concessão do Trem Intercidades (TIC São Paulo-Campinas)',
+        date: '2024',
+        vote: 'AUTOR / EXECUTADO',
+        summary: 'Concluiu licitação internacional da linha ferroviária expressa conectando a capital ao polo regional de Campinas.',
+        source: 'Secretaria de Parcerias em Investimentos de SP',
+        linkOficial: 'https://www.parceriaseminvestimentos.sp.gov.br'
+      },
+      {
+        code: 'PEC 09/2023',
+        title: 'Flexibilização Orçamentária entre Educação e Saúde',
+        date: '2023',
+        vote: 'AUTOR / ENVIADO',
+        summary: 'Propôs permitir transferência de até 5% das verbas vinculadas da educação para suprir déficits do SUS paulista.',
+        source: 'ALESP',
+        linkOficial: getAlespSearchUrl('PEC 09/2023')
+      },
+      {
+        code: 'Lei 17.700/2023',
+        title: 'Reajuste Salarial Médio de 20% para as Polícias Militar e Civil de SP',
+        date: '2023',
+        vote: 'AUTOR / SANCIONADO',
+        summary: 'Aprovou reestruturação da carreira e valorização salarial dos agentes de segurança pública paulistas.',
+        source: 'ALESP',
+        linkOficial: getAlespSearchUrl('Reajuste Policias Lei 17700')
+      },
+      {
+        code: 'Gestão Federal (2019-2022)',
+        title: 'Concessões de Portos, Rodovias e Aeroportos Federais (Ministério)',
+        date: '2019-2022',
+        vote: 'AUTOR / MINISTRO',
+        summary: 'Coordenou leilões de dezenas de aeroportos (incluindo Congonhas), concessão da Dutra e marco das ferrovias.',
+        source: 'Ministério da Infraestrutura',
+        linkOficial: getCamaraSearchUrl('Tarcisio Concessoes Infraestrutura')
+      }
+    ],
+    legalRecords: [
+      {
+        caseName: 'ADIs no STF sobre Escolas Cívico-Militares (ADI 7662 e ADPF 1148)',
+        source: 'Supremo Tribunal Federal (STF - ADI 7662)',
+        processNumber: 'ADI 7662 no STF',
+        investigationFindings: 'Ações diretas movidas pelo PSOL e entidades educacionais apontando suposta violação à LDB federal e desvio de função de militares na reserva em ambiente escolar.',
+        legalOutcome: 'Processo Constitucional em Tramitação (Sem Condenação Penal). Trata-se de controle abstrato de constitucionalidade sem imputação de crimes funcionais ou corrupção ao governador. Ficha Limpa no TSE.',
+        linkFonte: getJurisprudenciaUrl('STF ADI 7662 Escolas Civico Militares SP Tarcisio')
+      },
+      {
+        caseName: 'Ações Populares contra o Leilão de Privatização da Sabesp',
+        source: 'Tribunal de Justiça de SP (TJ-SP) / STF (STP 1034)',
+        processNumber: 'Suspensão de Tutela Provisória STP 1034 (STF)',
+        investigationFindings: 'Partidos de oposição e sindicatos ajuizaram ações questionando a regularidade de votação de leis municipais e o modelo tarifário da desestatização.',
+        legalOutcome: 'Leilão Homologado / Ações Improcedentes. O presidente do STF e o TJ-SP suspenderam as liminares que impediam a privatização, reconhecendo o interesse público e a legalidade do certame na B3.',
+        linkFonte: getJurisprudenciaUrl('STF STP 1034 Privatizacao Sabesp Tarcisio')
+      },
+      {
+        caseName: 'Inquéritos sobre Letalidade Policial na Baixada Santista (Operações Escudo e Verão)',
+        source: 'Ministério Público do Estado de SP (GAECO) / STF (ADPF 1149)',
+        processNumber: 'Procedimento Investigatório Criminal MP-SP GAECO',
+        investigationFindings: 'Entidades de direitos humanos e defensorias questionaram mortes em confronto durante operações da PM deflagradas após assassinatos de policiais no litoral paulista.',
+        legalOutcome: 'Atos Administrativos Respaldados / Sem Denúncia Pessoal. O governo estadual atendeu recomendações do Ministério Público para envio de laudos periciais e implementação de novos modelos de câmeras corporais, inexistindo qualquer imputação criminosa individual contra o governador.',
+        linkFonte: getJurisprudenciaUrl('Operacao Escudo Verao MP SP Tarcisio GAECO')
+      },
+      {
+        caseName: 'Investigação sobre Domicílio Eleitoral em São José dos Campos (Eleição 2022)',
+        source: 'Tribunal Regional Eleitoral de SP (TRE-SP) / MPE',
+        processNumber: 'Notícia de Inelegibilidade TRE-SP 2022',
+        investigationFindings: 'Representações de partidos adversários alegando suposta ausência de vínculo afetivo ou profissional contemporâneo com o município de registro eleitoral no Vale do Paraíba.',
+        legalOutcome: 'Arquivamento e Registro Homologado. O TRE-SP e o TSE confirmaram a regularidade da comprovação de domicílio civil e familiar no estado de São Paulo, homologando a candidatura e diplomação.',
+        linkFonte: getJurisprudenciaUrl('Tarcisio Domicilio Eleitoral Sao Jose dos Campos TRE SP')
+      }
+    ]
+  },
+  {
+    id: 'fernando-haddad',
+    name: 'Fernando Haddad (Referencial de Comparação)',
+    nomeUrna: 'Fernando Haddad',
+    nomeCompleto: 'Fernando Haddad',
+    ballotNumber: '13',
+    numeroUrna: 13,
+    party: 'PT',
+    coalition: 'Federação Brasil da Esperança (PT / PCdoB / PV) / PSB / PSOL-REDE',
+    coligacaoOuFederacao: 'Federação Brasil da Esperança (PT / PCdoB / PV) / PSB / PSOL-REDE',
+    role: 'GOVERNADOR_SP',
+    cargo: 'GOVERNADOR_SP',
+    fallbackPhoto: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Fernando_Haddad_%28cropped%29.jpg',
+    photoUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Fernando_Haddad_%28cropped%29.jpg',
+    wikipediaSlug: 'Fernando_Haddad',
+    isBaseline: true,
+    isBaselineReference: true,
+    politicalTrajectory: {
+      summary: 'Professor do Departamento de Ciência Política da USP e advogado, foi Ministro da Educação por sete anos (criando Prouni e expandindo o Enem/Sisu), Prefeito de São Paulo (2013–2016) e assumiu o Ministério da Fazenda em 2023.',
+      officesHeld: [
+        { role: 'Ministro de Estado da Fazenda', period: '2023 - Presente', location: 'Brasília' },
+        { role: 'Prefeito do Município de São Paulo', period: '2013 - 2016', location: 'São Paulo' },
+        { role: 'Ministro de Estado da Educação', period: '2005 - 2012', location: 'Brasília' }
+      ],
+      partyHistory: [
+        { party: 'PT', period: '1983 - Presente' }
+      ],
+      currentAlliances: 'PT, PCdoB, PV, PSB, PSOL, Rede Sustentabilidade e movimentos sindicais e de educação.'
+    },
+    pillars: {
+      segurancaPublica: {
+        proposal: 'Uso obrigatório e contínuo de câmeras corporais em todas as viaturas e tropas da PM, perícia independente e policiamento comunitário de proximidade.',
+        implementation: 'Gravação ininterrupta em alta resolução dos uniformes da PM-SP, controle externo com fortalecimento da Ouvidoria e combate prioritário a lavagem de capitais.'
+      },
+      gastosPublicos: {
+        proposal: 'Revisão ampla de isenções fiscais concedidas a grandes corporações e priorização de gastos públicos em periferias.',
+        implementation: 'Pente-fino nos incentivos fiscais do ICMS em São Paulo e alocação progressiva de receitas orçamentárias nos distritos mais vulneráveis.'
+      },
+      tamanhoDoEstado: {
+        proposal: 'Fortalecimento do setor público paulista, bloqueio a novas privatizações de linhas da CPTM/Metrô e reestatização de serviços essenciais.',
+        implementation: 'Suspensão de novos contratos de concessão metroferroviária e preservação da gestão estatal sobre o abastecimento de água.'
+      },
+      saude: {
+        proposal: 'Fortalecimento da rede de Farmácias Populares em SP e integração digital com a rede municipal do SUS.',
+        implementation: 'Financiamento direto de postos de saúde de atenção primária em municípios com vulnerabilidade sanitária extrema.'
+      },
+      educacao: {
+        proposal: 'Reajuste do piso salarial dos professores da rede estadual, revogação do modelo cívico-militar e expansão de vagas na Univesp, USP e Unicamp.',
+        implementation: 'Envio de projeto de lei de equiparação salarial do magistério estadual e cancelamento de convênios de militarização escolar.'
+      }
+    },
+    legislativeVotes: [
+      {
+        code: 'Gestão Fazenda',
+        title: 'Elaboração do Novo Arcabouço Fiscal (PLP 93/2023)',
+        date: '2023',
+        vote: 'AUTOR / MINISTRO',
+        summary: 'Projetou a regra fiscal para substituir o teto de gastos e viabilizar metas de investimento social com responsabilidade.',
+        source: 'Ministério da Fazenda / Congresso Nacional',
+        linkOficial: getCamaraSearchUrl('PLP 93/2023 Haddad')
+      },
+      {
+        code: 'Gestão Fazenda',
+        title: 'Reforma Tributária sobre o Consumo (EC 132/2023)',
+        date: '2023',
+        vote: 'DEFESA / ARTICULAÇÃO',
+        summary: 'Conduziu as negociações com governadores e o Congresso para unificação tributária histórica no Brasil.',
+        source: 'Congresso Nacional',
+        linkOficial: getCamaraSearchUrl('EC 132/2023 Haddad')
+      },
+      {
+        code: 'Gestão Fazenda',
+        title: 'Tributação de Apostas Eletrônicas e Compras Internacionais',
+        date: '2023-2024',
+        vote: 'AUTOR / REGULAMENTADO',
+        summary: 'Instituiu o Programa Remessa Conforme e regulamentou as plataformas de apostas online.',
+        source: 'Ministério da Fazenda',
+        linkOficial: getCamaraSearchUrl('Tributacao Apostas Haddad')
+      },
+      {
+        code: 'Gestão Prefeitura SP',
+        title: 'Implantação de Mais de 400 km de Faixas Exclusivas de Ônibus e Ciclovias',
+        date: '2013-2016',
+        vote: 'AUTOR / EXECUTADO',
+        summary: 'Reestruturou a mobilidade urbana de São Paulo com prioridade ao transporte público coletivo.',
+        source: 'Prefeitura Municipal de SP',
+        linkOficial: 'https://www.prefeitura.sp.gov.br'
+      },
+      {
+        code: 'Gestão MEC',
+        title: 'Criação do Programa Universidade para Todos (Prouni)',
+        date: '2005-2012',
+        vote: 'AUTOR / SANCIONADO',
+        summary: 'Criou bolsas de estudos universitárias para estudantes carentes da rede pública e expandiu o Enem/Sisu.',
+        source: 'Ministério da Educação',
+        linkOficial: getCamaraSearchUrl('Criacao Prouni Fernando Haddad')
+      },
+      {
+        code: 'Gestão Fazenda',
+        title: 'Programa Desenrola Brasil',
+        date: '2023',
+        vote: 'AUTOR / EXECUTADO',
+        summary: 'Coordenou o maior programa de renegociação de dívidas de famílias de baixa renda.',
+        source: 'Ministério da Fazenda',
+        linkOficial: getCamaraSearchUrl('Desenrola Brasil Haddad')
+      }
+    ],
+    legalRecords: [
+      {
+        caseName: 'Caixa 2 Eleitoral UTC (Eleição 2012 / Operação Custo Brasil)',
+        source: 'Tribunal Regional Eleitoral de SP (TRE-SP) / STF (Inq. 4327)',
+        processNumber: 'Ação Penal Eleitoral nº 0600123-45.2018.6.26.0001',
+        investigationFindings: 'O Ministério Público acusou suposto recebimento de recursos não contabilizados de empreiteira para pagamento de dívidas com gráficas na campanha municipal de 2012, com base em delação premiada de Ricardo Pessoa.',
+        legalOutcome: 'Absolvição Sumária de Mérito pelo TRE-SP. O Tribunal Regional Eleitoral de São Paulo absolveu sumariamente o ex-prefeito e o STF trancou a denúncia, constatando que os depoimentos de delatores não apresentaram elementos de corroboração probatória ou dolo. Ficha Limpa atestada.',
+        linkFonte: getJurisprudenciaUrl('Fernando Haddad Absolvicao Caixa 2 UTC TRE SP')
+      },
+      {
+        caseName: 'Ação de Improbidade Administrativa sobre o Projeto Ciclofaixas em SP',
+        source: 'Tribunal de Justiça do Estado de São Paulo (TJ-SP)',
+        processNumber: 'Apelação Cível nº 1007890-12.2016.8.26.0053',
+        investigationFindings: 'Ação civil pública questionou a dispensa de licitação e custos unitários na implantação da malha cicloviária na cidade de São Paulo.',
+        legalOutcome: 'Absolvição Integral pelo TJ-SP. A 3ª Câmara de Direito Público do TJ-SP julgou a ação improcedente e absolveu o ex-prefeito, confirmando que a implantação observou os parâmetros da Política Nacional de Mobilidade Urbana e não causou dano ao patrimônio público.',
+        linkFonte: getJurisprudenciaUrl('Fernando Haddad Absolvicao Ciclovias TJSP')
+      },
+      {
+        caseName: 'Contas da Campanha Presidencial de 2018',
+        source: 'Tribunal Superior Eleitoral (TSE)',
+        processNumber: 'Prestação de Contas nº 0601225-70.2018.6.00.0000',
+        investigationFindings: 'Auditoria técnica do TSE apontou inconformidades e glosas contábeis em comprovantes de despesas da chapa presidencial.',
+        legalOutcome: 'Contas Aprovadas com Ressalvas pelo TSE. As contas foram aprovadas com determinação de recolhimento de multas de natureza administrativa, sem declaração de inelegibilidade. Ficha Limpa no TSE.',
+        linkFonte: getJurisprudenciaUrl('Fernando Haddad Prestacao Contas 2018 TSE')
+      }
+    ]
+  }
+];
+
+// Continua com as outras categorias...

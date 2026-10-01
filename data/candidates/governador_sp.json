@@ -12,7 +12,7 @@
     "role": "GOVERNADOR_SP",
     "cargo": "GOVERNADOR_SP",
     "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Tarc%C3%ADsio_de_Freitas_em_2023.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Governador_do_Estado_de_S%C3%A3o_Paulo%2C_Tarc%C3%ADsio_de_Freitas_-_Foto_Oficial_%28cropped%29.jpg/330px-Governador_do_Estado_de_S%C3%A3o_Paulo%2C_Tarc%C3%ADsio_de_Freitas_-_Foto_Oficial_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Tarc%C3%ADsio_de_Freitas_em_2023.jpg",
     "wikipediaSlug": "Tarcísio_de_Freitas",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -172,8 +172,7 @@
         "legalOutcome": "Arquivamento e Registro Homologado. O TRE-SP e o TSE confirmaram a regularidade da comprovação de domicílio civil e familiar no estado de São Paulo, homologando a candidatura e diplomação.",
         "linkFonte": "https://www.conjur.com.br/?s=Tarcisio%20Domicilio%20Eleitoral%20Sao%20Jose%20dos%20Campos%20TRE%20SP"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Governador_do_Estado_de_S%C3%A3o_Paulo%2C_Tarc%C3%ADsio_de_Freitas_-_Foto_Oficial_%28cropped%29.jpg/330px-Governador_do_Estado_de_S%C3%A3o_Paulo%2C_Tarc%C3%ADsio_de_Freitas_-_Foto_Oficial_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   },
   {
     "id": "fernando-haddad",
@@ -188,7 +187,7 @@
     "role": "GOVERNADOR_SP",
     "cargo": "GOVERNADOR_SP",
     "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Fernando_Haddad_%28cropped%29.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Fernando_Haddad_posse_min._da_Fazenda.jpg/330px-Fernando_Haddad_posse_min._da_Fazenda.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Fernando_Haddad_%28cropped%29.jpg",
     "wikipediaSlug": "Fernando_Haddad",
     "isBaseline": true,
     "isBaselineReference": true,
@@ -322,7 +321,6 @@
         "legalOutcome": "Contas Aprovadas com Ressalvas pelo TSE. As contas foram aprovadas com determinação de recolhimento de multas de natureza administrativa, sem declaração de inelegibilidade. Ficha Limpa no TSE.",
         "linkFonte": "https://www.conjur.com.br/?s=Fernando%20Haddad%20Prestacao%20Contas%202018%20TSE"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Fernando_Haddad_posse_min._da_Fazenda.jpg/330px-Fernando_Haddad_posse_min._da_Fazenda.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   }
 ]

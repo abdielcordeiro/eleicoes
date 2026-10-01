@@ -94,7 +94,7 @@
           :checked="isSelected"
           class="accent-vibrant-orange rounded pointer-events-none"
         />
-        <span>{{ isSelected ? 'No Meu Santinho' : 'Incluir Santinho' }}</span>
+        <span>{{ buttonText }}</span>
       </button>
     </div>
   </div>
@@ -102,7 +102,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue';
-import { Candidate } from '../domain/models.js';
+import { Candidate, OfficeRole } from '../domain/models.js';
 import { useSantinhoStore } from '../stores/santinho.js';
 import CandidatePhoto from './CandidatePhoto.vue';
 
@@ -113,4 +113,13 @@ const props = defineProps<{
 const santinhoStore = useSantinhoStore();
 
 const isSelected = computed(() => santinhoStore.isCandidateSelected(props.candidate.id));
+
+const buttonText = computed(() => {
+  if (!isSelected.value) return 'Incluir Santinho';
+  if (props.candidate.cargo === OfficeRole.SENADOR_SP) {
+    const slot = santinhoStore.getSenatorSlot(props.candidate.id);
+    return slot === 1 ? '1ª Vaga (Senado)' : slot === 2 ? '2ª Vaga (Senado)' : 'No Meu Santinho';
+  }
+  return 'No Meu Santinho';
+});
 </script>

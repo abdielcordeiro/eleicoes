@@ -64,19 +64,68 @@
             </div>
           </div>
 
-          <!-- Checkbox "Incluir no Meu Santinho" -->
-          <button
-            @click="santinhoStore.toggleCandidate(candidate)"
-            class="px-4 py-2.5 rounded-xl font-bold text-xs transition-all flex items-center gap-2 cursor-pointer shadow-sm"
-            :class="isSelected ? 'bg-vibrant-orange text-white' : 'bg-white border-2 border-slate-300 text-slate-700 hover:border-vibrant-orange'"
-          >
-            <input
-              type="checkbox"
-              :checked="isSelected"
-              class="w-4 h-4 accent-vibrant-orange rounded pointer-events-none"
-            />
-            <span>{{ isSelected ? '✓ Incluso no Meu Santinho' : '+ Incluir no Meu Santinho' }}</span>
-          </button>
+          <!-- Botão "Incluir no Meu Santinho" com suporte a 1ª/2ª Vaga de Senador -->
+          <div class="flex items-center gap-2 flex-wrap">
+            <template v-if="candidate.cargo === OfficeRole.SENADOR_SP">
+              <div v-if="isSelected" class="flex items-center gap-2">
+                <span class="px-3 py-2 rounded-xl font-bold text-xs bg-orange-100 text-orange-900 border border-orange-300 flex items-center gap-1.5 shadow-sm">
+                  <span>🗳️</span>
+                  <span>{{ santinhoStore.getSenatorSlot(candidate.id) === 1 ? '1ª Vaga no Senado' : '2ª Vaga no Senado' }}</span>
+                </span>
+                <button
+                  v-if="santinhoStore.getSenatorSlot(candidate.id) === 1"
+                  @click="santinhoStore.assignSenator(candidate, 'senador2')"
+                  class="px-2.5 py-2 rounded-xl font-bold text-xs bg-slate-100 hover:bg-slate-200 text-slate-700 transition-all cursor-pointer"
+                  title="Mover para a 2ª vaga"
+                >
+                  Mudar p/ 2ª Vaga
+                </button>
+                <button
+                  v-else
+                  @click="santinhoStore.assignSenator(candidate, 'senador1')"
+                  class="px-2.5 py-2 rounded-xl font-bold text-xs bg-slate-100 hover:bg-slate-200 text-slate-700 transition-all cursor-pointer"
+                  title="Mover para a 1ª vaga"
+                >
+                  Mudar p/ 1ª Vaga
+                </button>
+                <button
+                  @click="santinhoStore.toggleCandidate(candidate)"
+                  class="px-3 py-2 rounded-xl font-bold text-xs bg-rose-50 hover:bg-rose-100 text-rose-600 border border-rose-200 transition-all cursor-pointer"
+                  title="Remover do Santinho"
+                >
+                  ✕
+                </button>
+              </div>
+              <div v-else class="flex items-center gap-2">
+                <button
+                  @click="santinhoStore.assignSenator(candidate, 'senador1')"
+                  class="px-3 py-2 rounded-xl font-bold text-xs bg-white border-2 border-slate-300 text-slate-700 hover:border-vibrant-orange hover:bg-orange-50 transition-all cursor-pointer"
+                >
+                  + 1ª Vaga (Senado)
+                </button>
+                <button
+                  @click="santinhoStore.assignSenator(candidate, 'senador2')"
+                  class="px-3 py-2 rounded-xl font-bold text-xs bg-white border-2 border-slate-300 text-slate-700 hover:border-vibrant-orange hover:bg-orange-50 transition-all cursor-pointer"
+                >
+                  + 2ª Vaga (Senado)
+                </button>
+              </div>
+            </template>
+            <template v-else>
+              <button
+                @click="santinhoStore.toggleCandidate(candidate)"
+                class="px-4 py-2.5 rounded-xl font-bold text-xs transition-all flex items-center gap-2 cursor-pointer shadow-sm"
+                :class="isSelected ? 'bg-vibrant-orange text-white' : 'bg-white border-2 border-slate-300 text-slate-700 hover:border-vibrant-orange'"
+              >
+                <input
+                  type="checkbox"
+                  :checked="isSelected"
+                  class="w-4 h-4 accent-vibrant-orange rounded pointer-events-none"
+                />
+                <span>{{ isSelected ? '✓ Incluso no Meu Santinho' : '+ Incluir no Meu Santinho' }}</span>
+              </button>
+            </template>
+          </div>
         </div>
       </div>
     </section>
