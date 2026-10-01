@@ -1,7 +1,7 @@
 {
-  "lastSync": "2026-10-01T18:56:31.042Z",
-  "lastSyncAt": "01/10/2026 às 15:56:31",
-  "formattedDate": "01/10/2026 às 15:56:31",
+  "lastSync": "2026-10-01T19:15:06.997Z",
+  "lastSyncAt": "01/10/2026 às 16:15:06",
+  "formattedDate": "01/10/2026 às 16:15:06",
   "status": "SUCCESS",
   "candidatesCount": 38,
   "recordsUpdated": 38,
@@ -12,7 +12,7 @@
       "status": "ONLINE",
       "httpStatus": 200,
       "message": "Serviço operacional e acessível via HTTP/REST.",
-      "checkedAt": "2026-10-01T18:56:30.982Z"
+      "checkedAt": "2026-10-01T19:15:04.269Z"
     },
     {
       "name": "Senado Federal (Dados Abertos Legis)",
@@ -20,7 +20,7 @@
       "status": "ONLINE",
       "httpStatus": 200,
       "message": "Serviço operacional e acessível via HTTP/REST.",
-      "checkedAt": "2026-10-01T18:56:30.985Z"
+      "checkedAt": "2026-10-01T19:15:05.605Z"
     },
     {
       "name": "Wikipédia em Português (REST API v1)",
@@ -28,22 +28,22 @@
       "status": "ONLINE",
       "httpStatus": 200,
       "message": "Serviço operacional e acessível via HTTP/REST.",
-      "checkedAt": "2026-10-01T18:56:30.986Z"
+      "checkedAt": "2026-10-01T19:15:05.703Z"
     },
     {
       "name": "TSE DivulgaCandContas (Justiça Eleitoral)",
       "url": "https://divulgacandcontas.tse.jus.br/divulga/rest/v1/candidatura/buscar/2026/SP/2030402026/candidatos",
-      "status": "ONLINE",
-      "httpStatus": 200,
-      "message": "Serviço operacional e acessível via HTTP/REST.",
-      "checkedAt": "2026-10-01T18:56:31.042Z"
+      "status": "OFFLINE",
+      "httpStatus": 403,
+      "message": "HTTP 403",
+      "checkedAt": "2026-10-01T19:15:05.842Z"
     }
   ],
   "sources": [
-    "Câmara dos Deputados (ONLINE)",
-    "Senado Federal (ONLINE)",
-    "Wikipédia em Português (ONLINE)",
-    "TSE DivulgaCandContas (ONLINE)"
+    "Câmara dos Deputados (Dados Abertos v2) (ONLINE)",
+    "Senado Federal (Dados Abertos Legis) (ONLINE)",
+    "Wikipédia em Português (REST API v1) (ONLINE)",
+    "TSE DivulgaCandContas (Justiça Eleitoral) (OFFLINE)"
   ],
   "details": "Coleta autônoma e enriquecimento concluídos com expansão de candidatos da direita paulista, Lucas Pavanato como Deputado Federal (2211) e cobertura ampliada de deputados federais, estaduais e senadores."
 }

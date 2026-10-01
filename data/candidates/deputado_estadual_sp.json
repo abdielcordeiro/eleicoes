@@ -12,7 +12,7 @@
     "role": "DEPUTADO_ESTADUAL_SP",
     "cargo": "DEPUTADO_ESTADUAL_SP",
     "fallbackPhoto": "https://www.al.sp.gov.br/repositorio/deputado/fotos/guto_zacarias.jpg",
-    "photoUrl": "https://www.al.sp.gov.br/repositorio/deputado/fotos/guto_zacarias.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Guto-zacarias.jpg/330px-Guto-zacarias.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Guto_Zacarias",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -120,7 +120,8 @@
         "legalOutcome": "Arquivamento por Unanimidade. O Conselho de Ética arquivou sumariamente as representações, reconhecendo a inviolabilidade do exercício parlamentar de fiscalização. Ficha Limpa.",
         "linkFonte": "https://www.al.sp.gov.br"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Guto-zacarias.jpg/330px-Guto-zacarias.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "tome-abduch",
@@ -135,7 +136,7 @@
     "role": "DEPUTADO_ESTADUAL_SP",
     "cargo": "DEPUTADO_ESTADUAL_SP",
     "fallbackPhoto": "https://www.al.sp.gov.br/repositorio/deputado/fotos/tome_abduch.jpg",
-    "photoUrl": "https://www.al.sp.gov.br/repositorio/deputado/fotos/tome_abduch.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/2019-03-14_Tom%C3%A9_Abduch.jpg/330px-2019-03-14_Tom%C3%A9_Abduch.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Tomé_Abduch",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -225,7 +226,8 @@
         "legalOutcome": "Sem Processos / Ficha Limpa 100%. Ausência de qualquer processo criminal ou condenação por improbidade. Ficha Limpa perante o TSE.",
         "linkFonte": "https://www.tse.jus.br"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/2019-03-14_Tom%C3%A9_Abduch.jpg/330px-2019-03-14_Tom%C3%A9_Abduch.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "gil-diniz",
@@ -240,7 +242,7 @@
     "role": "DEPUTADO_ESTADUAL_SP",
     "cargo": "DEPUTADO_ESTADUAL_SP",
     "fallbackPhoto": "https://www.al.sp.gov.br/repositorio/deputado/fotos/gil_diniz.jpg",
-    "photoUrl": "https://www.al.sp.gov.br/repositorio/deputado/fotos/gil_diniz.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Gil_Diniz.jpg/330px-Gil_Diniz.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Gil_Diniz",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -348,7 +350,8 @@
         "legalOutcome": "Arquivamento Definitivo pelo MP-SP. O Conselho Superior do Ministério Público homologou o arquivamento por inexistência absoluta de provas materiais ou transações bancárias irregulares. Ficha Limpa atestada.",
         "linkFonte": "https://www.conjur.com.br/?s=Gil%20Diniz%20Inquerito%20Rachadinha%20MPSP%20Arquivamento"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Gil_Diniz.jpg/330px-Gil_Diniz.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "major-mecca",
@@ -363,7 +366,7 @@
     "role": "DEPUTADO_ESTADUAL_SP",
     "cargo": "DEPUTADO_ESTADUAL_SP",
     "fallbackPhoto": "https://www.al.sp.gov.br/repositorio/deputado/fotos/major_mecca.jpg",
-    "photoUrl": "https://www.al.sp.gov.br/repositorio/deputado/fotos/major_mecca.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Major_Mecca_2023.jpg/330px-Major_Mecca_2023.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Major_Mecca",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -462,7 +465,8 @@
         "legalOutcome": "Sem Condenações / Ficha Limpa. Total ausência de condenações por improbidade ou infrações funcionais dolosas. Registro regular e Ficha Limpa no TSE.",
         "linkFonte": "https://www.tse.jus.br"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Major_Mecca_2023.jpg/330px-Major_Mecca_2023.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "conte-lopes",
@@ -796,7 +800,7 @@
     "role": "DEPUTADO_ESTADUAL_SP",
     "cargo": "DEPUTADO_ESTADUAL_SP",
     "fallbackPhoto": "https://www.al.sp.gov.br/repositorio/deputado/fotos/valeria_bolsonaro.jpg",
-    "photoUrl": "https://www.al.sp.gov.br/repositorio/deputado/fotos/valeria_bolsonaro.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Cerim%C3%B4nia_de_posse_das_novas_Secret%C3%A1rias.jpg/330px-Cerim%C3%B4nia_de_posse_das_novas_Secret%C3%A1rias.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Valéria_Bolsonaro",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -890,7 +894,8 @@
         "legalOutcome": "Ficha Limpa 100%. Ausência de processos criminais ou condenações por improbidade administrativa. Ficha Limpa no TSE.",
         "linkFonte": "https://www.tse.jus.br"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Cerim%C3%B4nia_de_posse_das_novas_Secret%C3%A1rias.jpg/330px-Cerim%C3%B4nia_de_posse_das_novas_Secret%C3%A1rias.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "paulo-mansur",
@@ -905,7 +910,7 @@
     "role": "DEPUTADO_ESTADUAL_SP",
     "cargo": "DEPUTADO_ESTADUAL_SP",
     "fallbackPhoto": "https://www.al.sp.gov.br/repositorio/deputado/fotos/paulo_mansur.jpg",
-    "photoUrl": "https://www.al.sp.gov.br/repositorio/deputado/fotos/paulo_mansur.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/045FUJI5480.jpg/330px-045FUJI5480.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Paulo_Mansur",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -986,7 +991,8 @@
         "legalOutcome": "Ficha Limpa 100%. Nenhuma condenação criminal ou administrativa. Ficha Limpa no TSE.",
         "linkFonte": "https://www.tse.jus.br"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/045FUJI5480.jpg/330px-045FUJI5480.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "eduardo-suplicy",
@@ -1001,7 +1007,7 @@
     "role": "DEPUTADO_ESTADUAL_SP",
     "cargo": "DEPUTADO_ESTADUAL_SP",
     "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Eduardo_Suplicy_em_2022.jpg",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Eduardo_Suplicy_em_2022.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Eduardo_Suplicy_2013.JPG/330px-Eduardo_Suplicy_2013.JPG?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Eduardo_Suplicy",
     "isBaseline": true,
     "isBaselineReference": true,
@@ -1118,6 +1124,7 @@
         "legalOutcome": "Ficha Limpa Exemplar e Zero Condenações por Corrupção. Ausência de qualquer processo ou condenação por crimes contra a administração pública, desvio de dinheiro público ou improbidade.",
         "linkFonte": "https://www.tse.jus.br"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Eduardo_Suplicy_2013.JPG/330px-Eduardo_Suplicy_2013.JPG?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   }
 ]

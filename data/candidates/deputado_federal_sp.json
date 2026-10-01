@@ -12,7 +12,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/204528.jpg",
-    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/204528.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Solenidade_de_entrega_do_Pr%C3%AAmio_Dr._Pinotti_-_Hospital_Amigo_da_Mulher._Dep._Maria_Rosas_%28REPUBLICANOS-SP%29%2C_Dep._Jack_Rocha_%28PT-ES%29_e_Dep._Adriana_Ventura_%28NOVO_-_SP%29_01_%283x4%29.jpg/330px-thumbnail.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Adriana_Ventura",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -134,7 +134,8 @@
         "legalOutcome": "Sem Processos / Ficha Limpa 100%. Economizou mais de 75% da cota parlamentar permitida; zero processos criminais ou administrativos perante a Justiça.",
         "linkFonte": "https://www.camara.leg.br"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Solenidade_de_entrega_do_Pr%C3%AAmio_Dr._Pinotti_-_Hospital_Amigo_da_Mulher._Dep._Maria_Rosas_%28REPUBLICANOS-SP%29%2C_Dep._Jack_Rocha_%28PT-ES%29_e_Dep._Adriana_Ventura_%28NOVO_-_SP%29_01_%283x4%29.jpg/330px-thumbnail.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "rosana-valle",
@@ -149,7 +150,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/204534.jpg",
-    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/204534.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Rosana_Valle_Dep_%28cropped%29.jpg/330px-Rosana_Valle_Dep_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Rosana_Valle",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -266,7 +267,8 @@
         "legalOutcome": "Arquivamento pelo TRE-SP. Atos reconhecidos como exercício legítimo da liberdade de expressão e manifestação pública sem pedido explícito de voto. Ficha Limpa.",
         "linkFonte": "https://www.conjur.com.br/?s=Rosana%20Valle%20Representacao%20Eleitoral%20TRE%20SP"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Rosana_Valle_Dep_%28cropped%29.jpg/330px-Rosana_Valle_Dep_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "mario-frias",
@@ -281,7 +283,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/220556.jpg",
-    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/220556.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/M%C3%A1rio_Frias_em_2020.jpg/330px-M%C3%A1rio_Frias_em_2020.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Mário_Frias",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -402,7 +404,8 @@
         "legalOutcome": "Arquivamento por Imunidade Parlamentar. O STF e tribunais rejeitaram as queixas com base no art. 53 da CF, que garante imunidade pelas opiniões e palavras no exercício do mandato.",
         "linkFonte": "https://www.conjur.com.br/?s=Mario%20Frias%20Queixa%20Crime%20Imunidade%20STF"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/M%C3%A1rio_Frias_em_2020.jpg/330px-M%C3%A1rio_Frias_em_2020.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "kim-kataguiri",
@@ -417,7 +420,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/204536.jpg",
-    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/204536.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Deputado_Federal_Kim_Kataguiri.jpg/330px-Deputado_Federal_Kim_Kataguiri.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Kim_Kataguiri",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -551,7 +554,8 @@
         "legalOutcome": "Proteção Constitucional pela Imunidade Material. As Cortes confirmaram a aplicação do art. 53 da Constituição Federal, garantindo a inviolabilidade parlamentar por palavras e votos. Ficha Limpa incontestável.",
         "linkFonte": "https://www.conjur.com.br/?s=Kim%20Kataguiri%20Imunidade%20Parlamentar%20STF%20Art%2053"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Deputado_Federal_Kim_Kataguiri.jpg/330px-Deputado_Federal_Kim_Kataguiri.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "tabata-amaral",
@@ -566,7 +570,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/204537.jpg",
-    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/204537.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Deputada_Tabata_Amaral_1%C2%BA_07_2026_-_Foto_Chico_Ferreira_%2855368148587%29.jpg/330px-Deputada_Tabata_Amaral_1%C2%BA_07_2026_-_Foto_Chico_Ferreira_%2855368148587%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Tabata_Amaral",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -695,7 +699,8 @@
         "legalOutcome": "Sem Processos / Ficha Limpa 100%. Total ausência de condenações por corrupção, improbidade administrativa ou crimes funcionais. Ficha Limpa no TSE.",
         "linkFonte": "https://www.tse.jus.br"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Deputada_Tabata_Amaral_1%C2%BA_07_2026_-_Foto_Chico_Ferreira_%2855368148587%29.jpg/330px-Deputada_Tabata_Amaral_1%C2%BA_07_2026_-_Foto_Chico_Ferreira_%2855368148587%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "guilherme-boulos",
@@ -710,7 +715,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/220593.jpg",
-    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/220593.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Audi%C3%AAncia_P%C3%BAblica_-_Guilherme_Boulos_%28cropped%29.jpg/330px-Audi%C3%AAncia_P%C3%BAblica_-_Guilherme_Boulos_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Guilherme_Boulos",
     "isBaseline": true,
     "isBaselineReference": true,
@@ -839,7 +844,8 @@
         "legalOutcome": "Sem Condenações / Ficha Limpa Regular. Total ausência de condenações por corrupção ou crimes contra a administração pública. Ficha Limpa no TSE.",
         "linkFonte": "https://www.tse.jus.br"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Audi%C3%AAncia_P%C3%BAblica_-_Guilherme_Boulos_%28cropped%29.jpg/330px-Audi%C3%AAncia_P%C3%BAblica_-_Guilherme_Boulos_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "lucas-pavanato",
@@ -854,7 +860,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Lucas_Pavanato_em_2024.jpg",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Lucas_Pavanato_em_2024.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Lucas_Pavanato.jpg/330px-Lucas_Pavanato.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Lucas_Pavanato",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -961,7 +967,8 @@
         "legalOutcome": "Arquivamento Judicial. A Justiça reconheceu o exercício legítimo da liberdade de expressão e imunidade parlamentar. Zero condenações penais.",
         "linkFonte": "https://www.conjur.com.br/?s=Lucas%20Pavanato%20Representacao%20Arquivamento%20TJSP"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Lucas_Pavanato.jpg/330px-Lucas_Pavanato.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "eduardo-bolsonaro",
@@ -976,7 +983,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/2/23/Eduardo_Bolsonaro_em_2023.jpg",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Eduardo_Bolsonaro_em_2023.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Eduardo_Bolsonaro_by_Gage_Skidmore.jpg/330px-Eduardo_Bolsonaro_by_Gage_Skidmore.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Eduardo_Bolsonaro",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -1092,7 +1099,8 @@
         "legalOutcome": "Ficha Limpa Plena. Inexistência de condenações por improbidade administrativa ou perda de direitos políticos.",
         "linkFonte": "https://www.tse.jus.br"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Eduardo_Bolsonaro_by_Gage_Skidmore.jpg/330px-Eduardo_Bolsonaro_by_Gage_Skidmore.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "paulo-bilynskyj",
@@ -1107,7 +1115,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/220556.jpg",
-    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/220556.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Paulo_Bilynskyj_%28cropped%29.jpg/330px-Paulo_Bilynskyj_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Paulo_Bilynskyj",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -1184,7 +1192,8 @@
         "legalOutcome": "Absolvição e Reconhecimento como Vítima. A perícia da Polícia Civil e o Ministério Público concluíram que ele agiu em legítima defesa como vítima. Ficha Limpa.",
         "linkFonte": "https://www.conjur.com.br/?s=Paulo%20Bilynskyj%20Leg%C3%ADtima%20Defesa%20V%C3%ADtima%20PCSP"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Paulo_Bilynskyj_%28cropped%29.jpg/330px-Paulo_Bilynskyj_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "delegado-da-cunha",
@@ -1199,7 +1208,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/220554.jpg",
-    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/220554.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Dep._Delegado_da_Cunha.jpg/330px-Dep._Delegado_da_Cunha.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Delegado_Da_Cunha",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -1276,7 +1285,8 @@
         "legalOutcome": "Exercício Pleno do Mandato Federal. Não há condenação judicial eleitoral transitada em julgado que afete seus direitos políticos. Ficha Limpa no TSE.",
         "linkFonte": "https://www.conjur.com.br/?s=Delegado%20Da%20Cunha%20Corregedoria%20Processo"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Dep._Delegado_da_Cunha.jpg/330px-Dep._Delegado_da_Cunha.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "luiz-philippe-orleans-braganca",
@@ -1291,7 +1301,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/204535.jpg",
-    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/204535.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Deputado_Luiz_Philippe_de_Orleans_e_Bragan%C3%A7a_%28cropped%29.jpg/330px-Deputado_Luiz_Philippe_de_Orleans_e_Bragan%C3%A7a_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Luiz_Philippe_de_Orleans_e_Bragança",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -1372,7 +1382,8 @@
         "legalOutcome": "Ficha Limpa 100%. Total ausência de condenações criminais ou administrativas. Contas aprovadas.",
         "linkFonte": "https://www.tse.jus.br"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Deputado_Luiz_Philippe_de_Orleans_e_Bragan%C3%A7a_%28cropped%29.jpg/330px-Deputado_Luiz_Philippe_de_Orleans_e_Bragan%C3%A7a_%28cropped%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "marco-feliciano",
@@ -1387,7 +1398,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/160601.jpg",
-    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/160601.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/CPMI_-_8_de_Janeiro_-_Comiss%C3%A3o_Parlamentar_Mista_de_Inqu%C3%A9rito_dos_Atos_de_8_de_Janeiro_de_2023_%2852989106736%29.jpg/330px-CPMI_-_8_de_Janeiro_-_Comiss%C3%A3o_Parlamentar_Mista_de_Inqu%C3%A9rito_dos_Atos_de_8_de_Janeiro_de_2023_%2852989106736%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Marco_Feliciano",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -1472,7 +1483,8 @@
         "legalOutcome": "Arquivamento por Unanimidade no STF. O STF reconheceu a imunidade parlamentar e a liberdade religiosa e de expressão. Ficha Limpa no TSE.",
         "linkFonte": "https://www.conjur.com.br/?s=Marco%20Feliciano%20STF%20Arquivamento%20Liberdade%20Religiosa"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/CPMI_-_8_de_Janeiro_-_Comiss%C3%A3o_Parlamentar_Mista_de_Inqu%C3%A9rito_dos_Atos_de_8_de_Janeiro_de_2023_%2852989106736%29.jpg/330px-CPMI_-_8_de_Janeiro_-_Comiss%C3%A3o_Parlamentar_Mista_de_Inqu%C3%A9rito_dos_Atos_de_8_de_Janeiro_de_2023_%2852989106736%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "capitao-augusto",
@@ -1487,7 +1499,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/178829.jpg",
-    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/178829.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Capit%C3%A3o_Augusto_%28SP%29.jpg/330px-Capit%C3%A3o_Augusto_%28SP%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Capitão_Augusto",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -1568,7 +1580,8 @@
         "legalOutcome": "Ficha Limpa Integral. Contas de campanha aprovadas e inexistência de condenações por corrupção ou crimes contra o erário.",
         "linkFonte": "https://www.tse.jus.br"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Capit%C3%A3o_Augusto_%28SP%29.jpg/330px-Capit%C3%A3o_Augusto_%28SP%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   {
     "id": "vinicius-poit",
@@ -1583,7 +1596,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://www.camara.leg.br/internet/deputado/bandep/204532.jpg",
-    "photoUrl": "https://www.camara.leg.br/internet/deputado/bandep/204532.jpg",
+    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/ViniciusLazzerPoit1.jpg/330px-ViniciusLazzerPoit1.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipediaSlug": "Vinicius_Poit",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -1669,6 +1682,7 @@
         "legalOutcome": "Ficha Limpa Incontestável. 100% de certidões negativas criminais e de improbidade administrativa. Contas aprovadas.",
         "linkFonte": "https://www.tse.jus.br"
       }
-    ]
+    ],
+    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/ViniciusLazzerPoit1.jpg/330px-ViniciusLazzerPoit1.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   }
 ]
