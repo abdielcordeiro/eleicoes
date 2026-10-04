@@ -459,7 +459,7 @@
     "role": "SENADOR_SP",
     "cargo": "SENADOR_SP",
     "fallbackPhoto": "https://ui-avatars.com/api/?name=Guto+Schiavetto&background=EAB308&color=fff&size=512&bold=true",
-    "photoUrl": "https://ui-avatars.com/api/?name=Guto+Schiavetto&background=EAB308&color=fff&size=512&bold=true",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/2026_GUTO_SCHIAVETTO_CANDIDATO_SENADOR_TSE_SP_%28250002553928%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
     "wikipediaSlug": "Guto_Schiavetto",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -563,7 +563,8 @@
         "legalOutcome": "Sem Processos / Ficha Limpa Absoluta. Ausência de quaisquer antecedentes criminais, ações civis públicas ou processos de improbidade. Ficha Limpa perante a Justiça Eleitoral.",
         "linkFonte": "https://www.tjsp.jus.br"
       }
-    ]
+    ],
+    "fotoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/2026_GUTO_SCHIAVETTO_CANDIDATO_SENADOR_TSE_SP_%28250002553928%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   {
     "id": "marina-silva",
