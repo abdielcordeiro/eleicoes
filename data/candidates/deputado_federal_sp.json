@@ -860,7 +860,7 @@
     "role": "DEPUTADO_FEDERAL_SP",
     "cargo": "DEPUTADO_FEDERAL_SP",
     "fallbackPhoto": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Lucas_Pavanato_em_2024.jpg",
-    "photoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Lucas_Pavanato.jpg/330px-Lucas_Pavanato.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Lucas_Pavanato_em_2024.jpg",
     "wikipediaSlug": "Lucas_Pavanato",
     "isBaseline": false,
     "isBaselineReference": false,
@@ -967,8 +967,7 @@
         "legalOutcome": "Arquivamento Judicial. A Justiça reconheceu o exercício legítimo da liberdade de expressão e imunidade parlamentar. Zero condenações penais.",
         "linkFonte": "https://www.conjur.com.br/?s=Lucas%20Pavanato%20Representacao%20Arquivamento%20TJSP"
       }
-    ],
-    "fotoUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Lucas_Pavanato.jpg/330px-Lucas_Pavanato.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    ]
   },
   {
     "id": "eduardo-bolsonaro",
