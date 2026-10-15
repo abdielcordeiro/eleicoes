@@ -1,7 +1,7 @@
 {
-  "lastSync": "2026-10-14T14:09:47.153Z",
-  "lastSyncAt": "14/10/2026 às 11:09:47",
-  "formattedDate": "14/10/2026 às 11:09:47",
+  "lastSync": "2026-10-15T13:47:16.056Z",
+  "lastSyncAt": "15/10/2026 às 10:47:16",
+  "formattedDate": "15/10/2026 às 10:47:16",
   "status": "SUCCESS",
   "candidatesCount": 38,
   "recordsUpdated": 38,
@@ -12,7 +12,7 @@
       "status": "ONLINE",
       "httpStatus": 200,
       "message": "Serviço operacional e acessível via HTTP/REST.",
-      "checkedAt": "2026-10-14T14:09:39.564Z"
+      "checkedAt": "2026-10-15T13:47:09.697Z"
     },
     {
       "name": "Senado Federal (Dados Abertos Legis)",
@@ -20,7 +20,7 @@
       "status": "ONLINE",
       "httpStatus": 200,
       "message": "Serviço operacional e acessível via HTTP/REST.",
-      "checkedAt": "2026-10-14T14:09:43.829Z"
+      "checkedAt": "2026-10-15T13:47:11.332Z"
     },
     {
       "name": "Wikipédia em Português (REST API v1)",
@@ -28,7 +28,7 @@
       "status": "ONLINE",
       "httpStatus": 200,
       "message": "Serviço operacional e acessível via HTTP/REST.",
-      "checkedAt": "2026-10-14T14:09:43.903Z"
+      "checkedAt": "2026-10-15T13:47:11.425Z"
     },
     {
       "name": "TSE DivulgaCandContas (Justiça Eleitoral)",
@@ -36,7 +36,7 @@
       "status": "OFFLINE",
       "httpStatus": 403,
       "message": "HTTP 403",
-      "checkedAt": "2026-10-14T14:09:43.984Z"
+      "checkedAt": "2026-10-15T13:47:11.642Z"
     }
   ],
   "sources": [
