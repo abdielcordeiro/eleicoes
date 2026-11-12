@@ -1,7 +1,7 @@
 {
-  "lastSync": "2026-11-11T16:44:59.312Z",
-  "lastSyncAt": "11/11/2026 às 13:44:59",
-  "formattedDate": "11/11/2026 às 13:44:59",
+  "lastSync": "2026-11-12T17:13:11.308Z",
+  "lastSyncAt": "12/11/2026 às 14:13:11",
+  "formattedDate": "12/11/2026 às 14:13:11",
   "status": "SUCCESS",
   "candidatesCount": 38,
   "recordsUpdated": 38,
@@ -9,10 +9,10 @@
     {
       "name": "Câmara dos Deputados (Dados Abertos v2)",
       "url": "https://dadosabertos.camara.leg.br/api/v2/deputados?siglaUf=SP&ordem=ASC&ordenarPor=nome",
-      "status": "OFFLINE",
-      "httpStatus": 0,
-      "message": "Falha na requisição: The operation was aborted due to timeout",
-      "checkedAt": "2026-11-11T16:44:52.686Z"
+      "status": "ONLINE",
+      "httpStatus": 200,
+      "message": "Serviço operacional e acessível via HTTP/REST.",
+      "checkedAt": "2026-11-12T17:13:05.952Z"
     },
     {
       "name": "Senado Federal (Dados Abertos Legis)",
@@ -20,7 +20,7 @@
       "status": "ONLINE",
       "httpStatus": 200,
       "message": "Serviço operacional e acessível via HTTP/REST.",
-      "checkedAt": "2026-11-11T16:44:54.359Z"
+      "checkedAt": "2026-11-12T17:13:07.877Z"
     },
     {
       "name": "Wikipédia em Português (REST API v1)",
@@ -28,7 +28,7 @@
       "status": "ONLINE",
       "httpStatus": 200,
       "message": "Serviço operacional e acessível via HTTP/REST.",
-      "checkedAt": "2026-11-11T16:44:54.537Z"
+      "checkedAt": "2026-11-12T17:13:08.104Z"
     },
     {
       "name": "TSE DivulgaCandContas (Justiça Eleitoral)",
@@ -36,11 +36,11 @@
       "status": "OFFLINE",
       "httpStatus": 403,
       "message": "HTTP 403",
-      "checkedAt": "2026-11-11T16:44:54.780Z"
+      "checkedAt": "2026-11-12T17:13:08.669Z"
     }
   ],
   "sources": [
-    "Câmara dos Deputados (Dados Abertos v2) (OFFLINE)",
+    "Câmara dos Deputados (Dados Abertos v2) (ONLINE)",
     "Senado Federal (Dados Abertos Legis) (ONLINE)",
     "Wikipédia em Português (REST API v1) (ONLINE)",
     "TSE DivulgaCandContas (Justiça Eleitoral) (OFFLINE)"
